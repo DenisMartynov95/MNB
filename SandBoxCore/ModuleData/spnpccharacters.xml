@@ -68393,7 +68393,7 @@
 					</EquipmentRoster>
 				</Equipments>
 			</NPCCharacter>
-	<NPCCharacter id="spartan300"
+	        <NPCCharacter id="spartan300"
 						default_group="Infantry"
 						level="9"
 						name="Новоизбранный гоплит"
@@ -68859,7 +68859,7 @@
 											</NPCCharacter>
 
 
-
+<!--
 	<NPCCharacter id="spartan_homoioi"
 														default_group="Infantry"
 														level="6"
@@ -69305,7 +69305,7 @@
 					</EquipmentRoster>
 				</Equipments>
 			</NPCCharacter>
-
+    -->
 		 <!-- Спарта	-->
 
 	<!-- Византийская -->

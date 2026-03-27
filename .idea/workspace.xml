@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="851ebc8b-4d30-4071-afa7-b4f63bccbf81" name="Changes" comment="Далее: Добавил для Спарты везде культуру .sparta и для цепочки юнитов так же, чтобы у них не было культуры .sic &#10;Так же для поселения Спарты">
+    <list default="true" id="851ebc8b-4d30-4071-afa7-b4f63bccbf81" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/settlements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/settlements.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spnpccharacters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/План Работ" beforeDir="false" afterPath="$PROJECT_DIR$/План Работ" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,28 +23,28 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DenisMartynov95"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DenisMartynov95&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DenisMartynov95/MNB.git",
-    "accountId": "f0126c56-c58b-4276-81b7-e498a6e59513"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DenisMartynov95/MNB.git&quot;,
+    &quot;accountId&quot;: &quot;f0126c56-c58b-4276-81b7-e498a6e59513&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "DenisMartynov95",
-    "repository": "MNB"
+    &quot;owner&quot;: &quot;DenisMartynov95&quot;,
+    &quot;repository&quot;: &quot;MNB&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SandBox/ModuleData/spclans.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/SandBox/ModuleData/spcultures.xml" root0="SKIP_INSPECTION" />
@@ -53,9 +54,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3BWNuJyvJxr1IsYtta4bPg5aC0z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -63,13 +64,13 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#1 on DEV",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -119,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774603357808</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Далее: Для Сицилии переставил стандартных юнитов, для тестов. Вылетов стало меньше после предыдущих коммитов">
+      <option name="closed" value="true" />
+      <created>1774606589297</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774606589297</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +136,7 @@
     <MESSAGE value="Удалил культуру спарты из SanBox spCultures" />
     <MESSAGE value="Обернул в коммент одну из веток &lt;!-- Спарта --&gt;" />
     <MESSAGE value="Далее: Добавил для Спарты везде культуру .sparta и для цепочки юнитов так же, чтобы у них не было культуры .sic &#10;Так же для поселения Спарты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Далее: Добавил для Спарты везде культуру .sparta и для цепочки юнитов так же, чтобы у них не было культуры .sic &#10;Так же для поселения Спарты" />
+    <MESSAGE value="Далее: Для Сицилии переставил стандартных юнитов, для тестов. Вылетов стало меньше после предыдущих коммитов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Далее: Для Сицилии переставил стандартных юнитов, для тестов. Вылетов стало меньше после предыдущих коммитов" />
   </component>
 </project>
