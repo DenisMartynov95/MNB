@@ -1,11 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="851ebc8b-4d30-4071-afa7-b4f63bccbf81" name="Changes" comment="" />
+    <list default="true" id="851ebc8b-4d30-4071-afa7-b4f63bccbf81" name="Changes" comment="Далее: Добавил для Спарты везде культуру .sparta и для цепочки юнитов так же, чтобы у них не было культуры .sic &#10;Так же для поселения Спарты">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/settlements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/settlements.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DenisMartynov95"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DenisMartynov95/MNB.git",
+    "accountId": "f0126c56-c58b-4276-81b7-e498a6e59513"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "DenisMartynov95",
+    "repository": "MNB"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SandBox/ModuleData/spclans.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SandBox/ModuleData/spcultures.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SandBox/ModuleData/spkingdoms.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SandBox/ModuleData/spnpccharacters.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
@@ -20,6 +66,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#1 on DEV",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -32,6 +79,54 @@
       <option name="presentableId" value="Default" />
       <updated>1774601087846</updated>
     </task>
+    <task id="LOCAL-00001" summary="123">
+      <option name="closed" value="true" />
+      <created>1774601189925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774601189925</updated>
+    </task>
+    <task id="LOCAL-00002" summary="123">
+      <option name="closed" value="true" />
+      <created>1774601300192</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774601300192</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Удалил культуру спарты из SanBox spCultures">
+      <option name="closed" value="true" />
+      <created>1774601612530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774601612530</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Обернул в коммент одну из веток &lt;!-- Спарта --&gt;">
+      <option name="closed" value="true" />
+      <created>1774602267162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774602267162</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Далее: Добавил для Спарты везде культуру .sparta и для цепочки юнитов так же, чтобы у них не было культуры .sic &#10;Так же для поселения Спарты">
+      <option name="closed" value="true" />
+      <created>1774603357808</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774603357808</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <MESSAGE value="Удалил культуру спарты из SanBox spCultures" />
+    <MESSAGE value="Обернул в коммент одну из веток &lt;!-- Спарта --&gt;" />
+    <MESSAGE value="Далее: Добавил для Спарты везде культуру .sparta и для цепочки юнитов так же, чтобы у них не было культуры .sic &#10;Так же для поселения Спарты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Далее: Добавил для Спарты везде культуру .sparta и для цепочки юнитов так же, чтобы у них не было культуры .sic &#10;Так же для поселения Спарты" />
   </component>
 </project>

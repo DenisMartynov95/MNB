@@ -51591,6 +51591,7 @@
 	</NPCCharacter>
 
 		<!-- Спарта -->
+    <!--
 		<NPCCharacter id="spartanteen"
 			default_group="Infantry"
 			level="6"
@@ -51602,6 +51603,7 @@
 			<BodyProperties version="4" age="21.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
 			</face>
 			<skills >
+
 				<skill id="Athletics" value="55"/>
 				<skill id="Riding" value="20"/>
 				<skill id="OneHanded" value="55"/>
@@ -51975,7 +51977,7 @@
 				</EquipmentRoster>
 			</Equipments>
 		</NPCCharacter>
-
+         -->
 		<NPCCharacter id="spartanreserve"
 			default_group="Infantry"
 			level="16"
@@ -52480,10 +52482,10 @@
 		<NPCCharacter id="spartan_homoioi"
 			default_group="Infantry"
 			level="9"
-			name="!!Воспитанник Царя Спарты"
+			name="Воспитанник Царя Спарты"
 			is_basic_troop="true"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common1"/>
 			</face>
@@ -52525,7 +52527,7 @@
 			level="16"
 			name="Эномарх Царя Спарты"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common2"/>
 			</face>
@@ -52566,7 +52568,7 @@
 			level="24"
 			name="Лохагос Царя Спарты"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common3"/>
 			</face>
@@ -52618,7 +52620,7 @@
 			level="31"
 			name="Полемарх Царя Спарты"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common4"/>
 			</face>
@@ -52663,7 +52665,7 @@
 			level="16"
 			name="Гераклид Царя Спарты"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common2"/>
 			</face>
@@ -52706,7 +52708,7 @@
 			level="26"
 			name="Эурипондис Царя Спарты"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common3"/>
 			</face>
@@ -52751,7 +52753,7 @@
 			level="31"
 			name="Агиад Царя Спарты"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common4"/>
 			</face>
@@ -52798,7 +52800,7 @@
 				name="Лучница царя Спарты"
 				is_basic_troop="false"
 				occupation="Soldier"
-				culture="Culture.sic">
+				culture="Culture.sparta">
 				<face>
 					<face_key_template value="BodyProperty.spartan_commonf"/>
 				</face>
@@ -52844,7 +52846,7 @@
 				level="31"
 				name="Элитная лучница царя Спарты"
 				occupation="Soldier"
-				culture="Culture.sic">
+				culture="Culture.sparta">
 				<face>
 					<face_key_template value="BodyProperty.spartan_commonf"/>
 				</face>
