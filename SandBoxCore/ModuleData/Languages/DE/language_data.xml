@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData id="Deutsch">
+  <LanguageFile xml_path="DE/std_SandBox-ger.xml" />
+  <LanguageFile xml_path="DE/std_spcultures_xml-ger.xml" />
+  <LanguageFile xml_path="DE/std_spitems_xml-ger.xml" />
+  <LanguageFile xml_path="DE/std_spnpccharacters_xml-ger.xml" />
+  <LanguageFile xml_path="DE/std_spnpccharactertemplates_xml-ger.xml" />
+</LanguageData>
