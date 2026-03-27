@@ -10423,13 +10423,13 @@
 	<!-- Сицилия -->
 	<Culture
 		id="sic"
-		name="{=empirefaction}Sparta"
+		name="{=empirefaction}Sicilia"
 		is_main_culture="true"
 		color="0xff793191"
 		color2="0xffFCDE90"
-		elite_basic_troop="NPCCharacter.spartan_homoioi"
-		basic_troop="NPCCharacter.spartanteen"
-		melee_militia_troop="NPCCharacter.spartan_eurypontids"
+		elite_basic_troop="NPCCharacter.spartanteen"
+		basic_troop="NPCCharacter.imperial_recruit"
+		melee_militia_troop="NPCCharacter.lacedaemon_warrior"
 		ranged_militia_troop="NPCCharacter.lacedaemon_bow"
 		melee_elite_militia_troop="NPCCharacter.spartanfirstcaptain"
 		ranged_elite_militia_troop="NPCCharacter.spartan_elite_archer"
