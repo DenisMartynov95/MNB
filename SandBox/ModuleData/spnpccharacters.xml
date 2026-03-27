@@ -52482,10 +52482,10 @@
 		<NPCCharacter id="spartan_homoioi"
 			default_group="Infantry"
 			level="9"
-			name="!!Воспитанник Царя Спарты"
+			name="Воспитанник Царя Спарты"
 			is_basic_troop="true"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common1"/>
 			</face>
@@ -52527,7 +52527,7 @@
 			level="16"
 			name="Эномарх Царя Спарты"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common2"/>
 			</face>
@@ -52568,7 +52568,7 @@
 			level="24"
 			name="Лохагос Царя Спарты"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common3"/>
 			</face>
@@ -52620,7 +52620,7 @@
 			level="31"
 			name="Полемарх Царя Спарты"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common4"/>
 			</face>
@@ -52665,7 +52665,7 @@
 			level="16"
 			name="Гераклид Царя Спарты"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common2"/>
 			</face>
@@ -52708,7 +52708,7 @@
 			level="26"
 			name="Эурипондис Царя Спарты"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common3"/>
 			</face>
@@ -52753,7 +52753,7 @@
 			level="31"
 			name="Агиад Царя Спарты"
 			occupation="Soldier"
-			culture="Culture.sic">
+			culture="Culture.sparta">
 			<face>
 				<face_key_template value="BodyProperty.spartan_common4"/>
 			</face>
@@ -52800,7 +52800,7 @@
 				name="Лучница царя Спарты"
 				is_basic_troop="false"
 				occupation="Soldier"
-				culture="Culture.sic">
+				culture="Culture.sparta">
 				<face>
 					<face_key_template value="BodyProperty.spartan_commonf"/>
 				</face>
@@ -52846,7 +52846,7 @@
 				level="31"
 				name="Элитная лучница царя Спарты"
 				occupation="Soldier"
-				culture="Culture.sic">
+				culture="Culture.sparta">
 				<face>
 					<face_key_template value="BodyProperty.spartan_commonf"/>
 				</face>

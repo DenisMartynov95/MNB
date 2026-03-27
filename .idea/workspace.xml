@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="851ebc8b-4d30-4071-afa7-b4f63bccbf81" name="Changes" comment="Удалил культуру спарты из SanBox spCultures">
+    <list default="true" id="851ebc8b-4d30-4071-afa7-b4f63bccbf81" name="Changes" comment="Обернул в коммент одну из веток &lt;!-- Спарта --&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/settlements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/settlements.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spkingdoms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spkingdoms.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spnpccharacters.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
     </list>
@@ -103,12 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1774601612530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Обернул в коммент одну из веток &lt;!-- Спарта --&gt;">
+      <option name="closed" value="true" />
+      <created>1774602267162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774602267162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
     <MESSAGE value="Удалил культуру спарты из SanBox spCultures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Удалил культуру спарты из SanBox spCultures" />
+    <MESSAGE value="Обернул в коммент одну из веток &lt;!-- Спарта --&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обернул в коммент одну из веток &lt;!-- Спарта --&gt;" />
   </component>
 </project>
