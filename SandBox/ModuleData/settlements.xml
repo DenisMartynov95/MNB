@@ -4423,7 +4423,7 @@
 		owner="Faction.clan_sparta2"
 		posX="538.99"
 		posY="378.31"
-		culture="Culture.sic"
+		culture="Culture.sparta"
 		gate_posX="539.6804"
 		gate_posY="375.7863">
 		<Components>
@@ -4460,7 +4460,7 @@
 		name="{=Settlements.Settlement.name.castle_village_ES8_1}Chanopsis"
 		posX="570.062"
 		posY="366.622"
-		culture="Culture.empire"
+		culture="Culture.sparta"
 		text="{=Settlements.Settlement.text.castle_village_ES8_1}Chanopsis sits near the headwaters of the Sethys river in the plateau region known as the Myzead. Wheat grows well on the sun-baked plains.">
 		<Components>
 			<Village
@@ -5523,7 +5523,7 @@
 		name="{=Settlements.Settlement.name.village_ES6_1}Saldannis"
 		posX="565.911"
 		posY="326.602"
-		culture="Culture.sic"
+		culture="Culture.sparta"
 		text="{=Settlements.Settlement.text.village_ES6_1}Saldannis lies beneath gypsum bluffs overlooking the River Sethys. The fine soil of the hills makes for a sticky clay when it washes down to the river, much prized by the potters of the imperial south.">
 		<Components>
 			<Village
@@ -5561,7 +5561,7 @@
 		name="{=Settlements.Settlement.name.village_ES6_2}Spotia"
 		posX="554.385"
 		posY="337.425"
-		culture="Culture.sic"
+		culture="Culture.sparta"
 		text="{=Settlements.Settlement.text.village_ES6_2}Spotia lies alongside the gently flowing Sethys river. The low rolling hills of this district comprise one of the breadbaskets of the Empire.">
 		<Components>
 			<Village
