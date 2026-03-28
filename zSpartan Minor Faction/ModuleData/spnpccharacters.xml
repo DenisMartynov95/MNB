@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<NPCCharacters>
+		<NPCCharacter id="spartan"
+				default_group="Infantry"
+				level="2"
+				name="Спартанский гражданский"
+				occupation="Soldier"
+				is_basic_troop="true"
+				culture="Culture.sic" is_female="false">
+				<face>
+					<BodyProperties version="4" age="25.76" weight="0" build="0.6188"  key="000DBC0E400003833A923696B63698C676CD867784CBE806C9BB86656AA60C0501B906130BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="40"/>
+					<skill id="Riding" value="10"/>
+					<skill id="OneHanded" value="40"/>
+					<skill id="TwoHanded" value="10"/>
+					<skill id="Polearm" value="60"/>
+					<skill id="Bow" value="10"/>
+					<skill id="Crossbow" value="10"/>
+					<skill id="Throwing" value="40"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.spartanreserve"/>
+					<upgrade_target id="NPCCharacter.spartan300"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.spear_sparta"/>
+						<equipment slot="Head" id="Item.helmet"/>
+						<equipment slot="Body" id="Item.sprobe"/>
+						<equipment slot="Gloves" id="Item.sphand"/>
+						<equipment slot="Leg" id="Item.spfoot"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.spear_sparta"/>
+						<equipment slot="Head" id="Item.helmet"/>
+						<equipment slot="Body" id="Item.sprobe"/>
+						<equipment slot="Gloves" id="Item.sphand"/>
+						<equipment slot="Leg" id="Item.spfoot"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+
+		<NPCCharacter id="spartanreserve"
+					default_group="Infantry"
+					level="6"
+					name="Спартанский илот"
+					occupation="Soldier"
+					culture="Culture.sic" is_female="false">
+					<face>
+					<BodyProperties version="4" age="30.76" weight="0" build="0.6188"  key="000DBC0E400003833A923696B63698C676CD867784CBE806C9BB86656AA60C0501B906130BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+					</face>
+					<skills >
+							<skill id="Athletics" value="60"/>
+							<skill id="Riding" value="10"/>
+							<skill id="OneHanded" value="60"/>
+							<skill id="TwoHanded" value="10"/>
+							<skill id="Polearm" value="70"/>
+							<skill id="Bow" value="10"/>
+							<skill id="Crossbow" value="10"/>
+							<skill id="Throwing" value="60"/>
+					</skills>
+					<upgrade_targets>
+						<upgrade_target id="NPCCharacter.spartan300"/>
+					</upgrade_targets>
+					<Equipments>
+						<EquipmentRoster>
+							<equipment slot="Item0" id="Item.spear_sparta"/>
+							<equipment slot="Item1" id="Item.sword_sparta"/>
+							<equipment slot="Item2" id="Item.shield"/>
+							<equipment slot="Item3" id="Item.javelin_sparta"/>
+							<equipment slot="Head" id="Item.helmet"/>
+							<equipment slot="Body" id="Item.spymj"/>
+							<equipment slot="Gloves" id="Item.sphand"/>
+							<equipment slot="Leg" id="Item.spfoot"/>
+						</EquipmentRoster>
+						<EquipmentRoster civilian="true">
+							<equipment slot="Item0" id="Item.sword_sparta"/>
+							<equipment slot="Head" id="Item.helmet"/>
+							<equipment slot="Body" id="Item.spymj"/>
+							<equipment slot="Gloves" id="Item.sphand"/>
+							<equipment slot="Leg" id="Item.spfoot"/>
+						</EquipmentRoster>
+					</Equipments>
+				</NPCCharacter>
+		<NPCCharacter id="spartan300"
+							default_group="Infantry"
+							level="9"
+							name="Новоизбранный гоплит"
+							occupation="Soldier"
+							culture="Culture.sic" is_female="false">
+							<face>
+								<BodyProperties version="4" age="30.76" weight="0" build="0.6188"  key="000DBC0E400003833A923696B63698C676CD867784CBE806C9BB86656AA60C0501B906130BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+							</face>
+							<skills >
+								<skill id="Athletics" value="90"/>
+								<skill id="Riding" value="10"/>
+								<skill id="OneHanded" value="100"/>
+								<skill id="TwoHanded" value="10"/>
+								<skill id="Polearm" value="110"/>
+								<skill id="Bow" value="10"/>
+								<skill id="Crossbow" value="10"/>
+								<skill id="Throwing" value="120"/>
+							</skills>
+							<upgrade_targets>
+								<upgrade_target id="NPCCharacter.spartan300hoplite"/>
+							</upgrade_targets>
+							<Equipments>
+								<EquipmentRoster>
+									<equipment slot="Item0" id="Item.spear_leo2"/>
+									<equipment slot="Item1" id="Item.sword_sparta4"/>
+									<equipment slot="Item2" id="Item.spheroshield"/>
+									<equipment slot="Head" id="Item.spherohead300"/>
+									<equipment slot="Cape" id="Item.spherocape"/>
+									<equipment slot="Body" id="Item.spherobody300"/>
+									<equipment slot="Gloves" id="Item.spherohand"/>
+									<equipment slot="Leg" id="Item.spheroleg"/>
+								</EquipmentRoster>
+								<EquipmentRoster civilian="true">
+									<equipment slot="Item0" id="Item.sword_sparta4"/>
+									<equipment slot="Head" id="Item.spherohead300"/>
+									<equipment slot="Cape" id="Item.spherocape"/>
+									<equipment slot="Body" id="Item.spherobody300"/>
+									<equipment slot="Gloves" id="Item.spherohand"/>
+									<equipment slot="Leg" id="Item.spheroleg"/>
+								</EquipmentRoster>
+							</Equipments>
+						</NPCCharacter>
+		<NPCCharacter id="spartan300hoplite"
+								default_group="Infantry"
+								level="12"
+								name="Спартанский гоплит"
+								occupation="Soldier"
+								culture="Culture.sic" is_female="false">
+								<face>
+									<BodyProperties version="4" age="36.76" weight="0" build="0.6188"  key="000DBC0E400003833A923696B63698C676CD867784CBE806C9BB86656AA60C0501B906130BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+								</face>
+								<skills >
+								<skill id="Athletics" value="130"/>
+								<skill id="Riding" value="10"/>
+								<skill id="OneHanded" value="130"/>
+								<skill id="TwoHanded" value="10"/>
+								<skill id="Polearm" value="130"/>
+								<skill id="Bow" value="10"/>
+								<skill id="Crossbow" value="10"/>
+								<skill id="Throwing" value="150"/>
+								</skills>
+								<upgrade_targets>
+									<upgrade_target id="NPCCharacter.spartan300captain"/>
+								</upgrade_targets>
+								<Equipments>
+									<EquipmentRoster>
+										<equipment slot="Item0" id="Item.spear_leo2"/>
+										<equipment slot="Item1" id="Item.sword_sparta4"/>
+										<equipment slot="Item2" id="Item.spheroshield"/>
+										<equipment slot="Head" id="Item.spherohead"/>
+										<equipment slot="Cape" id="Item.spherocape"/>
+										<equipment slot="Body" id="Item.spherobody300"/>
+										<equipment slot="Gloves" id="Item.spherohand"/>
+										<equipment slot="Leg" id="Item.spheroleg"/>
+									</EquipmentRoster>
+									<EquipmentRoster civilian="true">
+										<equipment slot="Item0" id="Item.sword_sparta4"/>
+										<equipment slot="Head" id="Item.spherohead"/>
+										<equipment slot="Cape" id="Item.spherocape"/>
+										<equipment slot="Body" id="Item.spherobody300"/>
+										<equipment slot="Gloves" id="Item.spherohand"/>
+										<equipment slot="Leg" id="Item.spheroleg"/>
+									</EquipmentRoster>
+								</Equipments>
+							</NPCCharacter>
+		<NPCCharacter id="spartan300captain"
+									default_group="Infantry"
+									level="15"
+									name="Опытный спартанский гоплит"
+									occupation="Soldier"
+									culture="Culture.sic" is_female="false">
+									<face>
+																							 <BodyProperties version="4" age="56.76" weight="0" build="0.6188"  key="000DBC0E400003833A923696B63698C676CD867784CBE806C9BB86656AA60C0501B906130BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+									</face>
+									<skills >
+									<skill id="Athletics" value="190"/>
+									<skill id="Riding" value="10"/>
+									<skill id="OneHanded" value="140"/>
+									<skill id="TwoHanded" value="10"/>
+									<skill id="Polearm" value="140"/>
+									<skill id="Bow" value="10"/>
+									<skill id="Crossbow" value="10"/>
+									<skill id="Throwing" value="160"/>
+									</skills>
+									<upgrade_targets>
+										<upgrade_target id="NPCCharacter.spartanguard"/>
+									</upgrade_targets>
+									<Equipments>
+										<EquipmentRoster>
+											<equipment slot="Item0" id="Item.spear_leo2"/>
+											<equipment slot="Item1" id="Item.sword_sparta4"/>
+											<equipment slot="Item2" id="Item.spheroshield"/>
+											<equipment slot="Item3" id="Item.javelin_sparta"/>
+											<equipment slot="Head" id="Item.spherohead2"/>
+											<equipment slot="Cape" id="Item.spherocape"/>
+											<equipment slot="Body" id="Item.spherobody300"/>
+											<equipment slot="Gloves" id="Item.spherohand"/>
+											<equipment slot="Leg" id="Item.spheroleg"/>
+										</EquipmentRoster>
+										<EquipmentRoster civilian="true">
+											<equipment slot="Item0" id="Item.sword_sparta4"/>
+											<equipment slot="Head" id="Item.spherohead2"/>
+											<equipment slot="Cape" id="Item.spherocape"/>
+											<equipment slot="Body" id="Item.spherobody300"/>
+											<equipment slot="Gloves" id="Item.spherohand"/>
+											<equipment slot="Leg" id="Item.spheroleg"/>
+										</EquipmentRoster>
+									</Equipments>
+								</NPCCharacter>
+		<NPCCharacter id="spartanguard"
+										default_group="Cavalry"
+										level="19"
+										name="Спартанская всадница-гоплит"
+										occupation="Soldier"
+										culture="Culture.sic" is_female="true">
+										<face>
+																								 <BodyProperties version="4" age="30.93" weight="0" build="0.4992"  key="0010B00D101432412E8994586364669494F589463B995F1B79AB8FE087FA070701A706140A4752200000000000000000000000000000000000000000794410C3"  />
+										</face>
+										<skills >
+										<skill id="Athletics" value="190"/>
+										<skill id="Riding" value="190"/>
+										<skill id="OneHanded" value="160"/>
+										<skill id="TwoHanded" value="10"/>
+										<skill id="Polearm" value="160"/>
+										<skill id="Bow" value="10"/>
+										<skill id="Crossbow" value="10"/>
+										<skill id="Throwing" value="190"/>
+										</skills>
+										<upgrade_targets>
+											<upgrade_target id="NPCCharacter.lacedaemon_warrior"/>
+										</upgrade_targets>
+										<Equipments>
+											<EquipmentRoster>
+												<equipment slot="Item0" id="Item.sword_sparta"/>
+												<equipment slot="Item1" id="Item.javelin_sparta"/>
+												<equipment slot="Item2" id="Item.shield"/>
+												<equipment slot="Head" id="Item.helmettailed"/>
+												<equipment slot="Body" id="Item.spchestf"/>
+												<equipment slot="Gloves" id="Item.spbracer"/>
+												<equipment slot="Leg" id="Item.spgreave"/>
+												<equipment slot="Horse" id="Item.noble_horse"/>
+											</EquipmentRoster>
+											<EquipmentRoster civilian="true">
+												<equipment slot="Item0" id="Item.sword_sparta"/>
+												<equipment slot="Head" id="Item.helmettailed"/>
+												<equipment slot="Body" id="Item.spchestf"/>
+												<equipment slot="Gloves" id="Item.spbracer"/>
+												<equipment slot="Leg" id="Item.spgreave"/>
+											</EquipmentRoster>
+										</Equipments>
+									</NPCCharacter>
+		<NPCCharacter id="lacedaemon_warrior"
+											default_group="Infantry"
+											level="23"
+											name="Лакедемонский гоплит"
+											occupation="Soldier"
+											culture="Culture.sic">
+											<face>
+												<face_key_template value="BodyProperty.lacedaemon_common3"/>
+											</face>
+											<skills >
+											<skill id="Athletics" value="230"/>
+											<skill id="Riding" value="190"/>
+											<skill id="OneHanded" value="210"/>
+											<skill id="TwoHanded" value="10"/>
+											<skill id="Polearm" value="190"/>
+											<skill id="Bow" value="10"/>
+											<skill id="Crossbow" value="10"/>
+											<skill id="Throwing" value="210"/>
+											</skills>
+											<upgrade_targets>
+												<upgrade_target id="NPCCharacter.spartankingsguard"/>
+											</upgrade_targets>
+											<Equipments>
+												<EquipmentRoster>
+													<equipment slot="Item0" id="Item.sphpspear2"/>
+													<equipment slot="Item1" id="Item.sphpshield2"/>
+													<equipment slot="Item2" id="Item.spear_sparta"/>
+													<equipment slot="Item3" id="Item.javelin_sparta"/>
+													<equipment slot="Head" id="Item.sphphead2"/>
+													<equipment slot="Cape" id="Item.sphpcape"/>
+													<equipment slot="Body" id="Item.sphpbody4"/>
+													<equipment slot="Gloves" id="Item.sphphand"/>
+													<equipment slot="Leg" id="Item.sphpleg"/>
+												</EquipmentRoster>
+												<EquipmentRoster>
+													<equipment slot="Item1" id="Item.sphpspear2"/>
+													<equipment slot="Item2" id="Item.sphpshield2"/>
+													<equipment slot="Head" id="Item.sphphead4"/>
+													<equipment slot="Cape" id="Item.sphpcape"/>
+													<equipment slot="Body" id="Item.sphpbody4"/>
+													<equipment slot="Gloves" id="Item.sphphand"/>
+													<equipment slot="Leg" id="Item.sphpleg"/>
+												</EquipmentRoster>
+												<EquipmentRoster civilian="true">
+													<equipment slot="Item0" id="Item.sphpspear2"/>
+													<equipment slot="Item1" id="Item.sphpshield2"/>
+													<equipment slot="Head" id="Item.sphphead2"/>
+													<equipment slot="Cape" id="Item.sphpcape"/>
+													<equipment slot="Body" id="Item.sphpbody4"/>
+													<equipment slot="Gloves" id="Item.sphphand"/>
+													<equipment slot="Leg" id="Item.sphpleg"/>
+												</EquipmentRoster>
+											</Equipments>
+										</NPCCharacter>
+		<NPCCharacter id="spartankingsguard"
+												default_group="HorseArcher"
+												level="26"
+												name="Спартанская всадница"
+												occupation="Soldier"
+												culture="Culture.sic" is_female="true">
+												<face>
+												<BodyProperties version="4" age="30.93" weight="0" build="0.4992"  key="0010B00D101432412E8994586364669494F589463B995F1B79AB8FE087FA070701A706140A4752200000000000000000000000000000000000000000794410C3"  />
+												</face>
+												<skills >
+												<skill id="Athletics" value="230"/>
+												<skill id="Riding" value="220"/>
+												<skill id="OneHanded" value="230"/>
+												<skill id="TwoHanded" value="10"/>
+												<skill id="Polearm" value="210"/>
+												<skill id="Bow" value="10"/>
+												<skill id="Crossbow" value="10"/>
+												<skill id="Throwing" value="230"/>
+												</skills>
+												<upgrade_targets>
+													<upgrade_target id="NPCCharacter.lacedaemon_phalanx"/>
+												</upgrade_targets>
+												<Equipments>
+													<EquipmentRoster>
+														<equipment slot="Item0" id="Item.sword_sparta"/>
+														<equipment slot="Item1" id="Item.javelin_sparta"/>
+														<equipment slot="Item2" id="Item.shield"/>
+														<equipment slot="Item3" id="Item.javelin_sparta"/>
+														<equipment slot="Head" id="Item.helmethigh"/>
+														<equipment slot="Body" id="Item.spchestf2"/>
+														<equipment slot="Gloves" id="Item.spbracer"/>
+														<equipment slot="Leg" id="Item.spgreave"/>
+														<equipment slot="Horse" id="Item.noble_horse"/>
+														<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+													</EquipmentRoster>
+													<EquipmentRoster civilian="true">
+														<equipment slot="Item0" id="Item.sword_sparta"/>
+														<equipment slot="Head" id="Item.helmethigh"/>
+														<equipment slot="Body" id="Item.spchestf2"/>
+														<equipment slot="Gloves" id="Item.spbracer"/>
+														<equipment slot="Leg" id="Item.spgreave"/>
+													</EquipmentRoster>
+												</Equipments>
+											</NPCCharacter>
+		<NPCCharacter id="lacedaemon_phalanx"
+												default_group="Infantry"
+												level="31"
+												name="Лакедемонский опытный гоплит"
+												occupation="Soldier"
+												culture="Culture.sic">
+												<face>
+													<face_key_template value="BodyProperty.lacedaemon_common4"/>
+												</face>
+												<skills >
+												<skill id="Athletics" value="260"/>
+												<skill id="Riding" value="220"/>
+												<skill id="OneHanded" value="250"/>
+												<skill id="TwoHanded" value="10"/>
+												<skill id="Polearm" value="270"/>
+												<skill id="Bow" value="10"/>
+												<skill id="Crossbow" value="10"/>
+												<skill id="Throwing" value="250"/>
+												</skills>
+												<upgrade_targets>
+													<upgrade_target id="NPCCharacter.spartankingsguard_archer"/>
+												</upgrade_targets>
+												<Equipments>
+													<EquipmentRoster>
+														<equipment slot="Item0" id="Item.sphpspear"/>
+														<equipment slot="Item1" id="Item.sphpsword2"/>
+														<equipment slot="Item2" id="Item.sphpshield"/>
+														<equipment slot="Item3" id="Item.javelin_sparta"/>
+														<equipment slot="Head" id="Item.sphphead"/>
+														<equipment slot="Cape" id="Item.sphpcape3"/>
+														<equipment slot="Body" id="Item.sphpbody4"/>
+														<equipment slot="Gloves" id="Item.sphphand"/>
+														<equipment slot="Leg" id="Item.sphpleg"/>
+													</EquipmentRoster>
+													<EquipmentRoster>
+														<equipment slot="Item0" id="Item.sphpspear"/>
+														<equipment slot="Item1" id="Item.sphpsword2"/>
+														<equipment slot="Item2" id="Item.sphpshield"/>
+														<equipment slot="Head" id="Item.sphphead3"/>
+														<equipment slot="Cape" id="Item.sphpcape3"/>
+														<equipment slot="Body" id="Item.sphpbody4"/>
+														<equipment slot="Gloves" id="Item.sphphand"/>
+														<equipment slot="Leg" id="Item.sphpleg"/>
+													</EquipmentRoster>
+													<EquipmentRoster civilian="true">
+														<equipment slot="Item0" id="Item.spear_sparta"/>
+														<equipment slot="Item1" id="Item.sword_sparta"/>
+														<equipment slot="Item2" id="Item.shield2"/>
+														<equipment slot="Item3" id="Item.javelin_sparta"/>
+														<equipment slot="Head" id="Item.helc2"/>
+														<equipment slot="Cape" id="Item.spcape"/>
+														<equipment slot="Body" id="Item.spchestarmor"/>
+														<equipment slot="Gloves" id="Item.spbracer"/>
+														<equipment slot="Leg" id="Item.spgreave"/>
+													</EquipmentRoster>
+												</Equipments>
+											</NPCCharacter>
+		<NPCCharacter id="spartankingsguard_archer"
+													default_group="HorseArcher"
+													level="35"
+													name="Спартанская всадница лучница"
+													occupation="Soldier"
+													culture="Culture.sic" is_female="true">
+													<face>
+													<BodyProperties version="4" age="30.93" weight="0" build="0.4992"  key="0010B00D101432412E8994586364669494F589463B995F1B79AB8FE087FA070701A706140A4752200000000000000000000000000000000000000000794410C3"  />
+													</face>
+													<skills >
+													<skill id="Athletics" value="260"/>
+													<skill id="Riding" value="240"/>
+													<skill id="OneHanded" value="250"/>
+													<skill id="TwoHanded" value="10"/>
+													<skill id="Polearm" value="270"/>
+													<skill id="Bow" value="240"/>
+													<skill id="Crossbow" value="10"/>
+													<skill id="Throwing" value="250"/>
+													</skills>
+													<upgrade_targets>
+														<upgrade_target id="NPCCharacter.lacedaemon_fighter"/>
+													</upgrade_targets>
+													<Equipments>
+														<EquipmentRoster>
+															<equipment slot="Item0" id="Item.sphpaxe"/>
+															<equipment slot="Item1" id="Item.sphpbow"/>
+															<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+															<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+															<equipment slot="Head" id="Item.helmethigh"/>
+															<equipment slot="Body" id="Item.spchestf2"/>
+															<equipment slot="Gloves" id="Item.spbracer"/>
+															<equipment slot="Leg" id="Item.spgreave"/>
+															<equipment slot="Horse" id="Item.noble_horse"/>
+															<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+														</EquipmentRoster>
+														<EquipmentRoster civilian="true">
+															<equipment slot="Item0" id="Item.sword_sparta"/>
+															<equipment slot="Head" id="Item.helmethigh"/>
+															<equipment slot="Body" id="Item.spchestf2"/>
+															<equipment slot="Gloves" id="Item.spbracer"/>
+															<equipment slot="Leg" id="Item.spgreave"/>
+														</EquipmentRoster>
+													</Equipments>
+												</NPCCharacter>
+		<NPCCharacter id="spartanfirstcaptain"
+													default_group="Infantry"
+													level="41"
+													name="Копье Спарты"
+													occupation="Soldier"
+													culture="Culture.sic" is_female="false">
+													<face>
+																											 <BodyProperties version="4" age="76.76" weight="0" build="0.6188"  key="000DBC0E400003833A923696B63698C676CD867784CBE806C9BB86656AA60C0501B906130BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+													</face>
+													<skills >
+													<skill id="Athletics" value="290"/>
+													<skill id="Riding" value="240"/>
+													<skill id="OneHanded" value="320"/>
+													<skill id="TwoHanded" value="10"/>
+													<skill id="Polearm" value="250"/>
+													<skill id="Bow" value="240"/>
+													<skill id="Crossbow" value="10"/>
+													<skill id="Throwing" value="250"/>
+													</skills>
+													<Equipments>
+														<EquipmentRoster>
+															<equipment slot="Item0" id="Item.spear_sparta"/>
+															<equipment slot="Item1" id="Item.sword_sparta"/>
+															<equipment slot="Item2" id="Item.shield2"/>
+															<equipment slot="Head" id="Item.helc2"/>
+															<equipment slot="Body" id="Item.spchestarmor"/>
+															<equipment slot="Gloves" id="Item.spbracer"/>
+															<equipment slot="Leg" id="Item.spgreave"/>
+														</EquipmentRoster>
+														<EquipmentRoster civilian="true">
+															<equipment slot="Item0" id="Item.sword_sparta"/>
+															<equipment slot="Head" id="Item.helc2"/>
+															<equipment slot="Body" id="Item.spchestarmor"/>
+															<equipment slot="Gloves" id="Item.spbracer"/>
+															<equipment slot="Leg" id="Item.spgreave"/>
+														</EquipmentRoster>
+													</Equipments>
+												</NPCCharacter>
+		<NPCCharacter id="lacedaemon_fighter"
+														default_group="Infantry"
+														level="36"
+														name="Лакедемонский элитный гоплит"
+														occupation="Soldier"
+														culture="Culture.sic">
+														<face>
+															<face_key_template value="BodyProperty.lacedaemon_common4"/>
+														</face>
+														<skills >
+														<skill id="Athletics" value="290"/>
+														<skill id="Riding" value="240"/>
+														<skill id="OneHanded" value="300"/>
+														<skill id="TwoHanded" value="10"/>
+														<skill id="Polearm" value="250"/>
+														<skill id="Bow" value="240"/>
+														<skill id="Crossbow" value="10"/>
+														<skill id="Throwing" value="250"/>
+														</skills>
+														<upgrade_targets>
+															<upgrade_target id="NPCCharacter.spartanfirstcaptain"/>
+														</upgrade_targets>
+														<Equipments>
+															<EquipmentRoster>
+																<equipment slot="Item0" id="Item.sphpsword2"/>
+																<equipment slot="Item1" id="Item.sphpshield"/>
+																<equipment slot="Item2" id="Item.javelin_sparta"/>
+																<equipment slot="Item3" id="Item.javelin_sparta"/>
+																<equipment slot="Head" id="Item.sphphead"/>
+																<equipment slot="Cape" id="Item.sphpcape3"/>
+																<equipment slot="Body" id="Item.sphpbody4"/>
+																<equipment slot="Gloves" id="Item.sphphand"/>
+																<equipment slot="Leg" id="Item.sphpleg"/>
+															</EquipmentRoster>
+															<EquipmentRoster>
+																<equipment slot="Item0" id="Item.sphpsword2"/>
+																<equipment slot="Item1" id="Item.sphpshield"/>
+																<equipment slot="Head" id="Item.sphphead3"/>
+																<equipment slot="Cape" id="Item.sphpcape3"/>
+																<equipment slot="Body" id="Item.sphpbody4"/>
+																<equipment slot="Gloves" id="Item.sphphand"/>
+																<equipment slot="Leg" id="Item.sphpleg"/>
+															</EquipmentRoster>
+															<EquipmentRoster civilian="true">
+																<equipment slot="Item0" id="Item.sphpsword2"/>
+																<equipment slot="Item1" id="Item.sphpshield"/>
+																<equipment slot="Head" id="Item.sphphead"/>
+																<equipment slot="Cape" id="Item.sphpcape3"/>
+																<equipment slot="Body" id="Item.sphpbody4"/>
+																<equipment slot="Gloves" id="Item.sphphand"/>
+																<equipment slot="Leg" id="Item.sphpleg"/>
+															</EquipmentRoster>
+														</Equipments>
+													</NPCCharacter>
+
+
+
+	<!-- Спарта -->
+	<NPCCharacter id="spartan_homoioi"
+				  default_group="Infantry"
+				  level="6"
+				  name="Воспитанник Царя Спарты"
+				  is_basic_troop="true"
+				  occupation="Soldier"
+				  culture="Culture.sparta">
+		<face>
+			<face_key_template value="BodyProperty.spartan_common1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.spartan_heraclid"/>
+			<upgrade_target id="NPCCharacter.spartan_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_sparta"/>
+				<equipment slot="Item1" id="Item.shield"/>
+				<equipment slot="Body" id="Item.sprobe"/>
+				<equipment slot="Gloves" id="Item.sphand"/>
+				<equipment slot="Leg" id="Item.spfoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_sparta"/>
+				<equipment slot="Item1" id="Item.shield"/>
+				<equipment slot="Body" id="Item.sprobe"/>
+				<equipment slot="Gloves" id="Item.sphand"/>
+				<equipment slot="Leg" id="Item.spfoot"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spartan_heraclid"
+				  default_group="Infantry"
+				  level="11"
+				  name="Гераклид Царя Спарты"
+				  occupation="Soldier"
+				  culture="Culture.sparta">
+		<face>
+			<face_key_template value="BodyProperty.spartan_common2"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="160"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="170"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="160"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.spartan_eurypontids"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Head" id="Item.spherohead300"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spherobody300"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Head" id="Item.spherohead300"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spherobody300"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spartan_eurypontids"
+				  default_group="Infantry"
+				  level="16"
+				  name="Эурипондис Царя Спарты"
+				  occupation="Soldier"
+				  culture="Culture.sparta">
+		<face>
+			<face_key_template value="BodyProperty.spartan_common3"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="260"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="240"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.spartan_enomotarch"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.spherohead"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spherobody300"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.spherohead"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spherobody300"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spartan_enomotarch"
+				  default_group="Infantry"
+				  level="21"
+				  name="Эномарх Царя Спарты"
+				  occupation="Soldier"
+				  culture="Culture.sparta">
+		<face>
+			<face_key_template value="BodyProperty.spartan_common2"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.spartan_lochogos"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_sparta"/>
+				<equipment slot="Item1" id="Item.shield"/>
+				<equipment slot="Head" id="Item.helmet"/>
+				<equipment slot="Body" id="Item.spymj"/>
+				<equipment slot="Gloves" id="Item.sphand"/>
+				<equipment slot="Leg" id="Item.spfoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_sparta"/>
+				<equipment slot="Item1" id="Item.shield"/>
+				<equipment slot="Head" id="Item.helmet"/>
+				<equipment slot="Body" id="Item.spymj"/>
+				<equipment slot="Gloves" id="Item.sphand"/>
+				<equipment slot="Leg" id="Item.spfoot"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spartan_lochogos"
+				  default_group="Infantry"
+				  level="26"
+				  name="Лохагос Царя Спарты"
+				  occupation="Soldier"
+				  culture="Culture.sparta">
+		<face>
+			<face_key_template value="BodyProperty.spartan_common3"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="190"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="160"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.spartan300hoplite"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_sparta"/>
+				<equipment slot="Item1" id="Item.shield2"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.helc"/>
+				<equipment slot="Body" id="Item.spchest"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_sparta"/>
+				<equipment slot="Item1" id="Item.shield2"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.helc"/>
+				<equipment slot="Body" id="Item.spchest"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_sparta"/>
+				<equipment slot="Item1" id="Item.shield2"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.helmettailed"/>
+				<equipment slot="Body" id="Item.spchest"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spartan300hoplite"
+				  default_group="Infantry"
+				  level="29"
+				  name="Спартанский гоплит"
+				  occupation="Soldier"
+				  culture="Culture.sic" is_female="false">
+		<face>
+			<BodyProperties version="4" age="36.76" weight="0" build="0.6188"  key="000DBC0E400003833A923696B63698C676CD867784CBE806C9BB86656AA60C0501B906130BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+		</face>
+		<skills >
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.spartan_polemarch"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item1" id="Item.sword_sparta4"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Head" id="Item.spherohead"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spherobody300"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_sparta4"/>
+				<equipment slot="Head" id="Item.spherohead"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spherobody300"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spartan_archer"
+				  is_female="true"
+				  default_group="Ranged"
+				  level="16"
+				  name="Лучница царя Спарты"
+				  is_basic_troop="false"
+				  occupation="Soldier"
+				  culture="Culture.sparta">
+		<face>
+			<face_key_template value="BodyProperty.spartan_commonf"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="220"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lacedaemon_bow"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sword_sparta"/>
+				<equipment slot="Item1" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.greekbow"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.helmettailed"/>
+				<equipment slot="Body" id="Item.spchestf"/>
+				<equipment slot="Gloves" id="Item.sphand"/>
+				<equipment slot="Leg" id="Item.spfoot"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_sparta"/>
+				<equipment slot="Item1" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.greekbow"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.helmettailed"/>
+				<equipment slot="Body" id="Item.spchestf"/>
+				<equipment slot="Gloves" id="Item.sphand"/>
+				<equipment slot="Leg" id="Item.spfoot"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lacedaemon_bow"
+				  default_group="Ranged"
+				  level="21"
+				  name="Лакедемонский лучник"
+				  occupation="Soldier"
+				  culture="Culture.sparta">
+		<face>
+			<face_key_template value="BodyProperty.lacedaemon_common3"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="190"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="190"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="190"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="190"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.spartanpikeman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sphpsword"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.sphphead4"/>
+				<equipment slot="Cape" id="Item.sphpcape"/>
+				<equipment slot="Body" id="Item.sphpbody4"/>
+				<equipment slot="Gloves" id="Item.sphphand"/>
+				<equipment slot="Leg" id="Item.sphpleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sphpsword"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.sphphead4"/>
+				<equipment slot="Cape" id="Item.sphpcape"/>
+				<equipment slot="Body" id="Item.sphpbody4"/>
+				<equipment slot="Gloves" id="Item.sphphand"/>
+				<equipment slot="Leg" id="Item.sphpleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spartan_polemarch"
+				  default_group="Infantry"
+				  level="31"
+				  name="Полемарх Царя Спарты"
+				  occupation="Soldier"
+				  culture="Culture.sparta">
+		<face>
+			<face_key_template value="BodyProperty.spartan_common4"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="310"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="330"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="330"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="340"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.spartanfirstcaptain"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_sparta"/>
+				<equipment slot="Item1" id="Item.sword_sparta"/>
+				<equipment slot="Item2" id="Item.shield2"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.helc2"/>
+				<equipment slot="Cape" id="Item.spcape"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_sparta"/>
+				<equipment slot="Item1" id="Item.sword_sparta"/>
+				<equipment slot="Item2" id="Item.shield2"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.helc2"/>
+				<equipment slot="Cape" id="Item.spcape"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spartanpikeman"
+				  default_group="Ranged"
+				  level="26"
+				  name="Спартанский застрельщик"
+				  occupation="Soldier"
+				  culture="Culture.sparta" is_female="false">
+		<face>
+			<BodyProperties version="4" age="36.76" weight="0" build="0.6188"  key="000DBC0E400003833A923696B63698C676CD867784CBE806C9BB86656AA60C0501B906130BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+		</face>
+		<skills >
+			<skill id="Athletics" value="230"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="210"/>
+			<skill id="TwoHanded" value="160"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="240"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.spartan_elite_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.pike_sparta"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.helmettailed"/>
+				<equipment slot="Body" id="Item.spymj"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_sparta"/>
+				<equipment slot="Head" id="Item.helmettailed"/>
+				<equipment slot="Body" id="Item.spymj"/>
+				<equipment slot="Gloves" id="Item.sphand"/>
+				<equipment slot="Leg" id="Item.spfoot"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spartan_elite_archer"
+				  is_female="true"
+				  default_group="Ranged"
+				  level="31"
+				  name="Элитная лучница царя Спарты"
+				  occupation="Soldier"
+				  culture="Culture.sparta">
+		<face>
+			<face_key_template value="BodyProperty.spartan_commonf"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="230"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="230"/>
+			<skill id="TwoHanded" value="160"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="260"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="260"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lacedaemon_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sword_sparta"/>
+				<equipment slot="Item1" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.greekbow"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.helmethigh"/>
+				<equipment slot="Cape" id="Item.spcapef"/>
+				<equipment slot="Body" id="Item.spchestf2"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_sparta"/>
+				<equipment slot="Item1" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.greekbow"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.helmethigh"/>
+				<equipment slot="Cape" id="Item.spcapef"/>
+				<equipment slot="Body" id="Item.spchestf2"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lacedaemon_archer"
+				  default_group="Ranged"
+				  level="36"
+				  name="Лакедемонский лучник-убийцы"
+				  occupation="Soldier"
+				  culture="Culture.sparta">
+		<face>
+			<face_key_template value="BodyProperty.lacedaemon_common4"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="210"/>
+			<skill id="TwoHanded" value="160"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="260"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="260"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sphpaxe"/>
+				<equipment slot="Item1" id="Item.sphpbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.sphphead3"/>
+				<equipment slot="Cape" id="Item.sphpcape3"/>
+				<equipment slot="Body" id="Item.sphpbody4"/>
+				<equipment slot="Gloves" id="Item.sphphand"/>
+				<equipment slot="Leg" id="Item.sphpleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sphpaxe"/>
+				<equipment slot="Item1" id="Item.sphpbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.sphphead3"/>
+				<equipment slot="Cape" id="Item.sphpcape3"/>
+				<equipment slot="Body" id="Item.sphpbody4"/>
+				<equipment slot="Gloves" id="Item.sphphand"/>
+				<equipment slot="Leg" id="Item.sphpleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="spartanfirstcaptain"
+				  default_group="Infantry"
+				  level="36"
+				  name="Копье Спарты"
+				  occupation="Soldier"
+				  culture="Culture.sparta" is_female="false">
+		<face>
+			<BodyProperties version="4" age="76.76" weight="0" build="0.6188"  key="000DBC0E400003833A923696B63698C676CD867784CBE806C9BB86656AA60C0501B906130BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="290"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="320"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="240"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="250"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_sparta"/>
+				<equipment slot="Item1" id="Item.sword_sparta"/>
+				<equipment slot="Item2" id="Item.shield2"/>
+				<equipment slot="Head" id="Item.helc2"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_sparta"/>
+				<equipment slot="Head" id="Item.helc2"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+</NPCCharacters>

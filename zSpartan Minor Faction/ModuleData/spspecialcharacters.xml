@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_spartan_leader_0" name="{=!}Eurybiades" is_female="false" age="35" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35.24" weight="0.4806" build="0.554"  key="0018640AC05820058B77485A82C9668CAC65E5C77799ACE699B666F64637668A0098760309AD386700000000000000000000000000000000000000005B2C4102"  />
+			
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item1" id="Item.sword_sparta4"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Head" id="Item.spherohead2"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item1" id="Item.sword_sparta4"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Head" id="Item.spherohead2"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_spartan_leader_object" name="Eurybiades" is_female="false" age="35" voice="ironic" default_group="Infantry" is_hero="true" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35.24" weight="0.4806" build="0.554"  key="0018640AC05820058B77485A82C9668CAC65E5C77799ACE699B666F64637668A0098760309AD386700000000000000000000000000000000000000005B2C4102"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item1" id="Item.sword_sparta4"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Head" id="Item.spherohead2"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item1" id="Item.sword_sparta4"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Head" id="Item.spherohead2"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_spartan_leader_1" name="{=!}Athena" is_female="false" age="25" voice="softspoken" is_template="true" default_group="Ranged" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="25" weight="0" build="0.4992"  key="0005B00D101432412E8994586364669494F589463B995F1B79AB8FE087FA070701A706140A4752200000000000000000000000000000000000000000794410C3"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sword_sparta"/>
+				<equipment slot="Item1" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.greekbow"/>
+				<equipment slot="Item3" id="Item.greekarrow"/>	
+				<equipment slot="Head" id="Item.helmethigh"/>
+				<equipment slot="Cape" id="Item.spcapef"/>					
+				<equipment slot="Body" id="Item.spchestarmorf2"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_sparta"/>
+				<equipment slot="Item1" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.greekbow"/>
+				<equipment slot="Item3" id="Item.greekarrow"/>	
+				<equipment slot="Head" id="Item.helmethigh"/>
+				<equipment slot="Cape" id="Item.spcapef"/>					
+				<equipment slot="Body" id="Item.spchestarmorf2"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_spartan_leader_2" name="{=!}Damocles" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.spartan_common2" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item1" id="Item.sword_sparta4"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Head" id="Item.spherohead2"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item1" id="Item.sword_sparta4"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Head" id="Item.spherohead2"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_spartan_leader_3" name="{=!}Eos" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.spartan_common3" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item1" id="Item.sword_sparta4"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Head" id="Item.spherohead2"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item1" id="Item.sword_sparta4"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Head" id="Item.spherohead2"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

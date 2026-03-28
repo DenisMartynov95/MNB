@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_spartan_leader_object" text="Eurybiades is a Spartan navarch in charge of the Greek navy. He and his fleet was lost at sea and arrived in Calradia through the 'Maelstrom'." faction="Faction.spartan_company" />
+
+</Heroes>
