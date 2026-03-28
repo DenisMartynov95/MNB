@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="851ebc8b-4d30-4071-afa7-b4f63bccbf81" name="Changes" comment="">
+    <list default="true" id="851ebc8b-4d30-4071-afa7-b4f63bccbf81" name="Changes" comment="Исправляю ветку спарты">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spnpccharacters.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/План Работ" beforeDir="false" afterPath="$PROJECT_DIR$/План Работ" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +63,13 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "DEV",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -128,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774606589297</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Исправляю ветку спарты">
+      <option name="closed" value="true" />
+      <created>1774650342971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774650342971</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +144,7 @@
     <MESSAGE value="Обернул в коммент одну из веток &lt;!-- Спарта --&gt;" />
     <MESSAGE value="Далее: Добавил для Спарты везде культуру .sparta и для цепочки юнитов так же, чтобы у них не было культуры .sic &#10;Так же для поселения Спарты" />
     <MESSAGE value="Далее: Для Сицилии переставил стандартных юнитов, для тестов. Вылетов стало меньше после предыдущих коммитов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Далее: Для Сицилии переставил стандартных юнитов, для тестов. Вылетов стало меньше после предыдущих коммитов" />
+    <MESSAGE value="Исправляю ветку спарты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправляю ветку спарты" />
   </component>
 </project>
