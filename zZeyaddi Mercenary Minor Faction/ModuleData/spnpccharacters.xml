@@ -22,7 +22,7 @@
 			</skills>
 			<upgrade_targets>
 				<upgrade_target id="NPCCharacter.zeyaddi_infantry"/>
-				<upgrade_target id="NPCCharacter.zeyaddi_soldier"/>
+				<upgrade_target id="NPCCharacter.zeyaddi_rider"/>
 			</upgrade_targets>
 			<Equipments>
 				<EquipmentRoster>
@@ -152,76 +152,7 @@
 				</EquipmentRoster>
 			</Equipments>
 		</NPCCharacter>
-		<NPCCharacter id="zeyaddi_soldier"
-			default_group="Infantry"
-			level="11"
-			name="Пустынный копейщик"
 
-			occupation="Soldier"
-			culture="Culture.aserai">
-			<face>
-				<face_key_template value="BodyProperty.villager_aserai"/>
-			</face>
-			<skills >
-				<skill id="Athletics" value="160"/>
-				<skill id="Riding" value="60"/>
-				<skill id="OneHanded" value="160"/>
-				<skill id="TwoHanded" value="60"/>
-				<skill id="Polearm" value="160"/>
-				<skill id="Bow" value="60"/>
-				<skill id="Crossbow" value="60"/>
-				<skill id="Throwing" value="160"/>
-			</skills>
-			<upgrade_targets>
-				<upgrade_target id="NPCCharacter.zeyaddi_rider"/>
-			</upgrade_targets>
-			<Equipments>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.western_spear_2_t2"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zv"/>
-					<equipment slot="Item2" id="Item.javelin_sparta2"/>
-					<equipment slot="Item3" id="Item.javelin_sparta2"/>
-					<equipment slot="Head" id="Item.ao_subuwari_noblemans_helmet_b"/>
-					<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_a"/>
-					<equipment slot="Body" id="Item.aserai_chain_plate_armor_a"/>
-					<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-					<equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.western_spear_2_t2"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zv"/>
-					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
-					<equipment slot="Head" id="Item.western_spear_2_t2"/>
-					<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_a"/>
-					<equipment slot="Body" id="Item.aserai_chain_plate_armor_b"/>
-					<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-					<equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.western_spear_2_t2"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zv"/>
-					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
-					<equipment slot="Head" id="Item.AR_aserai_helmet_m"/>
-					<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_a"/>
-					<equipment slot="Body" id="Item.aserai_chain_plate_armor_c"/>
-					<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-					<equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
-				</EquipmentRoster>
-				<EquipmentRoster civilian="true">
-					<equipment slot="Item0" id="Item.western_spear_2_t2"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zv"/>
-					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
-					<equipment slot="Head" id="Item.AR_aserai_helmet_m"/>
-					<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_a"/>
-					<equipment slot="Body" id="Item.aserai_chain_plate_armor_c"/>
-					<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-					<equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
-				</EquipmentRoster>
-			</Equipments>
-		</NPCCharacter>
 		<NPCCharacter id="zeyaddi_ranger"
 			default_group="Ranged"
 			level="16"
@@ -364,7 +295,7 @@
 		</NPCCharacter>
 		<NPCCharacter id="zeyaddi_rider"
 			default_group="Cavalry"
-			level="16"
+			level="11"
 			name="Пустынный легкий всадник"
 
 			occupation="Soldier"
@@ -384,7 +315,6 @@
 			</skills>
 			<upgrade_targets>
 				<upgrade_target id="NPCCharacter.zeyaddi_horse_archer"/>
-				<upgrade_target id="NPCCharacter.zeyaddi_cavalry"/>
 			</upgrade_targets>
 			<Equipments>
 				<EquipmentRoster>
@@ -528,113 +458,22 @@
 			<skills >
 				<skill id="Athletics" value="220"/>
 				<skill id="Riding" value="250"/>
-				<skill id="OneHanded" value="220"/>
+				<skill id="OneHanded" value="150"/>
 				<skill id="TwoHanded" value="60"/>
 				<skill id="Polearm" value="60"/>
-				<skill id="Bow" value="220"/>
+				<skill id="Bow" value="170"/>
 				<skill id="Crossbow" value="60"/>
 				<skill id="Throwing" value="60"/>
-			</skills>
-			<upgrade_targets>
-				<upgrade_target id="NPCCharacter.zeyaddi_elite_horse_archer"/>
-			</upgrade_targets>
-			<Equipments>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_war_bow"/>
-					<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item3" id="Item.AR_kituga_a"/>
-					<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c"/>
-					<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
-					<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
-					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
-					<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
-					<equipment slot="Horse" id="Item.noble_horse_southern"/>
-					<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_war_bow"/>
-					<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item3" id="Item.AR_kituga_a"/>
-					<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c2"/>
-					<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
-					<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
-					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
-					<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
-					<equipment slot="Horse" id="Item.noble_horse_southern"/>
-					<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_war_bow"/>
-					<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item3" id="Item.AR_kituga_a"/>
-					<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c3"/>
-					<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
-					<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
-					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
-					<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
-					<equipment slot="Horse" id="Item.noble_horse_southern"/>
-					<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_war_bow"/>
-					<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item3" id="Item.AR_kituga_a"/>
-					<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c4"/>
-					<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
-					<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
-					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
-					<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
-					<equipment slot="Horse" id="Item.noble_horse_southern"/>
-					<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
-				</EquipmentRoster>
-				<EquipmentRoster civilian="true">
-					<equipment slot="Item0" id="Item.steppe_war_bow"/>
-					<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item3" id="Item.AR_kituga_a"/>
-					<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c"/>
-					<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
-					<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
-					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
-					<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
-					<equipment slot="Horse" id="Item.noble_horse_southern"/>
-					<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
-				</EquipmentRoster>
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter id="zeyaddi_cavalry"
-			default_group="Cavalry"
-			level="21"
-			name="Зуяди тяжелый всадник"
-
-			occupation="Soldier"
-			culture="Culture.aserai">
-			<face>
-				<face_key_template value="BodyProperty.villager_aserai"/>
-			</face>
-			<skills >
-				<skill id="Athletics" value="220"/>
-				<skill id="Riding" value="250"/>
-				<skill id="OneHanded" value="160"/>
-				<skill id="TwoHanded" value="160"/>
-				<skill id="Polearm" value="240"/>
-				<skill id="Bow" value="60"/>
-				<skill id="Crossbow" value="60"/>
-				<skill id="Throwing" value="160"/>
 			</skills>
 			<upgrade_targets>
 				<upgrade_target id="NPCCharacter.zeyaddi_heavy_cavalry"/>
 			</upgrade_targets>
 			<Equipments>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zzd"/>
-					<equipment slot="Item2" id="Item.pugio"/>
-					<equipment slot="Item3" id="Item.javelin_sparta2"/>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+					<equipment slot="Item3" id="Item.AR_kituga_a"/>
 					<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c"/>
 					<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
 					<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
@@ -644,10 +483,10 @@
 					<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zzd"/>
-					<equipment slot="Item2" id="Item.pugio"/>
-					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+					<equipment slot="Item3" id="Item.AR_kituga_a"/>
 					<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c2"/>
 					<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
 					<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
@@ -657,10 +496,10 @@
 					<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zzd2"/>
-					<equipment slot="Item2" id="Item.pugio"/>
-					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+					<equipment slot="Item3" id="Item.AR_kituga_a"/>
 					<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c3"/>
 					<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
 					<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
@@ -670,10 +509,10 @@
 					<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zzd2"/>
-					<equipment slot="Item2" id="Item.pugio"/>
-					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+					<equipment slot="Item3" id="Item.AR_kituga_a"/>
 					<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c4"/>
 					<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
 					<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
@@ -683,10 +522,10 @@
 					<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
 				</EquipmentRoster>
 				<EquipmentRoster civilian="true">
-					<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zzd"/>
-					<equipment slot="Item2" id="Item.pugio"/>
-					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+					<equipment slot="Item3" id="Item.AR_kituga_a"/>
 					<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c"/>
 					<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
 					<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
@@ -934,7 +773,7 @@
 		</NPCCharacter>
 		<NPCCharacter id="zeyaddi_heavy_cavalry"
 			default_group="Cavalry"
-			level="36"
+			level="26"
 			name="Зеяди тяжелый всадник пустынь"
 
 			occupation="Soldier"
@@ -952,6 +791,11 @@
 				<skill id="Crossbow" value="60"/>
 				<skill id="Throwing" value="260"/>
 			</skills>
+
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.zeyaddi_elite_horse_archer"/>
+			</upgrade_targets>
+
 			<Equipments>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>

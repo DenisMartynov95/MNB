@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Правлю ветку арабов">
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Фиксю">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
     </list>
@@ -44,7 +44,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774732431307</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Фиксю">
+      <option name="closed" value="true" />
+      <created>1774733194528</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774733194528</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,6 +81,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ветка спарты исправлена" />
     <MESSAGE value="Правлю ветку арабов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Правлю ветку арабов" />
+    <MESSAGE value="Фиксю" />
+    <option name="LAST_COMMIT_MESSAGE" value="Фиксю" />
   </component>
 </project>
