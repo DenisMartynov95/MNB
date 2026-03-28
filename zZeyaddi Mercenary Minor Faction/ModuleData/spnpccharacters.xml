@@ -155,7 +155,7 @@
 
 		<NPCCharacter id="zeyaddi_ranger"
 			default_group="Ranged"
-			level="16"
+			level="15"
 			name="Пустынный лучник"
 
 			occupation="Soldier"
@@ -295,7 +295,7 @@
 		</NPCCharacter>
 		<NPCCharacter id="zeyaddi_rider"
 			default_group="Cavalry"
-			level="11"
+			level="13"
 			name="Пустынный легкий всадник"
 
 			occupation="Soldier"
@@ -447,7 +447,7 @@
 
 		<NPCCharacter id="zeyaddi_horse_archer"
 			default_group="HorseArcher"
-			level="21"
+			level="26"
 			name="Пустынный конный лучник"
 
 			occupation="Soldier"
@@ -773,7 +773,7 @@
 		</NPCCharacter>
 		<NPCCharacter id="zeyaddi_heavy_cavalry"
 			default_group="Cavalry"
-			level="26"
+			level="31"
 			name="Зеяди тяжелый всадник пустынь"
 
 			occupation="Soldier"
