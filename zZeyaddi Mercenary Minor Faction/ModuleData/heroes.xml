@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_zeyaddi_leader_object" text="Asad Al Zeyaddi is the leader of the Zeyaddi Mercenaries, raised in the winding alleyways of a desert city, Asad's upbringing was marked by the harsh realities of life. Orphaned at a young age, he learned the arts of combat, stealth, and survival in the unforgiving desert." faction="Faction.zeyaddi_company" />
+
+</Heroes>

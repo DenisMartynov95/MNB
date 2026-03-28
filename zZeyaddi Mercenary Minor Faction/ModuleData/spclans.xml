@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="zeyaddi_company"
+			 initial_posX="649.041"
+			 initial_posY="230.990"
+			 banner_key="11.142.142.1836.1861.1654.1113.1.1.0.521.7.74.-645.673.764.767.0.1.15.521.7.74.-642.671.764.764.0.1.-1.428.35.35.-434.422.757.762.0.0.-91.521.140.140.-176.165.847.756.0.1.-42"
+             culture="Culture.aserai"
+             default_party_template="PartyTemplate.zeyaddi_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Наемники Зейядди (Арабы 6)"
+             tier="6"
+             text="Наемники Зейядди - легендарная и загадочная компания наемников, родом из бескрайних пустынь desert waste. Основанная столетия назад, она заслужила репутацию умелых воинов, убийц и защитников караванов в пустыне. Их происхождение окутано тайной, вокруг их основания ходит множество слухов и легенд, что делает их предметом интриг и уважения среди жителей королевства. Они предлагают свои услуги самым разным клиентам, включая города-государства, торговые караваны и богатых частных лиц. Они превосходно справляются с такими задачами, как защита торговых путей от мародерствующих бандитов, устранение угроз поселениям в пустыне и выполнение секретных миссий или убийств, когда это необходимо. Благодаря своим способностям они пользуются большим спросом, а их репутация является как благом, так и бременем"
+			 owner="Hero.spc_zeyaddi_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_zeyaddi_leader_0" />
+			<template id="NPCCharacter.spc_zeyaddi_leader_1" />
+			<template id="NPCCharacter.spc_zeyaddi_leader_2" />
+			<template id="NPCCharacter.spc_zeyaddi_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

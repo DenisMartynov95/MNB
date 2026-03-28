@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_zeyaddi_leader_0" name="{=!}Asad Al Zeyaddi" is_female="false" age="40" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="40.15" weight="0.4614" build="0.5201"  key="0023F00F0058248B7594C745997382E8ACD569D87827959AA954978D7968771900A876030A2A9B6E000000000000000000000000000000000000000051543082"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="250"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="200"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2"/>				
+				<equipment slot="Cape" id="Item.AR_aserai_lamellar_cape_a"/>
+				<equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_c"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c3"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2"/>				
+				<equipment slot="Cape" id="Item.AR_aserai_lamellar_cape_a"/>
+				<equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_c"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c3"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_zeyaddi_leader_object" name="Asad Al Zeyaddi" is_female="false" age="40" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="40.15" weight="0.4614" build="0.5201"  key="0023F00F0058248B7594C745997382E8ACD569D87827959AA954978D7968771900A876030A2A9B6E000000000000000000000000000000000000000051543082"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="250"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="200"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2"/>				
+				<equipment slot="Cape" id="Item.AR_aserai_lamellar_cape_a"/>
+				<equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_c"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c3"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2"/>				
+				<equipment slot="Cape" id="Item.AR_aserai_lamellar_cape_a"/>
+				<equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_c"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c3"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_zeyaddi_leader_1" name="{=!}Sekundes" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="250"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="200"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2"/>				
+				<equipment slot="Cape" id="Item.AR_aserai_lamellar_cape_a"/>
+				<equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_c"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c3"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2"/>				
+				<equipment slot="Cape" id="Item.AR_aserai_lamellar_cape_a"/>
+				<equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_c"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c3"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_zeyaddi_leader_2" name="{=!}Abraxis" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="250"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="200"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2"/>				
+				<equipment slot="Cape" id="Item.AR_aserai_lamellar_cape_a"/>
+				<equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_c"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c3"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2"/>				
+				<equipment slot="Cape" id="Item.AR_aserai_lamellar_cape_a"/>
+				<equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_c"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c3"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_zeyaddi_leader_3" name="{=!}Ortac" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="200"/>
+			<skill id="Riding" value="250"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="200"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2"/>				
+				<equipment slot="Cape" id="Item.AR_aserai_lamellar_cape_a"/>
+				<equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_c"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c3"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.aserai_noble_sword_2_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2"/>				
+				<equipment slot="Cape" id="Item.AR_aserai_lamellar_cape_a"/>
+				<equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_c"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c3"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
