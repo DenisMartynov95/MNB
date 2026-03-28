@@ -214,7 +214,7 @@
 		</NPCCharacter>
 		<NPCCharacter id="zeyaddi_fighter"
 			default_group="Infantry"
-			level="21"
+			level="18"
 			name="Пустынный боец"
 
 			occupation="Soldier"
