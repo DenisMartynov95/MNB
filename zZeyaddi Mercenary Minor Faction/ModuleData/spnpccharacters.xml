@@ -3,7 +3,7 @@
 		<NPCCharacter id="zeyaddi_nomad"
 			default_group="Infantry"
 			level="6"
-			name="Арабский рекрут"
+			name="AAarabАрабский рекрут"
 			is_basic_troop="true"
 			occupation="Soldier"
 			culture="Culture.aserai">

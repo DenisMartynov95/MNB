@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Kronitumirai"/>
+	<Id value = "KronitumiraiMC"/>
+	<Version value = "e1.0.3"/>
+	<DefaultModule value="false"/>
+	<ModuleCategory value="Singleplayer"/>
+  <Official value="false" />
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="e1.8.0" Optional="true"/>
+                <DependedModule Id="OpenSourceArmory" DependentVersion="v1.0.0" Optional="false"/>
+	</DependedModules>
+	<SubModules/>
+	<Xmls>      
+		<XmlNode>                
+			<XmlName id="partyTemplates" path="partyTemplates"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+                <XmlNode>                
+			<XmlName id="Factions" path="spclans"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode> 
+                <XmlNode>                
+			<XmlName id="NPCCharacters" path="spspecialcharacters"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+                <XmlNode>                
+			<XmlName id="NPCCharacters" path="spnpccharacters"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>  
+                <XmlNode>                
+			<XmlName id="EquipmentRosters" path="sandbox_equipment_sets"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>   
+	</Xmls>
+</Module>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+  <Faction id="kronitumirai"
+           initial_posX="488.0"
+           initial_posY="152.0"
+           banner_key="14.145.92.1533.1237.759.762.1.0.0.152.27.116.390.377.760.764.1.1.0"
+           label_color="FF714214"
+           color="FF714214"
+           color2="FF830808"
+           alternative_color="FF714214"
+           alternative_color2="FF830808"
+           culture="Culture.aserai"
+           default_party_template="PartyTemplate.kronitumirai_party_template"
+           settlement_banner_mesh="encounter_flag_f"
+           is_minor_faction="true"
+           is_mafia="true"
+           name="Kronitumirai (4 Арабы)"
+           tier="4"
+           text="At first glance, many might label them as just another group of hired adventurers, eager for gold coins and bloody battles. However, the truth about Kronitumirai was much deeper than that. Kronitumirai was no ordinary mercenary clan. They were Aserai with heart and soul, dedicated to serving their kingdom and their people. For them, the idea of being vassals of the Aserai kingdom was not just a duty, it was an unparalleled honor. In dark times of war and conflict, they believed they had much to offer the Aserai cause. The men of Kronitumirai were made of courage and honor. Every battle they fought, every contract they accepted, was an opportunity to prove their worth and dedication to the kingdom. They threw themselves into seemingly impossible challenges, determined to make a difference. Each confrontation was an opportunity to show that they were willing to fight to the end to protect the Aserai kingdom and its people. Kronitumirai knew that the path to becoming worthy of fighting for the nobles and the beloved kingdom was long and arduous. Yet they were willing to walk the walk, accepting mercenary contracts and proving time and time again that they were capable of making a difference. With each victory, with each battle won, they added strength to the Aserai ranks and got closer to their objective. Thus, Kronitumirai continued to fight, not only for personal wealth, but for recognition and the privilege of serving the Aserai kingdom. They were a testament to the devotion and resilience that could be found in the hearts of those who believed in the cause they championed, proving that, for them, loyalty and love for the kingdom were more valuable than any material treasure.">
+    <minor_faction_character_templates>
+      <template id="NPCCharacter.spc_kronitumirai_leader_0" />
+      <template id="NPCCharacter.spc_kronitumirai_leader_1" />
+      <template id="NPCCharacter.spc_kronitumirai_leader_2" />
+      <template id="NPCCharacter.spc_kronitumirai_leader_3" />
+    </minor_faction_character_templates>
+  </Faction>
+</Factions>

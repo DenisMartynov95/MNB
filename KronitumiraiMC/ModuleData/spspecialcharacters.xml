@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="spc_kronitumirai_leader_0" name="of Kronitumirai" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.aserai" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <Traits>
+      <Trait id="Valor" value="2" />
+      <Trait id="Calculating" value="-1" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Commander" value="12" />
+      <Trait id="HorseArcherFightingSkills" value="5" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="spc_kronitumirai_leader" />
+      <EquipmentSet id="spc_kronitumirai_leader" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_kronitumirai_leader_1" name="of Kronitumirai" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.aserai" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <Traits>
+      <Trait id="Mercy" value="-2" />
+      <Trait id="Valor" value="2" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Commander" value="12" />
+      <Trait id="HorseArcherFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="spc_kronitumirai_leader" />
+      <EquipmentSet id="spc_kronitumirai_leader" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_kronitumirai_leader_2" name="of Kronitumirai" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.aserai" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Valor" value="2" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Commander" value="12" />
+      <Trait id="HorseArcherFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="spc_kronitumirai_leader" />
+      <EquipmentSet id="spc_kronitumirai_leader" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_kronitumirai_leader_3" name="of Kronitumirai" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.aserai" occupation="Lord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="-2" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Calculating" value="2" />
+      <Trait id="Commander" value="12" />
+      <Trait id="BalancedFightingSkills" value="4" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="spc_kronitumirai_leader" />
+      <EquipmentSet id="spc_kronitumirai_leader" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>
