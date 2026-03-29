@@ -29,7 +29,7 @@
                value="10" />
       </skills>
       <upgrade_targets>
-        <upgrade_target id="NPCCharacter.vespan_squire" />
+        <upgrade_target id="NPCCharacter.garb_tier1" />
         <upgrade_target id="NPCCharacter.desertorder_tier1" />
       </upgrade_targets>
       <Equipments>
@@ -510,11 +510,61 @@
     </Equipments>
   </NPCCharacter>
 
-
-  <NPCCharacter id="vespan_squire"
+  <NPCCharacter id="garb_tier1"
                 default_group="Infantry"
                 level="11"
-                name="Воин Нефтертити"
+                name="Египетский боец"
+                occupation="Soldier"
+                culture="Culture.egypt">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="170" />
+      <skill id="Riding"
+             value="20" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="0" />
+      <skill id="Polearm"
+             value="140" />
+      <skill id="Bow"
+             value="0" />
+      <skill id="Crossbow"
+             value="0" />
+      <skill id="Throwing"
+             value="130" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vespan_squire" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.simple_back_sword_t2" />
+        <equipment slot="Item1" id="Item.bound_desert_round_sparring_shield" />
+        <equipment slot="Item2" id="Item.western_spear_2_t2" />
+        <equipment slot="Head" id="Item.tight_head_scarf" />
+        <equipment slot="Body" id="Item.AR_aserai_armor_h" />
+        <equipment slot="Leg" id="Item.sturgia_boots_d" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.simple_back_sword_t2" />
+        <equipment slot="Item1" id="Item.bound_desert_round_sparring_shield" />
+        <equipment slot="Item2" id="Item.western_spear_2_t2" />
+        <equipment slot="Head" id="Item.closed_head_scarf" />
+        <equipment slot="Body" id="Item.tv_aserai_lamellar_i" />
+        <equipment slot="Leg" id="Item.sturgia_boots_c" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vespan_squire"
+                default_group="Infantry"
+                level="16"
+                name="Перерожденный"
                 occupation="Soldier"
                 culture="Culture.egypt">
     <face>
@@ -583,7 +633,7 @@
   </NPCCharacter>
   <NPCCharacter id="vespan_soldier"
                 default_group="Infantry"
-                level="16"
+                level="18"
                 name="Страж Нефтертити с двуручником"
                 occupation="Soldier"
                 culture="Culture.egypt">
