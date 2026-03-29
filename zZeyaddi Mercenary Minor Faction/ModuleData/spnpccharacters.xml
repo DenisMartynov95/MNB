@@ -216,7 +216,7 @@
 			default_group="Infantry"
 			level="18"
 			name="Пустынный боец"
-
+					  is_basic_troop="true"
 			occupation="Soldier"
 			culture="Culture.aserai">
 			<face>
@@ -297,7 +297,7 @@
 			default_group="Cavalry"
 			level="12"
 			name="Пустынный легкий всадник"
-
+					  is_basic_troop="true"
 			occupation="Soldier"
 			culture="Culture.aserai">
 			<face>
