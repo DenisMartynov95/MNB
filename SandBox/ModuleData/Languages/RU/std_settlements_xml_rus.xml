@@ -356,8 +356,8 @@
     <string id="Settlements.Settlement.name.town_B3" text="{.MI}Кельтон" />
     <string id="Settlements.Settlement.name.town_B4" text="{.MI}Созополь" />
     <string id="Settlements.Settlement.name.town_B5" text="Ганнибал" />
-    <string id="Settlements.Settlement.name.town_EN1" text="{.FI}Атлантида" />
-    <string id="Settlements.Settlement.name.town_EN2" text="{.FI}Родос" />
+    <string id="Settlements.Settlement.name.town_EN1" text="{.FI}Родос" />
+    <string id="Settlements.Settlement.name.town_EN2" text="{.FI}Атлантида" />
     <string id="Settlements.Settlement.name.town_EN3" text="{.FI}Коринфы" />
     <string id="Settlements.Settlement.name.town_EN4" text="{.MI}Эсартисис" />
     <string id="Settlements.Settlement.name.town_EN5" text="{.FI}Сиракузы" />

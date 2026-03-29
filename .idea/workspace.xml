@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Первая ветка атлантов готова">
-      <change afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/SubModule.xml" afterDir="false" />
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Вторая ветка атлантов готова">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/План Работ" beforeDir="false" afterPath="$PROJECT_DIR$/План Работ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/Languages/RU/std_settlements_xml_rus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/Languages/RU/std_settlements_xml_rus.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774822579073</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Вторая ветка атлантов готова">
+      <option name="closed" value="true" />
+      <created>1774823242634</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1774823242634</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +223,7 @@
     <MESSAGE value="Ветка Египта" />
     <MESSAGE value="Переработал ветку египта" />
     <MESSAGE value="Первая ветка атлантов готова" />
-    <option name="LAST_COMMIT_MESSAGE" value="Первая ветка атлантов готова" />
+    <MESSAGE value="Вторая ветка атлантов готова" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вторая ветка атлантов готова" />
   </component>
 </project>
