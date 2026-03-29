@@ -347,8 +347,8 @@
     <string id="Settlements.Settlement.name.town_A1" text="{.MI}Багдад" />
     <string id="Settlements.Settlement.name.town_A2" text="Адрианополь" />
     <string id="Settlements.Settlement.name.town_A3" text="{.MI}Пасаргады" />
-    <string id="Settlements.Settlement.name.town_A4" text="{.NI}Персеполис" />
-    <string id="Settlements.Settlement.name.town_A5" text="{.MI}Иерусалим" />
+    <string id="Settlements.Settlement.name.town_A4" text="{.NI}Иерусалим" />
+    <string id="Settlements.Settlement.name.town_A5" text="{.MI}Персеполис" />
     <string id="Settlements.Settlement.name.town_A7" text="{.MI}Фивы" />
     <string id="Settlements.Settlement.name.town_A8" text="{.FI}Троя" />
     <string id="Settlements.Settlement.name.town_B1" text="{.MI}Бурдигала" />

@@ -9551,8 +9551,8 @@
 	</Settlement>
 	<Settlement
 		id="town_A6"
-		name="{=Settlements.Settlement.name.town_A6}Александрия"
-		owner="Faction.clan_aserai_1"
+		name="Александрия"
+		owner="Faction.clan_aserai_3"
 		posX="401.068"
 		posY="207.927"
 		culture="Culture.egypt"
