@@ -3,7 +3,7 @@
 		<NPCCharacter id="zeyaddi_nomad"
 			default_group="Infantry"
 			level="6"
-			name="AAarabАрабский рекрут"
+			name="AAarab1Арабский рекрут"
 			is_basic_troop="true"
 			occupation="Soldier"
 			culture="Culture.aserai">
@@ -86,7 +86,7 @@
 	<NPCCharacter id="zeyaddi_infantry"
 			default_group="Infantry"
 			level="11"
-			name="Пустынный солдат"
+			name="AAarab2Пустынный солдат"
 			occupation="Soldier"
 			culture="Culture.aserai">
 			<face>
@@ -428,7 +428,7 @@
 		<NPCCharacter id="zeyaddi_ranger"
 			default_group="Ranged"
 			level="11"
-			name="Пустынный лучник"
+			name="AAarab3Пустынный лучник"
 
 			occupation="Soldier"
 			culture="Culture.aserai">

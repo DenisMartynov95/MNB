@@ -3,7 +3,7 @@
   <NPCCharacter id="kronitumirai_tier1"
                   default_group="Infantry"
                   level="6"
-                  name="Харуш с двуручным мечом"
+                  name="AaaEgypt1Харуш с двуручным мечом"
                   occupation="Soldier"
                   is_basic_troop="true"
                   culture="Culture.egypt">
@@ -59,7 +59,7 @@
   <NPCCharacter id="desertorder_tier1"
                 default_group="Cavalry"
                 level="11"
-                name="Пустынный всадник"
+                name="AaaEgypt2Пустынный всадник"
                 occupation="Soldier"
                 is_basic_troop="true"
                 culture="Culture.egypt">
@@ -515,7 +515,7 @@
   <NPCCharacter id="garb_tier1"
                 default_group="Infantry"
                 level="11"
-                name="Египетский боец"
+                name="AaaEgypt2Египетский боец"
                 is_basic_troop="true"
                 occupation="Soldier"
                 culture="Culture.egypt">

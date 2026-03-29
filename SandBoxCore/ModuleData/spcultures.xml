@@ -11294,7 +11294,7 @@
 		basic_troop="NPCCharacter.kronitumirai_tier1"
 		melee_militia_troop="NPCCharacter.vespan_defender"
 		ranged_militia_troop="NPCCharacter.aserai_militia_archer"
-		melee_elite_militia_troop="NPCCharacter.vespan_champion"
+		melee_elite_militia_troop="NPCCharacter.vespan_guardian"
 		ranged_elite_militia_troop="NPCCharacter.vespan_sniper"
 		can_have_settlement="true"
 		town_edge_number="16"
