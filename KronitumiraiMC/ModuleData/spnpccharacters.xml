@@ -61,7 +61,9 @@
                 level="11"
                 name="Пустынный всадник"
                 occupation="Soldier"
+                is_basic_troop="true"
                 culture="Culture.egypt">
+
     <face>
       <face_key_template value="BodyProperty.fighter_aserai" />
     </face>
@@ -514,6 +516,7 @@
                 default_group="Infantry"
                 level="11"
                 name="Египетский боец"
+                is_basic_troop="true"
                 occupation="Soldier"
                 culture="Culture.egypt">
     <face>
