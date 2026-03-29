@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Продолжаю балансить">
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Переработка ветки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/План Работ" beforeDir="false" afterPath="$PROJECT_DIR$/План Работ" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774790878709</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Переработка ветки">
+      <option name="closed" value="true" />
+      <created>1774810106369</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1774810106369</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +154,7 @@
     <MESSAGE value="Правлю ветку арабов" />
     <MESSAGE value="Фиксю" />
     <MESSAGE value="Продолжаю балансить" />
-    <option name="LAST_COMMIT_MESSAGE" value="Продолжаю балансить" />
+    <MESSAGE value="Переработка ветки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переработка ветки" />
   </component>
 </project>
