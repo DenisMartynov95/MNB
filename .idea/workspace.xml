@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Переработал ветку египта">
-      <change afterPath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/SubModule.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Первая ветка атлантов готова">
+      <change beforePath="$PROJECT_DIR$/План Работ" beforeDir="false" afterPath="$PROJECT_DIR$/План Работ" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774820880908</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Первая ветка атлантов готова">
+      <option name="closed" value="true" />
+      <created>1774822548446</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1774822548446</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +204,7 @@
     <MESSAGE value="Переработка ветки" />
     <MESSAGE value="Ветка Египта" />
     <MESSAGE value="Переработал ветку египта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переработал ветку египта" />
+    <MESSAGE value="Первая ветка атлантов готова" />
+    <option name="LAST_COMMIT_MESSAGE" value="Первая ветка атлантов готова" />
   </component>
 </project>
