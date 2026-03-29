@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Вторая ветка атлантов готова">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/Languages/RU/std_settlements_xml_rus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/Languages/RU/std_settlements_xml_rus.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/План Работ" beforeDir="false" afterPath="$PROJECT_DIR$/План Работ" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774823242634</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Вторая ветка атлантов готова">
+      <option name="closed" value="true" />
+      <created>1774823728236</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1774823728236</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
