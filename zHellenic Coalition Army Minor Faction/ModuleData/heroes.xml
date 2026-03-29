@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_hellenic_leader_object" text="Arcturus Midas is legendary general in Hellenic history, known as a renowned and formidable military tactician. In the annals of ancient Greece, his name is synonymous with strategic brilliance, unwavering leadership, and an unyielding commitment to the defense of his homeland. In 321 B.C., while sailing across the Aegean Sea his fleet was lost in the maelstrom and landed in Calradia." faction="Faction.hellenic_army" />
+
+</Heroes>

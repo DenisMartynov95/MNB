@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="hellenic_army"
+			 initial_posX="246.362"
+			 initial_posY="223.700"
+			 banner_key="11.14.0.1756.2832.764.809.1.0.0.503.0.14.546.546.763.755.1.1.0.501.0.14.546.546.764.764.1.1.0"
+             culture="Culture.empire"
+             default_party_template="PartyTemplate.hellenic_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Коалиция Эллинистких Войнов (6 Греция)"
+             tier="6"
+             text="One fateful day, as the Hellenic armada crossed the Aegean Sea, a mysterious and ominous phenomenon occurred. The calm sea suddenly transformed into a turbulent, churning maelstrom of epic proportions. Giant whirlpools formed, threatening to engulf the entire fleet. The sailors desperately struggled to steer their ships away from the deadly vortex, but the maelstrom's pull was too powerful. The world around them seemed to blur and distort as their ships were sucked into the heart of the tempest. It was as if they had entered a gateway to another dimension, a realm beyond the boundaries of their known world, they arrive in Calradia."
+			 owner="Hero.spc_hellenic_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_hellenic_leader_0" />
+			<template id="NPCCharacter.spc_hellenic_leader_1" />
+			<template id="NPCCharacter.spc_hellenic_leader_2" />
+			<template id="NPCCharacter.spc_hellenic_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

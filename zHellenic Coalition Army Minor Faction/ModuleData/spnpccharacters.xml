@@ -1,0 +1,1112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="hellenic_recruit"
+		default_group="Infantry"
+		level="6"
+		name="AaaAtlantic1Атландский рекрут"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.hellenic_soldier"/>
+			<upgrade_target id="NPCCharacter.hellenic_rider"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
+				<equipment slot="Item2" id="Item.aspis_6"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_b"/>
+				<equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+				<equipment slot="Body" id="Item.exomis_1"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Leg" id="Item.bronze_greave_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
+				<equipment slot="Item2" id="Item.aspis_3"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_b"/>
+				<equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+				<equipment slot="Body" id="Item.exomis_2"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Leg" id="Item.bronze_greave_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
+				<equipment slot="Item2" id="Item.aspis_10"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_b"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.exomis_3"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Leg" id="Item.bronze_greave_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
+				<equipment slot="Item2" id="Item.aspis_7"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_b"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.exomis_4"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Leg" id="Item.bronze_greave_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.empire_sword_1_t2_blunt"/>
+				<equipment slot="Item2" id="Item.aspis_6"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_b"/>
+				<equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+				<equipment slot="Body" id="Item.exomis_1"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Leg" id="Item.bronze_greave_2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hellenic_soldier"
+				  default_group="Infantry"
+				  level="11"
+				  name="AaaAtlantic2Солдат Атлантиды"
+				  is_basic_troop="true"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.hellenic_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.aspis_13"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t3"/>
+				<equipment slot="Head" id="Item.chalcidian_3"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_6"/>
+				<equipment slot="Body" id="Item.linothorax_8"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.aspis_12"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t3"/>
+				<equipment slot="Head" id="Item.chalcidian_6"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_8"/>
+				<equipment slot="Body" id="Item.linothorax_1"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.aspis_15"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Head" id="Item.chalcidian_3"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_8"/>
+				<equipment slot="Body" id="Item.linothorax_2"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.aspis_14"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Head" id="Item.chalcidian_6"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_6"/>
+				<equipment slot="Body" id="Item.linothorax_7"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.aspis_14"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Head" id="Item.chalcidian_6"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_6"/>
+				<equipment slot="Body" id="Item.linothorax_7"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hellenic_archer"
+				  default_group="Ranged"
+				  level="16"
+				  name="Лучник Атлантиды"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.hellenic_warrior"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.broad_falchion_sword_t3"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.phrygian_9"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.broad_falchion_sword_t3"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.phrygian_10"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.broad_falchion_sword_t3"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.phrygian_11"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.broad_falchion_sword_t3"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.phrygian_12"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.broad_falchion_sword_t3"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.phrygian_9"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hellenic_warrior"
+				  default_group="Infantry"
+				  level="21"
+				  name="Золотистый воин Атлантиды"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.hellenic_blader"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.aspis_11"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Head" id="Item.phrygian_9"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.aspis_8"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Head" id="Item.phrygian_10"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.aspis_4"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Head" id="Item.phrygian_11"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.aspis_12"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Head" id="Item.phrygian_12"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.aspis_12"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Head" id="Item.phrygian_12"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hellenic_blader"
+				  default_group="Infantry"
+				  level="26"
+				  name="Великий воин двуручник Атлантиды"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.hellenic_elite_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_2hsword_t4"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_crest_a"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.western_2hsword_t4"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_crest_a"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hellenic_elite_archer"
+				  default_group="Ranged"
+				  level="31"
+				  name="Золотистый элитный лучник Атлантов"
+				  is_basic_troop="true"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.hellenic_defender"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_crest_b"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns1"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns2"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns3"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns_a"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_snake"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_snake1"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_snake_a"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_crest_b"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hellenic_defender"
+				  default_group="Infantry"
+				  level="36"
+				  name="Великий защитник Атлантиды"
+				  is_basic_troop="true"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_crest_b"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns1"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns2"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns3"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns_a"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_snake"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_snake1"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_snake_a"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_crest_b"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="hellenic_rider"
+		default_group="Cavalry"
+		level="11"
+		name="AaaAtlantic2Всадник Атлантиды"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="110"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.hellenic_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.aspis_13"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t3"/>
+				<equipment slot="Head" id="Item.chalcidian_3"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_6"/>
+				<equipment slot="Body" id="Item.linothorax_8"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
+				<equipment slot="Horse" id="Item.war_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.aspis_12"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t3"/>
+				<equipment slot="Head" id="Item.chalcidian_6"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_8"/>
+				<equipment slot="Body" id="Item.linothorax_1"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
+				<equipment slot="Horse" id="Item.war_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.aspis_15"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Head" id="Item.chalcidian_3"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_8"/>
+				<equipment slot="Body" id="Item.linothorax_2"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
+				<equipment slot="Horse" id="Item.war_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.aspis_14"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Head" id="Item.chalcidian_6"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_6"/>
+				<equipment slot="Body" id="Item.linothorax_7"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
+				<equipment slot="Horse" id="Item.war_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.aspis_14"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Head" id="Item.chalcidian_6"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_6"/>
+				<equipment slot="Body" id="Item.linothorax_7"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_3"/>
+				<equipment slot="Horse" id="Item.war_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hellenic_cavalry"
+		default_group="Cavalry"
+		level="16"
+		name="Кавалерист Атлантиды"
+		occupation="Soldier"
+		culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.hellenic_mounted_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.aspis_11"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Head" id="Item.phrygian_9"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_1"/>
+				<equipment slot="Horse" id="Item.noble_horse_imperial"/>
+				<equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.aspis_8"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Head" id="Item.phrygian_10"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_imperial"/>
+				<equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.aspis_4"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Head" id="Item.phrygian_11"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_1"/>
+				<equipment slot="Horse" id="Item.noble_horse_imperial"/>
+				<equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.aspis_12"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Head" id="Item.phrygian_12"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_imperial"/>
+				<equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.aspis_12"/>
+				<equipment slot="Item2" id="Item.southern_spear_3_t4"/>
+				<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Head" id="Item.phrygian_12"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.linothorax_9"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_imperial"/>
+				<equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hellenic_mounted_archer"
+		default_group="HorseArcher"
+		level="26"
+		name="Конный элитный лучник Атлантов"
+		occupation="Soldier"
+		culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.hellenic_heavy_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_crest_b"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns1"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns2"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns3"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns_a"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_snake"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_snake1"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_snake_a"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_crest_b"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hellenic_heavy_cavalry"
+		default_group="Cavalry"
+		level="36"
+		name="Тяжелый Атлантский Всадник"
+		occupation="Soldier"
+		culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_crest_b"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns1"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns2"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns3"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_horns_a"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_snake"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_snake1"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_snake_a"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+				<equipment slot="Item1" id="Item.aspis_1"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.cts_greek_corinthian_crest_b"/>
+				<equipment slot="Cape" id="Item.cts_pelerina_dac_a"/>
+				<equipment slot="Body" id="Item.greek_musculata_2"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+</NPCCharacters>

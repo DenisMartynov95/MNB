@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="hellenic_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.hellenic_recruit" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.hellenic_soldier" />
+        <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.hellenic_rider" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.hellenic_warrior" />
+        <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.hellenic_cavalry" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.hellenic_archer" />
+        <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.hellenic_elite_archer" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.hellenic_mounted_archer" />
+        <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.hellenic_defender" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.hellenic_blader" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.hellenic_heavy_cavalry" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>
