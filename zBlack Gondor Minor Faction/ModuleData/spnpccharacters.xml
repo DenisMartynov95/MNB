@@ -1,0 +1,757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="blackgondor_trainee"
+		default_group="Infantry"
+		level="6"
+		name="рекрут Чёрного пантеона"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_horseman"/>
+			<upgrade_target id="NPCCharacter.blackgondor_ranger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Body" id="Item.gond_tab_9ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Body" id="Item.gond_tab_9ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="blackgondor_ranger"
+				  default_group="Ranged"
+				  level="11"
+				  name="Новый лучник Чёрного пантеона"
+				  occupation="Soldier"
+				  is_basic_troop="true"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_footman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Body" id="Item.gond_tab_9ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Body" id="Item.gond_tab_9ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="blackgondor_footman"
+				  default_group="Infantry"
+				  level="16"
+				  name="Солдат Чёрного пантеона"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_crossbow"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Body" id="Item.gond_tab_9ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Body" id="Item.gond_tab_9ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="blackgondor_crossbow"
+				  default_group="HorseArcher"
+				  level="21"
+				  name="Конный лучник Чёрного пантеона"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="120"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_lth_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_lth_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="blackgondor_swordsman"
+				  default_group="Infantry"
+				  level="24"
+				  name="Мечник Чёрного пантеона"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.gond_shld2"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_lth_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.gond_shld2"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_lth_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="blackgondor_archer"
+				  default_group="Ranged"
+				  level="26"
+				  name="Наёмный лучник Чёрного пантеона"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_pikeman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.gond_tab_9ld"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.gond_tab_9ld"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="blackgondor_pikeman"
+				  default_group="Infantry"
+				  level="31"
+				  name="Элитный копейщик Чёрного пантеона"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="170"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_veteran_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.gondor_spear2"/>
+				<equipment slot="Item1" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.gondor_spear2"/>
+				<equipment slot="Item1" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="blackgondor_veteran_archer"
+				  default_group="Ranged"
+				  level="34"
+				  name="Опытный лучник Чёрного пантеона"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="190"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_paladin"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_lth_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_lth_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="blackgondor_paladin"
+				  default_group="Infantry"
+				  level="36"
+				  name="Паладин Чёрного пантеона"
+				  occupation="Soldier"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="240"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item1" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="blackgondor_horseman"
+		default_group="Cavalry"
+		level="11"
+		name="Всадник Чёрного пантеона"
+		occupation="Soldier"
+				  is_basic_troop="true"
+				  culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="110"/>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.gond_shld2"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.gond_tab_9ld"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.gond_shld2"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.gond_tab_9ld"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="blackgondor_cavalry"
+		default_group="Cavalry"
+		level="16"
+		name="Средний всадник Чёрного пантеона"
+		occupation="Soldier"
+		culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="140"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_heavy_crossbow"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.gondor_spear2"/>
+				<equipment slot="Item1" id="Item.gond_shld2"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_lth_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.gondor_spear2"/>
+				<equipment slot="Item1" id="Item.gond_shld2"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_lth_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="blackgondor_heavy_crossbow"
+		default_group="HorseArcher"
+		level="21"
+		name="Тяжелый конный лучник Чёрного пантеона"
+		occupation="Soldier"
+		culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="210"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_heavy_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="blackgondor_heavy_cavalry"
+		default_group="Cavalry"
+		level="26"
+		name="Лучший всадник Чёрного пантеона"
+		occupation="Soldier"
+		culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="240"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_mounted_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.gondor_spear2"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.gondor_spear2"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.gondor_spear2"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.gondor_spear2"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="blackgondor_mounted_archer"
+		default_group="HorseArcher"
+		level="31"
+		name="Знаменитый лучник на коне Чёрного пантеона"
+		occupation="Soldier"
+		culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="220"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.blackgondor_heavy_mounted_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_lth_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_lth_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="blackgondor_heavy_mounted_archer"
+		default_group="HorseArcher"
+		level="36"
+		name="Прославленный лучник на коне Чёрного пантеона"
+		occupation="Soldier"
+		culture="Culture.atl">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="blackgondor_armada"
+			 initial_posX="525.480"
+			 initial_posY="322.947"
+			 banner_key="2.116.116.1956.1194.461.780.1.0.0.427.5.143.861.-847.862.765.0.1.269.345.5.143.453.-446.638.758.0.1.180"
+             culture="Culture.empire"
+             default_party_template="PartyTemplate.blackgondor_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Рыцари Гондора (6 Гондор)"
+             tier="6"
+             text="Under the corrupting influence of Minas Morgul, these Gondorians would undergo a sinister transformation, turning into a twisted and malevolent force. The city is closely tied to the Nazgûl, the Ringwraiths, who once were Men corrupted by Sauron's Rings of Power. The soldiers, now servants of the Dark Lord, would be clad in dark, ominous armor. Physically and mentally corrupted, these soldiers might exhibit inhuman traits, such as unnatural strength, eerie resilience, and a terrifying aura. Their once honorable and disciplined demeanor would be replaced by a cold, emotionless obedience to Sauron's will. The soldiers would be driven by a malevolent desire to conquer and subjugate, spreading fear and despair in their wake."
+			 owner="Hero.spc_blackgondor_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_blackgondor_leader_0" />
+			<template id="NPCCharacter.spc_blackgondor_leader_1" />
+			<template id="NPCCharacter.spc_blackgondor_leader_2" />
+			<template id="NPCCharacter.spc_blackgondor_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

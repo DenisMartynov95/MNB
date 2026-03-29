@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="blackgondor_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="30" troop="NPCCharacter.blackgondor_trainee" />
+        <PartyTemplateStack min_value="10" max_value="30" troop="NPCCharacter.blackgondor_ranger" />
+        <PartyTemplateStack min_value="7" max_value="20" troop="NPCCharacter.blackgondor_footman" />
+        <PartyTemplateStack min_value="7" max_value="20" troop="NPCCharacter.blackgondor_soldier" />
+        <PartyTemplateStack min_value="7" max_value="20" troop="NPCCharacter.blackgondor_archer" />
+        <PartyTemplateStack min_value="7" max_value="20" troop="NPCCharacter.blackgondor_horseman" />
+        <PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.blackgondor_cavalry" />
+        <PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.blackgondor_crossbow" />
+        <PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.blackgondor_swordsman" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.blackgondor_spearman" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.blackgondor_veteran_archer" />
+        <PartyTemplateStack min_value="3" max_value="10" troop="NPCCharacter.blackgondor_pikeman" />
+        <PartyTemplateStack min_value="3" max_value="10" troop="NPCCharacter.blackgondor_poleaxe" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.blackgondor_paladin" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.blackgondor_blader" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.blackgondor_elite_archer" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.blackgondor_heavy_cavalry" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.blackgondor_heavy_crossbow" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

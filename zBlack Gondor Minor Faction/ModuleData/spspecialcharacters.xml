@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_blackgondor_leader_0" name="{=!}Арагорн" is_female="false" age="25" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="25.13" weight="0.5" build="0.3782"  key="001E300F0DFC03467C3566A967538A97D846AABA5EBA3D69666A88798875356200A676030A79E47800000000000000000000000000000000000000003B540102"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_blackgondor_leader_object" name="Арагорн" is_female="false" age="25" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="25.13" weight="0.5" build="0.3782"  key="001E300F0DFC03467C3566A967538A97D846AABA5EBA3D69666A88798875356200A676030A79E47800000000000000000000000000000000000000003B540102"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_blackgondor_leader_1" name="{=!}Eradan" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.blackgondor_noble" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_blackgondor_leader_2" name="{=!}Herion" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.blackgondor_common4" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_blackgondor_leader_3" name="{=!}Faramir" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.blackgondor_common2" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.gond_shld2_lrg"/>
+				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
