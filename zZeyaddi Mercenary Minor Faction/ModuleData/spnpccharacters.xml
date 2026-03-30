@@ -28,8 +28,8 @@
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.AR_shotel_t2"/>
 					<equipment slot="Item1" id="Item.AR_shield_infantry_zu"/>
-					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
+
 					<equipment slot="Head" id="Item.AR_aserai_helmet_l"/>
 					<equipment slot="Cape" id="Item.AR_aserai_shoulder_g"/>
 					<equipment slot="Body" id="Item.AR_empire_brass_lamellar_d"/>
@@ -39,8 +39,8 @@
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
 					<equipment slot="Item1" id="Item.AR_shield_infantry_zu"/>
-					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
+
 					<equipment slot="Head" id="Item.AR_aserai_helmet_c2"/>
 					<equipment slot="Cape" id="Item.AR_aserai_shoulder_v"/>
 					<equipment slot="Body" id="Item.tv_aserai_lamellar_g2"/>
@@ -50,8 +50,8 @@
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
 					<equipment slot="Item1" id="Item.AR_shield_infantry_zu"/>
-					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
+
 					<equipment slot="Head" id="Item.AR_aserai_helmet_k"/>
 					<equipment slot="Cape" id="Item.AR_aserai_shoulder_v2"/>
 					<equipment slot="Body" id="Item.AR_empire_brass_lamellar_d"/>
@@ -61,8 +61,8 @@
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.AR_shotel_t2"/>
 					<equipment slot="Item1" id="Item.AR_shield_infantry_zu"/>
-					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
+
 					<equipment slot="Head" id="Item.southern_heavy_helmet"/>
 					<equipment slot="Cape" id="Item.AR_aserai_shoulder_g"/>
 					<equipment slot="Body" id="Item.tv_aserai_lamellar_g2"/>
@@ -72,8 +72,8 @@
 				<EquipmentRoster civilian="true">
 					<equipment slot="Item0" id="Item.AR_shotel_t2"/>
 					<equipment slot="Item1" id="Item.AR_shield_infantry_zu"/>
-					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
+
 					<equipment slot="Head" id="Item.southern_heavy_helmet"/>
 					<equipment slot="Cape" id="Item.AR_aserai_shoulder_g"/>
 					<equipment slot="Body" id="Item.tv_aserai_lamellar_g2"/>
@@ -214,8 +214,8 @@
 			<EquipmentRoster civilian="true">
 				<equipment slot="Item0" id="Item.aserai_noble_sword_2_t5"/>
 				<equipment slot="Item1" id="Item.steel_round_shield"/>
-				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
+
 				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_h"/>
 				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
 				<equipment slot="Body" id="Item.AR_aserai_scale_armor_b"/>
@@ -309,7 +309,7 @@
 				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
 				<equipment slot="Item1" id="Item.AR_shield_infantry_zc"/>
 				<equipment slot="Item2" id="Item.AR_aserai_noble_sword_5_t5"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g"/>
 				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
 				<equipment slot="Body" id="Item.AR_aserai_scale_armor_c"/>

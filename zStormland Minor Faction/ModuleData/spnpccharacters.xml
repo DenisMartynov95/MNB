@@ -87,7 +87,7 @@
 						<equipment slot="Head" id="Item.sphpheadf"/>
 						<equipment slot="Cape" id="Item.sphpcape2"/>
 						<equipment slot="Body" id="Item.sphpbodyf"/>
-						<equipment slot="Gloves" id="Item."/>
+
 						<equipment slot="Leg" id="Item.sphpleg2"/>
 					</EquipmentRoster>
 					<EquipmentRoster civilian="true">
@@ -98,7 +98,7 @@
 						<equipment slot="Head" id="Item.sphpheadf"/>
 						<equipment slot="Cape" id="Item.sphpcape2"/>
 						<equipment slot="Body" id="Item.sphpbodyf"/>
-						<equipment slot="Gloves" id="Item."/>
+
 						<equipment slot="Leg" id="Item.sphpleg2"/>
 					</EquipmentRoster>
 				</Equipments>
@@ -233,7 +233,7 @@
 						<equipment slot="Head" id="Item.sphpheadf"/>
 						<equipment slot="Cape" id="Item.sphpcape2"/>
 						<equipment slot="Body" id="Item.sphpbodyf"/>
-						<equipment slot="Gloves" id="Item."/>
+
 						<equipment slot="Leg" id="Item.sphpleg2"/>
 					</EquipmentRoster>
 					<EquipmentRoster civilian="true">
@@ -244,7 +244,7 @@
 						<equipment slot="Head" id="Item.sphpheadf"/>
 						<equipment slot="Cape" id="Item.sphpcape2"/>
 						<equipment slot="Body" id="Item.sphpbodyf"/>
-						<equipment slot="Gloves" id="Item."/>
+
 						<equipment slot="Leg" id="Item.sphpleg2"/>
 					</EquipmentRoster>
 				</Equipments>

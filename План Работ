@@ -7,6 +7,8 @@
 7) Вавилон 6 > 11 > 16> 21 > 26> 31 > 36 ПОКА ЕСТЬ ПРОБЛЕМА - ОЧЕНЬ МАЛО СОЛДАТ СПАВНИТСЯ в городах
 8) Криты у Вавилона, Египта и арабов, армии не спавнятся у царей
 
+<equipment\s+[^>]*id="Item\."/>
+
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.emissary_master_horseman"/>
 		</upgrade_targets>

@@ -28,8 +28,8 @@
 					<EquipmentRoster>
 						<equipment slot="Item0" id="Item.AR_aserai_lance_2_t4"/>
 						<equipment slot="Item1" id="Item.throwing_stone"/>
-						<equipment slot="Head" id="Item."/>
-						<equipment slot="Cape" id="Item."/>
+
+
 						<equipment slot="Body" id="Item.dbsrobe"/>
 						<equipment slot="Gloves" id="Item.dbshand"/>
 						<equipment slot="Leg" id="Item.dbsleg2"/>

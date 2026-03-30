@@ -82,7 +82,7 @@
 				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_colus_a"/>
 				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
 				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
@@ -93,7 +93,7 @@
 				<equipment slot="Item0" id="Item.short_sword_t3"/>
 				<equipment slot="Item1" id="Item.cts_roman_republic_square1"/>
 				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_colus22"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a"/>
 				<equipment slot="Body" id="Item.cts_lorica_hamata_b"/>
@@ -104,7 +104,7 @@
 				<equipment slot="Item0" id="Item.short_sword_t3"/>
 				<equipment slot="Item1" id="Item.cts_roman_republic_square2"/>
 				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_colus2"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a"/>
 				<equipment slot="Body" id="Item.cts_lorica_hamata_b"/>
@@ -115,7 +115,7 @@
 				<equipment slot="Item0" id="Item.short_sword_t3"/>
 				<equipment slot="Item1" id="Item.cts_roman_republic_square3"/>
 				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_colus22"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a"/>
 				<equipment slot="Body" id="Item.cts_lorica_hamata_b"/>
@@ -126,7 +126,7 @@
 				<equipment slot="Item0" id="Item.short_sword_t3"/>
 				<equipment slot="Item1" id="Item.cts_roman_republic_square"/>
 				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_colus2"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a"/>
 				<equipment slot="Body" id="Item.cts_lorica_hamata_b"/>
@@ -162,7 +162,7 @@
 				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 				<equipment slot="Item1" id="Item.southern_oval_shield"/>
 				<equipment slot="Item2" id="Item.eastern_spear_3_t3"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_republican_helmet_horse_tail"/>
 				<equipment slot="Cape" id="Item.cts_roman_lorica_shoulder_b1"/>
 				<equipment slot="Body" id="Item.cts_lorica_hamata_b1"/>
@@ -175,7 +175,7 @@
 				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 				<equipment slot="Item1" id="Item.southern_oval_shield"/>
 				<equipment slot="Item2" id="Item.eastern_spear_3_t3"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_republican_helmet_horse_tail"/>
 				<equipment slot="Cape" id="Item.cts_roman_lorica_shoulder_b1"/>
 				<equipment slot="Body" id="Item.cts_lorica_hamata_b1"/>
@@ -213,7 +213,7 @@
 				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
 				<equipment slot="Item2" id="Item.empire_lance_1_t3"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_helmet_cav_mask"/>
 				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
 				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
@@ -226,7 +226,7 @@
 				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a2"/>
 				<equipment slot="Item2" id="Item.empire_lance_1_t3"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_colus_a_crossguard"/>
 				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a1"/>
 				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
@@ -239,7 +239,7 @@
 				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
 				<equipment slot="Item2" id="Item.empire_lance_1_t3"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_colus2_iron"/>
 				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a2"/>
 				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
@@ -252,7 +252,7 @@
 				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
 				<equipment slot="Item2" id="Item.empire_lance_1_t3"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_helmet_cav_mask"/>
 				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
 				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
@@ -290,7 +290,7 @@
 				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
 				<equipment slot="Item2" id="Item.khuzait_lance_2_t4"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_helmet_cav_mask3"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
 				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
@@ -303,7 +303,7 @@
 				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a2"/>
 				<equipment slot="Item2" id="Item.khuzait_lance_2_t4"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_helmet_cav_mask3"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
 				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
@@ -316,7 +316,7 @@
 				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
 				<equipment slot="Item2" id="Item.khuzait_lance_2_t4"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_helmet_cav_mask3"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
 				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
@@ -351,7 +351,7 @@
 				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
 				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
 				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
@@ -364,7 +364,7 @@
 				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a2"/>
 				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
 				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
@@ -377,7 +377,7 @@
 				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
 				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
 				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
@@ -416,7 +416,7 @@
 				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_colus_a"/>
 				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
 				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
@@ -427,7 +427,7 @@
 				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a2"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_colus_a_crossguard"/>
 				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a1"/>
 				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
@@ -438,7 +438,7 @@
 				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_colus2_iron"/>
 				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
 				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
@@ -449,7 +449,7 @@
 				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_colus_a"/>
 				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
 				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
@@ -485,7 +485,7 @@
 				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_centurio_a"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
 				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
@@ -496,7 +496,7 @@
 				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_centurio_a"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
 				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
@@ -507,7 +507,7 @@
 				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_centurio_a"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
 				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
@@ -657,7 +657,7 @@
 				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
 				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
@@ -668,7 +668,7 @@
 				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
 				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
@@ -679,7 +679,7 @@
 				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
 				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
@@ -712,7 +712,7 @@
 				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 				<equipment slot="Body" id="Item.cts_roman_cuiras_b"/>
@@ -723,7 +723,7 @@
 				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 				<equipment slot="Body" id="Item.cts_roman_cuiras_b"/>
@@ -756,7 +756,7 @@
 				<equipment slot="Item0" id="Item.war_razor_2hsword_t4"/>
 				<equipment slot="Item1" id="Item."/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 				<equipment slot="Body" id="Item.cts_roman_cuiras_medusa"/>
@@ -767,7 +767,7 @@
 				<equipment slot="Item0" id="Item.war_razor_2hsword_t4"/>
 				<equipment slot="Item1" id="Item."/>
 				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 				<equipment slot="Body" id="Item.cts_roman_cuiras_medusa"/>

@@ -31,7 +31,7 @@
 					<equipment slot="Item0" id="Item.kat_alt_fg"/>
 					<equipment slot="Item1" id="Item."/>
 					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
 					<equipment slot="Head" id="Item.sam_hlm_21"/>
 					<equipment slot="Cape" id="Item.sam_shldr_22"/>
 					<equipment slot="Body" id="Item.samurai_41"/>
@@ -42,7 +42,7 @@
 					<equipment slot="Item0" id="Item.kat_alt_fg"/>
 					<equipment slot="Item1" id="Item."/>
 					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
 					<equipment slot="Head" id="Item.sam_hlm_21"/>
 					<equipment slot="Cape" id="Item.sam_shldr_22"/>
 					<equipment slot="Body" id="Item.samurai_41"/>
@@ -135,7 +135,7 @@
 					<equipment slot="Item0" id="Item.kat_alt_fg"/>
 					<equipment slot="Item1" id="Item."/>
 					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
 					<equipment slot="Head" id="Item.sam_hlm_20"/>
 					<equipment slot="Cape" id="Item.sam_shldr_21"/>
 					<equipment slot="Body" id="Item.samurai_41"/>
@@ -146,7 +146,7 @@
 					<equipment slot="Item0" id="Item.kat_alt_fg"/>
 					<equipment slot="Item1" id="Item."/>
 					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
 					<equipment slot="Head" id="Item.sam_hlm_20"/>
 					<equipment slot="Cape" id="Item.sam_shldr_21"/>
 					<equipment slot="Body" id="Item.samurai_41"/>
@@ -183,7 +183,7 @@
 					<equipment slot="Item0" id="Item.kat_alt_fg"/>
 					<equipment slot="Item1" id="Item.gondor_spear2"/>
 					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
 					<equipment slot="Head" id="Item.sam_hlm_20"/>
 					<equipment slot="Cape" id="Item.sam_shldr_21"/>
 					<equipment slot="Body" id="Item.samurai_41"/>
@@ -196,7 +196,7 @@
 					<equipment slot="Item0" id="Item.kat_alt_fg"/>
 					<equipment slot="Item1" id="Item.gondor_spear2"/>
 					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
 					<equipment slot="Head" id="Item.sam_hlm_20"/>
 					<equipment slot="Cape" id="Item.sam_shldr_21"/>
 					<equipment slot="Body" id="Item.samurai_41"/>
@@ -231,7 +231,7 @@
 					<equipment slot="Item0" id="Item.katnana_fg"/>
 					<equipment slot="Item1" id="Item.gondor_spear2"/>
 					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
 					<equipment slot="Head" id="Item.sam_hlm_22"/>
 					<equipment slot="Cape" id="Item.sam_shldr_20"/>
 					<equipment slot="Body" id="Item.samurai_41"/>
@@ -244,7 +244,7 @@
 					<equipment slot="Item0" id="Item.katnana_fg"/>
 					<equipment slot="Item1" id="Item.gondor_spear2"/>
 					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
 					<equipment slot="Head" id="Item.sam_hlm_22"/>
 					<equipment slot="Cape" id="Item.sam_shldr_20"/>
 					<equipment slot="Body" id="Item.samurai_41"/>
@@ -327,7 +327,7 @@
 					<equipment slot="Item0" id="Item.katnana_fg"/>
 					<equipment slot="Item1" id="Item."/>
 					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
 					<equipment slot="Head" id="Item.sam_hlm_22"/>
 					<equipment slot="Cape" id="Item.sam_shldr_20"/>
 					<equipment slot="Body" id="Item.samurai_41"/>
@@ -338,7 +338,7 @@
 					<equipment slot="Item0" id="Item.katnana_fg"/>
 					<equipment slot="Item1" id="Item."/>
 					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
+
 					<equipment slot="Head" id="Item.sam_hlm_22"/>
 					<equipment slot="Cape" id="Item.sam_shldr_20"/>
 					<equipment slot="Body" id="Item.samurai_41"/>
