@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Перебазировал все юниты атлантов в ЯДРО">
-      <change afterPath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSolruine Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/SubModule.xml" afterDir="false" />
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Начал Вавилон">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/lords.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/lords.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/План Работ" beforeDir="false" afterPath="$PROJECT_DIR$/План Работ" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774824148579</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Начал Вавилон">
+      <option name="closed" value="true" />
+      <created>1774856908791</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1774856908791</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +253,7 @@
     <MESSAGE value="Первая ветка атлантов готова" />
     <MESSAGE value="Вторая ветка атлантов готова" />
     <MESSAGE value="Перебазировал все юниты атлантов в ЯДРО" />
-    <option name="LAST_COMMIT_MESSAGE" value="Перебазировал все юниты атлантов в ЯДРО" />
+    <MESSAGE value="Начал Вавилон" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начал Вавилон" />
   </component>
 </project>

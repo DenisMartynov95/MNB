@@ -134,7 +134,7 @@
 			<skill id="OneHanded" value="90"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
-			<skill id="Bow" value="60"/>
+			<skill id="Bow" value="120"/>
 			<skill id="Crossbow" value="120"/>
 			<skill id="Throwing" value="60"/>
 		</skills>
@@ -143,9 +143,9 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.crossbow_e"/>
-				<equipment slot="Item1" id="Item.bolt_c"/>
-				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
 				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
 				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
 				<equipment slot="Cape" id="Item.gond_shldr_tab_lth_ld"/>
@@ -520,7 +520,7 @@
 			<skill id="OneHanded" value="150"/>
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="60"/>
-			<skill id="Bow" value="60"/>
+			<skill id="Bow" value="210"/>
 			<skill id="Crossbow" value="210"/>
 			<skill id="Throwing" value="60"/>
 		</skills>
@@ -529,9 +529,9 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.crossbow_g"/>
-				<equipment slot="Item1" id="Item.bolt_c"/>
-				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
 				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
 				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
 				<equipment slot="Cape" id="Item.gond_shldr_tab_plt_b_ld"/>
@@ -542,9 +542,9 @@
 				<equipment slot="HorseHarness" id="Item.chain_barding"/>
 			</EquipmentRoster>
 			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.crossbow_g"/>
-				<equipment slot="Item1" id="Item.bolt_c"/>
-				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
 				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
 				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
 				<equipment slot="Cape" id="Item.gond_shldr_tab_plt_b_ld"/>
@@ -564,8 +564,6 @@
 				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
 				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
 				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.chain_barding"/>
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>

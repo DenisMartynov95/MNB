@@ -7642,10 +7642,10 @@
 	<!-- Olek, fierce old traditionalist. Custom equipment -->
 	<NPCCharacter
 		id="lord_2_3"
-		name="ВСЕДЕРЖИТЕЛЬ Давид"
+		name="КНЯЗЬ Владимир"
 		voice="curt"
 		default_group="Infantry"
-		age="25"
+		age="21"
 		is_hero="true"
 		culture="Culture.rus"
 		occupation="Lord"

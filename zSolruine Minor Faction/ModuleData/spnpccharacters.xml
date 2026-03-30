@@ -2,7 +2,7 @@
 <NPCCharacters>
 	<NPCCharacter id="solruine_trainee"
 		default_group="Infantry"
-		level="11"
+		level="6"
 		name="Вавилонский новобранец"
 		is_basic_troop="true"
 		occupation="Soldier"
@@ -48,9 +48,74 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+
+	<NPCCharacter id="solruine_footman"
+				  default_group="Infantry"
+				  level="11"
+				  name="Вавилонский солдат"
+				  occupation="Soldier"
+				  culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_soldier"/>
+			<upgrade_target id="NPCCharacter.solruine_horseman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.open_padded_coif"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.imperial_mail_vest"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+
 	<NPCCharacter id="solruine_ranger"
 		default_group="Ranged"
-		level="16"
+		level="11"
 		name="Вавилонский не опытный лучник"
 		occupation="Soldier"
 		culture="Culture.vavilon">
@@ -119,67 +184,6 @@
 				<equipment slot="Head" id="Item.open_padded_coif"/>
 				<equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
-				<equipment slot="Leg" id="Item.plated_strip_boots"/>
-			</EquipmentRoster>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="solruine_footman"
-		default_group="Infantry"
-		level="16"
-		name="Вавилонский солдат"
-		occupation="Soldier"
-		culture="Culture.vavilon">
-		<face>
-			<face_key_template value="BodyProperty.villager_vlandia"/>
-		</face>
-		<skills >
-			<skill id="Athletics" value="90"/>
-			<skill id="Riding" value="60"/>
-			<skill id="OneHanded" value="100"/>
-			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="60"/>
-			<skill id="Bow" value="60"/>
-			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="60"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.solruine_soldier"/>
-			<upgrade_target id="NPCCharacter.solruine_horseman"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
-				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.mail_shirt"/>
-				<equipment slot="Leg" id="Item.plated_strip_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
-				<equipment slot="Head" id="Item.open_padded_coif"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
-				<equipment slot="Leg" id="Item.plated_strip_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
-				<equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif"/>
-				<equipment slot="Cape" id="Item.empire_cape_a"/>
-				<equipment slot="Body" id="Item.imperial_mail_vest"/>
-				<equipment slot="Leg" id="Item.plated_strip_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
-				<equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif"/>
-				<equipment slot="Cape" id="Item.empire_cape_a"/>
-				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
-				<equipment slot="Leg" id="Item.plated_strip_boots"/>
-			</EquipmentRoster>
-			<EquipmentRoster civilian="true">
-				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
-				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
-				<equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<equipment slot="Body" id="Item.mail_shirt"/>
 				<equipment slot="Leg" id="Item.plated_strip_boots"/>
 			</EquipmentRoster>
 		</Equipments>
