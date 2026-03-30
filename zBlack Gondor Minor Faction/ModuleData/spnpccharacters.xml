@@ -165,8 +165,6 @@
 				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
 				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
 				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
@@ -379,24 +377,6 @@
 				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
 				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
 			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
-				<equipment slot="Item1" id="Item.gond_shld2_lrg"/>
-				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
-				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
-				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
-				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
-				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
-				<equipment slot="Item1" id="Item.gond_shld2_lrg"/>
-				<equipment slot="Head" id="Item.gond_hlm_b_ld"/>
-				<equipment slot="Cape" id="Item.gond_shldr_plt_b_ld"/>
-				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
-				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
-				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
-			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
 				<equipment slot="Item1" id="Item.gond_shld2_lrg"/>
@@ -500,8 +480,6 @@
 				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
 				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
 				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
@@ -635,8 +613,6 @@
 				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
 				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
 				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.chain_barding"/>
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
@@ -686,8 +662,6 @@
 				<equipment slot="Body" id="Item.gond_plt_arm_nt_b_ld"/>
 				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
 				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
@@ -747,8 +721,6 @@
 				<equipment slot="Body" id="Item.gond_plt_arm_b2_ld"/>
 				<equipment slot="Gloves" id="Item.gond_glv_b_ld"/>
 				<equipment slot="Leg" id="Item.gond_bts_plt_b_ld"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.chain_barding"/>
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>

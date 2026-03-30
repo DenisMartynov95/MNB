@@ -5162,11 +5162,11 @@
 	<Culture
 		id="vavilon"
 		name="{=FjwRsf1C}Новый Вавилон"
-		is_main_culture="false"
+		is_main_culture="true"
 		color="0xff8D291A"
 		color2="0xffF7BF46"
 		elite_basic_troop="NPCCharacter.solruine_trainee"
-		basic_troop="NPCCharacter.emissary_recruit"
+		basic_troop="NPCCharacter.vlandian_recruit"
 		melee_militia_troop="NPCCharacter.emissary_warrior"
 		ranged_militia_troop="NPCCharacter.emissary_elite_bowman"
 		melee_elite_militia_troop="NPCCharacter.solruine_blader"

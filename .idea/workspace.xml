@@ -4,219 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="У вавилона правлю культуру">
-      <change afterPath="$PROJECT_DIR$/zAthen Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthen Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthen Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthen Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthen Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthen Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthen Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthen Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthen Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthren Vanguard Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthren Vanguard Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthren Vanguard Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthren Vanguard Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthren Vanguard Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthren Vanguard Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthren Vanguard Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthren Vanguard Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zAthren Vanguard Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBear Isle Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBear Isle Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBear Isle Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBear Isle Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBear Isle Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBear Isle Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBear Isle Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBear Isle Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zBear Isle Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zCeltic Prausi Warband/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zCeltic Prausi Warband/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zCeltic Prausi Warband/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zCeltic Prausi Warband/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zCeltic Prausi Warband/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zCeltic Prausi Warband/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zCeltic Prausi Warband/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zCeltic Prausi Warband/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zCeltic Prausi Warband/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zDacian Army Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zDacian Army Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zDacian Army Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zDacian Army Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zDacian Army Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zDacian Army Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zDacian Army Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zDacian Army Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zDacian Army Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zJyalldar Band Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zJyalldar Band Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zJyalldar Band Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zJyalldar Band Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zJyalldar Band Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zJyalldar Band Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zJyalldar Band Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zJyalldar Band Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zJyalldar Band Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zKharmor Clan Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zKharmor Clan Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zKharmor Clan Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zKharmor Clan Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zKharmor Clan Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zKharmor Clan Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zKharmor Clan Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zKharmor Clan Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zKharmor Clan Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLannister Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLannister Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLannister Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLannister Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLannister Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLannister Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLannister Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLannister Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLannister Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLorhen Army Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLorhen Army Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLorhen Army Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLorhen Army Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLorhen Army Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLorhen Army Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLorhen Army Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLorhen Army Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zLorhen Army Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zOrtesian Zealots Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zOrtesian Zealots Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zOrtesian Zealots Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zOrtesian Zealots Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zOrtesian Zealots Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zOrtesian Zealots Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zOrtesian Zealots Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zOrtesian Zealots Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zOrtesian Zealots Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zPharsalos Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zPharsalos Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zPharsalos Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zPharsalos Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zPharsalos Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zPharsalos Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zPharsalos Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zPharsalos Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zPharsalos Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRed Sun Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRed Sun Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRed Sun Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRed Sun Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRed Sun Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRed Sun Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRed Sun Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRed Sun Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRed Sun Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRoman Legion Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRoman Legion Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRoman Legion Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRoman Legion Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRoman Legion Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRoman Legion Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRoman Legion Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRoman Legion Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zRoman Legion Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSeki Clan Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSeki Clan Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSeki Clan Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSeki Clan Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSeki Clan Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSeki Clan Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSeki Clan Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSeki Clan Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSeki Clan Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSpartan Agema Hypertes Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSpartan Agema Hypertes Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSpartan Agema Hypertes Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSpartan Agema Hypertes Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSpartan Agema Hypertes Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSpartan Agema Hypertes Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSpartan Agema Hypertes Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSpartan Agema Hypertes Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zSpartan Agema Hypertes Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStark Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStark Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStark Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStark Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStark Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStark Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStark Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStark Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStark Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStormland Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStormland Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStormland Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStormland Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStormland Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStormland Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStormland Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStormland Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zStormland Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThebes Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThebes Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThebes Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThebes Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThebes Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThebes Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThebes Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThebes Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThebes Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThemyscirian Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThemyscirian Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThemyscirian Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThemyscirian Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThemyscirian Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThemyscirian Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThemyscirian Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThemyscirian Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zThemyscirian Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zTorden Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zTorden Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zTorden Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zTorden Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zTorden Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zTorden Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zTorden Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zTorden Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zTorden Minor Faction/SubModule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zVespan Knights Minor Faction/ModuleData/bodyproperties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zVespan Knights Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zVespan Knights Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zVespan Knights Minor Faction/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zVespan Knights Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zVespan Knights Minor Faction/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zVespan Knights Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zVespan Knights Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zVespan Knights Minor Faction/SubModule.xml" afterDir="false" />
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Внедрил древа юнитов в КОР + закомментил культуру вавилона в НАТИВЕ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spcultures.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spkingdoms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spkingdoms.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/План Работ" beforeDir="false" afterPath="$PROJECT_DIR$/План Работ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -448,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774862771585</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Внедрил древа юнитов в КОР + закомментил культуру вавилона в НАТИВЕ">
+      <option name="closed" value="true" />
+      <created>1774903963809</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1774903963809</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -489,6 +292,7 @@
     <MESSAGE value="Сделал вавилон но есть баг с вылетом" />
     <MESSAGE value="Сделал вавилон исправил баг с вылетом" />
     <MESSAGE value="У вавилона правлю культуру" />
-    <option name="LAST_COMMIT_MESSAGE" value="У вавилона правлю культуру" />
+    <MESSAGE value="Внедрил древа юнитов в КОР + закомментил культуру вавилона в НАТИВЕ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внедрил древа юнитов в КОР + закомментил культуру вавилона в НАТИВЕ" />
   </component>
 </project>

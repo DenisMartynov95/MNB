@@ -117,33 +117,9 @@
 					<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
 					<equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
 				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.AR_sickle_t4"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zv"/>
-					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
-					<equipment slot="Head" id="Item.AR_aserai_helmet_m"/>
-					<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_a"/>
-					<equipment slot="Body" id="Item.aserai_chain_plate_armor_b"/>
-					<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-					<equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.AR_shotel_t3"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zv"/>
-					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
-					<equipment slot="Head" id="Item.AR_aserai_helmet_m"/>
-					<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_a"/>
-					<equipment slot="Body" id="Item.aserai_chain_plate_armor_c"/>
-					<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-					<equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
-				</EquipmentRoster>
 				<EquipmentRoster civilian="true">
 					<equipment slot="Item0" id="Item.AR_sickle_t4"/>
 					<equipment slot="Item1" id="Item.AR_shield_infantry_zv"/>
-					<equipment slot="Item2" id="Item."/>
-					<equipment slot="Item3" id="Item."/>
 					<equipment slot="Head" id="Item.AR_aserai_helmet_m"/>
 					<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_a"/>
 					<equipment slot="Body" id="Item.aserai_chain_plate_armor_b"/>
@@ -188,57 +164,15 @@
 				<equipment slot="Horse" id="Item.noble_horse_southern"/>
 				<equipment slot="HorseHarness" id="Item.AR_horse_armor_u"/>
 			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_iltanlar_spear_2_t3"/>
-				<equipment slot="Item1" id="Item.AR_shield_infantry_zn2"/>
-				<equipment slot="Item2" id="Item.falchion_sword_t2"/>
-				<equipment slot="Item3" id="Item."/>
-				<equipment slot="Head" id="Item.aserai_feathered_spangenhelm"/>
-				<equipment slot="Cape" id="Item.desert_scale_shoulders"/>
-				<equipment slot="Body" id="Item.AR_aserai_armor_f"/>
-				<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-				<equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_u"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_iltanlar_spear_2_t3"/>
-				<equipment slot="Item1" id="Item.AR_shield_infantry_zn"/>
-				<equipment slot="Item2" id="Item.falchion_sword_t2"/>
-				<equipment slot="Item3" id="Item."/>
-				<equipment slot="Head" id="Item.AR_empire_desert_helmet_a"/>
-				<equipment slot="Cape" id="Item.desert_scale_shoulders"/>
-				<equipment slot="Body" id="Item.AR_aserai_armor_f"/>
-				<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-				<equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_u2"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_iltanlar_spear_2_t3"/>
-				<equipment slot="Item1" id="Item.AR_shield_infantry_zn2"/>
-				<equipment slot="Item2" id="Item.falchion_sword_t2"/>
-				<equipment slot="Item3" id="Item."/>
-				<equipment slot="Head" id="Item.aserai_feathered_spangenhelm"/>
-				<equipment slot="Cape" id="Item.desert_scale_shoulders"/>
-				<equipment slot="Body" id="Item.AR_aserai_armor_f"/>
-				<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-				<equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_u2"/>
-			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Item0" id="Item.AR_iltanlar_spear_2_t3"/>
 				<equipment slot="Item1" id="Item.AR_shield_infantry_zn"/>
 				<equipment slot="Item2" id="Item.falchion_sword_t2"/>
-				<equipment slot="Item3" id="Item."/>
 				<equipment slot="Head" id="Item.AR_empire_desert_helmet_a"/>
 				<equipment slot="Cape" id="Item.desert_scale_shoulders"/>
 				<equipment slot="Body" id="Item.AR_aserai_armor_f"/>
 				<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
 				<equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_u"/>
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
@@ -274,17 +208,6 @@
 				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g"/>
 				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
 				<equipment slot="Body" id="Item.AR_aserai_scale_armor_c"/>
-				<equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
-				<equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.aserai_noble_sword_2_t5"/>
-				<equipment slot="Item1" id="Item.steel_round_shield"/>
-				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
-				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
-				<equipment slot="Body" id="Item.AR_aserai_scale_armor_b"/>
 				<equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
 				<equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
 			</EquipmentRoster>
@@ -337,22 +260,8 @@
 				<equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
 				<equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
 			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
-				<equipment slot="Item1" id="Item."/>
-				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
-				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_h"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
-				<equipment slot="Body" id="Item.AR_aserai_scale_armor_b"/>
-				<equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
-				<equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
-			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
-				<equipment slot="Item1" id="Item."/>
-				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
 				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_h"/>
 				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
 				<equipment slot="Body" id="Item.AR_aserai_scale_armor_b"/>
@@ -396,19 +305,6 @@
 				<equipment slot="Horse" id="Item.noble_horse_southern"/>
 				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
 			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
-				<equipment slot="Item1" id="Item.steel_round_shield"/>
-				<equipment slot="Item2" id="Item.AR_aserai_noble_sword_5_t5"/>
-				<equipment slot="Item3" id="Item."/>
-				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_h"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
-				<equipment slot="Body" id="Item.AR_aserai_scale_armor_b"/>
-				<equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
-				<equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
-			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
 				<equipment slot="Item1" id="Item.AR_shield_infantry_zc"/>
@@ -419,8 +315,6 @@
 				<equipment slot="Body" id="Item.AR_aserai_scale_armor_c"/>
 				<equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
 				<equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
@@ -455,17 +349,6 @@
 					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
 					<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
 					<equipment slot="Head" id="Item.AR_empire_desert_helmet_a"/>
-					<equipment slot="Cape" id="Item.desert_scale_shoulders"/>
-					<equipment slot="Body" id="Item.AR_aserai_armor_f"/>
-					<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-					<equipment slot="Leg" id="Item.TV_aserai_boots_e"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
-					<equipment slot="Item1" id="Item.composite_steppe_bow"/>
-					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Head" id="Item.aserai_feathered_spangenhelm"/>
 					<equipment slot="Cape" id="Item.desert_scale_shoulders"/>
 					<equipment slot="Body" id="Item.AR_aserai_armor_f"/>
 					<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
@@ -521,45 +404,6 @@
 				<equipment slot="Horse" id="Item.noble_horse_southern"/>
 				<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
 			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.steppe_war_bow"/>
-				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item3" id="Item.AR_kituga_a"/>
-				<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c2"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
-				<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
-				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
-				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.steppe_war_bow"/>
-				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item3" id="Item.AR_kituga_a"/>
-				<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c3"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
-				<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
-				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
-				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.steppe_war_bow"/>
-				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item3" id="Item.AR_kituga_a"/>
-				<equipment slot="Head" id="Item.TV_aserai_guard_helmet_c4"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_k"/>
-				<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
-				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
-				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
-			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Item0" id="Item.steppe_war_bow"/>
 				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
@@ -570,8 +414,6 @@
 				<equipment slot="Body" id="Item.tv_aserai_lamellar_e"/>
 				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
 				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_d2"/>
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
@@ -608,17 +450,6 @@
 				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g"/>
 				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
 				<equipment slot="Body" id="Item.AR_aserai_scale_armor_c"/>
-				<equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
-				<equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
-			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.crossbow_g"/>
-				<equipment slot="Item1" id="Item.bolt_c"/>
-				<equipment slot="Item2" id="Item.bolt_c"/>
-				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
-				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_h"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
-				<equipment slot="Body" id="Item.AR_aserai_scale_armor_b"/>
 				<equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
 				<equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
 			</EquipmentRoster>
@@ -674,19 +505,6 @@
 				<equipment slot="Horse" id="Item.noble_horse_southern"/>
 				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
 			</EquipmentRoster>
-			<EquipmentRoster>
-				<equipment slot="Item0" id="Item.noble_bow"/>
-				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
-				<equipment slot="Head" id="Item.AR_aserai_lord_helmet_h"/>
-				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
-				<equipment slot="Body" id="Item.AR_aserai_scale_armor_b"/>
-				<equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
-				<equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
-			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Item0" id="Item.noble_bow"/>
 				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
@@ -697,8 +515,6 @@
 				<equipment slot="Body" id="Item.sacoat1"/>
 				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
 				<equipment slot="Leg" id="Item.mail_chausses"/>
-				<equipment slot="Horse" id="Item.noble_horse_southern"/>
-				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
@@ -731,17 +547,6 @@
 					<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g"/>
 					<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
 					<equipment slot="Body" id="Item.AR_aserai_scale_armor_c"/>
-					<equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
-					<equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.noble_bow"/>
-					<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
-					<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
-					<equipment slot="Head" id="Item.AR_aserai_lord_helmet_h"/>
-					<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_a"/>
-					<equipment slot="Body" id="Item.AR_aserai_scale_armor_b"/>
 					<equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
 					<equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
 				</EquipmentRoster>
