@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="solruine_company"
+			 initial_posX="180.648"
+			 initial_posY="426.052"
+			 banner_key="1.12.142.1836.1836.764.764.1.0.0.206.140.116.170.141.750.712.1.0.0.510.143.116.89.73.650.638.1.0.33.125.140.116.417.345.624.807.1.1.0.160.116.144.417.345.887.785.1.0.0.424.116.144.213.176.889.512.1.0.0.424.116.144.213.176.608.512.1.0.0.424.116.144.213.176.867.1007.1.0.0.424.116.144.213.176.618.1017.1.0.0"
+             culture="Culture.vlandia"
+             default_party_template="PartyTemplate.solruine_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Компания Сурадия (6 Вавилон)"
+             tier="6"
+             text="Lanceor 'Thunder' Corinthias is protegee of Alrik Primes, the Commander of the Queensguard to Queen Asharia XI Solruine. In Turbulent Age 425 he and the Princess Selveria and a fleet of retinue sailed through the shivering sea to Anartev Republic but was caught in a great storm called 'Maelstrom'. After the sky cleared, half the fleet is gone including the Flagship Emerald and the Princess. Lanceor and the remaining knights still wear the sigil and color in Calradia while looking for the Selveria in this chaotic land. Through mercenary work they hope to gather men, information and power to find her and take back their Queendom."
+			 owner="Hero.spc_solruine_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_solruine_leader_0" />
+			<template id="NPCCharacter.spc_solruine_leader_1" />
+			<template id="NPCCharacter.spc_solruine_leader_2" />
+			<template id="NPCCharacter.spc_solruine_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

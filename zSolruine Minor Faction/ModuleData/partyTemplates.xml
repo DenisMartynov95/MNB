@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="solruine_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.solruine_trainee" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.solruine_ranger" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.solruine_footman" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.solruine_soldier" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.solruine_archer" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.solruine_horseman" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.solruine_cavalry" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.solruine_crossbow" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.solruine_swordsman" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.solruine_spearman" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.solruine_veteran_archer" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.solruine_mounted_archer" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.solruine_pikeman" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.solruine_poleaxe" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.solruine_paladin" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.solruine_blader" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.solruine_heavy_mounted_archer" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.solruine_elite_archer" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.solruine_heavy_cavalry" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.solruine_heavy_crossbow" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

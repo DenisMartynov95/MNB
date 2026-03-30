@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<NPCCharacter
+	id="emissary_recruit"
+	default_group="Infantry"
+	level="11"
+	name="Рекрут Крестоносцев"
+	is_basic_troop="true"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="45"/>
+		<skill id="Riding" value="45"/>
+		<skill id="OneHanded" value="45"/>
+		<skill id="TwoHanded" value="45"/>
+		<skill id="Polearm" value="55"/>
+		<skill id="Bow" value="37"/>
+		<skill id="Crossbow" value="34"/>
+		<skill id="Throwing" value="34"/>
+	</skills>
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.emissary_infantry"/>
+		<upgrade_target id="NPCCharacter.emissary_bowman"/>
+	</upgrade_targets>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+			<equipment slot="Item1" id="Item.peasant_hatchet_1_t1"/>
+			<equipment slot="Head" id="Item.saxon_spangen_helmet1"/>
+			<equipment slot="Cape" id="Item.steel_cross_1"/>
+			<equipment slot="Body" id="Item.we_e_prec_tunic_1"/>
+			<equipment slot="Gloves" id="Item.arm_straps_1"/>
+			<equipment slot="Leg" id="Item.ota_u_boots_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+			<equipment slot="Item1" id="Item.peasant_pickaxe_1_t1"/>
+			<equipment slot="Head" id="Item.ota_reg_skullcap_1"/>
+			<equipment slot="Cape" id="Item.green_hood"/>
+			<equipment slot="Body" id="Item.we_strap_tunic_1"/>
+			<equipment slot="Gloves" id="Item.armwraps"/>
+			<equipment slot="Leg" id="Item.we_e_hosen_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+			<equipment slot="Item1" id="Item.peasant_hatchet_1_t1"/>
+			<equipment slot="Head" id="Item.orchowksi_nasal_1rag"/>
+			<equipment slot="Cape" id="Item.steel_cross_1"/>
+			<equipment slot="Body" id="Item.we_e_prec_tunic_2"/>
+			<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+			<equipment slot="Item1" id="Item.seax"/>
+			<equipment slot="Head" id="Item.ota_reg_skullcap_1"/>
+			<equipment slot="Cape" id="Item.hood"/>
+			<equipment slot="Body" id="Item.we_e_viltunic_1"/>
+			<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+			<equipment slot="Leg" id="Item.e_nord_puffpant1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_infantry"
+	default_group="Infantry"
+	level="16"
+	name="Воин Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="90"/>
+		<skill id="Riding" value="60"/>
+		<skill id="OneHanded" value="90"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="120"/>
+		<skill id="Bow" value="60"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.emissary_warrior"/>
+		<upgrade_target id="NPCCharacter.emissary_spearman"/>
+	</upgrade_targets>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+			<equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+			<equipment slot="Head" id="Item.we_e_nasal_armcoif1"/>
+			<equipment slot="Cape" id="Item.empire_cape_a"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1_noble"/>
+			<equipment slot="Gloves" id="Item.ota_e_sta_legloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+			<equipment slot="Item1" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Head" id="Item.we_e_bayeux_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_2"/>
+			<equipment slot="Body" id="Item.el_prec_mailtunic_1"/>
+			<equipment slot="Gloves" id="Item.ota_e_sta_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_hemp_pants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+			<equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+			<equipment slot="Head" id="Item.we_early_mun_nasal1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_gamb_1"/>
+			<equipment slot="Gloves" id="Item.ota_e_sta_legloves_1"/>
+			<equipment slot="Leg" id="Item.el_we_wrapped_pants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+			<equipment slot="Item1" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Head" id="Item.we_early_mun_nasal1"/>
+			<equipment slot="Cape" id="Item.el_e_cloak_1"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1"/>
+			<equipment slot="Gloves" id="Item.ota_e_sta_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_bowman"
+	default_group="Ranged"
+	level="16"
+	name="Лучник Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="90"/>
+		<skill id="Riding" value="60"/>
+		<skill id="OneHanded" value="80"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="20"/>
+		<skill id="Bow" value="100"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.emissary_veteran_bowman"/>
+	</upgrade_targets>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.seax_blunt"/>
+			<equipment slot="Item1" id="Item.training_longbow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_e_nasal_armcoif1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_2"/>
+			<equipment slot="Body" id="Item.el_e_sleevgambeson_1"/>
+			<equipment slot="Gloves" id="Item.padded_vambrace"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.seax_blunt"/>
+			<equipment slot="Item1" id="Item.training_longbow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_e_bayeux_nasal_1"/>
+			<equipment slot="Cape" id="Item.el_e_cloak_1"/>
+			<equipment slot="Body" id="Item.el_w_long_gambeson_1"/>
+			<equipment slot="Gloves" id="Item.padded_vambrace"/>
+			<equipment slot="Leg" id="Item.we_e_hemp_pants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.seax_blunt"/>
+			<equipment slot="Item1" id="Item.training_longbow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_e_bayeux_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_1"/>
+			<equipment slot="Body" id="Item.el_e_sleevgambeson_1"/>
+			<equipment slot="Gloves" id="Item.padded_vambrace"/>
+			<equipment slot="Leg" id="Item.el_we_wrapped_pants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.seax_blunt"/>
+			<equipment slot="Item1" id="Item.training_longbow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_e_bayeux_nasal_1"/>
+			<equipment slot="Cape" id="Item.empire_cape_a"/>
+			<equipment slot="Body" id="Item.el_w_long_gambeson_1"/>
+			<equipment slot="Gloves" id="Item.padded_vambrace"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_veteran_bowman"
+	default_group="Ranged"
+	level="21"
+	name="Опытный лучник Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="110"/>
+		<skill id="Riding" value="60"/>
+		<skill id="OneHanded" value="110"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="60"/>
+		<skill id="Bow" value="180"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.emissary_elite_bowman"/>
+	</upgrade_targets>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.seax"/>
+			<equipment slot="Item1" id="Item.lowland_longbow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_early_mun_nasal1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_gambeson_twolayer_gambchain_1"/>
+			<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.seax"/>
+			<equipment slot="Item1" id="Item.lowland_longbow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_early_mun_nasal1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_gambeson_twolayer_gambchain_1"/>
+			<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+			<equipment slot="Leg" id="Item.we_e_hemp_pants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.seax"/>
+			<equipment slot="Item1" id="Item.lowland_longbow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_early_mun_nasal1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_gambeson_twolayer_gambchain_1"/>
+			<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+			<equipment slot="Leg" id="Item.el_we_wrapped_pants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.seax"/>
+			<equipment slot="Item1" id="Item.lowland_longbow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_early_mun_nasal1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_gambeson_twolayer_gambchain_1"/>
+			<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_elite_bowman"
+	default_group="Ranged"
+	level="26"
+	name="Элитный лучник Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="140"/>
+		<skill id="Riding" value="60"/>
+		<skill id="OneHanded" value="150"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="60"/>
+		<skill id="Bow" value="250"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.emissary_master_bowman"/>
+	</upgrade_targets>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+			<equipment slot="Item1" id="Item.lowland_yew_bow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_e_poorskullcap_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1_noble"/>
+			<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+			<equipment slot="Item1" id="Item.lowland_yew_bow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_light_painted_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_prec_mailtunic_1"/>
+			<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.we_e_hemp_pants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+			<equipment slot="Item1" id="Item.lowland_yew_bow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_e_poorskullcap_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_gamb_1"/>
+			<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.el_we_wrapped_pants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+			<equipment slot="Item1" id="Item.lowland_yew_bow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_light_painted_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1"/>
+			<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_master_bowman"
+	default_group="Ranged"
+	level="31"
+	name="Снайпер Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="180"/>
+		<skill id="Riding" value="60"/>
+		<skill id="OneHanded" value="180"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="60"/>
+		<skill id="Bow" value="300"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2_blunt"/>
+			<equipment slot="Item1" id="Item.noble_long_bow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.el_e_nasal_chain_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_1"/>
+			<equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2_blunt"/>
+			<equipment slot="Item1" id="Item.noble_long_bow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_e_painted_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_gambeson1"/>
+			<equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2_blunt"/>
+			<equipment slot="Item1" id="Item.noble_long_bow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_earlynasal_seam_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_norman_chainmail_1"/>
+			<equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2_blunt"/>
+			<equipment slot="Item1" id="Item.noble_long_bow"/>
+			<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+			<equipment slot="Head" id="Item.we_e_striped_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_norman_chainmail2_1"/>
+			<equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_warrior"
+	default_group="Infantry"
+	level="21"
+	name="Пехотинец Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="110"/>
+		<skill id="Riding" value="60"/>
+		<skill id="OneHanded" value="140"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="60"/>
+		<skill id="Bow" value="60"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.emissary_squire"/>
+	</upgrade_targets>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.small_flat_heater_shield"/>
+			<equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
+			<equipment slot="Head" id="Item.we_e_poorskullcap_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1_noble"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.small_flat_heater_shield"/>
+			<equipment slot="Item1" id="Item.vlandia_mace_2_t4"/>
+			<equipment slot="Head" id="Item.we_light_painted_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_prec_mailtunic_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_hemp_pants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.small_flat_heater_shield"/>
+			<equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
+			<equipment slot="Head" id="Item.we_e_poorskullcap_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_gamb_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_we_wrapped_pants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.small_flat_heater_shield"/>
+			<equipment slot="Item1" id="Item.vlandia_mace_2_t4"/>
+			<equipment slot="Head" id="Item.we_light_painted_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_spearman"
+	default_group="Infantry"
+	level="21"
+	name="Копейщик Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="110"/>
+		<skill id="Riding" value="60"/>
+		<skill id="OneHanded" value="110"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="160"/>
+		<skill id="Bow" value="60"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.emissary_piker"/>
+	</upgrade_targets>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item1" id="Item.seax"/>
+			<equipment slot="Head" id="Item.we_e_poorskullcap_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1_noble"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item1" id="Item.seax"/>
+			<equipment slot="Head" id="Item.we_light_painted_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_prec_mailtunic_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_hemp_pants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item1" id="Item.seax"/>
+			<equipment slot="Head" id="Item.we_e_poorskullcap_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_gamb_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_we_wrapped_pants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item1" id="Item.seax"/>
+			<equipment slot="Head" id="Item.we_light_painted_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_piker"
+	default_group="Infantry"
+	level="26"
+	name="Тяжелый копейщик Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="170"/>
+		<skill id="Riding" value="60"/>
+		<skill id="OneHanded" value="140"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="200"/>
+		<skill id="Bow" value="60"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.emissary_defender"/>
+		<upgrade_target id="NPCCharacter.emissary_elite_piker"/>
+	</upgrade_targets>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.fine_pike_t4"/>
+			<equipment slot="Item1" id="Item.seax"/>
+			<equipment slot="Head" id="Item.el_e_nasal_chain_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.fine_pike_t4"/>
+			<equipment slot="Item1" id="Item.seax"/>
+			<equipment slot="Head" id="Item.we_e_painted_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_gambeson1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.fine_pike_t4"/>
+			<equipment slot="Item1" id="Item.seax"/>
+			<equipment slot="Head" id="Item.we_earlynasal_seam_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_norman_chainmail_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.fine_pike_t4"/>
+			<equipment slot="Item1" id="Item.seax"/>
+			<equipment slot="Head" id="Item.we_e_striped_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_norman_chainmail2_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_defender"
+	default_group="Infantry"
+	level="31"
+	name="Элитный защитник Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="210"/>
+		<skill id="Riding" value="60"/>
+		<skill id="OneHanded" value="190"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="300"/>
+		<skill id="Bow" value="60"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.eastern_throwing_spear_2_t4"/>
+			<equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4"/>
+			<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+			<equipment slot="Item3" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Head" id="Item.we_e_italonorman_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat_heraldic_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.eastern_throwing_spear_2_t4"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Head" id="Item.we_e_italonorman_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat_heraldic_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.eastern_throwing_spear_2_t4"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Head" id="Item.we_e_italonorman_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat_heraldic_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.eastern_throwing_spear_2_t4"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Head" id="Item.we_e_italonorman_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat_heraldic_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_elite_piker"
+	default_group="Infantry"
+	level="31"
+	name="Элитный двуручник Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="210"/>
+		<skill id="Riding" value="60"/>
+		<skill id="OneHanded" value="190"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="400"/>
+		<skill id="Bow" value="60"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.thamaskene_pike_t4"/>
+			<equipment slot="Head" id="Item.we_e_flu_phryg_faceplate1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.thamaskene_pike_t4"/>
+			<equipment slot="Head" id="Item.el_reinfoced_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.thamaskene_pike_t4"/>
+			<equipment slot="Head" id="Item.we_nor_seg_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.thamaskene_pike_t4"/>
+			<equipment slot="Head" id="Item.we_e_bayeux_nasal_p1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_squire"
+	default_group="Infantry"
+	level="26"
+	name="Тяжелый мечник Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="140"/>
+		<skill id="Riding" value="60"/>
+		<skill id="OneHanded" value="200"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="60"/>
+		<skill id="Bow" value="60"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.emissary_knight"/>
+		<upgrade_target id="NPCCharacter.emissary_knight_cavalry"/>
+	</upgrade_targets>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Head" id="Item.el_e_nasal_chain_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Head" id="Item.we_e_painted_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_gambeson1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Head" id="Item.we_earlynasal_seam_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_norman_chainmail_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Head" id="Item.we_e_striped_nasal_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Body" id="Item.we_norman_chainmail2_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_knight"
+	default_group="Infantry"
+	level="31"
+	name="Тяжелый рыцарь Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="210"/>
+		<skill id="Riding" value="60"/>
+		<skill id="OneHanded" value="300"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="60"/>
+		<skill id="Bow" value="60"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Head" id="Item.maciekowski_helmet_1"/>
+			<equipment slot="Cape" id="Item.ailette_1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat_heraldic_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Head" id="Item.el_frank_faceplate1"/>
+			<equipment slot="Cape" id="Item.ailette_1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Head" id="Item.we_e_italonorman_1"/>
+			<equipment slot="Cape" id="Item.ailette_1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat_heraldic_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Head" id="Item.maciekowski_helmet_1"/>
+			<equipment slot="Cape" id="Item.ailette_1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+<NPCCharacter id="emissary_knight_cavalry"
+	default_group="Cavalry"
+	level="31"
+	name="Элитный тяжелый рыцарь Крестоносцев"
+	occupation="Soldier"
+	culture="Culture.vavilon">
+	<face>
+		<face_key_template value="BodyProperty.villager_vlandia"/>
+	</face>
+	<skills >
+		<skill id="Athletics" value="150"/>
+		<skill id="Riding" value="200"/>
+		<skill id="OneHanded" value="220"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="300"/>
+		<skill id="Bow" value="60"/>
+		<skill id="Crossbow" value="60"/>
+		<skill id="Throwing" value="60"/>
+	</skills>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+			<equipment slot="Head" id="Item.maciekowski_helmet_1"/>
+			<equipment slot="Cape" id="Item.ailette_1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat_heraldic_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+			<equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<equipment slot="HorseHarness" id="Item.chain_barding"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+			<equipment slot="Head" id="Item.el_frank_faceplate1"/>
+			<equipment slot="Cape" id="Item.ailette_1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+			<equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<equipment slot="HorseHarness" id="Item.chain_barding"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+			<equipment slot="Head" id="Item.we_e_italonorman_1"/>
+			<equipment slot="Cape" id="Item.ailette_1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat_heraldic_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+			<equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<equipment slot="HorseHarness" id="Item.chain_barding"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+			<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+			<equipment slot="Head" id="Item.maciekowski_helmet_1"/>
+			<equipment slot="Cape" id="Item.ailette_1"/>
+			<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+			<equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<equipment slot="HorseHarness" id="Item.chain_barding"/>
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+			<equipment slot="Item2" id="Item.throwing_stone"/>
+			<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+	</Equipments>
+</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_emissary_leader_0" name="{=!}Eric 'the Emisarry' Maklite" is_female="false" age="35" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.375" build="0.5"  key="0002700A400003C598164A799A86BBAA5877298AE590913A35947A5744B86D8700A766030A89626A000000000000000000000000000000000000000011448002"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.imperial_crown_1"/>
+				<equipment slot="Cape" id="Item.ailette_1"/>
+				<equipment slot="Body" id="Item.we_surcoat_pat_heraldic_1"/>
+				<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.imperial_crown_1"/>
+				<equipment slot="Cape" id="Item.ailette_1"/>
+				<equipment slot="Body" id="Item.we_surcoat_pat_heraldic_1"/>
+				<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_emissary_leader_object" name="Eric 'the Emisarry' Maklite" is_female="false" age="35" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.375" build="0.5"  key="0002700A400003C598164A799A86BBAA5877298AE590913A35947A5744B86D8700A766030A89626A000000000000000000000000000000000000000011448002"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.imperial_crown_1"/>
+				<equipment slot="Cape" id="Item.ailette_1"/>
+				<equipment slot="Body" id="Item.we_surcoat_pat_heraldic_1"/>
+				<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.imperial_crown_1"/>
+				<equipment slot="Cape" id="Item.ailette_1"/>
+				<equipment slot="Body" id="Item.we_surcoat_pat_heraldic_1"/>
+				<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_emissary_leader_1" name="{=!}Valmur" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.el_frank_faceplate1"/>
+				<equipment slot="Cape" id="Item.ailette_1"/>
+				<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+				<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.el_frank_faceplate1"/>
+				<equipment slot="Cape" id="Item.ailette_1"/>
+				<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+				<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_emissary_leader_2" name="{=!}Ralph" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.el_frank_faceplate1"/>
+				<equipment slot="Cape" id="Item.ailette_1"/>
+				<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+				<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.el_frank_faceplate1"/>
+				<equipment slot="Cape" id="Item.ailette_1"/>
+				<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+				<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_emissary_leader_3" name="{=!}Andrew" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.el_frank_faceplate1"/>
+				<equipment slot="Cape" id="Item.ailette_1"/>
+				<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+				<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.we_e_kite_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.el_frank_faceplate1"/>
+				<equipment slot="Cape" id="Item.ailette_1"/>
+				<equipment slot="Body" id="Item.we_surcoat_pat1"/>
+				<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_spurs_1"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

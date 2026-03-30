@@ -5161,7 +5161,7 @@
 	<##########################################################################-->
 	<Culture
 		id="vavilon"
-		name="{=FjwRsf1C}Вавилон"
+		name="{=FjwRsf1C}Новый Вавилон"
 		is_main_culture="false"
 		color="0xff8D291A"
 		color2="0xffF7BF46"

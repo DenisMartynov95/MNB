@@ -10435,10 +10435,10 @@ voice="Male, northern accent, older, authoritative and competent"-->
 	</NPCCharacter>
 	<NPCCharacter
 		id="lord_3_51"
-		name="{=891zDKIl}Haqan"
+		name="Саллахаддин"
 		age="19"
 		voice="curt"
-		default_group="HorseArcher"
+		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.aserai"
 		occupation="Lord"

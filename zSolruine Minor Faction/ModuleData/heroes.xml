@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_solruine_leader_object" text="Lanceor 'Thunder' Corinthias is protegee of Alrik Primes, the Commander of the Queensguard to Queen Asharia XI Solruine. In Turbulent Age 425 he and the Princess Selveria and a fleet of retinue sailed the shivering sea to Anartev Republic was caught in a great storm called 'Maelstrom'. After the sky cleared, half the fleet is gone including the Flagship Emerald. Lanceor and the remaining knights arrive in Calradia to look for their Princess and the only way to search this chaotic land was through mercenary work, earning enough while gathering information, men and power." faction="Faction.solruine_company" />
+
+</Heroes>

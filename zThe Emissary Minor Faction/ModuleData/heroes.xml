@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_emissary_leader_object" text="Eric Maklite, known among the ranks and across the lands as the Red Baron's Emissary, weaves a tale as enigmatic as it is formidable. Born under the harsh, unforgiving sun of the Zexen Alliance Highlands, Eric's early years were steeped in the kind of adversity that molds the unbreakable. The youngest of five siblings, he learned quickly to fend for himself, his keen intellect and unmatched dexterity setting him apart from his peers." faction="Faction.emissary_company" />
+
+</Heroes>

@@ -1,0 +1,1423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="solruine_trainee"
+		default_group="Infantry"
+		level="11"
+		name="Вавилонский новобранец"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_ranger"/>
+			<upgrade_target id="NPCCharacter.solruine_footman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Body" id="Item.eastern_studded_leather"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Body" id="Item.leather_scale_armor"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Body" id="Item.eastern_studded_leather"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_ranger"
+		default_group="Ranged"
+		level="16"
+		name="Вавилонский не опытный лучник"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.open_padded_coif"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.imperial_mail_vest"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.open_padded_coif"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_footman"
+		default_group="Infantry"
+		level="16"
+		name="Вавилонский солдат"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_soldier"/>
+			<upgrade_target id="NPCCharacter.solruine_horseman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.open_padded_coif"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.imperial_mail_vest"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_soldier"
+		default_group="Infantry"
+		level="21"
+		name="Вавилонский обученный солдат"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_swordsman"/>
+			<upgrade_target id="NPCCharacter.solruine_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard5"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+				<equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard4"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+				<equipment slot="Head" id="Item.pointed_skullcap_with_mail"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard3"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+				<equipment slot="Head" id="Item.vlandian_helm_with_faceplate_painted"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard3"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard5"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_horseman"
+		default_group="Cavalry"
+		level="21"
+		name="Вавилонский легкий кавалерист"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="110"/>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_cavalry"/>
+			<upgrade_target id="NPCCharacter.solruine_crossbow"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard5"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+				<equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard4"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+				<equipment slot="Head" id="Item.pointed_skullcap_with_mail"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard3"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+				<equipment slot="Head" id="Item.vlandian_helm_with_faceplate_painted"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard3"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard5"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_cavalry"
+		default_group="Cavalry"
+		level="26"
+		name="Вавилонский всадник"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_heavy_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.winged_great_helm_base"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.coat_of_plates5_c"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.great_helm_base"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.coat_of_plates4_c"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.great_helm_base"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.coat_of_plates1_c"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.winged_great_helm_base"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.coat_of_plates5_c"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_crossbow"
+		default_group="HorseArcher"
+		level="26"
+		name="Вавилонский конный всадник"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="220"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_heavy_crossbow"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.sa_visoredkettlehelmet1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sacoat1"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.sa_visoredkettlehelmet"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sacoat2"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.sa_visoredkettlehelmet1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sacoat3"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.sa_visoredkettlehelmet1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sacoat1"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_heavy_crossbow"
+		default_group="HorseArcher"
+		level="31"
+		name="Вавилонский тяжелый конный всадник"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute2"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_leather_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute3"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute4"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_leather_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_heavy_cavalry"
+		default_group="Cavalry"
+		level="31"
+		name="Вавилонский тяжелый всадник"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.sa_churburghHelm_trimmed_feather"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.sa_churburghHelm_trimmed_feather"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.sa_churburghHelm_black_trimmed_feather"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_2ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_2ChurburghBoots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.sa_2ChurburghHelm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_2ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_2ChurburghBoots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.sa_churburghHelm_trimmed_feather"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_swordsman"
+		default_group="Infantry"
+		level="26"
+		name="Вавилонский тяжелый меченосец"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_paladin"/>
+			<upgrade_target id="NPCCharacter.solruine_blader"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.great_prankh_helm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.coat_of_plates5_c"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.great_prankh_helm_horns"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.coat_of_plates4_c"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.great_prankh_helm_winged"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.coat_of_plates1_c"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.great_prankh_helm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.coat_of_plates5_c"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_spearman"
+		default_group="Infantry"
+		level="26"
+		name="Вавилонский тяжелый пикинер"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="170"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_pikeman"/>
+			<upgrade_target id="NPCCharacter.solruine_poleaxe"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Head" id="Item.great_prankh_helm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.coat_of_plates5_c"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Head" id="Item.great_prankh_helm_horns"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.coat_of_plates4_c"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Head" id="Item.great_prankh_helm_winged"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.coat_of_plates1_c"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Head" id="Item.gond_hlm_ld"/>
+				<equipment slot="Cape" id="Item.gond_shldr_tab_lth_ld"/>
+				<equipment slot="Body" id="Item.gond_plt_arm_nt_ld"/>
+				<equipment slot="Gloves" id="Item.gond_glv_a_ld"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_pikeman"
+		default_group="Infantry"
+		level="31"
+		name="Вавилонский элитный пикинер"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.Sugarloaf_helm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_armor"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.Sugarloaf_helm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_leather_plate_armor"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.Sugarloaf_helm4"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_striped_plate_armor"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.Sugarloaf_helm4"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_armor"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.Sugarloaf_helm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_armor"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_poleaxe"
+		default_group="Infantry"
+		level="31"
+		name="Вавилонский элитный двуручник"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
+				<equipment slot="Head" id="Item.sa_churburghHelm_trimmed_feather"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
+				<equipment slot="Head" id="Item.sa_churburghHelm_black_trimmed_feather"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_2ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_2ChurburghBoots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
+				<equipment slot="Head" id="Item.sa_2ChurburghHelm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_2ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_2ChurburghBoots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
+				<equipment slot="Head" id="Item.sa_ChurburghHelm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
+				<equipment slot="Head" id="Item.sa_churburghHelm_trimmed_feather"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_paladin"
+		default_group="Infantry"
+		level="31"
+		name="Вавилонский паладин"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.Sugarloaf_helm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_armor"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.Sugarloaf_helm4"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_striped_plate_armor"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.Sugarloaf_helm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_leather_plate_armor"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.Sugarloaf_helm4"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_armor"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.Sugarloaf_helm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_armor"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_blader"
+		default_group="Infantry"
+		level="31"
+		name="Вавилонский элитный двуручник"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Head" id="Item.sa_churburghHelm_trimmed_feather"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_2hsword_t4"/>
+				<equipment slot="Head" id="Item.sa_churburghHelm_black_trimmed_feather"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_2ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_2ChurburghBoots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Head" id="Item.sa_2ChurburghHelm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_2ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_2ChurburghBoots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_2hsword_t4"/>
+				<equipment slot="Head" id="Item.sa_ChurburghHelm"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Head" id="Item.sa_churburghHelm_trimmed_feather"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sa_ChurburghTorso"/>
+				<equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.sa_ChurburghBoots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_archer"
+		default_group="Ranged"
+		level="21"
+		name="Вавилонский точный стрелок"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_veteran_archer"/>
+			<upgrade_target id="NPCCharacter.solruine_mounted_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard5"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard4"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.pointed_skullcap_with_mail"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard3"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.vlandian_helm_with_faceplate_painted"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard3"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.mail_with_tabbard5"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_veteran_archer"
+		default_group="Ranged"
+		level="26"
+		name="Вавилонский элитный лучник"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_elite_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.sa_visoredkettlehelmet1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sacoat1"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.sa_visoredkettlehelmet"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sacoat2"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.sa_visoredkettlehelmet1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sacoat3"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.sa_visoredkettlehelmet1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sacoat1"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_mounted_archer"
+		default_group="HorseArcher"
+		level="26"
+		name="Вавилонский меткий всадник"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="220"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.solruine_heavy_mounted_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.sa_visoredkettlehelmet1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sacoat1"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.sa_visoredkettlehelmet"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sacoat2"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.sa_visoredkettlehelmet1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sacoat3"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.sa_visoredkettlehelmet1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.sacoat1"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_heavy_mounted_archer"
+		default_group="HorseArcher"
+		level="31"
+		name="Вавилонский элитный лучник всадник"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute2"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_leather_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute3"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute4"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_leather_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="solruine_elite_archer"
+		default_group="Ranged"
+		level="31"
+		name="Вавилонский лучший лучник"
+		occupation="Soldier"
+		culture="Culture.vavilon">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute2"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_leather_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute3"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute4"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_leather_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.sa_barbute1"/>
+				<equipment slot="Cape" id="Item.swadian_shoulders"/>
+				<equipment slot="Body" id="Item.swadian_plate_with_armguards"/>
+				<equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+				<equipment slot="Leg" id="Item.plate_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
