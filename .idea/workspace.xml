@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Начал Вавилон">
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Сделал вавилон но есть баг с вылетом">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/lords.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/lords.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zHellenic Coalition Army Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/План Работ" beforeDir="false" afterPath="$PROJECT_DIR$/План Работ" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774856908791</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Сделал вавилон но есть баг с вылетом">
+      <option name="closed" value="true" />
+      <created>1774859979633</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1774859979633</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +256,7 @@
     <MESSAGE value="Вторая ветка атлантов готова" />
     <MESSAGE value="Перебазировал все юниты атлантов в ЯДРО" />
     <MESSAGE value="Начал Вавилон" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начал Вавилон" />
+    <MESSAGE value="Сделал вавилон но есть баг с вылетом" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал вавилон но есть баг с вылетом" />
   </component>
 </project>
