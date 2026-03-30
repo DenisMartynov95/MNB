@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<NPCCharacters>
+		<NPCCharacter id="dbsteen"
+					is_basic_troop="true"
+					default_group="Infantry"
+					level="6"
+					name="Македонский рекрут"
+					occupation="Soldier"
+					culture="Culture.makedon">
+					<face>
+						<BodyProperties version="4" age="21.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+					</face>
+					<skills >
+						<skill id="Athletics" value="20"/>
+						<skill id="Riding" value="10"/>
+						<skill id="OneHanded" value="20"/>
+						<skill id="TwoHanded" value="10"/>
+						<skill id="Polearm" value="25"/>
+						<skill id="Bow" value="10"/>
+						<skill id="Crossbow" value="10"/>
+						<skill id="Throwing" value="10"/>
+					</skills>
+					<upgrade_targets>
+						<upgrade_target id="NPCCharacter.spartansell"/>
+						<upgrade_target id="NPCCharacter.pharsalos_archer"/>
+					</upgrade_targets>
+					<Equipments>
+						<EquipmentRoster>
+							<equipment slot="Item0" id="Item.AR_aserai_lance_2_t4"/>
+							<equipment slot="Item1" id="Item.throwing_stone"/>
+							<equipment slot="Head" id="Item."/>
+							<equipment slot="Cape" id="Item."/>
+							<equipment slot="Body" id="Item.dbsrobe"/>
+							<equipment slot="Gloves" id="Item.dbshand"/>
+							<equipment slot="Leg" id="Item.dbsleg2"/>
+						</EquipmentRoster>
+						<EquipmentRoster civilian="true">
+							<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+							<equipment slot="Item2" id="Item.throwing_stone"/>
+							<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+							<equipment slot="Leg" id="Item.wrapped_shoes"/>
+						</EquipmentRoster>
+					</Equipments>
+			</NPCCharacter>
+		<NPCCharacter id="spartansell"
+				default_group="Infantry"
+				level="11"
+				name="Македонский рядовой"
+				occupation="Soldier"
+				culture="Culture.makedon">
+				<face>
+					<BodyProperties version="4" age="21.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="70"/>
+					<skill id="Riding" value="10"/>
+					<skill id="OneHanded" value="60"/>
+					<skill id="TwoHanded" value="10"/>
+					<skill id="Polearm" value="70"/>
+					<skill id="Bow" value="10"/>
+					<skill id="Crossbow" value="10"/>
+					<skill id="Throwing" value="60"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.dbsreserve"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.AR_empire_polearm_1_t3"/>
+						<equipment slot="Item1" id="Item.sword_sparta"/>
+						<equipment slot="Item2" id="Item.aspis_5"/>
+						<equipment slot="Item3" id="Item.AR_plumbata"/>
+						<equipment slot="Head" id="Item.invisiblehelm"/>
+						<equipment slot="Body" id="Item.spymj"/>
+						<equipment slot="Gloves" id="Item.sphand"/>
+						<equipment slot="Leg" id="Item.spfoot"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+						<equipment slot="Item2" id="Item.throwing_stone"/>
+						<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+						<equipment slot="Leg" id="Item.wrapped_shoes"/>
+					</EquipmentRoster>
+				</Equipments>
+				</NPCCharacter>
+		<NPCCharacter id="dbsreserve"
+				default_group="Infantry"
+				level="16"
+				name="Македонский гоплит"
+				occupation="Soldier"
+				culture="Culture.makedon">
+				<face>
+					<BodyProperties version="4" age="31.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="125"/>
+					<skill id="Riding" value="10"/>
+					<skill id="OneHanded" value="80"/>
+					<skill id="TwoHanded" value="10"/>
+					<skill id="Polearm" value="90"/>
+					<skill id="Bow" value="100"/>
+					<skill id="Crossbow" value="10"/>
+					<skill id="Throwing" value="65"/>
+				</skills>
+					<upgrade_targets>
+						<upgrade_target id="NPCCharacter.dbshoplite"/>
+					</upgrade_targets>
+					<Equipments>
+						<EquipmentRoster>
+							<equipment slot="Item0" id="Item.AR_aserai_lance_5_t5"/>
+							<equipment slot="Item1" id="Item.lantrim_shield"/>
+							<equipment slot="Item2" id="Item.AR_plumbata"/>
+							<equipment slot="Head" id="Item.dbshead4"/>
+							<equipment slot="Cape" id="Item.tree_capes"/>
+							<equipment slot="Body" id="Item.dbsbody2"/>
+							<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+							<equipment slot="Leg" id="Item.spfoot"/>
+						</EquipmentRoster>
+						<EquipmentRoster civilian="true">
+							<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+							<equipment slot="Item2" id="Item.throwing_stone"/>
+							<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+							<equipment slot="Leg" id="Item.wrapped_shoes"/>
+						</EquipmentRoster>
+					</Equipments>
+				</NPCCharacter>
+
+		<NPCCharacter id="pharsalos_archer"
+						default_group="Ranged"
+						level="11"
+						name="Македонская лучница"
+						occupation="Soldier"
+						is_female="true"
+						culture="Culture.makedon">
+						<face>
+							<BodyProperties version="4" age="25.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+						</face>
+						<skills >
+							<skill id="Athletics" value="50"/>
+							<skill id="Riding" value="10"/>
+							<skill id="OneHanded" value="60"/>
+							<skill id="TwoHanded" value="10"/>
+							<skill id="Polearm" value="10"/>
+							<skill id="Bow" value="50"/>
+							<skill id="Crossbow" value="10"/>
+							<skill id="Throwing" value="50"/>
+						</skills>
+						<upgrade_targets>
+							<upgrade_target id="NPCCharacter.pharsalos_elite_archer"/>
+						</upgrade_targets>
+						<Equipments>
+							<EquipmentRoster>
+								<equipment slot="Item0" id="Item.glen_ranger_bow"/>
+								<equipment slot="Item1" id="Item.steppe_arrows"/>
+								<equipment slot="Item2" id="Item.steppe_arrows"/>
+								<equipment slot="Body" id="Item.aklsbodyf"/>
+								<equipment slot="Gloves" id="Item.aklshand"/>
+								<equipment slot="Leg" id="Item.aklsleg"/>
+							</EquipmentRoster>
+							<EquipmentRoster civilian="true">
+								<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+								<equipment slot="Item2" id="Item.throwing_stone"/>
+								<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+								<equipment slot="Leg" id="Item.wrapped_shoes"/>
+							</EquipmentRoster>
+						</Equipments>
+								</NPCCharacter>
+		<NPCCharacter id="pharsalos_elite_archer"
+				default_group="Ranged"
+				level="16"
+				name="Мирмидонская лучница"
+				occupation="Soldier"
+				is_female="true"
+				culture="Culture.makedon">
+				<face>
+					<BodyProperties version="4" age="25.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="150"/>
+					<skill id="Riding" value="10"/>
+					<skill id="OneHanded" value="160"/>
+					<skill id="TwoHanded" value="10"/>
+					<skill id="Polearm" value="10"/>
+					<skill id="Bow" value="90"/>
+					<skill id="Crossbow" value="10"/>
+					<skill id="Throwing" value="160"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.pharsalos_elite_archers"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.sphpbow"/>
+						<equipment slot="Item1" id="Item.GRE_piercing_arrows"/>
+						<equipment slot="Item2" id="Item.GRE_piercing_arrows"/>
+						<equipment slot="Item3" id="Item.ballista_projectile_burning"/>
+						<equipment slot="Head" id="Item.cts_roman_helmet_cav_mask4"/>
+						<equipment slot="Cape" id="Item.tree_capes"/>
+						<equipment slot="Body" id="Item.aklsbodyf"/>
+						<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+						<equipment slot="Leg" id="Item.aklsleg"/>
+						<equipment slot="HorseHarness" id="Item.AR_horse_armor_l"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+						<equipment slot="Item2" id="Item.throwing_stone"/>
+						<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+						<equipment slot="Leg" id="Item.wrapped_shoes"/>
+					</EquipmentRoster>
+				</Equipments>
+						</NPCCharacter>
+		<NPCCharacter id="pharsalos_elite_archers"
+								default_group="Ranged"
+								level="21"
+								name="Мирмидонская элитная лучница"
+								occupation="Soldier"
+								is_female="true"
+								culture="Culture.makedon">
+								<face>
+									<BodyProperties version="4" age="25.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+								</face>
+								<skills >
+									<skill id="Athletics" value="240"/>
+									<skill id="Riding" value="10"/>
+									<skill id="OneHanded" value="210"/>
+									<skill id="TwoHanded" value="10"/>
+									<skill id="Polearm" value="240"/>
+									<skill id="Bow" value="200"/>
+									<skill id="Crossbow" value="10"/>
+									<skill id="Throwing" value="230"/>
+								</skills>
+								<upgrade_targets>
+									<upgrade_target id="NPCCharacter.thebes_elite_soldier"/>
+								</upgrade_targets>
+								<Equipments>
+									<EquipmentRoster>
+										<equipment slot="Item0" id="Item.sphpbow"/>
+										<equipment slot="Item1" id="Item.GRE_piercing_arrows"/>
+										<equipment slot="Item2" id="Item.GRE_piercing_arrows"/>
+										<equipment slot="Head" id="Item.aklshead"/>
+										<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+										<equipment slot="Body" id="Item.aklsbodyf"/>
+										<equipment slot="Gloves" id="Item.aklshand"/>
+										<equipment slot="Leg" id="Item.aklsleg"/>
+									</EquipmentRoster>
+									<EquipmentRoster civilian="true">
+										<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+										<equipment slot="Item2" id="Item.throwing_stone"/>
+										<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+										<equipment slot="Leg" id="Item.wrapped_shoes"/>
+									</EquipmentRoster>
+								</Equipments>
+										</NPCCharacter>
+		<NPCCharacter id="thebes_elite_soldier"
+				default_group="Ranged"
+				level="26"
+				name="Лук Македонии"
+				occupation="Soldier"
+				is_female="true"
+				culture="Culture.makedon">
+				<face>
+					<BodyProperties version="4" age="32.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="220"/>
+					<skill id="Riding" value="10"/>
+					<skill id="OneHanded" value="210"/>
+					<skill id="TwoHanded" value="10"/>
+					<skill id="Polearm" value="240"/>
+					<skill id="Bow" value="250"/>
+					<skill id="Crossbow" value="10"/>
+					<skill id="Throwing" value="300"/>
+				</skills>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.sphpbow"/>
+						<equipment slot="Item1" id="Item.GRE_piercing_arrows"/>
+						<equipment slot="Item2" id="Item.GRE_piercing_arrows"/>
+						<equipment slot="Head" id="Item.cts_roman_helmet_cav_mask4"/>
+						<equipment slot="Cape" id="Item.tree_capes"/>
+						<equipment slot="Body" id="Item.aklsbodyf"/>
+						<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+						<equipment slot="Leg" id="Item.aklsleg"/>
+						<equipment slot="HorseHarness" id="Item.AR_horse_armor_l"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+						<equipment slot="Item2" id="Item.throwing_stone"/>
+						<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+						<equipment slot="Leg" id="Item.wrapped_shoes"/>
+					</EquipmentRoster>
+				</Equipments>
+							</NPCCharacter>
+
+		<NPCCharacter id="dbshoplite"
+				default_group="Infantry"
+				level="21"
+				name="Мирмидонский гоплит"
+				occupation="Soldier"
+				culture="Culture.makedon">
+				<face>
+					<BodyProperties version="4" age="36.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="150"/>
+					<skill id="Riding" value="10"/>
+					<skill id="OneHanded" value="160"/>
+					<skill id="TwoHanded" value="10"/>
+					<skill id="Polearm" value="10"/>
+					<skill id="Bow" value="150"/>
+					<skill id="Crossbow" value="10"/>
+					<skill id="Throwing" value="160"/>
+				</skills>
+					<upgrade_targets>
+						<upgrade_target id="NPCCharacter.dbsholy"/>
+					</upgrade_targets>
+					<Equipments>
+						<EquipmentRoster>
+							<equipment slot="Item0" id="Item.spear_achilles"/>
+							<equipment slot="Item1" id="Item.aklsshield"/>
+							<equipment slot="Head" id="Item.aklshead"/>
+							<equipment slot="Body" id="Item.aklsymj"/>
+							<equipment slot="Gloves" id="Item.aklshand"/>
+							<equipment slot="Leg" id="Item.aklsleg"/>
+						</EquipmentRoster>
+						<EquipmentRoster civilian="true">
+							<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+							<equipment slot="Item2" id="Item.throwing_stone"/>
+							<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+							<equipment slot="Leg" id="Item.wrapped_shoes"/>
+						</EquipmentRoster>
+					</Equipments>
+				</NPCCharacter>
+		<NPCCharacter id="dbsholy"
+				default_group="Infantry"
+				level="26"
+				name="Тяжелый мирмидонский гоплит"
+				occupation="Soldier"
+				culture="Culture.makedon">
+				<face>
+					<BodyProperties version="4" age="38.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="240"/>
+					<skill id="Riding" value="10"/>
+					<skill id="OneHanded" value="210"/>
+					<skill id="TwoHanded" value="10"/>
+					<skill id="Polearm" value="240"/>
+					<skill id="Bow" value="200"/>
+					<skill id="Crossbow" value="10"/>
+					<skill id="Throwing" value="230"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.dbsholys"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.spear_achilles"/>
+						<equipment slot="Item1" id="Item.aklsshield"/>
+						<equipment slot="Item2" id="Item.empire_noble_sword_2_t5"/>
+						<equipment slot="Head" id="Item.aklshead"/>
+						<equipment slot="Cape" id="Item.sphpcape3"/>
+						<equipment slot="Body" id="Item.aklsbody"/>
+						<equipment slot="Gloves" id="Item.aklshand"/>
+						<equipment slot="Leg" id="Item.sphplegf"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+						<equipment slot="Item2" id="Item.throwing_stone"/>
+						<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+						<equipment slot="Leg" id="Item.wrapped_shoes"/>
+					</EquipmentRoster>
+				</Equipments>
+					</NPCCharacter>
+		<NPCCharacter id="dbsholys"
+							default_group="Infantry"
+							level="29"
+							name="Гоплит Ахиллеса"
+							occupation="Soldier"
+							culture="Culture.makedon">
+							<face>
+								<BodyProperties version="4" age="38.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+							</face>
+							<skills >
+								<skill id="Athletics" value="220"/>
+								<skill id="Riding" value="10"/>
+								<skill id="OneHanded" value="210"/>
+								<skill id="TwoHanded" value="10"/>
+								<skill id="Polearm" value="300"/>
+								<skill id="Bow" value="250"/>
+								<skill id="Crossbow" value="10"/>
+								<skill id="Throwing" value="200"/>
+							</skills>
+							<Equipments>
+								<EquipmentRoster>
+									<equipment slot="Item0" id="Item.spear_achilles"/>
+									<equipment slot="Item1" id="Item.aklsshield"/>
+									<equipment slot="Item2" id="Item.empire_noble_sword_2_t5"/>
+									<equipment slot="Item3" id="Item.javelin_sparta"/>
+									<equipment slot="Head" id="Item.aklshead"/>
+									<equipment slot="Cape" id="Item.sphpcape3"/>
+									<equipment slot="Body" id="Item.aklsbody2"/>
+									<equipment slot="Gloves" id="Item.aklshand"/>
+									<equipment slot="Leg" id="Item.sphplegf"/>
+									<equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+								</EquipmentRoster>
+								<EquipmentRoster civilian="true">
+									<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+									<equipment slot="Item2" id="Item.throwing_stone"/>
+									<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+									<equipment slot="Leg" id="Item.wrapped_shoes"/>
+								</EquipmentRoster>
+							</Equipments>
+								</NPCCharacter>
+
+		<NPCCharacter id="dbsguard"
+										default_group="Infantry"
+										level="6"
+										name="Македонский джавелин"
+										occupation="Soldier"
+										culture="Culture.makedon">
+										<face>
+											<BodyProperties version="4" age="21.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+										</face>
+										<skills >
+											<skill id="Athletics" value="50"/>
+											<skill id="Riding" value="10"/>
+											<skill id="OneHanded" value="60"/>
+											<skill id="TwoHanded" value="10"/>
+											<skill id="Polearm" value="10"/>
+											<skill id="Bow" value="50"/>
+											<skill id="Crossbow" value="10"/>
+											<skill id="Throwing" value="60"/>
+										</skills>
+											<upgrade_targets>
+												<upgrade_target id="NPCCharacter.dbssell"/>
+											</upgrade_targets>
+											<Equipments>
+												<EquipmentRoster>
+													<equipment slot="Item0" id="Item.sword_sparta"/>
+													<equipment slot="Item1" id="Item.AR_shield_infantry_b"/>
+													<equipment slot="Item2" id="Item.javelin_sparta"/>
+													<equipment slot="Head" id="Item.dbshead"/>
+													<equipment slot="Body" id="Item.dbsbody2"/>
+													<equipment slot="Gloves" id="Item.modaoduihuwan"/>
+													<equipment slot="Leg" id="Item.dbsleg"/>
+												</EquipmentRoster>
+												<EquipmentRoster civilian="true">
+													<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+													<equipment slot="Item2" id="Item.throwing_stone"/>
+													<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+													<equipment slot="Leg" id="Item.wrapped_shoes"/>
+												</EquipmentRoster>
+											</Equipments>
+										</NPCCharacter>
+		<NPCCharacter id="dbssell"
+															default_group="Cavalry"
+															level="11"
+															name="Македонский всадник"
+															occupation="Soldier"
+															culture="Culture.makedon" is_female="false">
+															<face>
+															<BodyProperties version="4" age="22.9" weight="0" build="0.5995"  key="0000B80B8FE40003537666CFB0678FF871A387159488C803888ABA348F92000500B906030B13411000000000000000000000000000000000000000007D844002"  />
+															</face>
+															<skills >
+																<skill id="Athletics" value="70"/>
+																<skill id="Riding" value="70"/>
+																<skill id="OneHanded" value="50"/>
+																<skill id="TwoHanded" value="10"/>
+																<skill id="Polearm" value="70"/>
+																<skill id="Bow" value="10"/>
+																<skill id="Crossbow" value="10"/>
+																<skill id="Throwing" value="40"/>
+															</skills>
+															<upgrade_targets>
+																<upgrade_target id="NPCCharacter.achillesguardsergeant"/>
+															</upgrade_targets>
+															<Equipments>
+																<EquipmentRoster>
+																	<equipment slot="Item0" id="Item.sword_sparta"/>
+																	<equipment slot="Item1" id="Item.lantrim_shield"/>
+																	<equipment slot="Head" id="Item.dbshead4"/>
+																	<equipment slot="Cape" id="Item.tree_capes"/>
+																	<equipment slot="Body" id="Item.dbsbody"/>
+																	<equipment slot="Gloves" id="Item.dbshand"/>
+																	<equipment slot="Leg" id="Item.dbsleg2"/>
+																	<equipment slot="Horse" id="Item.khuzait_horse"/>
+																</EquipmentRoster>
+																<EquipmentRoster civilian="true">
+																	<equipment slot="Item0" id="Item.sword_sparta5"/>
+																	<equipment slot="Head" id="Item.dbshead4"/>
+																	<equipment slot="Body" id="Item.dbsbody"/>
+																	<equipment slot="Gloves" id="Item.dbshand"/>
+																	<equipment slot="Leg" id="Item.dbsleg2"/>
+																</EquipmentRoster>
+															</Equipments>
+														</NPCCharacter>
+		<NPCCharacter id="achillesguardsergeant"
+													default_group="Cavalry"
+													level="16"
+													name="Всадник Фесаллии"
+													occupation="Soldier"
+													culture="Culture.makedon" is_female="false">
+													<face>
+														<BodyProperties version="4" age="33.23" weight="0" build="0.5995"  key="000D1C02970013833C75BE2F54A73A846EF48AA881BD1500B5EC96458DB3683605C906570C489C0400000000000000000000000000000000000000002B8C3002"  />
+													</face>
+													<skills >
+														<skill id="Athletics" value="150"/>
+														<skill id="Riding" value="120"/>
+														<skill id="OneHanded" value="140"/>
+														<skill id="TwoHanded" value="10"/>
+														<skill id="Polearm" value="10"/>
+														<skill id="Bow" value="150"/>
+														<skill id="Crossbow" value="10"/>
+														<skill id="Throwing" value="140"/>
+													</skills>
+													<upgrade_targets>
+														<upgrade_target id="NPCCharacter.thebes_warrior"/>
+													</upgrade_targets>
+													<Equipments>
+														<EquipmentRoster>
+															<equipment slot="Item0" id="Item.spear_achilles"/>
+															<equipment slot="Item1" id="Item.sword_achilles"/>
+															<equipment slot="Item2" id="Item.aklsshield"/>
+															<equipment slot="Head" id="Item.aklshead"/>
+															<equipment slot="Body" id="Item.aklsbody"/>
+															<equipment slot="Gloves" id="Item.aklshand"/>
+															<equipment slot="Leg" id="Item.aklsleg"/>
+															<equipment slot="Horse" id="Item.khuzait_horse"/>
+															<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+														</EquipmentRoster>
+														<EquipmentRoster civilian="true">
+															<equipment slot="Item0" id="Item.sword_achilles"/>
+															<equipment slot="Head" id="Item.aklshead"/>
+															<equipment slot="Body" id="Item.aklsbody"/>
+															<equipment slot="Gloves" id="Item.aklshand"/>
+															<equipment slot="Leg" id="Item.aklsleg"/>
+														</EquipmentRoster>
+													</Equipments>
+
+												</NPCCharacter>
+		<NPCCharacter id="thebes_warrior"
+				default_group="Infantry"
+				level="24"
+				name="Македонский застрельщик"
+				occupation="Soldier"
+				culture="Culture.makedon">
+				<face>
+					<BodyProperties version="4" age="21.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="240"/>
+					<skill id="Riding" value="10"/>
+					<skill id="OneHanded" value="210"/>
+					<skill id="TwoHanded" value="10"/>
+					<skill id="Polearm" value="240"/>
+					<skill id="Bow" value="200"/>
+					<skill id="Crossbow" value="10"/>
+					<skill id="Throwing" value="230"/>
+				</skills>
+						<upgrade_targets>
+							<upgrade_target id="NPCCharacter.achillesguardcaptain"/>
+						</upgrade_targets>
+						<Equipments>
+							<EquipmentRoster>
+								<equipment slot="Item0" id="Item.sword_sparta"/>
+								<equipment slot="Item1" id="Item.dbsshield"/>
+								<equipment slot="Item2" id="Item.javelin_sparta"/>
+								<equipment slot="Head" id="Item.dbshead"/>
+								<equipment slot="Cape" id="Item.c4355capes"/>
+								<equipment slot="Body" id="Item.dbsbody2"/>
+								<equipment slot="Gloves" id="Item.AR_empire_gloves_d"/>
+								<equipment slot="Leg" id="Item.dbsleg"/>
+							</EquipmentRoster>
+							<EquipmentRoster civilian="true">
+								<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+								<equipment slot="Item2" id="Item.throwing_stone"/>
+								<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+								<equipment slot="Leg" id="Item.wrapped_shoes"/>
+							</EquipmentRoster>
+						</Equipments>
+					</NPCCharacter>
+		<NPCCharacter id="achillesguardcaptain"
+																	default_group="Cavalry"
+																	level="28"
+																	name="Фессаликийский тяжелый всадник"
+																	occupation="Soldier"
+																	culture="Culture.makedon" is_female="false">
+																	<face>
+																		<BodyProperties version="4" age="43.23" weight="0" build="0.5995"  key="000D1C02970013833C75BE2F54A73A846EF48AA881BD1500B5EC96458DB3683605C906570C489C0400000000000000000000000000000000000000002B8C3002"  />
+																	</face>
+																	<skills >
+																		<skill id="Athletics" value="240"/>
+																		<skill id="Riding" value="200"/>
+																		<skill id="OneHanded" value="180"/>
+																		<skill id="TwoHanded" value="10"/>
+																		<skill id="Polearm" value="190"/>
+																		<skill id="Bow" value="200"/>
+																		<skill id="Crossbow" value="10"/>
+																		<skill id="Throwing" value="130"/>
+																	</skills>
+																	<upgrade_targets>
+																		<upgrade_target id="NPCCharacter.thebes_soldier"/>
+																	</upgrade_targets>
+																	<Equipments>
+																		<EquipmentRoster>
+																			<equipment slot="Item0" id="Item.spear_achilles"/>
+																			<equipment slot="Item1" id="Item.sword_achilles"/>
+																			<equipment slot="Item2" id="Item.aklsshield"/>
+																			<equipment slot="Head" id="Item.aklshead2"/>
+																			<equipment slot="Body" id="Item.aklsbody2"/>
+																			<equipment slot="Gloves" id="Item.aklshand"/>
+																			<equipment slot="Leg" id="Item.aklsleg"/>
+																			<equipment slot="Horse" id="Item.noble_horse_southern"/>
+																			<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+																		</EquipmentRoster>
+																		<EquipmentRoster civilian="true">
+																			<equipment slot="Item0" id="Item.sword_achilles"/>
+																			<equipment slot="Head" id="Item.aklshead2"/>
+																			<equipment slot="Body" id="Item.aklsbody2"/>
+																			<equipment slot="Gloves" id="Item.aklshand"/>
+																			<equipment slot="Leg" id="Item.aklsleg"/>
+																		</EquipmentRoster>
+																	</Equipments>
+																</NPCCharacter>
+		<NPCCharacter id="thebes_soldier"
+							default_group="Infantry"
+							level="36"
+							name="Копье Македонии"
+							occupation="Soldier"
+							culture="Culture.makedon">
+							<face>
+								<BodyProperties version="4" age="33.76" weight="0" build="0.6188"  key="000DBC0E400000033A923696B63698C676CD867784CBE806C9BB86656AA60C0500B906030BA7A6567FFFB4EF7F005FFA0000000000001AA40000000037743002"  />
+							</face>
+							<skills >
+								<skill id="Athletics" value="220"/>
+								<skill id="Riding" value="10"/>
+								<skill id="OneHanded" value="210"/>
+								<skill id="TwoHanded" value="10"/>
+								<skill id="Polearm" value="240"/>
+								<skill id="Bow" value="250"/>
+								<skill id="Crossbow" value="10"/>
+								<skill id="Throwing" value="300"/>
+							</skills>
+							<Equipments>
+								<EquipmentRoster>
+									<equipment slot="Item0" id="Item.sword_sparta"/>
+									<equipment slot="Item1" id="Item.dbsshield"/>
+									<equipment slot="Item2" id="Item.javelin_sparta"/>
+									<equipment slot="Item3" id="Item.javelin_sparta"/>
+									<equipment slot="Head" id="Item.dbshead2"/>
+									<equipment slot="Body" id="Item.dbsbody"/>
+									<equipment slot="Gloves" id="Item.dbshand"/>
+									<equipment slot="Leg" id="Item.dbsleg"/>
+								</EquipmentRoster>
+								<EquipmentRoster civilian="true">
+									<equipment slot="Item0" id="Item.spear_thebes"/>
+									<equipment slot="Item1" id="Item.dbsshield"/>
+									<equipment slot="Item3" id="Item.javelin_thebes"/>
+									<equipment slot="Head" id="Item.dbshead2"/>
+									<equipment slot="Body" id="Item.dbsbody"/>
+									<equipment slot="Gloves" id="Item.dbshand"/>
+									<equipment slot="Leg" id="Item.dbsleg"/>
+								</EquipmentRoster>
+							</Equipments>
+						</NPCCharacter>
+</NPCCharacters>

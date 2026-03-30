@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_kharmor_leader_object" text="Khutulun is a Mongol warlord, a formidable and captivating leader who defies traditional gender roles and expectations in her society. She possesses a combination of physical prowess, strategic intelligence, and unwavering determination that sets her apart as a remarkable leader. She is strikingly beautiful, with a fierce and captivating presence. She has long, jet-black hair that flows down her back, often tied in a warrior's braid. Her almond-shaped eyes are a deep shade of brown, filled with a piercing intensity that reflects her inner strength. She bears the scars of countless battles, but they only serve to enhance her aura of power. Khutulun's physique is impressive, muscular and lean from a lifetime of physical training and combat." faction="Faction.kharmor_company" />
+
+</Heroes>

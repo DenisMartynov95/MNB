@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="vespan_squire"
+		default_group="Infantry"
+		level="16"
+		name="{=Vespan Squire}Vespan Squire"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vespan_soldier"/>
+			<upgrade_target id="NPCCharacter.vespan_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_dark_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_dark_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_dark_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_dark_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_dark_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_dark_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_dark_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_dark_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_dark_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_dark_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_dark_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_dark_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_dark_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_dark_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_dark_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_dark_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_dark_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_dark_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_dark_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_dark_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="vespan_soldier"
+		default_group="Infantry"
+		level="21"
+		name="{=Vespan Soldier}Vespan Soldier"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="140"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vespan_hunter"/>
+			<upgrade_target id="NPCCharacter.vespan_warrior"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_2haxe_1_t2"/>
+				<equipment slot="Head" id="Item.lohengrin_blood_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_blood_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_blood_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_blood_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_blood_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_2haxe_1_t2"/>
+				<equipment slot="Head" id="Item.lohengrin_blood_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_blood_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_blood_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_blood_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_blood_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_2haxe_1_t2"/>
+				<equipment slot="Head" id="Item.lohengrin_blood_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_blood_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_blood_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_blood_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_blood_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_2haxe_1_t2"/>
+				<equipment slot="Head" id="Item.lohengrin_blood_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_blood_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_blood_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_blood_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_blood_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_2haxe_1_t2"/>
+				<equipment slot="Head" id="Item.lohengrin_blood_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_blood_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_blood_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_blood_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_blood_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="vespan_infantry"
+		default_group="Infantry"
+		level="21"
+		name="{=Vespan Infantry}Vespan Infantry"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vespan_cavalry"/>
+			<upgrade_target id="NPCCharacter.vespan_defender"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_azure_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_azure_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_azure_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_azure_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_azure_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_azure_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_azure_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_azure_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_azure_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_azure_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_azure_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_azure_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_azure_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_azure_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_azure_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_azure_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_azure_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_azure_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_azure_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_azure_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_azure_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_azure_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_azure_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_azure_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_azure_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="vespan_cavalry"
+		default_group="Cavalry"
+		level="26"
+		name="{=Vespan Cavalry}Vespan Cavalry"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vespan_lancers"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.seax"/>
+				<equipment slot="Item2" id="Item.zirant_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_azure_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_blue_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_blue_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_blue"/>
+				<equipment slot="Leg" id="Item.lohengrin_blue_boots"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.half_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.seax"/>
+				<equipment slot="Item2" id="Item.zirant_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_azure_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_blue_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_blue_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_blue"/>
+				<equipment slot="Leg" id="Item.lohengrin_blue_boots"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.half_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.seax"/>
+				<equipment slot="Item2" id="Item.zirant_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_azure_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_blue_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_blue_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_blue"/>
+				<equipment slot="Leg" id="Item.lohengrin_blue_boots"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.half_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.seax"/>
+				<equipment slot="Item2" id="Item.zirant_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_azure_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_blue_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_blue_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_blue"/>
+				<equipment slot="Leg" id="Item.lohengrin_blue_boots"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.half_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.seax"/>
+				<equipment slot="Item2" id="Item.zirant_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_azure_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_blue_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_blue_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_blue"/>
+				<equipment slot="Leg" id="Item.lohengrin_blue_boots"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.half_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="vespan_defender"
+		default_group="Infantry"
+		level="26"
+		name="{=Vespan Defender}Vespan Defender"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vespan_guardian"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.zirant_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_black_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_black_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_black_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_black_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.zirant_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_black_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_black_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_black_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_black_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.zirant_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_black_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_black_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_black_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_black_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.zirant_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_black_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_black_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_black_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_black_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.zirant_shield"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_black_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_black_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_black_gauntlets"/>
+				<equipment slot="Leg" id="Item.lohengrin_black_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="vespan_guardian"
+		default_group="Infantry"
+		level="31"
+		name="{=Vespan Guardian}Vespan Guardian"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.Fenix_knight_shield_dark_gold"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_dark_gold"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_dark_gold"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_dark_gold"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_dark_gold"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_dark_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.Fenix_knight_shield_dark_gold"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_dark_gold"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_dark_gold"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_dark_gold"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_dark_gold"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_dark_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.Fenix_knight_shield_dark_gold"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_dark_gold"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_dark_gold"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_dark_gold"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_dark_gold"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_dark_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.Fenix_knight_shield_dark_gold"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_dark_gold"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_dark_gold"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_dark_gold"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_dark_gold"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_dark_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.Fenix_knight_shield_dark_gold"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_dark_gold"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_dark_gold"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_dark_gold"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_dark_gold"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_dark_gold"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="vespan_lancers"
+		default_group="Cavalry"
+		level="31"
+		name="{=Vespan Lancers}Vespan Lancers"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.knights_fall_mace_t3"/>
+				<equipment slot="Item2" id="Item.Fenix_knight_shield_dark_silver"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_dark_silver"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_dark_silver"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_dark_silver"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_dark_silver"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_dark_silver"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.knights_fall_mace_t3"/>
+				<equipment slot="Item2" id="Item.Fenix_knight_shield_dark_silver"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_dark_silver"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_dark_silver"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_dark_silver"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_dark_silver"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_dark_silver"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.knights_fall_mace_t3"/>
+				<equipment slot="Item2" id="Item.Fenix_knight_shield_dark_silver"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_dark_silver"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_dark_silver"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_dark_silver"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_dark_silver"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_dark_silver"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.knights_fall_mace_t3"/>
+				<equipment slot="Item2" id="Item.Fenix_knight_shield_dark_silver"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_dark_silver"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_dark_silver"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_dark_silver"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_dark_silver"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_dark_silver"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.knights_fall_mace_t3"/>
+				<equipment slot="Item2" id="Item.Fenix_knight_shield_dark_silver"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_dark_silver"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_dark_silver"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_dark_silver"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_dark_silver"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_dark_silver"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="vespan_hunter"
+		default_group="Ranged"
+		level="26"
+		name="{=Vespan Hunter}Vespan Hunter"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vespan_sniper"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.woodland_longbow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_white_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_white_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_white"/>
+				<equipment slot="Leg" id="Item.lohengrin_white_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.woodland_longbow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_white_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_white_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_white"/>
+				<equipment slot="Leg" id="Item.lohengrin_white_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.woodland_longbow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_white_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_white_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_white"/>
+				<equipment slot="Leg" id="Item.lohengrin_white_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.woodland_longbow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_white_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_white_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_white"/>
+				<equipment slot="Leg" id="Item.lohengrin_white_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.woodland_longbow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.lohengrin_dark_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_white_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_white_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_white"/>
+				<equipment slot="Leg" id="Item.lohengrin_white_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="vespan_warrior"
+		default_group="Infantry"
+		level="26"
+		name="{=Vespan Warrior}Vespan Warrior"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vespan_champion"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_2hsword_1_t2"/>
+				<equipment slot="Head" id="Item.lohengrin_blood_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_red_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_red_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_red"/>
+				<equipment slot="Leg" id="Item.lohengrin_red_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_2hsword_1_t2"/>
+				<equipment slot="Head" id="Item.lohengrin_blood_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_red_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_red_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_red"/>
+				<equipment slot="Leg" id="Item.lohengrin_red_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_2hsword_1_t2"/>
+				<equipment slot="Head" id="Item.lohengrin_blood_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_red_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_red_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_red"/>
+				<equipment slot="Leg" id="Item.lohengrin_red_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_2hsword_1_t2"/>
+				<equipment slot="Head" id="Item.lohengrin_blood_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_red_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_red_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_red"/>
+				<equipment slot="Leg" id="Item.lohengrin_red_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_2hsword_1_t2"/>
+				<equipment slot="Head" id="Item.lohengrin_blood_helmet"/>
+				<equipment slot="Cape" id="Item.lohengrin_red_cloak_shoulders"/>
+				<equipment slot="Body" id="Item.lohengrin_red_armor"/>
+				<equipment slot="Gloves" id="Item.lohengrin_gauntlets_red"/>
+				<equipment slot="Leg" id="Item.lohengrin_red_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="vespan_champion"
+		default_group="Infantry"
+		level="31"
+		name="{=Vespan Champion}Vespan Champion"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.Fenix_knight_shield_grey"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_grey"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_grey"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_grey"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_grey"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_grey"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.Fenix_knight_shield_grey"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_grey"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_grey"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_grey"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_grey"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_grey"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.Fenix_knight_shield_grey"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_grey"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_grey"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_grey"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_grey"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_grey"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.Fenix_knight_shield_grey"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_grey"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_grey"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_grey"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_grey"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_grey"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.Fenix_knight_shield_grey"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_grey"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_grey"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_grey"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_grey"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_grey"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="vespan_sniper"
+		default_group="Ranged"
+		level="31"
+		name="{=Vespan Sniper}Vespan Sniper"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_6_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.Fenix_knight_shield_white"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_white"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_white"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_white"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_white"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_white"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_6_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.Fenix_knight_shield_white"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_white"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_white"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_white"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_white"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_white"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_6_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.Fenix_knight_shield_white"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_white"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_white"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_white"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_white"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_white"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_6_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.Fenix_knight_shield_white"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_white"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_white"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_white"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_white"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_white"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_sword_6_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.Fenix_knight_shield_white"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.Fenix_knight_helmet_white"/>
+				<equipment slot="Cape" id="Item.Fenix_knight_shoulders_white"/>
+				<equipment slot="Body" id="Item.Fenix_knight_armor_white"/>
+				<equipment slot="Gloves" id="Item.Fenix_knight_gauntlets_white"/>
+				<equipment slot="Leg" id="Item.Fenix_knight_boots_white"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

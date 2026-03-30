@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_lorhen_leader_object" text="Kelcius Lorhen, the ruthless king and military genius of the Kingdom of Lorhen, is a enigmatic man of formidable power and ambition in the world of Quintessence. Kelcius is a tall and imposing figure, with a chiseled face adorned by a well-groomed beard, sharp piercing eyes that seem to see through his opponents, and a crown that signifies his authority. He is often dressed in regal attire, combining gold and crimson colors that reflect his dark and ambitious nature." faction="Faction.lorhen_company" />
+
+</Heroes>

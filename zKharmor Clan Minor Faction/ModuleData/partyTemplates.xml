@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="kharmor_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="25" troop="NPCCharacter.kharmor_recruit" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.kharmor_soldier" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.kharmor_rider" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.kharmor_light_cavalry" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.kharmor_heavy_cavalry" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.kharmor_warrior" />
+		<PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.kharmor_swordmaster" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.kharmor_spearmaster" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.kharmor_archer" />
+		<PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.kharmor_elite_archer" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

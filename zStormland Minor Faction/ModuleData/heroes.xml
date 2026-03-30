@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_stormland_leader_object" text="Erich Durrandon III the Sail-Maker was lost in the Narrow Sea during a maelstrom, a vortex transported his fleet to Calradia, The Storm King decides to Conquer this new land." faction="Faction.stormland_company" />
+
+</Heroes>

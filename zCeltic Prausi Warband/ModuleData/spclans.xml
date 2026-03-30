@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="celtic_army"
+			 initial_posX="363.38"
+			 initial_posY="424.32"
+			 banner_key="17.2.2.1736.2000.768.766.0.0.0.421.0.116.440.440.-56.343.1.1.45.421.0.116.440.440.-56.600.1.1.45.421.0.116.440.440.-56.862.1.1.45.421.0.116.440.440.-56.1123.1.1.45.421.0.116.440.440.1524.1134.1.1.77.421.0.116.439.439.1524.364.1.1.-79.503.0.22.439.439.1647.406.0.1.-79.503.0.22.439.439.1647.1093.0.1.-79.149.0.116.735.735.760.654.1.1.31.506.2.22.253.128.446.738.0.1.-206.149.0.116.737.737.680.823.1.1.-168.506.2.22.253.311.1103.805.0.1.-117.506.2.22.253.188.498.666.0.1.-206.506.2.22.298.105.1005.674.0.1.-102.149.0.116.737.737.805.819.1.1.-49.506.2.22.265.135.777.1035.0.1.-181.506.2.22.253.311.562.580.0.1.-226.503.0.116.420.420.756.773.0.1.-168.500.116.22.442.437.750.773.0.1.-206.503.0.0.402.259.752.688.0.1.-311.503.0.0.402.259.821.797.0.1.-226.503.0.0.402.259.692.825.0.1.-150.460.2.116.337.357.760.787.1.1.-122"
+             culture="Culture.battania"
+             default_party_template="PartyTemplate.celtic_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Кельтский клан (6 Галлы)"
+             tier="6"
+             text="Brennus, a chieftain of the Prausi, a fierce Celtic tribe, led a warband of the formidable Prausi warriors on an audacious campaign into the heart of Greece. With dreams of plunder and glory, they set their sights on the richest prize of all: the sacred city of Delphi, home to the famous oracle and immense treasures dedicated to the god Apollo.
+
+Despite their ferocity and the initial shock of their invasion, Brennus and his warriors met with stiff resistance. The Greek states, already seasoned by countless wars and internal strife, rallied together to protect their sacred sites. The Battle of Delphi turned into a disaster for the Celts.
+
+Wounded, both in body and pride, and with the remnants of his once-mighty warband, Brennus decided to retreat. But the path back to Gaul was fraught with dangers, and the Greek armies were not keen to let the barbarians escape without further punishment. In a desperate bid to evade his pursuers and perhaps to find a new land to settle and lick his wounds, Brennus led his men towards the coast with the intention of finding ships to carry them away from their failures and the vengeance of the Greeks.
+
+As fate would have it, the sea, like the land, refused to offer sanctuary to the beleaguered Gauls. As they set sail, a monstrous maelstrom, as if conjured by the gods themselves to punish Brennus and his men for their hubris, caught their meager fleet.
+
+When the storm abated, Brennus and his warband found themselves not on the familiar shores of Gaul or any known land, but cast upon the coasts of a strange and uncharted territory. This new land, with its rugged terrain, sprawling forests, and towering mountains, was unknown to them. It was Calradia, a land fractured by endless wars among petty kingdoms and nomadic tribes, a land where the sword and the spear spoke louder than any words of peace.
+
+The Gallic chieftain and his warriors quickly made a name for themselves as mercenaries, lending their swords to the highest bidder. Yet Brennus harbored greater ambitions. He dreamt of a realm where his people could live free from the yoke of other kings, a kingdom where the Prausi could thrive and their descendants could live in peace."
+			 owner="Hero.spc_celtic_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_celtic_leader_0" />
+			<template id="NPCCharacter.spc_celtic_leader_1" />
+			<template id="NPCCharacter.spc_celtic_leader_2" />
+			<template id="NPCCharacter.spc_celtic_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

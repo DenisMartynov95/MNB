@@ -1,0 +1,1857 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<NPCCharacters>
+     <!-- Malenia Valkryies -->
+	<NPCCharacter id="erdtree_valkyrie_archer"
+        is_female="true"
+        default_group="Ranged"
+		level="31"
+		name="{=Erdtree Malenian Valkyrie Archer}AZErdtree Malenian Valkyrie Archer"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_female1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow1419"/>
+				<equipment slot="Item1" id="Item.arrow7060"/>
+				<equipment slot="Item2" id="Item.arrow7060"/>
+				<equipment slot="Item3" id="Item.hand_malenia"/>
+				<equipment slot="Head" id="Item.nvwushen_head"/>
+				<equipment slot="Cape" id="Item.nvwushen_butterfly"/>
+				<equipment slot="Body" id="Item.nvwushen_cloth"/>
+				<equipment slot="Gloves" id="Item.nvwushen_hands"/>
+				<equipment slot="Leg" id="Item.nvwushen_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.longbow1419"/>
+				<equipment slot="Item1" id="Item.arrow7060"/>
+				<equipment slot="Item2" id="Item.arrow7060"/>
+				<equipment slot="Item3" id="Item.hand_malenia"/>
+				<equipment slot="Head" id="Item.nvwushen_head"/>
+				<equipment slot="Cape" id="Item.nvwushen_butterfly"/>
+				<equipment slot="Body" id="Item.nvwushen_cloth"/>
+				<equipment slot="Gloves" id="Item.nvwushen_hands"/>
+				<equipment slot="Leg" id="Item.nvwushen_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_valkyrie_blader"
+        is_female="true"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Malenian Valkyrie Blader}AZErdtree Malenian Valkyrie Blader"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_female1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item3" id="Item.hand_malenia"/>
+				<equipment slot="Head" id="Item.nvwushen_head"/>
+				<equipment slot="Cape" id="Item.nvwushen_butterfly"/>
+				<equipment slot="Body" id="Item.nvwushen_cloth"/>
+				<equipment slot="Gloves" id="Item.nvwushen_hands"/>
+				<equipment slot="Leg" id="Item.nvwushen_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item3" id="Item.hand_malenia"/>
+				<equipment slot="Head" id="Item.nvwushen_head"/>
+				<equipment slot="Cape" id="Item.nvwushen_butterfly"/>
+				<equipment slot="Body" id="Item.nvwushen_cloth"/>
+				<equipment slot="Gloves" id="Item.nvwushen_hands"/>
+				<equipment slot="Leg" id="Item.nvwushen_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Royal Knights -->
+	<NPCCharacter id="erdtree_royal_knight_dragoon"
+        is_female="true"
+        default_group="Cavalry"
+		level="31"
+		name="{=Erdtree Royal Knight Dragoon}AZErdtree Royal Knight Dragoon"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_female2"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.loretta_war_sickle"/>
+				<equipment slot="Item1" id="Item.shield2014"/>
+				<equipment slot="Head" id="Item.royal__head"/>
+				<equipment slot="Cape" id="Item.royal_capes"/>
+				<equipment slot="Body" id="Item.royal_body"/>
+				<equipment slot="Gloves" id="Item.royal_hands"/>
+				<equipment slot="Leg" id="Item.royal_legs"/>
+				<equipment slot="Horse" id="Item.royal_horse"/>
+				<equipment slot="HorseHarness" id="Item.royal_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.loretta_war_sickle"/>
+				<equipment slot="Item1" id="Item.shield2014"/>
+				<equipment slot="Head" id="Item.royal__head"/>
+				<equipment slot="Cape" id="Item.royal_capes"/>
+				<equipment slot="Body" id="Item.royal_body"/>
+				<equipment slot="Gloves" id="Item.royal_hands"/>
+				<equipment slot="Leg" id="Item.royal_legs"/>
+				<equipment slot="Horse" id="Item.royal_horse"/>
+				<equipment slot="HorseHarness" id="Item.royal_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_royal_knight_cataphract"
+        is_female="true"
+        default_group="Cavalry"
+		level="31"
+		name="{=Erdtree Royal Knight Cataphract}AZErdtree Royal Knight Cataphract"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_female2"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.loretta_war_sickle"/>
+				<equipment slot="Head" id="Item.royal__head"/>
+				<equipment slot="Cape" id="Item.royal_capes"/>
+				<equipment slot="Body" id="Item.royal_body"/>
+				<equipment slot="Gloves" id="Item.royal_hands"/>
+				<equipment slot="Leg" id="Item.royal_legs"/>
+				<equipment slot="Horse" id="Item.royal_horse"/>
+				<equipment slot="HorseHarness" id="Item.royal_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.loretta_war_sickle"/>
+				<equipment slot="Head" id="Item.royal__head"/>
+				<equipment slot="Cape" id="Item.royal_capes"/>
+				<equipment slot="Body" id="Item.royal_body"/>
+				<equipment slot="Gloves" id="Item.royal_hands"/>
+				<equipment slot="Leg" id="Item.royal_legs"/>
+				<equipment slot="Horse" id="Item.royal_horse"/>
+				<equipment slot="HorseHarness" id="Item.royal_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Black Knife Assassins -->
+	<NPCCharacter id="erdtree_black_knife_assassin"
+        is_female="true"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Black Knife Assassin}AZErdtree Black Knife Assassin"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_female3"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.coded_sword"/>
+				<equipment slot="Head" id="Item.blackknife_head"/>
+				<equipment slot="Cape" id="Item.blackknife_capes"/>
+				<equipment slot="Body" id="Item.blackknife_body"/>
+				<equipment slot="Gloves" id="Item.blackknife_hands"/>
+				<equipment slot="Leg" id="Item.blackknife_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.coded_sword"/>
+				<equipment slot="Head" id="Item.blackknife_head"/>
+				<equipment slot="Cape" id="Item.blackknife_capes"/>
+				<equipment slot="Body" id="Item.blackknife_body"/>
+				<equipment slot="Gloves" id="Item.blackknife_hands"/>
+				<equipment slot="Leg" id="Item.blackknife_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Sentinel Tree Knights -->
+	<NPCCharacter id="erdtree_sentinel_tree_knight"
+        default_group="Cavalry"
+		level="31"
+		name="{=Erdtree Sentinel Tree Knight}AZErdtree Sentinel Tree Knight"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common4"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="170"/>
+			<skill id="Riding" value="220"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.golden_halberd"/>
+				<equipment slot="Item1" id="Item.shield2206"/>
+				<equipment slot="Head" id="Item.tree_head"/>
+				<equipment slot="Cape" id="Item.tree_capes"/>
+				<equipment slot="Body" id="Item.tree_body"/>
+				<equipment slot="Gloves" id="Item.tree_hands"/>
+				<equipment slot="Leg" id="Item.tree_legs"/>
+				<equipment slot="Horse" id="Item.royal_horse"/>
+				<equipment slot="HorseHarness" id="Item.tree_sentinel_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.golden_halberd"/>
+				<equipment slot="Item1" id="Item.shield2206"/>
+				<equipment slot="Head" id="Item.tree_head"/>
+				<equipment slot="Cape" id="Item.tree_capes"/>
+				<equipment slot="Body" id="Item.tree_body"/>
+				<equipment slot="Gloves" id="Item.tree_hands"/>
+				<equipment slot="Leg" id="Item.tree_legs"/>
+				<equipment slot="Horse" id="Item.royal_horse"/>
+				<equipment slot="HorseHarness" id="Item.tree_sentinel_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Godrick Knights -->
+	<NPCCharacter id="erdtree_godrick_knight_paladin"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Godrick Knight Paladin}AZErdtree Godrick Knight Paladin"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.c4355shield"/>
+				<equipment slot="Head" id="Item.c4351head"/>
+				<equipment slot="Cape" id="Item.c4351capes"/>
+				<equipment slot="Body" id="Item.c4351body"/>
+				<equipment slot="Gloves" id="Item.c4351hands"/>
+				<equipment slot="Leg" id="Item.c4351legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.c4355shield"/>
+				<equipment slot="Head" id="Item.c4351head"/>
+				<equipment slot="Cape" id="Item.c4351capes"/>
+				<equipment slot="Body" id="Item.c4351body"/>
+				<equipment slot="Gloves" id="Item.c4351hands"/>
+				<equipment slot="Leg" id="Item.c4351legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_godrick_knight_guardian"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Godrick Knight Guardian}Erdtree Godrick Knight Guardian"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4355shield"/>
+				<equipment slot="Head" id="Item.c4351head"/>
+				<equipment slot="Cape" id="Item.c4351capes"/>
+				<equipment slot="Body" id="Item.c4351body"/>
+				<equipment slot="Gloves" id="Item.c4351hands"/>
+				<equipment slot="Leg" id="Item.c4351legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4355shield"/>
+				<equipment slot="Head" id="Item.c4351head"/>
+				<equipment slot="Cape" id="Item.c4351capes"/>
+				<equipment slot="Body" id="Item.c4351body"/>
+				<equipment slot="Gloves" id="Item.c4351hands"/>
+				<equipment slot="Leg" id="Item.c4351legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_godrick_knight_lancer"
+        default_group="Cavalry"
+		level="31"
+		name="{=Erdtree Godrick Knight Lancer}Erdtree Godrick Knight Lancer"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4355shield"/>
+				<equipment slot="Head" id="Item.c4351head"/>
+				<equipment slot="Cape" id="Item.c4351capes"/>
+				<equipment slot="Body" id="Item.c4351body"/>
+				<equipment slot="Gloves" id="Item.c4351hands"/>
+				<equipment slot="Leg" id="Item.c4351legs"/>
+				<equipment slot="Horse" id="Item.c4361_horse"/>
+				<equipment slot="HorseHarness" id="Item.c4362_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4355shield"/>
+				<equipment slot="Head" id="Item.c4351head"/>
+				<equipment slot="Cape" id="Item.c4351capes"/>
+				<equipment slot="Body" id="Item.c4351body"/>
+				<equipment slot="Gloves" id="Item.c4351hands"/>
+				<equipment slot="Leg" id="Item.c4351legs"/>
+				<equipment slot="Horse" id="Item.c4361_horse"/>
+				<equipment slot="HorseHarness" id="Item.c4361_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Raya Lucaria Knights -->
+	<NPCCharacter id="erdtree_lucaria_knight_paladin"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Lucaria Knight Paladin}Erdtree Lucaria Knight Paladin"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common2"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.c4352shield"/>
+				<equipment slot="Head" id="Item.c4352head"/>
+				<equipment slot="Cape" id="Item.c4352capes"/>
+				<equipment slot="Body" id="Item.c4352body"/>
+				<equipment slot="Gloves" id="Item.c4352hands"/>
+				<equipment slot="Leg" id="Item.c4352legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.c4352shield"/>
+				<equipment slot="Head" id="Item.c4352head"/>
+				<equipment slot="Cape" id="Item.c4352capes"/>
+				<equipment slot="Body" id="Item.c4352body"/>
+				<equipment slot="Gloves" id="Item.c4352hands"/>
+				<equipment slot="Leg" id="Item.c4352legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_lucaria_knight_guardian"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Lucaria Knight Guardian}Erdtree Lucaria Knight Guardian"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common2"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4352shield"/>
+				<equipment slot="Head" id="Item.c4352head"/>
+				<equipment slot="Cape" id="Item.c4352capes"/>
+				<equipment slot="Body" id="Item.c4352body"/>
+				<equipment slot="Gloves" id="Item.c4352hands"/>
+				<equipment slot="Leg" id="Item.c4352legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4352shield"/>
+				<equipment slot="Head" id="Item.c4352head"/>
+				<equipment slot="Cape" id="Item.c4352capes"/>
+				<equipment slot="Body" id="Item.c4352body"/>
+				<equipment slot="Gloves" id="Item.c4352hands"/>
+				<equipment slot="Leg" id="Item.c4352legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_lucaria_knight_lancer"
+        default_group="Cavalry"
+		level="31"
+		name="{=Erdtree Lucaria Knight Lancer}Erdtree Lucaria Knight Lancer"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common2"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4352shield"/>
+				<equipment slot="Head" id="Item.c4352head"/>
+				<equipment slot="Cape" id="Item.c4352capes"/>
+				<equipment slot="Body" id="Item.c4352body"/>
+				<equipment slot="Gloves" id="Item.c4352hands"/>
+				<equipment slot="Leg" id="Item.c4352legs"/>
+				<equipment slot="Horse" id="Item.c4362_horse"/>
+				<equipment slot="HorseHarness" id="Item.c4362_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4352shield"/>
+				<equipment slot="Head" id="Item.c4352head"/>
+				<equipment slot="Cape" id="Item.c4352capes"/>
+				<equipment slot="Body" id="Item.c4352body"/>
+				<equipment slot="Gloves" id="Item.c4352hands"/>
+				<equipment slot="Leg" id="Item.c4352legs"/>
+				<equipment slot="Horse" id="Item.c4362_horse"/>
+				<equipment slot="HorseHarness" id="Item.c4362_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Leyndell Knights -->
+	<NPCCharacter id="erdtree_leyndell_knight_paladin"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Leyndell Knight Paladin}Erdtree Leyndell Knight Paladin"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common3"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.1420bow"/>
+				<equipment slot="Item2" id="Item.arrow7020"/>
+				<equipment slot="Item3" id="Item.arrow7020"/>
+				<equipment slot="Head" id="Item.c4353head"/>
+				<equipment slot="Cape" id="Item.c4353capes"/>
+				<equipment slot="Body" id="Item.c4353body"/>
+				<equipment slot="Gloves" id="Item.c4353hands"/>
+				<equipment slot="Leg" id="Item.c4353legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.1420bow"/>
+				<equipment slot="Item2" id="Item.arrow7020"/>
+				<equipment slot="Item3" id="Item.arrow7020"/>
+				<equipment slot="Head" id="Item.c4353head"/>
+				<equipment slot="Cape" id="Item.c4353capes"/>
+				<equipment slot="Body" id="Item.c4353body"/>
+				<equipment slot="Gloves" id="Item.c4353hands"/>
+				<equipment slot="Leg" id="Item.c4353legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_leyndell_knight_guardian"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Leyndell Knight Guardian}Erdtree Leyndell Knight Guardian"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common3"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4353shield"/>
+				<equipment slot="Head" id="Item.c4353head"/>
+				<equipment slot="Cape" id="Item.c4353capes"/>
+				<equipment slot="Body" id="Item.c4353body"/>
+				<equipment slot="Gloves" id="Item.c4353hands"/>
+				<equipment slot="Leg" id="Item.c4353legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4353shield"/>
+				<equipment slot="Head" id="Item.c4353head"/>
+				<equipment slot="Cape" id="Item.c4353capes"/>
+				<equipment slot="Body" id="Item.c4353body"/>
+				<equipment slot="Gloves" id="Item.c4353hands"/>
+				<equipment slot="Leg" id="Item.c4353legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_leyndell_knight_archer"
+        default_group="Ranged"
+		level="31"
+		name="{=Erdtree Leyndell Knight Archer}Erdtree Leyndell Knight Archer"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common3"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.1420bow"/>
+				<equipment slot="Item2" id="Item.arrow7020"/>
+				<equipment slot="Item3" id="Item.arrow7020"/>
+				<equipment slot="Head" id="Item.c4353head"/>
+				<equipment slot="Cape" id="Item.c4353capes"/>
+				<equipment slot="Body" id="Item.c4353body"/>
+				<equipment slot="Gloves" id="Item.c4353hands"/>
+				<equipment slot="Leg" id="Item.c4353legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.1420bow"/>
+				<equipment slot="Item2" id="Item.arrow7020"/>
+				<equipment slot="Item3" id="Item.arrow7020"/>
+				<equipment slot="Head" id="Item.c4353head"/>
+				<equipment slot="Cape" id="Item.c4353capes"/>
+				<equipment slot="Body" id="Item.c4353body"/>
+				<equipment slot="Gloves" id="Item.c4353hands"/>
+				<equipment slot="Leg" id="Item.c4353legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_leyndell_knight_lancer"
+        default_group="Cavalry"
+		level="31"
+		name="{=Erdtree Leyndell Knight Lancer}Erdtree Leyndell Knight Lancer"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common3"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4353shield"/>
+				<equipment slot="Head" id="Item.c4353head"/>
+				<equipment slot="Cape" id="Item.c4353capes"/>
+				<equipment slot="Body" id="Item.c4353body"/>
+				<equipment slot="Gloves" id="Item.c4353hands"/>
+				<equipment slot="Leg" id="Item.c4353legs"/>
+				<equipment slot="Horse" id="Item.c4363_horse"/>
+				<equipment slot="HorseHarness" id="Item.c4363_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4353shield"/>
+				<equipment slot="Head" id="Item.c4353head"/>
+				<equipment slot="Cape" id="Item.c4353capes"/>
+				<equipment slot="Body" id="Item.c4353body"/>
+				<equipment slot="Gloves" id="Item.c4353hands"/>
+				<equipment slot="Leg" id="Item.c4353legs"/>
+				<equipment slot="Horse" id="Item.c4363_horse"/>
+				<equipment slot="HorseHarness" id="Item.c4363_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Redmane Knights -->
+	<NPCCharacter id="erdtree_redmane_knight_paladin"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Redmane Knight Paladin}Erdtree Redmane Knight Paladin"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common4"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.c4354shield"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.c4354shield"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_redmane_knight_archer"
+        default_group="Ranged"
+		level="31"
+		name="{=Erdtree Redmane Knight Archer}Erdtree Redmane Knight Archer"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common4"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.1420bow"/>
+				<equipment slot="Item2" id="Item.arrow7020"/>
+				<equipment slot="Item3" id="Item.arrow7020"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.1420bow"/>
+				<equipment slot="Item2" id="Item.arrow7020"/>
+				<equipment slot="Item3" id="Item.arrow7020"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_redmane_knight_guardian"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Redmane Knight Guardian}Erdtree Redmane Knight Guardian"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common4"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4354shield"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4354shield"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_redmane_knight_lancer"
+        default_group="Cavalry"
+		level="31"
+		name="{=Erdtree Redmane Knight Lancer}Erdtree Redmane Knight Lancer"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common4"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4354shield"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+				<equipment slot="Horse" id="Item.c4364_horse"/>
+				<equipment slot="HorseHarness" id="Item.c4364_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4354shield"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+				<equipment slot="Horse" id="Item.c4364_horse"/>
+				<equipment slot="HorseHarness" id="Item.c4364_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Haligtree Knights -->
+	<NPCCharacter id="erdtree_haligtree_knight_paladin"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Haligtree Knight Paladin}Erdtree Haligtree Knight Paladin"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common5"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.c4354shield"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.c4354shield"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_haligtree_knight_archer"
+        default_group="Ranged"
+		level="31"
+		name="{=Erdtree Haligtree Knight Archer}Erdtree Haligtree Knight Archer"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common5"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.1420bow"/>
+				<equipment slot="Item2" id="Item.arrow7020"/>
+				<equipment slot="Item3" id="Item.arrow7020"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.1420bow"/>
+				<equipment slot="Item2" id="Item.arrow7020"/>
+				<equipment slot="Item3" id="Item.arrow7020"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_haligtree_knight_guardian"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Haligtree Knight Guardian}Erdtree Haligtree Knight Guardian"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common5"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4354shield"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4354shield"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_haligtree_knight_blader"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Haligtree Knight Blader}Erdtree Haligtree Knight Blader"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common5"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Head" id="Item.c4354head"/>
+				<equipment slot="Cape" id="Item.c4354capes"/>
+				<equipment slot="Body" id="Item.c4354body"/>
+				<equipment slot="Gloves" id="Item.c4354hands"/>
+				<equipment slot="Leg" id="Item.c4354legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Banished Knights -->
+	<NPCCharacter id="erdtree_banished_knight_paladin"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Banished Knight Paladin}Erdtree Banished Knight Paladin"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common5"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.banished_greatsword"/>
+				<equipment slot="Item1" id="Item.shield2002"/>
+				<equipment slot="Head" id="Item.banished_head"/>
+				<equipment slot="Cape" id="Item.banished_capes"/>
+				<equipment slot="Body" id="Item.banished_body"/>
+				<equipment slot="Gloves" id="Item.banished_hands"/>
+				<equipment slot="Leg" id="Item.banished_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.banished_greatsword"/>
+				<equipment slot="Item1" id="Item.shield2002"/>
+				<equipment slot="Head" id="Item.banished_head"/>
+				<equipment slot="Cape" id="Item.banished_capes"/>
+				<equipment slot="Body" id="Item.banished_body"/>
+				<equipment slot="Gloves" id="Item.banished_hands"/>
+				<equipment slot="Leg" id="Item.banished_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_banished_knight_halberdier"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Banished Knight Halberdier}Erdtree Banished Knight Halberdier"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common5"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.banished_knight_halberd"/>
+				<equipment slot="Head" id="Item.banished_head"/>
+				<equipment slot="Cape" id="Item.banished_capes"/>
+				<equipment slot="Body" id="Item.banished_body"/>
+				<equipment slot="Gloves" id="Item.banished_hands"/>
+				<equipment slot="Leg" id="Item.banished_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.banished_knight_halberd"/>
+				<equipment slot="Head" id="Item.banished_head"/>
+				<equipment slot="Cape" id="Item.banished_capes"/>
+				<equipment slot="Body" id="Item.banished_body"/>
+				<equipment slot="Gloves" id="Item.banished_hands"/>
+				<equipment slot="Leg" id="Item.banished_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_banished_knight_blader"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Banished Knight Blader}Erdtree Banished Knight Blader"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common5"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.banished_greatsword"/>
+				<equipment slot="Head" id="Item.banished_head"/>
+				<equipment slot="Cape" id="Item.banished_capes"/>
+				<equipment slot="Body" id="Item.banished_body"/>
+				<equipment slot="Gloves" id="Item.banished_hands"/>
+				<equipment slot="Leg" id="Item.banished_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.banished_greatsword"/>
+				<equipment slot="Head" id="Item.banished_head"/>
+				<equipment slot="Cape" id="Item.banished_capes"/>
+				<equipment slot="Body" id="Item.banished_body"/>
+				<equipment slot="Gloves" id="Item.banished_hands"/>
+				<equipment slot="Leg" id="Item.banished_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Carian Knights -->
+	<NPCCharacter id="erdtree_carian_knight_paladin"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Carian Knight Paladin}Erdtree Carian Knight Paladin"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common3"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.carian_sword"/>
+				<equipment slot="Item1" id="Item.shield2026"/>
+				<equipment slot="Head" id="Item.carian_head"/>
+				<equipment slot="Cape" id="Item.carian_capes"/>
+				<equipment slot="Body" id="Item.carian_body"/>
+				<equipment slot="Gloves" id="Item.carian_hands"/>
+				<equipment slot="Leg" id="Item.carian_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.carian_sword"/>
+				<equipment slot="Item1" id="Item.shield2026"/>
+				<equipment slot="Head" id="Item.carian_head"/>
+				<equipment slot="Cape" id="Item.carian_capes"/>
+				<equipment slot="Body" id="Item.carian_body"/>
+				<equipment slot="Gloves" id="Item.carian_hands"/>
+				<equipment slot="Leg" id="Item.carian_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Bloodhound Knights -->
+	<NPCCharacter id="erdtree_bloodhound_knight_paladin"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Bloodhound Knight Paladin}Erdtree Bloodhound Knight Paladin"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bloodhound_fang"/>
+				<equipment slot="Head" id="Item.bloodhound_head"/>
+				<equipment slot="Cape" id="Item.bloodhound_capes"/>
+				<equipment slot="Body" id="Item.bloodhound_body"/>
+				<equipment slot="Gloves" id="Item.bloodhound_hands"/>
+				<equipment slot="Leg" id="Item.bloodhound_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.bloodhound_fang"/>
+				<equipment slot="Head" id="Item.bloodhound_head"/>
+				<equipment slot="Cape" id="Item.bloodhound_capes"/>
+				<equipment slot="Body" id="Item.bloodhound_body"/>
+				<equipment slot="Gloves" id="Item.bloodhound_hands"/>
+				<equipment slot="Leg" id="Item.bloodhound_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Mausoleum Knights -->
+	<NPCCharacter id="erdtree_mausoleum_knight_paladin"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Mausoleum Knight Paladin}Erdtree Mausoleum Knight Paladin"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common2"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.c4355shield"/>
+				<equipment slot="Head" id="Item.c4355head"/>
+				<equipment slot="Cape" id="Item.c4355capes"/>
+				<equipment slot="Body" id="Item.c4355body"/>
+				<equipment slot="Gloves" id="Item.c4355hands"/>
+				<equipment slot="Leg" id="Item.c4355legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.c4355shield"/>
+				<equipment slot="Head" id="Item.c4355head"/>
+				<equipment slot="Cape" id="Item.c4355capes"/>
+				<equipment slot="Body" id="Item.c4355body"/>
+				<equipment slot="Gloves" id="Item.c4355hands"/>
+				<equipment slot="Leg" id="Item.c4355legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_mausoleum_knight_guardian"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Mausoleum Knight Guardian}Erdtree Mausoleum Knight Guardian"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common2"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4355shield"/>
+				<equipment slot="Head" id="Item.c4355head"/>
+				<equipment slot="Cape" id="Item.c4355capes"/>
+				<equipment slot="Body" id="Item.c4355body"/>
+				<equipment slot="Gloves" id="Item.c4355hands"/>
+				<equipment slot="Leg" id="Item.c4355legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4355shield"/>
+				<equipment slot="Head" id="Item.c4355head"/>
+				<equipment slot="Cape" id="Item.c4355capes"/>
+				<equipment slot="Body" id="Item.c4355body"/>
+				<equipment slot="Gloves" id="Item.c4355hands"/>
+				<equipment slot="Leg" id="Item.c4355legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_mausoleum_knight_lancer"
+        default_group="Cavalry"
+		level="31"
+		name="{=Erdtree Mausoleum Knight Lancer}Erdtree Mausoleum Knight Lancer"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common2"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4355shield"/>
+				<equipment slot="Head" id="Item.c4355head"/>
+				<equipment slot="Cape" id="Item.c4355capes"/>
+				<equipment slot="Body" id="Item.c4355body"/>
+				<equipment slot="Gloves" id="Item.c4355hands"/>
+				<equipment slot="Leg" id="Item.c4355legs"/>
+				<equipment slot="Horse" id="Item.c4363_horse"/>
+				<equipment slot="HorseHarness" id="Item.c4363_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Item1" id="Item.c4355shield"/>
+				<equipment slot="Head" id="Item.c4355head"/>
+				<equipment slot="Cape" id="Item.c4355capes"/>
+				<equipment slot="Body" id="Item.c4355body"/>
+				<equipment slot="Gloves" id="Item.c4355hands"/>
+				<equipment slot="Leg" id="Item.c4355legs"/>
+				<equipment slot="Horse" id="Item.c4363_horse"/>
+				<equipment slot="HorseHarness" id="Item.c4363_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_mausoleum_knight_archer"
+        default_group="Ranged"
+		level="31"
+		name="{=Erdtree Mausoleum Knight Archer}Erdtree Mausoleum Knight Archer"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common2"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.1420bow"/>
+				<equipment slot="Item2" id="Item.arrow7020"/>
+				<equipment slot="Item3" id="Item.arrow7020"/>
+				<equipment slot="Head" id="Item.c4355head"/>
+				<equipment slot="Cape" id="Item.c4355capes"/>
+				<equipment slot="Body" id="Item.c4355body"/>
+				<equipment slot="Gloves" id="Item.c4355hands"/>
+				<equipment slot="Leg" id="Item.c4355legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.1420bow"/>
+				<equipment slot="Item2" id="Item.arrow7020"/>
+				<equipment slot="Item3" id="Item.arrow7020"/>
+				<equipment slot="Head" id="Item.c4355head"/>
+				<equipment slot="Cape" id="Item.c4355capes"/>
+				<equipment slot="Body" id="Item.c4355body"/>
+				<equipment slot="Gloves" id="Item.c4355hands"/>
+				<equipment slot="Leg" id="Item.c4355legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_mausoleum_knight_spear"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Mausoleum Knight Spear}Erdtree Mausoleum Knight Spear"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common2"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Head" id="Item.c4355head"/>
+				<equipment slot="Cape" id="Item.c4355capes"/>
+				<equipment slot="Body" id="Item.c4355body"/>
+				<equipment slot="Gloves" id="Item.c4355hands"/>
+				<equipment slot="Leg" id="Item.c4355legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_partisan"/>
+				<equipment slot="Head" id="Item.c4355head"/>
+				<equipment slot="Cape" id="Item.c4355capes"/>
+				<equipment slot="Body" id="Item.c4355body"/>
+				<equipment slot="Gloves" id="Item.c4355hands"/>
+				<equipment slot="Leg" id="Item.c4355legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Hoslow Knights -->
+	<NPCCharacter id="erdtree_hoslow_knight_paladin"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Hoslow Knight Paladin}Erdtree Hoslow Knight Paladin"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.shield2115"/>
+				<equipment slot="Head" id="Item.hoslow_head"/>
+				<equipment slot="Cape" id="Item.hoslow_capes"/>
+				<equipment slot="Body" id="Item.hoslow_body"/>
+				<equipment slot="Gloves" id="Item.hoslow_hands"/>
+				<equipment slot="Leg" id="Item.hoslow_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dragonscale_blade"/>
+				<equipment slot="Item1" id="Item.shield2115"/>
+				<equipment slot="Head" id="Item.hoslow_head"/>
+				<equipment slot="Cape" id="Item.hoslow_capes"/>
+				<equipment slot="Body" id="Item.hoslow_body"/>
+				<equipment slot="Gloves" id="Item.hoslow_hands"/>
+				<equipment slot="Leg" id="Item.hoslow_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Item1" id="Item.shield2115"/>
+				<equipment slot="Head" id="Item.hoslow_head"/>
+				<equipment slot="Cape" id="Item.hoslow_capes"/>
+				<equipment slot="Body" id="Item.hoslow_body"/>
+				<equipment slot="Gloves" id="Item.hoslow_hands"/>
+				<equipment slot="Leg" id="Item.hoslow_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_hoslow_knight_blader"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Hoslow Knight Blader}Erdtree Hoslow Knight Blader"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Head" id="Item.hoslow_head"/>
+				<equipment slot="Cape" id="Item.hoslow_capes"/>
+				<equipment slot="Body" id="Item.hoslow_body"/>
+				<equipment slot="Gloves" id="Item.hoslow_hands"/>
+				<equipment slot="Leg" id="Item.hoslow_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dragonscale_blade"/>
+				<equipment slot="Head" id="Item.hoslow_head"/>
+				<equipment slot="Cape" id="Item.hoslow_capes"/>
+				<equipment slot="Body" id="Item.hoslow_body"/>
+				<equipment slot="Gloves" id="Item.hoslow_hands"/>
+				<equipment slot="Leg" id="Item.hoslow_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.knight_greatsword"/>
+				<equipment slot="Head" id="Item.hoslow_head"/>
+				<equipment slot="Cape" id="Item.hoslow_capes"/>
+				<equipment slot="Body" id="Item.hoslow_body"/>
+				<equipment slot="Gloves" id="Item.hoslow_hands"/>
+				<equipment slot="Leg" id="Item.hoslow_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Samurai Knights -->
+	<NPCCharacter id="erdtree_tarnished_samurai"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Tarnished Samurai}Erdtree Tarnished Samurai"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.moonveil"/>
+				<equipment slot="Head" id="Item.land_of_reeds_head"/>
+				<equipment slot="Cape" id="Item.land_of_reeds_capes"/>
+				<equipment slot="Body" id="Item.land_of_reeds_body"/>
+				<equipment slot="Gloves" id="Item.land_of_reeds_hands"/>
+				<equipment slot="Leg" id="Item.land_of_reeds_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dragonscale_blade"/>
+				<equipment slot="Head" id="Item.land_of_reeds_head"/>
+				<equipment slot="Cape" id="Item.land_of_reeds_capes"/>
+				<equipment slot="Body" id="Item.land_of_reeds_body"/>
+				<equipment slot="Gloves" id="Item.land_of_reeds_hands"/>
+				<equipment slot="Leg" id="Item.land_of_reeds_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.rivers_of_blood"/>
+				<equipment slot="Head" id="Item.land_of_reeds_head"/>
+				<equipment slot="Cape" id="Item.land_of_reeds_capes"/>
+				<equipment slot="Body" id="Item.land_of_reeds_body"/>
+				<equipment slot="Gloves" id="Item.land_of_reeds_hands"/>
+				<equipment slot="Leg" id="Item.land_of_reeds_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.moonveil"/>
+				<equipment slot="Head" id="Item.land_of_reeds_head"/>
+				<equipment slot="Cape" id="Item.land_of_reeds_capes"/>
+				<equipment slot="Body" id="Item.land_of_reeds_body"/>
+				<equipment slot="Gloves" id="Item.land_of_reeds_hands"/>
+				<equipment slot="Leg" id="Item.land_of_reeds_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_tarnished_samurai_spear"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Tarnished Samurai Spear}Erdtree Tarnished Samurai Spear"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.cross_naginata"/>
+				<equipment slot="Head" id="Item.land_of_reeds_head"/>
+				<equipment slot="Cape" id="Item.land_of_reeds_capes"/>
+				<equipment slot="Body" id="Item.land_of_reeds_body"/>
+				<equipment slot="Gloves" id="Item.land_of_reeds_hands"/>
+				<equipment slot="Leg" id="Item.land_of_reeds_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.cross_naginata"/>
+				<equipment slot="Head" id="Item.land_of_reeds_head"/>
+				<equipment slot="Cape" id="Item.land_of_reeds_capes"/>
+				<equipment slot="Body" id="Item.land_of_reeds_body"/>
+				<equipment slot="Gloves" id="Item.land_of_reeds_hands"/>
+				<equipment slot="Leg" id="Item.land_of_reeds_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Cleanrot Knights -->
+	<NPCCharacter id="erdtree_cleanrot_knight_paladin"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Cleanrot Knight Paladin}Erdtree Cleanrot Knight Paladin"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.cleanrot_sword"/>
+				<equipment slot="Head" id="Item.cleanrot_head"/>
+				<equipment slot="Cape" id="Item.cleanrot_capes"/>
+				<equipment slot="Body" id="Item.cleanrot_body"/>
+				<equipment slot="Gloves" id="Item.cleanrot_hands"/>
+				<equipment slot="Leg" id="Item.cleanrot_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.cleanrot_sword"/>
+				<equipment slot="Head" id="Item.cleanrot_head"/>
+				<equipment slot="Cape" id="Item.cleanrot_capes"/>
+				<equipment slot="Body" id="Item.cleanrot_body"/>
+				<equipment slot="Gloves" id="Item.cleanrot_hands"/>
+				<equipment slot="Leg" id="Item.cleanrot_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_cleanrot_knight_guardian"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Cleanrot Knight Guardian}Erdtree Cleanrot Knight Guardian"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.cleanrot_spear"/>
+				<equipment slot="Head" id="Item.cleanrot_head"/>
+				<equipment slot="Cape" id="Item.cleanrot_capes"/>
+				<equipment slot="Body" id="Item.cleanrot_body"/>
+				<equipment slot="Gloves" id="Item.cleanrot_hands"/>
+				<equipment slot="Leg" id="Item.cleanrot_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.cleanrot_spear"/>
+				<equipment slot="Head" id="Item.cleanrot_head"/>
+				<equipment slot="Cape" id="Item.cleanrot_capes"/>
+				<equipment slot="Body" id="Item.cleanrot_body"/>
+				<equipment slot="Gloves" id="Item.cleanrot_hands"/>
+				<equipment slot="Leg" id="Item.cleanrot_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+	<NPCCharacter id="erdtree_cleanrot_knight_reaper"
+        default_group="Infantry"
+		level="31"
+		name="{=Erdtree Cleanrot Knight Reaper}Erdtree Cleanrot Knight Reaper"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.halo_scythe"/>
+				<equipment slot="Head" id="Item.cleanrot_head"/>
+				<equipment slot="Cape" id="Item.cleanrot_capes"/>
+				<equipment slot="Body" id="Item.cleanrot_body"/>
+				<equipment slot="Gloves" id="Item.cleanrot_hands"/>
+				<equipment slot="Leg" id="Item.cleanrot_legs"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.halo_scythe"/>
+				<equipment slot="Head" id="Item.cleanrot_head"/>
+				<equipment slot="Cape" id="Item.cleanrot_capes"/>
+				<equipment slot="Body" id="Item.cleanrot_body"/>
+				<equipment slot="Gloves" id="Item.cleanrot_hands"/>
+				<equipment slot="Leg" id="Item.cleanrot_legs"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Dragonic Knights -->
+	<NPCCharacter id="erdtree_dragonic_tree_sentinel_knight"
+        default_group="Cavalry"
+		level="31"
+		name="{=Erdtree Dragonic Sentinel Tree Knight}Erdtree Dragonic Sentinel Tree Knight"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dragon_greatclaw"/>
+				<equipment slot="Item1" id="Item.shield2003"/>
+				<equipment slot="Head" id="Item.malformed_head"/>
+				<equipment slot="Cape" id="Item.malformed_capes"/>
+				<equipment slot="Body" id="Item.malformed_body"/>
+				<equipment slot="Gloves" id="Item.malformed_hands"/>
+				<equipment slot="Leg" id="Item.malformed_legs"/>
+				<equipment slot="Horse" id="Item.mal_dragon_horse"/>
+				<equipment slot="HorseHarness" id="Item.mal_dragon_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.dragon_greatclaw"/>
+				<equipment slot="Item1" id="Item.shield2003"/>
+				<equipment slot="Head" id="Item.malformed_head"/>
+				<equipment slot="Cape" id="Item.malformed_capes"/>
+				<equipment slot="Body" id="Item.malformed_body"/>
+				<equipment slot="Gloves" id="Item.malformed_hands"/>
+				<equipment slot="Leg" id="Item.malformed_legs"/>
+				<equipment slot="Horse" id="Item.mal_dragon_horse"/>
+				<equipment slot="HorseHarness" id="Item.mal_dragon_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+     <!-- Night Cavalry Knights -->
+	<NPCCharacter id="erdtree_night_cavalry"
+        is_female="true"
+        default_group="Cavalry"
+		level="31"
+		name="{=Erdtree Royal Night Cavalry}Erdtree Night Cavalry"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.empyrean_common1"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nightrider_glaive"/>
+				<equipment slot="Head" id="Item.nightcavalry_head"/>
+				<equipment slot="Cape" id="Item.nightcavalry_capes"/>
+				<equipment slot="Body" id="Item.nightcavalry_body"/>
+				<equipment slot="Gloves" id="Item.nightcavalry_hands"/>
+				<equipment slot="Leg" id="Item.nightcavalry_legs"/>
+				<equipment slot="Horse" id="Item.royal_horse"/>
+				<equipment slot="HorseHarness" id="Item.royal_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.nightrider_glaive"/>
+				<equipment slot="Head" id="Item.nightcavalry_head"/>
+				<equipment slot="Cape" id="Item.nightcavalry_capes"/>
+				<equipment slot="Body" id="Item.nightcavalry_body"/>
+				<equipment slot="Gloves" id="Item.nightcavalry_hands"/>
+				<equipment slot="Leg" id="Item.nightcavalry_legs"/>
+				<equipment slot="Horse" id="Item.royal_horse"/>
+				<equipment slot="HorseHarness" id="Item.royal_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+		</NPCCharacter>
+</NPCCharacters>

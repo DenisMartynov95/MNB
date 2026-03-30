@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+	<NPCCharacter id="celtic_recruit"
+		default_group="Infantry"
+		level="11"
+		name="Кельтский общинник"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.celtic">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.celtic_fighter"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_iberic_shield"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b"/>
+				<equipment slot="Cape" id="Item.cts_celtic_sash_lose_b"/>
+				<equipment slot="Body" id="Item.cts_celt_tunic_c2"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_a1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.cts_celtic_iberic_shield_a"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b"/>
+				<equipment slot="Cape" id="Item.cts_celtic_sash_lose_a"/>
+				<equipment slot="Body" id="Item.cts_celt_tunic_c2"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_a1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_iberic_shield"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b"/>
+				<equipment slot="Cape" id="Item.cts_celtic_sash_lose_b"/>
+				<equipment slot="Body" id="Item.cts_celt_tunic_c2"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_a1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.cts_celtic_iberic_shield_a"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b"/>
+				<equipment slot="Cape" id="Item.cts_celtic_sash_lose_a"/>
+				<equipment slot="Body" id="Item.cts_celt_tunic_c2"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_a1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_iberic_shield"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b"/>
+				<equipment slot="Cape" id="Item.cts_celtic_sash_lose_b"/>
+				<equipment slot="Body" id="Item.cts_celt_tunic_c2"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_a1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="celtic_fighter"
+		default_group="Infantry"
+		level="16"
+		name="Кельтский боец"
+		occupation="Soldier"
+		culture="Culture.celtic">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.celtic_warrior"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_iberic_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_h"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_armor_a"/>
+				<equipment slot="Body" id="Item.cts_celtic_linothorax_a"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_iberic_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_h"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_armor_aa"/>
+				<equipment slot="Body" id="Item.cts_celtic_linothorax_a"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_iberic_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_h"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_armor_a"/>
+				<equipment slot="Body" id="Item.cts_celtic_linothorax_a"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_iberic_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_h"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_armor_aa"/>
+				<equipment slot="Body" id="Item.cts_celtic_linothorax_a"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="celtic_warrior"
+		default_group="Infantry"
+		level="21"
+		name="Кельтский важный воин"
+		occupation="Soldier"
+		culture="Culture.celtic">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.celtic_woad_warrior"/>
+			<upgrade_target id="NPCCharacter.celtic_bowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_axe_t3"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield_a1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_c"/>
+				<equipment slot="Cape" id="Item.cts_shoulder_chaimail_sash_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield_a2"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_c"/>
+				<equipment slot="Cape" id="Item.cts_shoulder_chaimail_sash_b"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_axe_t3"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield_a1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_c"/>
+				<equipment slot="Cape" id="Item.cts_shoulder_chaimail_sash_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield_a2"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_c"/>
+				<equipment slot="Cape" id="Item.cts_shoulder_chaimail_sash_b"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="celtic_woad_warrior"
+		default_group="Infantry"
+		level="26"
+		name="Кельтский дикий воитель"
+		occupation="Soldier"
+		culture="Culture.celtic">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="200"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.celtic_gallowglass"/>
+			<upgrade_target id="NPCCharacter.celtic_gaebolga"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield2"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_c1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_armor_a1"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_c1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_armor_a11"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield2"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_c1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_armor_a1"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_c1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_armor_a11"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="celtic_bowman"
+		default_group="Ranged"
+		level="26"
+		name="Кельтский лучник"
+		occupation="Soldier"
+		culture="Culture.celtic">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.celtic_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.large_franziskaa_axe_t3"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_c1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_armor_a1"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.large_franziskaa_axe_t3"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_c1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_armor_a11"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.large_franziskaa_axe_t3"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_c1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_armor_a1"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.large_franziskaa_axe_t3"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_c1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_armor_a11"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="celtic_archer"
+		default_group="Ranged"
+		level="31"
+		name="Кельтский отменный стрелок"
+		occupation="Soldier"
+		culture="Culture.celtic">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_lino_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_celtic_graves_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.ambassador_sword_t3"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_hamata_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_celtic_graves_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_lino_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_celtic_graves_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.ambassador_sword_t3"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_hamata_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_celtic_graves_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="celtic_gallowglass"
+		default_group="Infantry"
+		level="31"
+		name="Кельтский воин вождя"
+		occupation="Soldier"
+		culture="Culture.celtic">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_lino_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_celtic_graves_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield_a"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_hamata_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_celtic_graves_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_lino_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_celtic_graves_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield_a"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_hamata_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_celtic_graves_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="celtic_gaebolga"
+		default_group="Infantry"
+		level="31"
+		name="Кельтский воитель вождя"
+		occupation="Soldier"
+		culture="Culture.celtic">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="350"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Item2" id="Item.seax"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_lino_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_celtic_graves_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield_a"/>
+				<equipment slot="Item2" id="Item.seax"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_hamata_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_celtic_graves_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Item2" id="Item.seax"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_shoulder_lino_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_celtic_graves_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_t2"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield_a"/>
+				<equipment slot="Item2" id="Item.seax"/>
+				<equipment slot="Head" id="Item.cts_celtic_helm_b1"/>
+				<equipment slot="Cape" id="Item.cts_celtic_hamata_a"/>
+				<equipment slot="Body" id="Item.cts_chainmail_short_slevs_a1"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_celtic_graves_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

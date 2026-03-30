@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_sekiro_leader_object" text="Seki Raido is one of the most legendary figures in Japan, known for his exceptional skills as a samurai and strategist. His naval prowess is second to none. He is the first Daimyo to sail towards Korea, almost 600 years earlier than the 'Imjin War'. On his second voyage, his fleet was caught in a storm and landed through a portal in Calradia." faction="Faction.sekiro_company" />
+
+</Heroes>

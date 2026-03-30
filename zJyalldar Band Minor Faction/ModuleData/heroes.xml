@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_jyalldar_leader_object" text="Cray is an authoritarian and no-nonsense leader. His word is law within the Jyalldar Band, and his followers obey his orders without question. He is a master strategist, capable of concocting elaborate plans and executing them with ruthless efficiency. Under his leadership, the Jyalldar Band has become known for their precision and their ability to complete the most challenging and dangerous missions." faction="Faction.jyalldar_company" />
+
+</Heroes>

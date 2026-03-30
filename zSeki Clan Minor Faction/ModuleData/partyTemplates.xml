@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="sekiro_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.sekiro_soldier" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.sekiro_warrior" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.sekiro_rider" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.sekiro_cavalry" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.sekiro_horsearcher" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.sekiro_samurai" />
+		<PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.sekiro_archer" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

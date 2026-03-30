@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_lannister_leader_0" name="{=!}Tommen II Lannister" is_female="false" age="35" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35" weight="0.3719" build="0.5586"  key="0002680400B413C41C59347634797DC9CB85956A4984ACAD9485E778887ED67700A866030A7ACD8900000000000000000000000000000000000000002B440042"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.knt_hlm_32"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>		
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.knt_hlm_32"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_lannister_leader_object" name="Tommen II Lannister" is_female="false" age="35" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35" weight="0.3719" build="0.5586"  key="0002680400B413C41C59347634797DC9CB85956A4984ACAD9485E778887ED67700A866030A7ACD8900000000000000000000000000000000000000002B440042"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.knt_hlm_32"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.knt_hlm_32"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_lannister_leader_1" name="{=!}Tytos" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.lannister_common" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.knt_hlm_32"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.knt_hlm_32"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_lannister_leader_2" name="{=!}Tyros" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.lannister_common" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.knt_hlm_32"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>		
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.knt_hlm_32"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_lannister_leader_3" name="{=!}Tyrion" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.lannister_common" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.knt_hlm_32"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.knt_hlm_32"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

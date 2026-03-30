@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="lannister_trainee"
+		default_group="Infantry"
+		level="6"
+		name="Рекрут Империи"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_ranger"/>
+			<upgrade_target id="NPCCharacter.lannister_footman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item1" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Head" id="Item.saxon_spangen_helmet1"/>
+				<equipment slot="Cape" id="Item.steel_cross_1"/>
+				<equipment slot="Body" id="Item.we_e_prec_tunic_1"/>
+				<equipment slot="Gloves" id="Item.arm_straps_1"/>
+				<equipment slot="Leg" id="Item.ota_u_boots_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Body" id="Item.lan_armor_2"/>
+				<equipment slot="Leg" id="Item.lan_bts"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_ranger"
+		default_group="Ranged"
+		level="8"
+		name="Имперский лучник новобранец"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_archer"/>
+			<upgrade_target id="NPCCharacter.lannister_crossbow"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.lan_hlm"/>
+				<equipment slot="Body" id="Item.lan_armor"/>
+				<equipment slot="Leg" id="Item.lan_bts"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.lan_hlm"/>
+				<equipment slot="Body" id="Item.lan_armor"/>
+				<equipment slot="Leg" id="Item.lan_bts"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_footman"
+		default_group="Infantry"
+		level="8"
+		name="Имперский солдат"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="65"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_soldier"/>
+			<upgrade_target id="NPCCharacter.lannister_horseman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.lan_hlm"/>
+				<equipment slot="Body" id="Item.lan_armor"/>
+				<equipment slot="Leg" id="Item.lan_bts"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.narrow_sword_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.lan_hlm"/>
+				<equipment slot="Body" id="Item.lan_armor"/>
+				<equipment slot="Leg" id="Item.lan_bts"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_soldier"
+		default_group="Infantry"
+		level="11"
+		name="Имперский воин"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_swordsman"/>
+			<upgrade_target id="NPCCharacter.lannister_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.rot_lan_gorg_5"/>
+				<equipment slot="Body" id="Item.rot_lan_11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.chiv_bts_nv"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.rot_lan_gorg_5"/>
+				<equipment slot="Body" id="Item.rot_lan_11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.chiv_bts_nv"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_horseman"
+		default_group="Cavalry"
+		level="11"
+		name="Имперский всадник"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="110"/>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_cavalry"/>
+			<upgrade_target id="NPCCharacter.lannister_mounted_crossbow"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.rot_lan_gorg_5"/>
+				<equipment slot="Body" id="Item.rot_lan_11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.chiv_bts_nv"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.rot_lan_gorg_5"/>
+				<equipment slot="Body" id="Item.rot_lan_11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.chiv_bts_nv"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_cavalry"
+		default_group="Cavalry"
+		level="16"
+		name="Имперский конный воин"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_heavy_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_alt11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.irn_isl_bts"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_alt11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.irn_isl_bts"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_mounted_crossbow"
+		default_group="HorseArcher"
+		level="16"
+		name="Имперский всадник-стрелок"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="220"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_heavy_mounted_crossbow"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_alt11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.irn_isl_bts"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_alt11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.irn_isl_bts"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_heavy_mounted_crossbow"
+		default_group="HorseArcher"
+		level="21"
+		name="Императорский стрелок всадник"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_heavy_cavalry"
+		default_group="Cavalry"
+		level="26"
+		name="Императорский тяжелый стрелок всадник"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_swordsman"
+		default_group="Infantry"
+		level="18"
+		name="Императорский воин"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_paladin"/>
+			<upgrade_target id="NPCCharacter.lannister_blader"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_alt11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.irn_isl_bts"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_alt11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.irn_isl_bts"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_spearman"
+		default_group="Infantry"
+		level="18"
+		name="Императорский копейщик"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="170"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_poleaxe"/>
+			<upgrade_target id="NPCCharacter.lannister_poleaxe"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_alt11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.irn_isl_bts"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.highland_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_alt11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.irn_isl_bts"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_poleaxe"
+		default_group="Infantry"
+		level="25"
+		name="Императорский двуручник"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_pikeman"
+		default_group="Infantry"
+		level="25"
+		name="Императорский пикинер"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_paladin"
+		default_group="Infantry"
+		level="30"
+		name="Претор Иператора"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_blader"
+		default_group="Infantry"
+		level="30"
+		name="Уничтожитель Императора"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.glc_swd_h"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.glc_swd_h"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_archer"
+		default_group="Ranged"
+		level="15"
+		name="Имперский меткий стрелок"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_veteran_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.rot_lan_gorg_5"/>
+				<equipment slot="Body" id="Item.rot_lan_11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.chiv_bts_nv"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.rot_lan_gorg_5"/>
+				<equipment slot="Body" id="Item.rot_lan_11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.chiv_bts_nv"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_crossbow"
+		default_group="Ranged"
+		level="15"
+		name="Имперский арбалетчик"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="180"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_veteran_crossbow"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_a"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.rot_lan_gorg_5"/>
+				<equipment slot="Body" id="Item.rot_lan_11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.chiv_bts_nv"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.crossbow_a"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.rot_lan_gorg_5"/>
+				<equipment slot="Body" id="Item.rot_lan_11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.chiv_bts_nv"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_veteran_crossbow"
+		default_group="Ranged"
+		level="21"
+		name="Имперский элитный лучник"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_elite_crossbow"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.stronger_footmans_wicker_shield"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_alt11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.irn_isl_bts"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.stronger_footmans_wicker_shield"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_alt11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.irn_isl_bts"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_elite_crossbow"
+		default_group="Ranged"
+		level="21"
+		name="Имперский элитный арбалетчик"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.pavise_shield"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.pavise_shield"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_veteran_archer"
+		default_group="Ranged"
+		level="24"
+		name="Снайпер Императора"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lannister_elite_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_alt11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.irn_isl_bts"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.eastern_steel_mace_t4"/>
+				<equipment slot="Head" id="Item.lan_hlm_2"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_alt11"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.irn_isl_bts"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lannister_elite_archer"
+		default_group="Ranged"
+		level="24"
+		name="Лук Императора"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Head" id="Item.lrd_com_hlm_v8"/>
+				<equipment slot="Cape" id="Item.vip_elb_3"/>
+				<equipment slot="Body" id="Item.k7_lk_3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_11"/>
+				<equipment slot="Leg" id="Item.got_boltonshoe"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

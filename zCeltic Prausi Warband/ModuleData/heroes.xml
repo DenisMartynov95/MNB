@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_celtic_leader_object" text="Brennus, a chieftain of the Prausi, a fierce Celtic tribe, led a warband of the formidable Prausi warriors on an audacious campaign into the heart of Greece. With dreams of plunder and glory, they set their sights on the richest prize of all: the sacred city of Delphi, home to the famous oracle and immense treasures dedicated to the god Apollo." faction="Faction.celtic_army" />
+
+</Heroes>

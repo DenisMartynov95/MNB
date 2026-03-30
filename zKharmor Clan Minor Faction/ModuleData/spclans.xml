@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="kharmor_company"
+			 initial_posX="719.96"
+			 initial_posY="317.86"
+			 banner_key="11.6.116.1836.1861.1654.1113.1.1.0.521.7.74.-645.673.764.767.0.1.15.519.7.74.-642.671.764.764.0.1.-1.527.35.35.-435.422.757.762.0.0.-180.128.140.140.-256.239.761.759.0.1.-3"
+             culture="Culture.khuzait"
+             default_party_template="PartyTemplate.kharmor_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Хармор (6 Русичи)"
+             tier="6"
+             text="Клан Хармор возглавляют опытные и преданные командиры, многие из которых выросли вместе с ней и разделяют ее видение единого и могущественного государства Кхан. Они играют важную роль в реализации кадровых стратегий и обеспечении эффективной работы ее армии."
+			 owner="Hero.spc_kharmor_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_kharmor_leader_0" />
+			<template id="NPCCharacter.spc_kharmor_leader_1" />
+			<template id="NPCCharacter.spc_kharmor_leader_2" />
+			<template id="NPCCharacter.spc_kharmor_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

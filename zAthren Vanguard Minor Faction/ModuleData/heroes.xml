@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_athren_leader_object" text="Alhazred Garvis, a master tactician, raised his sword high, catching the sunlight in its keen edge. His voice, like thunder echoing through the ages, boomed across the assembly of warriors. With unwavering resolve, he spoke of duty, honor, and the indomitable spirit that bound them as Athenians. The soldiers, a mosaic of faces reflecting the diversity of the city, stood united, ready to face the unknown on the battlefield." faction="Faction.athren_company" />
+
+</Heroes>

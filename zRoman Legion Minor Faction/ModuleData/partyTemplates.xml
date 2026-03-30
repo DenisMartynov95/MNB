@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="roman_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="25" troop="NPCCharacter.roman_tirones" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.roman_soldier" />
+        <PartyTemplateStack min_value="10" max_value="25" troop="NPCCharacter.roman_rider" />
+        <PartyTemplateStack min_value="10" max_value="25" troop="NPCCharacter.roman_light_cavalry" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.roman_heavy_cavalry" />
+        <PartyTemplateStack min_value="10" max_value="21" troop="NPCCharacter.roman_equites" />
+        <PartyTemplateStack min_value="10" max_value="25" troop="NPCCharacter.roman_legionnaire" />
+        <PartyTemplateStack min_value="20" max_value="25" troop="NPCCharacter.roman_centurion" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.roman_hasta" />
+        <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.roman_secun" />
+        <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.roman_primus" />
+        <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.roman_praetorian_guard" />
+        <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.roman_praetorian_vanguard" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.roman_ranger" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.roman_sagittarii" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.roman_hama_archer" />
+        <PartyTemplateStack min_value="5" max_value="8" troop="NPCCharacter.roman_elite_sagittarii" />
+        <PartyTemplateStack min_value="5" max_value="8" troop="NPCCharacter.roman_elite_hama_archer" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

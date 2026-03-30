@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_athen_leader_object" text="Themistocles is a Athenian Archon and Navy Admiral of Athens, he was lost at sea during a 'maelstrom' and was transported to Calradia." faction="Faction.athen_company" />
+
+</Heroes>

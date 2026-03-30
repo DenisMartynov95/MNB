@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="jyalldar_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.jyalldar_new_blood" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.jyalldar_fighter" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.jyalldar_warrior" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.jyalldar_cleaver" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.jyalldar_reaper" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.jyalldar_soldier" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.jyalldar_infantry" />		
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.jyalldar_shield_brother" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.jyalldar_elite_archer" />
+		<PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.jyalldar_berserker" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.jyalldar_charger" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

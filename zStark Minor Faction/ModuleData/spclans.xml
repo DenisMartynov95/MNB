@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="stark_company"
+			 initial_posX="485.561"
+			 initial_posY="553.122"
+			 banner_key="11.116.116.1562.1724.764.764.1.0.0.510.140.140.240.88.841.834.1.1.183.504.140.140.101.100.979.779.1.1.183.510.140.140.104.88.957.736.1.1.173.504.140.140.60.159.794.660.1.1.-5.505.140.140.189.131.707.798.1.1.27.506.140.140.134.256.843.744.1.1.85.506.140.140.221.41.967.758.1.1.194.504.140.140.65.49.946.785.1.1.170.504.140.140.38.38.922.789.1.1.180.504.140.140.43.38.899.789.1.1.179.504.140.140.44.38.877.789.1.1.179.504.140.140.45.38.856.787.1.1.191.504.140.140.43.43.833.787.1.1.185.426.140.140.38.180.597.861.1.1.56.510.140.140.77.132.560.796.1.1.33.504.140.140.38.-76.519.821.1.1.-77.504.140.140.46.-112.895.717.1.1.73.504.140.140.202.-61.783.833.1.1.-1.504.140.140.28.-22.946.830.1.1.-148.504.140.140.43.80.808.812.1.1.17.504.140.140.72.54.820.814.1.1.-2.504.140.140.58.38.845.816.1.1.359.504.140.140.67.38.867.818.1.1.359.504.140.140.82.38.888.821.1.1.359.504.140.140.58.38.910.816.1.1.359.504.140.140.58.38.931.816.1.1.359.512.140.140.70.23.952.816.1.1.14.505.140.140.11.11.964.815.1.1.-21.510.140.140.55.-82.602.857.1.1.144.505.140.140.45.126.695.863.1.1.126.505.140.140.45.97.609.810.1.1.103.505.140.140.45.22.558.821.1.1.159.505.140.140.45.72.790.786.1.1.133.506.140.140.45.232.851.840.1.1.93.506.140.140.66.21.956.823.1.1.45.510.140.140.17.30.968.819.1.1.62.510.140.140.17.30.940.826.1.1.62.504.140.140.60.148.771.654.1.1.-5.506.140.140.77.312.660.744.1.1.120.505.140.140.45.22.651.895.1.1.127.505.140.140.141.60.623.837.1.1.140.317.140.140.233.88.801.711.1.1.180.504.116.116.38.-23.834.720.1.1.180"
+             culture="Culture.sturgia"
+             default_party_template="PartyTemplate.stark_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Stark Expeditionary Force(6 Старки)"
+             tier="6"
+             text="House Stark is one of the Great Houses of Westeros and the principal noble house of the north. They ruled as Kings of Winter. King Theon Stark known as the Hungry Wolf, leads the Winter Wolves and what's left of the armada of after successfully expelling ironborns from  Bear island getting lost in sea due to the 'Maelstrom' and landing in Calradia."
+			 owner="Hero.spc_stark_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_stark_leader_0" />
+			<template id="NPCCharacter.spc_stark_leader_1" />
+			<template id="NPCCharacter.spc_stark_leader_2" />
+			<template id="NPCCharacter.spc_stark_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

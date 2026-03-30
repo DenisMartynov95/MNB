@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="empyrean_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_valkyrie_archer" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_valkyrie_blader" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_royal_knight_dragoon" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_royal_knight_cataphract" />		
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_black_knife_assassin" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_sentinel_tree_knight" />		
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_godrick_knight_paladin" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_godrick_knight_guardian" />	
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_godrick_knight_lancer" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_lucaria_knight_paladin" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_lucaria_knight_guardian" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_lucaria_knight_lancer" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_leyndell_knight_paladin" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_leyndell_knight_guardian" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_leyndell_knight_lancer" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_redmane_knight_paladin" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_redmane_knight_guardian" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_redmane_knight_lancer" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_haligtree_knight_paladin" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_haligtree_knight_guardian" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_haligtree_knight_blader" />	
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_banished_knight_paladin" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_banished_knight_halberdier" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_banished_knight_blader" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_carian_knight_paladin" />		
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_bloodhound_knight_paladin" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_mausoleum_knight_paladin" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_mausoleum_knight_guardian" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_mausoleum_knight_spear" />	
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_hoslow_knight_paladin" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_hoslow_knight_blader" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_tarnished_samurai" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_tarnished_samurai_spear" />	
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_leyndell_knight_archer" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_redmane_knight_archer" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_haligtree_knight_archer" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_mausoleum_knight_archer" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_cleanrot_knight_reaper" />	
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_cleanrot_knight_guardian" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_cleanrot_knight_paladin" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_dragonic_tree_sentinel_knight" />
+        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.erdtree_night_cavalry" />	
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

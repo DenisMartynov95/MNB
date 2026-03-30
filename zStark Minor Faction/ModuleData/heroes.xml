@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_stark_leader_object" text="Theon Stark, known as the Hungry Wolf, is the King in the North and head of House Stark. After slaying Ravos and expelling the ironborns from Bear Island, his fleet was swept away by a maelstrom and transported them to Calradia." faction="Faction.stark_company" />
+
+</Heroes>

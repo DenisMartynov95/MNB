@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_athen_leader_0" name="{=!}Themistocles" is_female="false" age="35" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35.01" weight="0.025" build="0.5651"  key="0000780080E40283997BB39C695A85B371A394A7B7917E5B4429C89D8F92000500B806030BA7589B00000000000000000000000000000000000000007D8430C2"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_sparta2"/>
+				<equipment slot="Item1" id="Item.sword_sparta2"/>
+				<equipment slot="Item2" id="Item.greekshield"/>
+				<equipment slot="Head" id="Item.greekhead3"/>
+				<equipment slot="Cape" id="Item.greekcape"/>	
+				<equipment slot="Body" id="Item.greekbody4"/>
+				<equipment slot="Gloves" id="Item.greekhand"/>
+				<equipment slot="Leg" id="Item.greekleg"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_sparta2"/>
+				<equipment slot="Item1" id="Item.sword_sparta2"/>
+				<equipment slot="Item2" id="Item.greekshield"/>
+				<equipment slot="Head" id="Item.greekhead3"/>
+				<equipment slot="Cape" id="Item.greekcape"/>	
+				<equipment slot="Body" id="Item.greekbody4"/>
+				<equipment slot="Gloves" id="Item.greekhand"/>
+				<equipment slot="Leg" id="Item.greekleg"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_athen_leader_object" name="Themistocles" is_female="false" age="35" voice="ironic" default_group="Infantry" is_hero="true" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35.01" weight="0.025" build="0.5651"  key="0000780080E40283997BB39C695A85B371A394A7B7917E5B4429C89D8F92000500B806030BA7589B00000000000000000000000000000000000000007D8430C2"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_sparta2"/>
+				<equipment slot="Item1" id="Item.sword_sparta2"/>
+				<equipment slot="Item2" id="Item.greekshield"/>
+				<equipment slot="Head" id="Item.greekhead3"/>
+				<equipment slot="Cape" id="Item.greekcape"/>	
+				<equipment slot="Body" id="Item.greekbody4"/>
+				<equipment slot="Gloves" id="Item.greekhand"/>
+				<equipment slot="Leg" id="Item.greekleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_sparta2"/>
+				<equipment slot="Item1" id="Item.sword_sparta2"/>
+				<equipment slot="Item2" id="Item.greekshield"/>
+				<equipment slot="Head" id="Item.greekhead3"/>
+				<equipment slot="Cape" id="Item.greekcape"/>	
+				<equipment slot="Body" id="Item.greekbody4"/>
+				<equipment slot="Gloves" id="Item.greekhand"/>
+				<equipment slot="Leg" id="Item.greekleg"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_athen_leader_1" name="{=!}Alexandria" is_female="true" age="25" voice="softspoken" is_template="true" default_group="Ranged" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="25" weight="0.088" build="0.358"  key="0000AC0080A0200644B8953A95183CD389A8673A76A65992898ABBAB9B7BA47501A516140A8C7787000000000000000000000000000000000000000041444003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sword_sparta2"/>
+				<equipment slot="Item1" id="Item.javelin_sparta2"/>
+				<equipment slot="Item2" id="Item.greekbow"/>
+				<equipment slot="Item3" id="Item.greekarrow"/>
+				<equipment slot="Head" id="Item.greekhead3"/>
+				<equipment slot="Cape" id="Item.greekcapef"/>	
+				<equipment slot="Body" id="Item.greekchestf2"/>
+				<equipment slot="Gloves" id="Item.greekhand"/>
+				<equipment slot="Leg" id="Item.greekleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_sparta2"/>
+				<equipment slot="Item1" id="Item.javelin_sparta2"/>
+				<equipment slot="Item2" id="Item.greekbow"/>
+				<equipment slot="Item3" id="Item.greekarrow"/>
+				<equipment slot="Head" id="Item.greekhead3"/>
+				<equipment slot="Cape" id="Item.greekcapef"/>	
+				<equipment slot="Body" id="Item.greekchestf2"/>
+				<equipment slot="Gloves" id="Item.greekhand"/>
+				<equipment slot="Leg" id="Item.greekleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_athen_leader_2" name="{=!}Damocles" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.athen_common2" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_sparta2"/>
+				<equipment slot="Item1" id="Item.sword_sparta2"/>
+				<equipment slot="Item2" id="Item.greekshield"/>
+				<equipment slot="Head" id="Item.greekhead3"/>
+				<equipment slot="Cape" id="Item.greekcape"/>	
+				<equipment slot="Body" id="Item.greekbody4"/>
+				<equipment slot="Gloves" id="Item.greekhand"/>
+				<equipment slot="Leg" id="Item.greekleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_sparta2"/>
+				<equipment slot="Item1" id="Item.sword_sparta2"/>
+				<equipment slot="Item2" id="Item.greekshield"/>
+				<equipment slot="Head" id="Item.greekhead3"/>
+				<equipment slot="Cape" id="Item.greekcape"/>	
+				<equipment slot="Body" id="Item.greekbody4"/>
+				<equipment slot="Gloves" id="Item.greekhand"/>
+				<equipment slot="Leg" id="Item.greekleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_athen_leader_3" name="{=!}Eos" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.athen_common3" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_sparta2"/>
+				<equipment slot="Item1" id="Item.sword_sparta2"/>
+				<equipment slot="Item2" id="Item.greekshield"/>
+				<equipment slot="Head" id="Item.greekhead3"/>
+				<equipment slot="Cape" id="Item.greekcape"/>	
+				<equipment slot="Body" id="Item.greekbody4"/>
+				<equipment slot="Gloves" id="Item.greekhand"/>
+				<equipment slot="Leg" id="Item.greekleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_sparta2"/>
+				<equipment slot="Item1" id="Item.sword_sparta2"/>
+				<equipment slot="Item2" id="Item.greekshield"/>
+				<equipment slot="Head" id="Item.greekhead3"/>
+				<equipment slot="Cape" id="Item.greekcape"/>	
+				<equipment slot="Body" id="Item.greekbody4"/>
+				<equipment slot="Gloves" id="Item.greekhand"/>
+				<equipment slot="Leg" id="Item.greekleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

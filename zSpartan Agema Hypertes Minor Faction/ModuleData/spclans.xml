@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="lacedaemon_company"
+			 initial_posX="306.889"
+			 initial_posY="240.665"
+			 banner_key="26.142.140.1836.1836.794.764.1.0.0.510.12.12.2284.2707.764.778.1.1.0.503.145.131.700.700.764.764.1.1.0.503.145.131.550.550.764.764.1.1.0.510.143.131.110.140.629.904.1.1.180.510.143.131.120.140.899.904.1.1.180.510.143.131.347.140.704.748.1.1.247.510.143.131.335.140.830.746.1.1.291.510.143.131.347.140.680.746.1.1.247.510.143.131.335.140.852.746.1.1.291.330.143.131.41.140.769.591.1.1.0.510.143.131.201.140.816.652.1.1.291.510.143.131.199.140.722.650.1.1.248.505.143.131.51.50.770.590.1.1.0.505.145.145.42.-12.774.668.1.1.-227.449.143.131.84.114.665.473.1.1.20.449.143.131.84.114.602.503.1.1.32.449.143.131.84.114.541.549.1.1.43.449.143.131.84.114.495.608.1.1.59.449.143.131.84.114.467.682.1.1.76.449.143.131.84.114.457.756.1.1.90.449.143.131.84.114.463.828.1.1.100.449.143.131.84.114.485.898.1.1.118.449.143.131.84.114.527.963.1.1.128.449.143.131.84.114.586.1019.1.1.144.449.143.131.84.114.650.1053.1.1.159.449.143.131.84.114.720.1069.1.1.172.449.143.131.84.114.796.1071.1.1.187.449.143.131.84.114.862.1057.1.1.196.449.143.131.84.114.930.1027.1.1.211.449.143.131.84.114.987.979.1.1.226.449.143.131.84.114.1031.920.1.1.240.449.143.131.84.114.1059.854.1.1.253.449.143.131.84.114.1073.782.1.1.265.449.143.131.84.114.1069.708.1.1.280.449.143.131.84.114.1047.640.1.1.292.449.143.131.84.114.1011.574.1.1.306.449.143.131.84.114.956.521.1.1.323.449.143.131.84.114.892.485.1.1.337.449.143.131.84.114.818.463.1.1.352.449.143.131.84.114.740.459.1.1.2"
+             culture="Culture.battania"
+             default_party_template="PartyTemplate.lacedaemon_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Элитный дивизион Эпира (6 Греция)"
+             tier="6"
+             text="An oligarchy of steel and resolve, these fearsome combatants were not born into tradition but were rather the immutable anvil upon which the apotheosis of Sparta's war machine was forged. Superlative among an echelon of claimants to the code of excellence, they towered, indurating their collective narrative as bulwarks of vehemence and ageless engravers of reverberation."
+			 owner="Hero.spc_lacedaemon_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_lacedaemon_leader_0" />
+			<template id="NPCCharacter.spc_lacedaemon_leader_1" />
+			<template id="NPCCharacter.spc_lacedaemon_leader_2" />
+			<template id="NPCCharacter.spc_lacedaemon_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

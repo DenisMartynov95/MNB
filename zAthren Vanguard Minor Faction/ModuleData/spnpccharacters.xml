@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<NPCCharacters>
+	<NPCCharacter id="athren_soldier"
+		default_group="Infantry"
+		level="21"
+		name="{=Athrenian Soldier}abAthrenian Soldier"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.athren_rider"/>
+			<upgrade_target id="NPCCharacter.athren_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.gadrian_shield"/>
+				<equipment slot="Head" id="Item.gadrian_helmet_m"/>
+				<equipment slot="Cape" id="Item.gadrian_shoulders_cloak"/>
+				<equipment slot="Body" id="Item.gadrian_armor_m"/>
+				<equipment slot="Gloves" id="Item.gadrian_gauntlets_m"/>
+				<equipment slot="Leg" id="Item.gadrian_boots_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tzkurion_axe_t3"/>
+				<equipment slot="Item1" id="Item.gadrian_shield"/>
+				<equipment slot="Head" id="Item.gadrian_helmet_m"/>
+				<equipment slot="Cape" id="Item.gadrian_shoulders_cloak"/>
+				<equipment slot="Body" id="Item.gadrian_armor_m"/>
+				<equipment slot="Gloves" id="Item.gadrian_gauntlets_m"/>
+				<equipment slot="Leg" id="Item.gadrian_boots_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.gadrian_shield"/>
+				<equipment slot="Head" id="Item.gadrian_helmet_m"/>
+				<equipment slot="Cape" id="Item.gadrian_shoulders_cloak"/>
+				<equipment slot="Body" id="Item.gadrian_armor_m"/>
+				<equipment slot="Gloves" id="Item.gadrian_gauntlets_m"/>
+				<equipment slot="Leg" id="Item.gadrian_boots_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.morningstar_mace_t3"/>
+				<equipment slot="Item1" id="Item.gadrian_shield"/>
+				<equipment slot="Head" id="Item.gadrian_helmet_m"/>
+				<equipment slot="Cape" id="Item.gadrian_shoulders_cloak"/>
+				<equipment slot="Body" id="Item.gadrian_armor_m"/>
+				<equipment slot="Gloves" id="Item.gadrian_gauntlets_m"/>
+				<equipment slot="Leg" id="Item.gadrian_boots_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.gadrian_shield"/>
+				<equipment slot="Head" id="Item.gadrian_helmet_m"/>
+				<equipment slot="Cape" id="Item.gadrian_shoulders_cloak"/>
+				<equipment slot="Body" id="Item.gadrian_armor_m"/>
+				<equipment slot="Gloves" id="Item.gadrian_gauntlets_m"/>
+				<equipment slot="Leg" id="Item.gadrian_boots_m"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="athren_rider"
+		default_group="Infantry"
+		level="26"
+		name="{=Athrenian Rider}Athrenian Rider"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.athren_cavalry"/>
+			<upgrade_target id="NPCCharacter.athren_piker"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.seax"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_old_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_old_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_old_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_old_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_old_m"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.half_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.seax"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_old_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_old_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_old_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_old_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_old_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.seax"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_old_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_old_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_old_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_old_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_old_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.seax"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_old_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_old_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_old_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_old_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_old_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.seax"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_old_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_old_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_old_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_old_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_old_m"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.half_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="athren_infantry"
+		default_group="Infantry"
+		level="26"
+		name="{=Athrenian Infantry}Athrenian Infantry"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.athren_berserker"/>
+			<upgrade_target id="NPCCharacter.athren_vanguard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.gadrian_shield"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_old_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_old_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_old_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_old_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_old_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.gadrian_shield"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_old_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_old_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_old_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_old_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_old_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.gadrian_shield"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_old_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_old_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_old_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_old_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_old_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.gadrian_shield"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_old_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_old_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_old_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_old_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_old_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.dawnbreaker_sword_t3"/>
+				<equipment slot="Item1" id="Item.gadrian_shield"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_old_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_old_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_old_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_old_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_old_m"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="athren_berserker"
+		default_group="Infantry"
+		level="31"
+		name="{=Athrenian Berserker}Athrenian Berserker"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_2hsword_t4"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.reaper_falx"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="athren_vanguard"
+		default_group="Infantry"
+		level="31"
+		name="{=Athrenian Vanguard}Athrenian Vanguard"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_silver_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_silver_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_silver_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_silver_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_silver_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_silver_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_silver_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_silver_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_silver_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_silver_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_silver_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_silver_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_silver_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_silver_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_silver_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_silver_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_silver_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_silver_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_silver_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_silver_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_silver_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_silver_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_silver_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_silver_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_silver_m"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="athren_cavalry"
+		default_group="Cavalry"
+		level="31"
+		name="{=Athrenian Cavalry}Athrenian Cavalry"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bastard_sword_t2"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bastard_sword_t2"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bastard_sword_t2"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bastard_sword_t2"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bastard_sword_t2"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="athren_piker"
+		default_group="Infantry"
+		level="31"
+		name="{=Athrenian Piker}Athrenian Piker"
+		occupation="Soldier"
+		culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_blue_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_blue_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_blue_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_blue_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_blue_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_blue_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_blue_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_blue_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_blue_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_blue_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_blue_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_blue_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_blue_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_blue_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_blue_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_blue_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_blue_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_blue_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_blue_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_blue_m"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_pike_1_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_blue_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_blue_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_blue_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_blue_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_blue_m"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

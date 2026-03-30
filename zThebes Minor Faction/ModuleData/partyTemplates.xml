@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="thebes_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="3" max_value="15" troop="NPCCharacter.thebes_warrior" />
+        <PartyTemplateStack min_value="3" max_value="15" troop="NPCCharacter.thebes_soldier" />
+        <PartyTemplateStack min_value="3" max_value="15" troop="NPCCharacter.thebes_elite_soldier" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

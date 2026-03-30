@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<NPCCharacter id="musou_volunteer"
+		default_group="Infantry"
+		level="16"
+		name="Новая Гейша"
+		is_female="true"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.musou_fighter"/>
+			<upgrade_target id="NPCCharacter.musou_ranger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.seax_blunt"/>
+				<equipment slot="Item1" id="Item.dunpai1"/>
+				<equipment slot="Head" id="Item.thinhide_coif"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.aserai_horseman_armor"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.seax_blunt"/>
+				<equipment slot="Item1" id="Item.dunpai1"/>
+				<equipment slot="Head" id="Item.thinhide_coif"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.aserai_horseman_armor"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.seax_blunt"/>
+				<equipment slot="Item1" id="Item.dunpai1"/>
+				<equipment slot="Head" id="Item.thinhide_coif"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.aserai_horseman_armor"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.seax_blunt"/>
+				<equipment slot="Item1" id="Item.dunpai1"/>
+				<equipment slot="Head" id="Item.thinhide_coif"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Body" id="Item.aserai_horseman_armor"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.seax_blunt"/>
+				<equipment slot="Item1" id="Item.dunpai1"/>
+				<equipment slot="Head" id="Item.thinhide_coif"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Body" id="Item.aserai_horseman_armor"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_b"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="musou_fighter"
+		default_group="Infantry"
+		level="21"
+		name="Маосуу Воин"
+		is_female="true"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.musou_warrior"/>
+			<upgrade_target id="NPCCharacter.musou_blader"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.dunpai1"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.dunpai1"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.dunpai1"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.dunpai1"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt"/>
+				<equipment slot="Item1" id="Item.dunpai1"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="musou_ranger"
+		default_group="Ranged"
+		level="21"
+		name="Маосуу лучница"
+		is_female="true"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.musou_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.highland_ranger_bow"/>
+				<equipment slot="Item2" id="Item.steppe_arrows"/>
+				<equipment slot="Item3" id="Item.steppe_arrows"/>
+				<equipment slot="Head" id="Item.battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.highland_ranger_bow"/>
+				<equipment slot="Item2" id="Item.steppe_arrows"/>
+				<equipment slot="Item3" id="Item.steppe_arrows"/>
+				<equipment slot="Head" id="Item.battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.highland_ranger_bow"/>
+				<equipment slot="Item2" id="Item.steppe_arrows"/>
+				<equipment slot="Item3" id="Item.steppe_arrows"/>
+				<equipment slot="Head" id="Item.battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.highland_ranger_bow"/>
+				<equipment slot="Item2" id="Item.steppe_arrows"/>
+				<equipment slot="Item3" id="Item.steppe_arrows"/>
+				<equipment slot="Head" id="Item.battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.highland_ranger_bow"/>
+				<equipment slot="Item2" id="Item.steppe_arrows"/>
+				<equipment slot="Item3" id="Item.steppe_arrows"/>
+				<equipment slot="Head" id="Item.battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="musou_archer"
+		default_group="Ranged"
+		level="26"
+		name="Маосуу меткая лучница"
+		is_female="true"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="250"/>
+			<skill id="Throwing" value="250"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.musou_elite_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.plumed_nomad_helmet"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.plumed_nomad_helmet"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.plumed_nomad_helmet"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.plumed_nomad_helmet"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Item1" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.plumed_nomad_helmet"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="musou_elite_archer"
+		is_female="true"
+		default_group="Ranged"
+		level="31"
+		name="Маосуу снайпер убийца"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="musou_warrior"
+		default_group="Infantry"
+		level="26"
+		name="Маосуу опытная воительница"
+		is_female="true"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.musou_swordswoman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.yanchidao_onehand"/>
+				<equipment slot="Item1" id="Item.yuandunpai_123"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.yanchidao_onehand"/>
+				<equipment slot="Item1" id="Item.yuandunpai_123"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.yanchidao_onehand"/>
+				<equipment slot="Item1" id="Item.yuandunpai_123"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.yanchidao_onehand"/>
+				<equipment slot="Item1" id="Item.yuandunpai_123"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.yanchidao_onehand"/>
+				<equipment slot="Item1" id="Item.yuandunpai_123"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="musou_blader"
+		default_group="Infantry"
+		level="26"
+		name="Маосуу вальяра с двуручным мечом"
+		is_female="true"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.musou_champion"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.panlongjian"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.panlongjian"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.panlongjian"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.panlongjian"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.panlongjian"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.nvjiankejiahujian"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvshanwenjiaxiezi"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="musou_champion"
+		default_group="Infantry"
+		level="31"
+		name="Маосуу уничтожительница"
+		is_female="true"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wanrenjian"/>
+				<equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item2" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Head" id="Item.youhuanmianju"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wanrenjian"/>
+				<equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item2" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wanrenjian"/>
+				<equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item2" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Head" id="Item.youhuanmianju"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvcikejia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wanrenjian"/>
+				<equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item2" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvcikejia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.wanrenjian"/>
+				<equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item2" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Head" id="Item.youhuanmianju"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvcikejia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="musou_swordswoman"
+		default_group="Infantry"
+		level="31"
+		name="Маосуу элитная защитница"
+		is_female="true"
+		occupation="Soldier"
+		culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.villager_khuzait"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.han_huanshoudao"/>
+				<equipment slot="Item1" id="Item.yuandun_two"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.han_huanshoudao"/>
+				<equipment slot="Item1" id="Item.yuandun_two_1"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.han_huanshoudao"/>
+				<equipment slot="Item1" id="Item.yuandun_two"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.han_huanshoudao"/>
+				<equipment slot="Item1" id="Item.yuandun_two_1"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.han_huanshoudao"/>
+				<equipment slot="Item1" id="Item.yuandun_two_1"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

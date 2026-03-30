@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<NPCCharacter id="jyalldar_new_blood"
+		default_group="Infantry"
+		level="11"
+		name="Русский новобранец"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="260"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="160"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.jyalldar_fighter"/>
+			<upgrade_target id="NPCCharacter.jyalldar_warrior"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_i2"/>
+				<equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
+				<equipment slot="Body" id="Item.northern_lamellar_armor"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_i"/>
+				<equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
+				<equipment slot="Body" id="Item.northern_lamellar_armor"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+				<equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
+				<equipment slot="Body" id="Item.northern_lamellar_armor"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+				<equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
+				<equipment slot="Body" id="Item.northern_lamellar_armor"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+				<equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
+				<equipment slot="Body" id="Item.northern_lamellar_armor"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="jyalldar_fighter"
+		default_group="Infantry"
+		level="16"
+		name="Русский варяг"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="260"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="160"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.jyalldar_soldier"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_a"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.ao_gen_gambeson_over_mail"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+				<equipment slot="Head" id="Item.nasalhelm_over_leather"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.ao_gen_gambeson_over_mail"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_a"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.ao_gen_gambeson_over_mail"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+				<equipment slot="Head" id="Item.nasalhelm_over_leather"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.ao_gen_gambeson_over_mail"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+				<equipment slot="Head" id="Item.nasalhelm_over_leather"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.ao_gen_gambeson_over_mail"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="jyalldar_warrior"
+		default_group="Infantry"
+		level="16"
+		name="Русский Дружинник"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="190"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.jyalldar_cleaver"/>
+			<upgrade_target id="NPCCharacter.jyalldar_easy_charger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Item1" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Item1" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="jyalldar_cleaver"
+		default_group="Infantry"
+		level="21"
+		name="Русский опытный двуручник"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="240"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="310"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.jyalldar_reaper"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Item1" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_w2"/>
+				<equipment slot="Cape" id="Item.AR_sturgia_shoulders_a3"/>
+				<equipment slot="Body" id="Item.nordic_lamellar_armor"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_v2"/>
+				<equipment slot="Cape" id="Item.AR_sturgia_shoulders_a3"/>
+				<equipment slot="Body" id="Item.nordic_lamellar_armor"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_w2"/>
+				<equipment slot="Cape" id="Item.AR_sturgia_shoulders_a3"/>
+				<equipment slot="Body" id="Item.nordic_lamellar_armor"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_v2"/>
+				<equipment slot="Cape" id="Item.AR_sturgia_shoulders_a3"/>
+				<equipment slot="Body" id="Item.nordic_lamellar_armor"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_v2"/>
+				<equipment slot="Cape" id="Item.AR_sturgia_shoulders_a3"/>
+				<equipment slot="Body" id="Item.nordic_lamellar_armor"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="jyalldar_reaper"
+		default_group="Infantry"
+		level="29"
+		name="Русский закаленный воин"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="360"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.jyalldar_berserker"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.ao_eorling_iron_scale_over_mail"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.ao_eorling_bronze_scale_over_mail"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_b"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.ao_eorling_iron_scale_over_mail"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.ao_eorling_bronze_scale_over_mail"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_b"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.ao_eorling_bronze_scale_over_mail"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_b"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_c"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="jyalldar_berserker"
+		default_group="Infantry"
+		level="31"
+		name="Русский богатырский воин"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="350"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="380"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="360"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="360"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="jyalldar_easy_charger"
+		default_group="Cavalry"
+		level="18"
+		name="Русский легкий элитный всадник"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="150"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="220"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.jyalldar_charger"/>
+			<upgrade_target id="NPCCharacter.jyalldar_charger_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.ao_gen_gambeson_over_mail"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="jyalldar_charger"
+		default_group="Cavalry"
+		level="27"
+		name="Русский тяжелый элитный всадник"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="240"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="240"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.jyalldar_ultra_charger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.cts_dacian_shield_a"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="jyalldar_ultra_charger"
+		default_group="Cavalry"
+		level="31"
+		name="Русский всадник уничтожитель"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="340"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="360"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.javelin_sparta"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="jyalldar_charger_archer"
+		default_group="Cavalry"
+		level="18"
+		name="Всадник стрелок-застрельщик"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="140"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="160"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="140"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.jyalldar_ultra_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_q"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.ao_gen_gambeson_over_mail"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="jyalldar_ultra_archer"
+		default_group="Cavalry"
+		level="28"
+		name="Русский всадник уничтожитель"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="46"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="460"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="460"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_c"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.AR_horse_armor_zae2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="jyalldar_soldier"
+		default_group="Infantry"
+		level="21"
+		name="Русский рядовой боец"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.jyalldar_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_battle_axe_t3"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_q"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_w2"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_f"/>
+				<equipment slot="Body" id="Item.DZ_sturgia_armor_a"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_battle_axe_t3"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_q"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_v2"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_c"/>
+				<equipment slot="Body" id="Item.DZ_sturgia_armor_a2"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_battle_axe_t3"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_q"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_w2"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_k"/>
+				<equipment slot="Body" id="Item.DZ_sturgia_armor_a3"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_battle_axe_t3"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_q"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_v2"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_c"/>
+				<equipment slot="Body" id="Item.DZ_sturgia_armor_a2"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.northern_battle_axe_t3"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_q"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_v2"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_c"/>
+				<equipment slot="Body" id="Item.DZ_sturgia_armor_a2"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="jyalldar_infantry"
+		default_group="Infantry"
+		level="26"
+		name="Русский Защитник"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.jyalldar_shield_brother"/>
+			<upgrade_target id="NPCCharacter.jyalldar_elite_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_zp"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_n"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_b"/>
+				<equipment slot="Body" id="Item.DZ_sturgia_armor_b2"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_zp"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_j"/>
+				<equipment slot="Body" id="Item.DZ_sturgia_armor_b3"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_b"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_zp"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_n"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_b"/>
+				<equipment slot="Body" id="Item.DZ_sturgia_armor_b2"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_zp"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_d"/>
+				<equipment slot="Body" id="Item.DZ_sturgia_armor_b"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.AR_shield_infantry_zp"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.TV_nord_helmet_o"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_d"/>
+				<equipment slot="Body" id="Item.DZ_sturgia_armor_b"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_b"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="jyalldar_shield_brother"
+		default_group="Infantry"
+		level="31"
+		name="Русский стойки элитный защитник"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.sturgian_lord_helmet_b"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_a"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_f2"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.sturgian_lord_helmet_b"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_i"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_f3"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.sturgian_lord_helmet_b"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_a"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_f2"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.sturgian_lord_helmet_b"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_i"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_f3"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Item2" id="Item.javelin_sparta"/>
+				<equipment slot="Item3" id="Item.javelin_sparta"/>
+				<equipment slot="Head" id="Item.sturgian_lord_helmet_b"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_i"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_f3"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="jyalldar_elite_archer"
+		default_group="Ranged"
+		level="31"
+		name="Русский меткий элитный лучник"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.lendman_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.lamellar_shoulder"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_f2"/>
+				<equipment slot="Gloves" id="Item.AR_sturgia_gloves_c"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.lendman_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_i"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_f3"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.lendman_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.lamellar_shoulder"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_f2"/>
+				<equipment slot="Gloves" id="Item.AR_sturgia_gloves_c"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.lendman_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_i"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_f3"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.lendman_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_i"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_f3"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.TV_sturgia_boots_b"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

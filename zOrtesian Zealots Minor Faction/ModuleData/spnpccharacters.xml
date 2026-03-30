@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="ortesian_knight"
+		default_group="Infantry"
+		level="15"
+		name="{=Ortesian Knight}bbOrtesian Knight"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.ortesian_cleric"/>
+			<upgrade_target id="NPCCharacter.ortesian_seeker"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.varhean_helmet"/>
+				<equipment slot="Cape" id="Item.varhean_shoulders"/>
+				<equipment slot="Body" id="Item.varhean_armor"/>
+				<equipment slot="Gloves" id="Item.varhean_gauntlets"/>
+				<equipment slot="Leg" id="Item.varhean_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.judgement_mace_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.varhean_helmet"/>
+				<equipment slot="Cape" id="Item.varhean_shoulders"/>
+				<equipment slot="Body" id="Item.varhean_armor"/>
+				<equipment slot="Gloves" id="Item.varhean_gauntlets"/>
+				<equipment slot="Leg" id="Item.varhean_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.varhean_helmet"/>
+				<equipment slot="Cape" id="Item.varhean_shoulders"/>
+				<equipment slot="Body" id="Item.varhean_armor"/>
+				<equipment slot="Gloves" id="Item.varhean_gauntlets"/>
+				<equipment slot="Leg" id="Item.varhean_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_battle_axe_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.varhean_helmet"/>
+				<equipment slot="Cape" id="Item.varhean_shoulders"/>
+				<equipment slot="Body" id="Item.varhean_armor"/>
+				<equipment slot="Gloves" id="Item.varhean_gauntlets"/>
+				<equipment slot="Leg" id="Item.varhean_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.northern_battle_axe_t3"/>
+				<equipment slot="Item1" id="Item.varhean_shield"/>
+				<equipment slot="Head" id="Item.varhean_helmet"/>
+				<equipment slot="Cape" id="Item.varhean_shoulders"/>
+				<equipment slot="Body" id="Item.varhean_armor"/>
+				<equipment slot="Gloves" id="Item.varhean_gauntlets"/>
+				<equipment slot="Leg" id="Item.varhean_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="ortesian_cleric"
+		default_group="Infantry"
+		level="21"
+		name="{=Ortisian Cleric}Ortisian Cleric"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.ortesian_acolyte"/>
+			<upgrade_target id="NPCCharacter.ortesian_holy_paladin"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.Olurian_shield_silver"/>
+				<equipment slot="Head" id="Item.Olurian_helmet_silver"/>
+				<equipment slot="Cape" id="Item.Olurian_shoulders_silver"/>
+				<equipment slot="Body" id="Item.Olurian_armor_silver"/>
+				<equipment slot="Gloves" id="Item.Olurian_gauntlets_silver"/>
+				<equipment slot="Leg" id="Item.Olurian_boots_silver"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.Olurian_shield_silver"/>
+				<equipment slot="Head" id="Item.Olurian_helmet_silver"/>
+				<equipment slot="Cape" id="Item.Olurian_shoulders_silver"/>
+				<equipment slot="Body" id="Item.Olurian_armor_silver"/>
+				<equipment slot="Gloves" id="Item.Olurian_gauntlets_silver"/>
+				<equipment slot="Leg" id="Item.Olurian_boots_silver"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.Olurian_shield_silver"/>
+				<equipment slot="Head" id="Item.Olurian_helmet_silver"/>
+				<equipment slot="Cape" id="Item.Olurian_shoulders_silver"/>
+				<equipment slot="Body" id="Item.Olurian_armor_silver"/>
+				<equipment slot="Gloves" id="Item.Olurian_gauntlets_silver"/>
+				<equipment slot="Leg" id="Item.Olurian_boots_silver"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.Olurian_shield_silver"/>
+				<equipment slot="Head" id="Item.Olurian_helmet_silver"/>
+				<equipment slot="Cape" id="Item.Olurian_shoulders_silver"/>
+				<equipment slot="Body" id="Item.Olurian_armor_silver"/>
+				<equipment slot="Gloves" id="Item.Olurian_gauntlets_silver"/>
+				<equipment slot="Leg" id="Item.Olurian_boots_silver"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.Olurian_shield_silver"/>
+				<equipment slot="Head" id="Item.Olurian_helmet_silver"/>
+				<equipment slot="Cape" id="Item.Olurian_shoulders_silver"/>
+				<equipment slot="Body" id="Item.Olurian_armor_silver"/>
+				<equipment slot="Gloves" id="Item.Olurian_gauntlets_silver"/>
+				<equipment slot="Leg" id="Item.Olurian_boots_silver"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="ortesian_seeker"
+		default_group="Infantry"
+		level="21"
+		name="{=Ortesian Seeker}Ortesian Seeker"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.ortesian_inquisitor"/>
+			<upgrade_target id="NPCCharacter.ortesian_holy_knight"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.Olurian_shield_gold"/>
+				<equipment slot="Head" id="Item.Olurian_helmet_gold"/>
+				<equipment slot="Cape" id="Item.Olurian_shoulders_gold"/>
+				<equipment slot="Body" id="Item.Olurian_armor_gold"/>
+				<equipment slot="Gloves" id="Item.Olurian_gauntlets_gold"/>
+				<equipment slot="Leg" id="Item.Olurian_boots_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.Olurian_shield_gold"/>
+				<equipment slot="Head" id="Item.Olurian_helmet_gold"/>
+				<equipment slot="Cape" id="Item.Olurian_shoulders_gold"/>
+				<equipment slot="Body" id="Item.Olurian_armor_gold"/>
+				<equipment slot="Gloves" id="Item.Olurian_gauntlets_gold"/>
+				<equipment slot="Leg" id="Item.Olurian_boots_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.Olurian_shield_gold"/>
+				<equipment slot="Head" id="Item.Olurian_helmet_gold"/>
+				<equipment slot="Cape" id="Item.Olurian_shoulders_gold"/>
+				<equipment slot="Body" id="Item.Olurian_armor_gold"/>
+				<equipment slot="Gloves" id="Item.Olurian_gauntlets_gold"/>
+				<equipment slot="Leg" id="Item.Olurian_boots_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.Olurian_shield_gold"/>
+				<equipment slot="Head" id="Item.Olurian_helmet_gold"/>
+				<equipment slot="Cape" id="Item.Olurian_shoulders_gold"/>
+				<equipment slot="Body" id="Item.Olurian_armor_gold"/>
+				<equipment slot="Gloves" id="Item.Olurian_gauntlets_gold"/>
+				<equipment slot="Leg" id="Item.Olurian_boots_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.Olurian_shield_gold"/>
+				<equipment slot="Head" id="Item.Olurian_helmet_gold"/>
+				<equipment slot="Cape" id="Item.Olurian_shoulders_gold"/>
+				<equipment slot="Body" id="Item.Olurian_armor_gold"/>
+				<equipment slot="Gloves" id="Item.Olurian_gauntlets_gold"/>
+				<equipment slot="Leg" id="Item.Olurian_boots_gold"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="ortesian_inquisitor"
+		default_group="Infantry"
+		level="27"
+		name="{=Ortesian Inquisitor}Ortesian Inquisitor"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Item1" id="Item.Black_Templar_shield"/>
+				<equipment slot="Head" id="Item.Black_Templar_hood"/>
+				<equipment slot="Cape" id="Item.Black_Templar_shoulders"/>
+				<equipment slot="Body" id="Item.Black_Templar_armor"/>
+				<equipment slot="Gloves" id="Item.Black_Templar_gauntlets"/>
+				<equipment slot="Leg" id="Item.Black_Templar_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Item1" id="Item.Black_Templar_shield"/>
+				<equipment slot="Head" id="Item.Black_Templar_hood"/>
+				<equipment slot="Cape" id="Item.Black_Templar_shoulders"/>
+				<equipment slot="Body" id="Item.Black_Templar_armor"/>
+				<equipment slot="Gloves" id="Item.Black_Templar_gauntlets"/>
+				<equipment slot="Leg" id="Item.Black_Templar_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Item1" id="Item.Black_Templar_shield"/>
+				<equipment slot="Head" id="Item.Black_Templar_hood"/>
+				<equipment slot="Cape" id="Item.Black_Templar_shoulders"/>
+				<equipment slot="Body" id="Item.Black_Templar_armor"/>
+				<equipment slot="Gloves" id="Item.Black_Templar_gauntlets"/>
+				<equipment slot="Leg" id="Item.Black_Templar_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Item1" id="Item.Black_Templar_shield"/>
+				<equipment slot="Head" id="Item.Black_Templar_hood"/>
+				<equipment slot="Cape" id="Item.Black_Templar_shoulders"/>
+				<equipment slot="Body" id="Item.Black_Templar_armor"/>
+				<equipment slot="Gloves" id="Item.Black_Templar_gauntlets"/>
+				<equipment slot="Leg" id="Item.Black_Templar_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_sword_7_t5"/>
+				<equipment slot="Item1" id="Item.Black_Templar_shield"/>
+				<equipment slot="Head" id="Item.Black_Templar_hood"/>
+				<equipment slot="Cape" id="Item.Black_Templar_shoulders"/>
+				<equipment slot="Body" id="Item.Black_Templar_armor"/>
+				<equipment slot="Gloves" id="Item.Black_Templar_gauntlets"/>
+				<equipment slot="Leg" id="Item.Black_Templar_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="ortesian_holy_knight"
+		default_group="Cavalry"
+		level="27"
+		name="{=Ortesian Holy Knight}Ortesian Holy Knight"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.Black_Templar_shield"/>
+				<equipment slot="Head" id="Item.Black_Dragon_helmet"/>
+				<equipment slot="Cape" id="Item.Black_Dragon_shoulders"/>
+				<equipment slot="Body" id="Item.Black_Dragon_armor"/>
+				<equipment slot="Gloves" id="Item.Black_Dragon_gauntlets"/>
+				<equipment slot="Leg" id="Item.Black_Dragon_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.Black_Templar_shield"/>
+				<equipment slot="Head" id="Item.Black_Dragon_helmet"/>
+				<equipment slot="Cape" id="Item.Black_Dragon_shoulders"/>
+				<equipment slot="Body" id="Item.Black_Dragon_armor"/>
+				<equipment slot="Gloves" id="Item.Black_Dragon_gauntlets"/>
+				<equipment slot="Leg" id="Item.Black_Dragon_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.Black_Templar_shield"/>
+				<equipment slot="Head" id="Item.Black_Dragon_helmet"/>
+				<equipment slot="Cape" id="Item.Black_Dragon_shoulders"/>
+				<equipment slot="Body" id="Item.Black_Dragon_armor"/>
+				<equipment slot="Gloves" id="Item.Black_Dragon_gauntlets"/>
+				<equipment slot="Leg" id="Item.Black_Dragon_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.Black_Templar_shield"/>
+				<equipment slot="Head" id="Item.Black_Dragon_helmet"/>
+				<equipment slot="Cape" id="Item.Black_Dragon_shoulders"/>
+				<equipment slot="Body" id="Item.Black_Dragon_armor"/>
+				<equipment slot="Gloves" id="Item.Black_Dragon_gauntlets"/>
+				<equipment slot="Leg" id="Item.Black_Dragon_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.Black_Templar_shield"/>
+				<equipment slot="Head" id="Item.Black_Dragon_helmet"/>
+				<equipment slot="Cape" id="Item.Black_Dragon_shoulders"/>
+				<equipment slot="Body" id="Item.Black_Dragon_armor"/>
+				<equipment slot="Gloves" id="Item.Black_Dragon_gauntlets"/>
+				<equipment slot="Leg" id="Item.Black_Dragon_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="ortesian_acolyte"
+		default_group="Infantry"
+		level="27"
+		name="{=Ortesian Acolyte}Ortesian Acolyte"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.Templar_hood"/>
+				<equipment slot="Cape" id="Item.Templar_shoulders"/>
+				<equipment slot="Body" id="Item.Templar_armor"/>
+				<equipment slot="Gloves" id="Item.Templar_gauntlets"/>
+				<equipment slot="Leg" id="Item.Templar_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.Templar_hood"/>
+				<equipment slot="Cape" id="Item.Templar_shoulders"/>
+				<equipment slot="Body" id="Item.Templar_armor"/>
+				<equipment slot="Gloves" id="Item.Templar_gauntlets"/>
+				<equipment slot="Leg" id="Item.Templar_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.Templar_hood"/>
+				<equipment slot="Cape" id="Item.Templar_shoulders"/>
+				<equipment slot="Body" id="Item.Templar_armor"/>
+				<equipment slot="Gloves" id="Item.Templar_gauntlets"/>
+				<equipment slot="Leg" id="Item.Templar_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.Templar_hood"/>
+				<equipment slot="Cape" id="Item.Templar_shoulders"/>
+				<equipment slot="Body" id="Item.Templar_armor"/>
+				<equipment slot="Gloves" id="Item.Templar_gauntlets"/>
+				<equipment slot="Leg" id="Item.Templar_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.Templar_hood"/>
+				<equipment slot="Cape" id="Item.Templar_shoulders"/>
+				<equipment slot="Body" id="Item.Templar_armor"/>
+				<equipment slot="Gloves" id="Item.Templar_gauntlets"/>
+				<equipment slot="Leg" id="Item.Templar_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="ortesian_holy_paladin"
+		default_group="Cavalry"
+		level="31"
+		name="{=Ortesian Holy Paladin}Ortesian Holy Paladin"
+		occupation="Soldier"
+		culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.Silver_Dragon_helmet"/>
+				<equipment slot="Cape" id="Item.Silver_Dragon_shoulders"/>
+				<equipment slot="Body" id="Item.Silver_Dragon_armor"/>
+				<equipment slot="Gloves" id="Item.Silver_Dragon_gauntlets"/>
+				<equipment slot="Leg" id="Item.Silver_Dragon_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.Silver_Dragon_helmet"/>
+				<equipment slot="Cape" id="Item.Silver_Dragon_shoulders"/>
+				<equipment slot="Body" id="Item.Silver_Dragon_armor"/>
+				<equipment slot="Gloves" id="Item.Silver_Dragon_gauntlets"/>
+				<equipment slot="Leg" id="Item.Silver_Dragon_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.Silver_Dragon_helmet"/>
+				<equipment slot="Cape" id="Item.Silver_Dragon_shoulders"/>
+				<equipment slot="Body" id="Item.Silver_Dragon_armor"/>
+				<equipment slot="Gloves" id="Item.Silver_Dragon_gauntlets"/>
+				<equipment slot="Leg" id="Item.Silver_Dragon_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.Silver_Dragon_helmet"/>
+				<equipment slot="Cape" id="Item.Silver_Dragon_shoulders"/>
+				<equipment slot="Body" id="Item.Silver_Dragon_armor"/>
+				<equipment slot="Gloves" id="Item.Silver_Dragon_gauntlets"/>
+				<equipment slot="Leg" id="Item.Silver_Dragon_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.Templar_shield"/>
+				<equipment slot="Head" id="Item.Silver_Dragon_helmet"/>
+				<equipment slot="Cape" id="Item.Silver_Dragon_shoulders"/>
+				<equipment slot="Body" id="Item.Silver_Dragon_armor"/>
+				<equipment slot="Gloves" id="Item.Silver_Dragon_gauntlets"/>
+				<equipment slot="Leg" id="Item.Silver_Dragon_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

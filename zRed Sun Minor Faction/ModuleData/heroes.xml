@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_redsun_leader_object" text="Raijin is warlord from the far east seeking a new land expand his people's empire. Ever ambitious, he now wants to become an emperor of a new land for his own gain." faction="Faction.redsun_company" />
+
+</Heroes>

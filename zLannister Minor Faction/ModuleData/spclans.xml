@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="lannister_company"
+			 initial_posX="129.076"
+			 initial_posY="500.379"
+			 banner_key="11.142.142.2380.2298.698.1384.1.0.0.140.143.140.520.564.764.756.0.0.0"
+             culture="Culture.sturgia"
+             default_party_template="PartyTemplate.lannister_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="The Golden Lion(6 Ланнистеры)"
+             tier="6"
+             text="House Lannister of Casterly Rock is one of the Great Houses of Seven Kingdoms, and the principal house of the westerlands. Their seat is Casterly Rock, King Tommen II Lannister sailed with his great fleet to Valyria after the Doom with the intention of plundering the wealth and sorcery he was sure still remained. It was a quest from which he never returned to Westeros but arrived through a vortex into Calradia."
+			 owner="Hero.spc_lannister_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_lannister_leader_0" />
+			<template id="NPCCharacter.spc_lannister_leader_1" />
+			<template id="NPCCharacter.spc_lannister_leader_2" />
+			<template id="NPCCharacter.spc_lannister_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

@@ -1,0 +1,4 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_vespan_leader_object" text="In the gilded halls of the Vespanolan Empire, where the clangor of steel and the resonance of noble ideals intertwine, Artorius Vespanola, a second in line to the throne emerges as a formidable figure, draped in the regal mantle of leadership that befits the crown of the empire and leadership of the illustrious Vespan Knights. His presence commands attention, a striking embodiment of both martial prowess and unwavering virtue." faction="Faction.vespan_knights" />
+</Heroes>

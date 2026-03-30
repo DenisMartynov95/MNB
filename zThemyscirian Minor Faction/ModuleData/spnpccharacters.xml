@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<NPCCharacter id="themyscirian_champion"
+		default_group="Infantry"
+		level="26"
+		name="{=Themyscirian Champion}abThemyscirian Champion"
+		is_female="true"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.wonderwoman_common"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="180"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="220"/>
+			<skill id="Bow" value="220"/>
+			<skill id="Crossbow" value="220"/>
+			<skill id="Throwing" value="220"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.themyscirian_hero"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.ww_helmet"/>
+				<equipment slot="Cape" id="Item.wonder_dress"/>
+				<equipment slot="Body" id="Item.wonder_armor_a"/>
+				<equipment slot="Gloves" id="Item.wonder_wristarmor_a"/>
+				<equipment slot="Leg" id="Item.wonder_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.ww_helmet"/>
+				<equipment slot="Cape" id="Item.wonder_dress"/>
+				<equipment slot="Body" id="Item.wonder_armor_a"/>
+				<equipment slot="Gloves" id="Item.wonder_wristarmor_a"/>
+				<equipment slot="Leg" id="Item.wonder_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.ww_helmet"/>
+				<equipment slot="Cape" id="Item.wonder_dress"/>
+				<equipment slot="Body" id="Item.wonder_armor_a"/>
+				<equipment slot="Gloves" id="Item.wonder_wristarmor_a"/>
+				<equipment slot="Leg" id="Item.wonder_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.ww_helmet"/>
+				<equipment slot="Cape" id="Item.wonder_dress"/>
+				<equipment slot="Body" id="Item.wonder_armor_a"/>
+				<equipment slot="Gloves" id="Item.wonder_wristarmor_a"/>
+				<equipment slot="Leg" id="Item.wonder_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.empire_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.ww_helmet"/>
+				<equipment slot="Cape" id="Item.wonder_dress"/>
+				<equipment slot="Body" id="Item.wonder_armor_a"/>
+				<equipment slot="Gloves" id="Item.wonder_wristarmor_a"/>
+				<equipment slot="Leg" id="Item.wonder_boots_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="themyscirian_hero"
+		default_group="Infantry"
+		level="31"
+		name="{=Themyscirian Hero}Themyscirian Hero"
+		is_female="true"
+		occupation="Soldier"
+		culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.wonderwoman_common"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.ww_helmet"/>
+				<equipment slot="Cape" id="Item.wonder_dress"/>
+				<equipment slot="Body" id="Item.wonder_armor_b"/>
+				<equipment slot="Gloves" id="Item.wonder_wristarmor_b"/>
+				<equipment slot="Leg" id="Item.wonder_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.ww_helmet"/>
+				<equipment slot="Cape" id="Item.wonder_dress"/>
+				<equipment slot="Body" id="Item.wonder_armor_b"/>
+				<equipment slot="Gloves" id="Item.wonder_wristarmor_b"/>
+				<equipment slot="Leg" id="Item.wonder_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.ww_helmet"/>
+				<equipment slot="Cape" id="Item.wonder_dress"/>
+				<equipment slot="Body" id="Item.wonder_armor_b"/>
+				<equipment slot="Gloves" id="Item.wonder_wristarmor_b"/>
+				<equipment slot="Leg" id="Item.wonder_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.ww_helmet"/>
+				<equipment slot="Cape" id="Item.wonder_dress"/>
+				<equipment slot="Body" id="Item.wonder_armor_b"/>
+				<equipment slot="Gloves" id="Item.wonder_wristarmor_b"/>
+				<equipment slot="Leg" id="Item.wonder_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.empire_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.ww_helmet"/>
+				<equipment slot="Cape" id="Item.wonder_dress"/>
+				<equipment slot="Body" id="Item.wonder_armor_b"/>
+				<equipment slot="Gloves" id="Item.wonder_wristarmor_b"/>
+				<equipment slot="Leg" id="Item.wonder_boots_b"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

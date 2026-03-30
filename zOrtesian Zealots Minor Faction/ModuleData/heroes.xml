@@ -1,0 +1,4 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_ortesian_leader_object" text="As a military commander of the Inquisition army, Ashtart orchestrated campaigns with strategic precision, each maneuver a choreographed dance in service to the Mauser Faith. The weight of authority rested upon broad shoulders, and a cloak adorned with symbols of divine righteousness billowed in the wind as a silent proclamation of Ashtart's allegiance. In the field of battle, Ashtart Drachen led with an unwavering conviction that inspired the soldiers of the Inquisition to fight not only for victory but for the sanctity of their faith. The battlefield was a canvas upon which Ashtart painted a portrait of divine justice, and every military maneuver was executed as if guided by the hand of Mauser." faction="Faction.ortesian_knights" />
+</Heroes>

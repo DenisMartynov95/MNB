@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_mormont_leader_0" name="{=!}Joren Mormont" is_female="false" age="35" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="33.11" weight="0.5756" build="0.6085"  key="0008840140882383A68B55DD5BD7775459432392766599975AAB3C7A983AD57200A996030A1A46DB00000000000000000000000000000000000000004F443002"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bc_swd"/>
+				<equipment slot="Item2" id="Item.north_van_shield_lrg"/>
+				<equipment slot="Head" id="Item.north_van_helm_4"/>
+				<equipment slot="Cape" id="Item.fur_cloak_c"/>
+				<equipment slot="Body" id="Item.jorah_armor_v3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_13"/>
+				<equipment slot="Leg" id="Item.jor_bts_alt"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bc_swd"/>
+				<equipment slot="Item2" id="Item.north_van_shield_lrg"/>
+				<equipment slot="Head" id="Item.north_van_helm_4"/>
+				<equipment slot="Cape" id="Item.fur_cloak_c"/>
+				<equipment slot="Body" id="Item.jorah_armor_v3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_13"/>
+				<equipment slot="Leg" id="Item.jor_bts_alt"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mormont_leader_object" name="Joren Mormont" is_female="false" age="35" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="33.11" weight="0.5756" build="0.6085"  key="0008840140882383A68B55DD5BD7775459432392766599975AAB3C7A983AD57200A996030A1A46DB00000000000000000000000000000000000000004F443002"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bc_swd"/>
+				<equipment slot="Item2" id="Item.north_van_shield_lrg"/>
+				<equipment slot="Head" id="Item.north_van_helm_4"/>
+				<equipment slot="Cape" id="Item.fur_cloak_c"/>
+				<equipment slot="Body" id="Item.jorah_armor_v3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_13"/>
+				<equipment slot="Leg" id="Item.jor_bts_alt"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bc_swd"/>
+				<equipment slot="Item2" id="Item.north_van_shield_lrg"/>
+				<equipment slot="Head" id="Item.north_van_helm_4"/>
+				<equipment slot="Cape" id="Item.fur_cloak_c"/>
+				<equipment slot="Body" id="Item.jorah_armor_v3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_13"/>
+				<equipment slot="Leg" id="Item.jor_bts_alt"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mormont_leader_1" name="{=!}Jormon" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.mormont_common" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bc_swd"/>
+				<equipment slot="Item2" id="Item.north_van_shield_lrg"/>
+				<equipment slot="Head" id="Item.north_van_helm_4"/>
+				<equipment slot="Cape" id="Item.fur_cloak_c"/>
+				<equipment slot="Body" id="Item.jorah_armor_v3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_13"/>
+				<equipment slot="Leg" id="Item.jor_bts_alt"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bc_swd"/>
+				<equipment slot="Item2" id="Item.north_van_shield_lrg"/>
+				<equipment slot="Head" id="Item.north_van_helm_4"/>
+				<equipment slot="Cape" id="Item.fur_cloak_c"/>
+				<equipment slot="Body" id="Item.jorah_armor_v3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_13"/>
+				<equipment slot="Leg" id="Item.jor_bts_alt"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mormont_leader_2" name="{=!}Jeron" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.mormont_common" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bc_swd"/>
+				<equipment slot="Item2" id="Item.north_van_shield_lrg"/>
+				<equipment slot="Head" id="Item.north_van_helm_4"/>
+				<equipment slot="Cape" id="Item.fur_cloak_c"/>
+				<equipment slot="Body" id="Item.jorah_armor_v3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_13"/>
+				<equipment slot="Leg" id="Item.jor_bts_alt"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bc_swd"/>
+				<equipment slot="Item2" id="Item.north_van_shield_lrg"/>
+				<equipment slot="Head" id="Item.north_van_helm_4"/>
+				<equipment slot="Cape" id="Item.fur_cloak_c"/>
+				<equipment slot="Body" id="Item.jorah_armor_v3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_13"/>
+				<equipment slot="Leg" id="Item.jor_bts_alt"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mormont_leader_3" name="{=!}Jarnem" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.mormont_common" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bc_swd"/>
+				<equipment slot="Item2" id="Item.north_van_shield_lrg"/>
+				<equipment slot="Head" id="Item.north_van_helm_4"/>
+				<equipment slot="Cape" id="Item.fur_cloak_c"/>
+				<equipment slot="Body" id="Item.jorah_armor_v3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_13"/>
+				<equipment slot="Leg" id="Item.jor_bts_alt"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bc_swd"/>
+				<equipment slot="Item2" id="Item.north_van_shield_lrg"/>
+				<equipment slot="Head" id="Item.north_van_helm_4"/>
+				<equipment slot="Cape" id="Item.fur_cloak_c"/>
+				<equipment slot="Body" id="Item.jorah_armor_v3"/>
+				<equipment slot="Gloves" id="Item.chiv_gnl_13"/>
+				<equipment slot="Leg" id="Item.jor_bts_alt"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

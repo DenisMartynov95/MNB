@@ -1,0 +1,6 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_mormont_leader_object" text="Joren Mormont, known as the White Bear, is the Lord of Bear Island and head of House Mormont
+	. After King Theon Stark executed Ravos and expelling the ironborns from Bear Island, he joined the King of Winter's fleet and was swept away by a maelstrom and transported them to Calradia." faction="Faction.mormont_company" />
+
+</Heroes>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_pharsalos_leader_0" name="{=!}Eudorus" is_female="false" age="35" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35.01" weight="0" build="0.5995"  key="000D1C02800013833C75BE2F54A73A846EF48AA881BD1500B5EC96458DB3683600C906030C489C0400000000000000000000000000000000000000002B8C3002"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_achilles"/>
+				<equipment slot="Item1" id="Item.sword_achilles"/>
+				<equipment slot="Item2" id="Item.aklsshield"/>
+				<equipment slot="Head" id="Item.aklshead2"/>
+				<equipment slot="Cape" id="Item.aklscape"/>				
+				<equipment slot="Body" id="Item.aklsbody2"/>
+				<equipment slot="Gloves" id="Item.aklshand"/>
+				<equipment slot="Leg" id="Item.aklsleg"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_achilles"/>
+				<equipment slot="Item1" id="Item.sword_achilles"/>
+				<equipment slot="Item2" id="Item.aklsshield"/>
+				<equipment slot="Head" id="Item.aklshead2"/>
+				<equipment slot="Cape" id="Item.aklscape"/>				
+				<equipment slot="Body" id="Item.aklsbody2"/>
+				<equipment slot="Gloves" id="Item.aklshand"/>
+				<equipment slot="Leg" id="Item.aklsleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_pharsalos_leader_object" name="Eudorus" is_female="false" age="35" voice="ironic" default_group="Infantry" is_hero="true" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35.01" weight="0" build="0.5995"  key="000D1C02800013833C75BE2F54A73A846EF48AA881BD1500B5EC96458DB3683600C906030C489C0400000000000000000000000000000000000000002B8C3002"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_achilles"/>
+				<equipment slot="Item1" id="Item.sword_achilles"/>
+				<equipment slot="Item2" id="Item.aklsshield"/>
+				<equipment slot="Head" id="Item.aklshead2"/>
+				<equipment slot="Cape" id="Item.aklscape"/>				
+				<equipment slot="Body" id="Item.aklsbody2"/>
+				<equipment slot="Gloves" id="Item.aklshand"/>
+				<equipment slot="Leg" id="Item.aklsleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_achilles"/>
+				<equipment slot="Item1" id="Item.sword_achilles"/>
+				<equipment slot="Item2" id="Item.aklsshield"/>
+				<equipment slot="Head" id="Item.aklshead2"/>
+				<equipment slot="Cape" id="Item.aklscape"/>				
+				<equipment slot="Body" id="Item.aklsbody2"/>
+				<equipment slot="Gloves" id="Item.aklshand"/>
+				<equipment slot="Leg" id="Item.aklsleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_pharsalos_leader_1" name="{=!}Hellenia" is_female="true" age="25" voice="softspoken" is_template="true" default_group="Ranged" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="25" weight="0.0131" build="0.3349"  key="0005040AC01430041857026089EC0750F1BF7DE4787FF194B8E7CE0084F7070801A506140A28A02600150000771F1030000000000000041400000000474C40C3"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sword_achilles"/>
+				<equipment slot="Item1" id="Item.javelin_achilles"/>
+				<equipment slot="Item2" id="Item.greekbow"/>
+				<equipment slot="Item3" id="Item.greekarrow"/>	
+				<equipment slot="Head" id="Item.aklshead"/>
+				<equipment slot="Cape" id="Item.aklscapef"/>					
+				<equipment slot="Body" id="Item.aklsbodyf"/>
+				<equipment slot="Gloves" id="Item.aklshand"/>
+				<equipment slot="Leg" id="Item.aklsleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_achilles"/>
+				<equipment slot="Item1" id="Item.javelin_achilles"/>
+				<equipment slot="Item2" id="Item.greekbow"/>
+				<equipment slot="Item3" id="Item.greekarrow"/>	
+				<equipment slot="Head" id="Item.aklshead"/>
+				<equipment slot="Cape" id="Item.aklscapef"/>					
+				<equipment slot="Body" id="Item.aklsbodyf"/>
+				<equipment slot="Gloves" id="Item.aklshand"/>
+				<equipment slot="Leg" id="Item.aklsleg"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_pharsalos_leader_2" name="{=!}Damocles" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.pharsalos_common2" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_achilles"/>
+				<equipment slot="Item1" id="Item.sword_achilles"/>
+				<equipment slot="Item2" id="Item.aklsshield"/>
+				<equipment slot="Head" id="Item.aklshead2"/>
+				<equipment slot="Cape" id="Item.aklscape"/>				
+				<equipment slot="Body" id="Item.aklsbody2"/>
+				<equipment slot="Gloves" id="Item.aklshand"/>
+				<equipment slot="Leg" id="Item.aklsleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_achilles"/>
+				<equipment slot="Item1" id="Item.sword_achilles"/>
+				<equipment slot="Item2" id="Item.aklsshield"/>
+				<equipment slot="Head" id="Item.aklshead2"/>
+				<equipment slot="Cape" id="Item.aklscape"/>				
+				<equipment slot="Body" id="Item.aklsbody2"/>
+				<equipment slot="Gloves" id="Item.aklshand"/>
+				<equipment slot="Leg" id="Item.aklsleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_pharsalos_leader_3" name="{=!}Eos" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.pharsalos_common3" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_achilles"/>
+				<equipment slot="Item1" id="Item.sword_achilles"/>
+				<equipment slot="Item2" id="Item.aklsshield"/>
+				<equipment slot="Head" id="Item.aklshead2"/>
+				<equipment slot="Cape" id="Item.aklscape"/>				
+				<equipment slot="Body" id="Item.aklsbody2"/>
+				<equipment slot="Gloves" id="Item.aklshand"/>
+				<equipment slot="Leg" id="Item.aklsleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_achilles"/>
+				<equipment slot="Item1" id="Item.sword_achilles"/>
+				<equipment slot="Item2" id="Item.aklsshield"/>
+				<equipment slot="Head" id="Item.aklshead2"/>
+				<equipment slot="Cape" id="Item.aklscape"/>				
+				<equipment slot="Body" id="Item.aklsbody2"/>
+				<equipment slot="Gloves" id="Item.aklshand"/>
+				<equipment slot="Leg" id="Item.aklsleg"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

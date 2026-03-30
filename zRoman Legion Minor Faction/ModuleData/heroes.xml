@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_roman_leader_object" text="Silbannacus, the Emperor of the Holy Roman Empire, is known for his boldness in venturing into unknown lands. While on a voyage, his fleet was unfortunately caught by a storm and went missing at sea. After enduring a treacherous storm, the Emperor and his fleet finally arrived at an unexplored land. Inspired by this discovery, Silbannacus resolved to conquer this new land called Calradia." faction="Faction.roman_legion" />
+
+</Heroes>

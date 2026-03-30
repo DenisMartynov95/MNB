@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="dacian_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="30" troop="NPCCharacter.dacian_recruit" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.dacian_infantry" />
+        <PartyTemplateStack min_value="10" max_value="25" troop="NPCCharacter.dacian_rider" />
+        <PartyTemplateStack min_value="10" max_value="30" troop="NPCCharacter.dacian_soldier" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.dacian_light_cavalry" />
+        <PartyTemplateStack min_value="10" max_value="25" troop="NPCCharacter.dacian_warrior" />
+        <PartyTemplateStack min_value="10" max_value="30" troop="NPCCharacter.dacian_heavy_cavalry" />
+        <PartyTemplateStack min_value="20" max_value="30" troop="NPCCharacter.dacian_blader" />
+        <PartyTemplateStack min_value="10" max_value="25" troop="NPCCharacter.dacian_defender" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.dacian_archer" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.dacian_elite_archer" />		
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

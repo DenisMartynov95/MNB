@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="wonderwoman_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="50" max_value="50" troop="NPCCharacter.themyscirian_champion" />
+        <PartyTemplateStack min_value="50" max_value="50" troop="NPCCharacter.themyscirian_hero" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

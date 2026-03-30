@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_lannister_leader_object" text="King Tommen II sailed with his great fleet to Valyria after the Doom with the intention of plundering the wealth and sorcery he was sure still remained. It was a quest from which he never returned to Westeros but arrived through a vortex into Calradia." faction="Faction.lannister_company" />
+
+</Heroes>

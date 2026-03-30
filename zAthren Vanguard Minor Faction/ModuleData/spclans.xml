@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="athren_company"
+			 initial_posX="421.289"
+			 initial_posY="52.45"
+			 banner_key="2.116.116.1956.1194.461.780.1.0.0.316.142.143.935.-922.764.764.0.1.180.326.116.116.531.-524.764.764.0.1.180.421.140.116.133.-132.769.738.0.1.180"
+             culture="Culture.aserai"
+             default_party_template="PartyTemplate.athren_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Чёрные Рыцари (6 Вавилон)"
+             tier="6"
+             text="In the shadowed valleys and sunlit plateaus of an ancient land, where marble pillars stood as silent sentinels to centuries past, the Athenian vanguard army gathered under the banner of Alhazred Garvis. The air crackled with the anticipation of impending conflict, and the whispers of olive leaves hinted at the weight of history that draped itself over the soldiers like a cloak."
+			 owner="Hero.spc_athren_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_athren_leader_0" />
+			<template id="NPCCharacter.spc_athren_leader_1" />
+			<template id="NPCCharacter.spc_athren_leader_2" />
+			<template id="NPCCharacter.spc_athren_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

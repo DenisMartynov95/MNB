@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="dacian_army"
+			 initial_posX="246.362"
+			 initial_posY="223.700"
+			 banner_key="11.140.142.1836.1836.764.764.1.0.0.121.40.116.625.601.762.732.1.1.-1"
+             culture="Culture.empire"
+             default_party_template="PartyTemplate.dacian_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Клан Ветеранов Дакийцев (6 Дакийцы)"
+             tier="6"
+             text="Царь Децебал объединил различные дакийские племена в единую нацию и повел их в войнах против римских императоров Домициана и Траяна. После второй дакийской войны Траян во второй раз захватил Сармизегетузу, а Децебал от стыда хотел покончить с собой и решил выйти в море, чтобы встретиться с Посейдоном. Вместо того чтобы погибнуть в кораблекрушении, его флот оказался в новом мире под названием Кальрадия. У короля-изгнанника появилась новая цель."
+			 owner="Hero.spc_dacian_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_dacian_leader_0" />
+			<template id="NPCCharacter.spc_dacian_leader_1" />
+			<template id="NPCCharacter.spc_dacian_leader_2" />
+			<template id="NPCCharacter.spc_dacian_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

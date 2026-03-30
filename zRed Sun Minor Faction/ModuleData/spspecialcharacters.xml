@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_redsun_leader_0" name="{=!}Raijin Asama" is_female="false" age="35" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35" weight="0.4785" build="0.6127"  key="0005B80D800000035C9A368753C4C98A74722A8B462E454A6B4C94A39171040100A976030A25724100000000000000000000000000000000000000003B443102"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.katana1"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item4" id="Item.heavy_steppe_arrows"/>					
+				<equipment slot="Head" id="Item.wushitoukui"/>
+				<equipment slot="Body" id="Item.wwushikuijia"/>
+				<equipment slot="Leg" id="Item.wushituijia"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1" id="Item.katana1"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item4" id="Item.heavy_steppe_arrows"/>					
+				<equipment slot="Head" id="Item.wushitoukui"/>
+				<equipment slot="Body" id="Item.wwushikuijia"/>
+				<equipment slot="Leg" id="Item.wushituijia"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_redsun_leader_object" name="Raijin Asama" is_female="false" age="35" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35" weight="0.4785" build="0.6127"  key="0005B80D800000035C9A368753C4C98A74722A8B462E454A6B4C94A39171040100A976030A25724100000000000000000000000000000000000000003B443102"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.katana1"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item4" id="Item.heavy_steppe_arrows"/>					
+				<equipment slot="Head" id="Item.wushitoukui"/>
+				<equipment slot="Body" id="Item.wwushikuijia"/>
+				<equipment slot="Leg" id="Item.wushituijia"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1" id="Item.katana1"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item4" id="Item.heavy_steppe_arrows"/>					
+				<equipment slot="Head" id="Item.wushitoukui"/>
+				<equipment slot="Body" id="Item.wwushikuijia"/>
+				<equipment slot="Leg" id="Item.wushituijia"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_redsun_leader_1" name="{=!}Asama" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.redsun_common" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.katana1"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item4" id="Item.heavy_steppe_arrows"/>					
+				<equipment slot="Head" id="Item.wushitoukui"/>
+				<equipment slot="Body" id="Item.wwushikuijia"/>
+				<equipment slot="Leg" id="Item.wushituijia"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1" id="Item.katana1"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item4" id="Item.heavy_steppe_arrows"/>					
+				<equipment slot="Head" id="Item.wushitoukui"/>
+				<equipment slot="Body" id="Item.wwushikuijia"/>
+				<equipment slot="Leg" id="Item.wushituijia"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_redsun_leader_2" name="{=!}Seki" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.redsun_common" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.katana1"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item4" id="Item.heavy_steppe_arrows"/>					
+				<equipment slot="Head" id="Item.wushitoukui"/>
+				<equipment slot="Body" id="Item.wwushikuijia"/>
+				<equipment slot="Leg" id="Item.wushituijia"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1" id="Item.katana1"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item4" id="Item.heavy_steppe_arrows"/>					
+				<equipment slot="Head" id="Item.wushitoukui"/>
+				<equipment slot="Body" id="Item.wwushikuijia"/>
+				<equipment slot="Leg" id="Item.wushituijia"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_redsun_leader_3" name="{=!}Yamimaru" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.redsun_common" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.katana1"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item4" id="Item.heavy_steppe_arrows"/>					
+				<equipment slot="Head" id="Item.wushitoukui"/>
+				<equipment slot="Body" id="Item.wwushikuijia"/>
+				<equipment slot="Leg" id="Item.wushituijia"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1" id="Item.katana1"/>
+				<equipment slot="Item2" id="Item.noble_bow"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item4" id="Item.heavy_steppe_arrows"/>					
+				<equipment slot="Head" id="Item.wushitoukui"/>
+				<equipment slot="Body" id="Item.wwushikuijia"/>
+				<equipment slot="Leg" id="Item.wushituijia"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

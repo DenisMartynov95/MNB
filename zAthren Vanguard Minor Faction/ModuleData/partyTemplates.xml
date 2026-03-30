@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="athren_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.athren_soldier" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.athren_rider" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.athren_infantry" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.athren_berserker" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.athren_vanguard" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.athren_cavalry" />
+		<PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.athren_piker" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

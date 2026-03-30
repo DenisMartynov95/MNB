@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="stormland_company"
+			 initial_posX="247.813"
+			 initial_posY="447.92"
+			 banner_key="35.144.144.1836.1836.768.788.1.0.-30.137.116.149.277.258.779.638.0.0.-38.125.116.149.625.582.734.807.0.0.1"
+             culture="Culture.battania"
+             default_party_template="PartyTemplate.stormland_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Stormland Knights(6 Германцы)"
+             tier="6"
+             text="The line of the Storm Kings dates back to the Age of Heroes when their kingdom was founded by King Durran Godsgrief, a legendary hero. The Storm Kings once ruled much of the eastern half of Westeros, an area reaching from Cape Wrath to the Bay of Crabs. Erich Durrandon III the Sail-Maker leads these lost knights to regain a foothold in these new chaotic land."
+			 owner="Hero.spc_stormland_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_stormland_leader_0" />
+			<template id="NPCCharacter.spc_stormland_leader_1" />
+			<template id="NPCCharacter.spc_stormland_leader_2" />
+			<template id="NPCCharacter.spc_stormland_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

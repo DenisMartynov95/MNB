@@ -1,0 +1,32 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output omit-xml-declaration="yes"/>
+    <xsl:template match="@*|node()">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+    </xsl:template>
+
+	<!-- Empire Caravan -->
+	<xsl:template match="MBPartyTemplate[@id='caravan_template_khuzait']/stacks">
+		<xsl:copy>
+			<xsl:apply-templates select="@* | node()"/>
+			<PartyTemplateStack min_value="2" max_value="15" troop="NPCCharacter.musou_swordswoman" />
+		</xsl:copy>
+	</xsl:template>
+
+	<!-- Empire Elite Caravan -->
+	<xsl:template match="MBPartyTemplate[@id='elite_caravan_template_khuzait']/stacks">
+		<xsl:copy>
+			<xsl:apply-templates select="@* | node()"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.musou_champion" />
+		</xsl:copy>
+	</xsl:template>
+
+	<!-- Empire Villager Party -->
+	<xsl:template match="MBPartyTemplate[@id='villager_khuzait_template']/stacks">
+		<xsl:copy>
+			<xsl:apply-templates select="@* | node()"/>
+			<PartyTemplateStack min_value="3" max_value="10" troop="NPCCharacter.musou_elite_archer" />
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>

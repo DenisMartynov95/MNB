@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="vespan_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="30" troop="NPCCharacter.vespan_squire" />
+        <PartyTemplateStack min_value="10" max_value="30" troop="NPCCharacter.vespan_soldier" />
+        <PartyTemplateStack min_value="7" max_value="20" troop="NPCCharacter.vespan_infantry" />
+        <PartyTemplateStack min_value="7" max_value="20" troop="NPCCharacter.vespan_cavalry" />
+        <PartyTemplateStack min_value="7" max_value="20" troop="NPCCharacter.vespan_defender" />
+        <PartyTemplateStack min_value="7" max_value="20" troop="NPCCharacter.vespan_guardian" />
+        <PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.vespan_lancers" />
+        <PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.vespan_hunter" />
+        <PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.vespan_warrior" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.vespan_champion" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.vespan_sniper" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

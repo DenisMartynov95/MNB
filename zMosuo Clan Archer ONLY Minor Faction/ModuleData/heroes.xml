@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_musuo_leader_object" text="Asa Nujee is the current chief of the Musuo Clan, she is a brilliant tactician who vows to bring the golden age for her clan." faction="Faction.musuo_company" />
+
+</Heroes>

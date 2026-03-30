@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<NPCCharacters>
+				<NPCCharacter id="athensteen"
+				default_group="Infantry"
+				level="6"
+				name="Афинский юноша"
+				occupation="Soldier"
+																		is_basic_troop="true"
+				culture="Culture.empire" is_female="false">
+				<face>
+																		 <BodyProperties version="4" age="21.03" weight="0.025" build="0.5651"  key="0000000080E40003537666CFB0678FF871A387159488C803888ABA348F92000500B806020B13411000000000000000000000000000000000000000007D844002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="25"/>
+					<skill id="Riding" value="20"/>
+					<skill id="OneHanded" value="25"/>
+					<skill id="TwoHanded" value="20"/>
+					<skill id="Polearm" value="50"/>
+					<skill id="Bow" value="20"/>
+					<skill id="Crossbow" value="20"/>
+					<skill id="Throwing" value="20"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.athens"/>
+					<upgrade_target id="NPCCharacter.athen_warrior"/>
+					<upgrade_target id="NPCCharacter.athen_archer"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.spear_sparta2"/>
+						<equipment slot="Body" id="Item.greekrobe"/>
+						<equipment slot="Gloves" id="Item.greekhand2"/>
+						<equipment slot="Leg" id="Item.greekleg2"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.spear_sparta2"/>
+						<equipment slot="Body" id="Item.greekrobe"/>
+						<equipment slot="Gloves" id="Item.greekhand2"/>
+						<equipment slot="Leg" id="Item.greekleg2"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+
+			<NPCCharacter id="athen_warrior"
+				default_group="Infantry"
+				level="21"
+				name="Воин Афин"
+				is_basic_troop="true"
+				occupation="Soldier"
+				culture="Culture.empire">
+				<face>
+					<face_key_template value="BodyProperty.athen_common2"/>
+				</face>
+				<skills >
+					<skill id="Athletics" value="110"/>
+					<skill id="Riding" value="60"/>
+					<skill id="OneHanded" value="140"/>
+					<skill id="TwoHanded" value="60"/>
+					<skill id="Polearm" value="60"/>
+					<skill id="Bow" value="60"/>
+					<skill id="Crossbow" value="60"/>
+					<skill id="Throwing" value="60"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.athen_soldier"/>
+					<upgrade_target id="NPCCharacter.athen_archer"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.spear_sparta2"/>
+						<equipment slot="Item1" id="Item.greekshield"/>
+						<equipment slot="Head" id="Item.greekhead"/>
+						<equipment slot="Body" id="Item.gkymj"/>
+						<equipment slot="Gloves" id="Item.greekhand2"/>
+						<equipment slot="Leg" id="Item.greekleg2"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.spear_sparta2"/>
+						<equipment slot="Item1" id="Item.greekshield"/>
+						<equipment slot="Head" id="Item.greekhead"/>
+						<equipment slot="Body" id="Item.gkymj"/>
+						<equipment slot="Gloves" id="Item.greekhand2"/>
+						<equipment slot="Leg" id="Item.greekleg2"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+			<NPCCharacter id="athen_soldier"
+					default_group="Infantry"
+					level="26"
+					name="Золотистый Афинский воин"
+					occupation="Soldier"
+					culture="Culture.empire">
+					<face>
+						<face_key_template value="BodyProperty.athen_common3"/>
+					</face>
+					<skills >
+						<skill id="Athletics" value="140"/>
+						<skill id="Riding" value="60"/>
+						<skill id="OneHanded" value="180"/>
+						<skill id="TwoHanded" value="60"/>
+						<skill id="Polearm" value="200"/>
+						<skill id="Bow" value="60"/>
+						<skill id="Crossbow" value="60"/>
+						<skill id="Throwing" value="200"/>
+					</skills>
+					<upgrade_targets>
+						<upgrade_target id="NPCCharacter.athen_elite_soldier"/>
+					</upgrade_targets>
+					<Equipments>
+						<EquipmentRoster>
+							<equipment slot="Item0" id="Item.spear_sparta2"/>
+							<equipment slot="Item1" id="Item.greekshield"/>
+							<equipment slot="Item3" id="Item.javelin_sparta2"/>
+							<equipment slot="Head" id="Item.greekhead"/>
+							<equipment slot="Cape" id="Item.greekshoulder"/>
+							<equipment slot="Body" id="Item.greekbody"/>
+							<equipment slot="Gloves" id="Item.greekhand"/>
+							<equipment slot="Leg" id="Item.greekleg"/>
+						</EquipmentRoster>
+						<EquipmentRoster civilian="true">
+							<equipment slot="Item0" id="Item.spear_sparta2"/>
+							<equipment slot="Item1" id="Item.greekshield"/>
+							<equipment slot="Item3" id="Item.javelin_sparta2"/>
+							<equipment slot="Head" id="Item.greekhead"/>
+							<equipment slot="Cape" id="Item.greekshoulder"/>
+							<equipment slot="Body" id="Item.greekbody"/>
+							<equipment slot="Gloves" id="Item.greekhand"/>
+							<equipment slot="Leg" id="Item.greekleg"/>
+						</EquipmentRoster>
+					</Equipments>
+				</NPCCharacter>
+				<NPCCharacter id="athen_elite_soldier"
+				default_group="Infantry"
+				level="31"
+				name="{=Athen Elite Soldier}Athen Elite Soldier"
+				occupation="Soldier"
+				culture="Culture.empire">
+				<face>
+					<face_key_template value="BodyProperty.athen_common4"/>
+				</face>
+				<skills >
+					<skill id="Athletics" value="210"/>
+					<skill id="Riding" value="60"/>
+					<skill id="OneHanded" value="300"/>
+					<skill id="TwoHanded" value="60"/>
+					<skill id="Polearm" value="300"/>
+					<skill id="Bow" value="60"/>
+					<skill id="Crossbow" value="60"/>
+					<skill id="Throwing" value="300"/>
+				</skills>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.spear_sparta2"/>
+						<equipment slot="Item1" id="Item.sword_sparta2"/>
+						<equipment slot="Item2" id="Item.greekshield"/>
+						<equipment slot="Item3" id="Item.javelin_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead3"/>
+						<equipment slot="Cape" id="Item.greekcape"/>
+						<equipment slot="Body" id="Item.greekbody4"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.spear_sparta2"/>
+						<equipment slot="Item1" id="Item.sword_sparta2"/>
+						<equipment slot="Item2" id="Item.greekshield"/>
+						<equipment slot="Item3" id="Item.javelin_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead3"/>
+						<equipment slot="Cape" id="Item.greekcape"/>
+						<equipment slot="Body" id="Item.greekbody4"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+
+			<NPCCharacter id="athen_archer"
+					is_female="true"
+					default_group="HorseArcher"
+					level="26"
+					name="Афинская меткая лучница"
+					is_basic_troop="true"
+					occupation="Soldier"
+					culture="Culture.empire">
+					<face>
+						<face_key_template value="BodyProperty.athen_commonf"/>
+					</face>
+					<skills >
+						<skill id="Athletics" value="150"/>
+						<skill id="Riding" value="60"/>
+						<skill id="OneHanded" value="150"/>
+						<skill id="TwoHanded" value="150"/>
+						<skill id="Polearm" value="60"/>
+						<skill id="Bow" value="180"/>
+						<skill id="Crossbow" value="60"/>
+						<skill id="Throwing" value="200"/>
+					</skills>
+					<upgrade_targets>
+						<upgrade_target id="NPCCharacter.athen_elite_archer"/>
+					</upgrade_targets>
+					<Equipments>
+						<EquipmentRoster>
+							<equipment slot="Item0" id="Item.sword_sparta2"/>
+							<equipment slot="Item1" id="Item.javelin_sparta2"/>
+							<equipment slot="Item2" id="Item.greekbow"/>
+							<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+							<equipment slot="Head" id="Item.greekhead"/>
+							<equipment slot="Cape" id="Item.greekcapef"/>
+							<equipment slot="Body" id="Item.greekchestf"/>
+							<equipment slot="Gloves" id="Item.greekhand2"/>
+							<equipment slot="Leg" id="Item.greekleg2"/>
+							<equipment slot="Horse" id="Item.noble_horse"/>
+							<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+						</EquipmentRoster>
+						<EquipmentRoster civilian="true">
+							<equipment slot="Item0" id="Item.sword_sparta2"/>
+							<equipment slot="Item1" id="Item.javelin_sparta2"/>
+							<equipment slot="Item2" id="Item.greekbow"/>
+							<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+							<equipment slot="Head" id="Item.greekhead"/>
+							<equipment slot="Cape" id="Item.greekcapef"/>
+							<equipment slot="Body" id="Item.greekchestf"/>
+							<equipment slot="Gloves" id="Item.greekhand2"/>
+							<equipment slot="Leg" id="Item.greekleg2"/>
+						</EquipmentRoster>
+					</Equipments>
+				</NPCCharacter>
+			<NPCCharacter id="athen_elite_archer"
+					is_female="true"
+					default_group="HorseArcher"
+					level="31"
+					name="Афинская лучница Артемиды"
+					occupation="Soldier"
+					culture="Culture.empire">
+					<face>
+						<face_key_template value="BodyProperty.athen_commonf"/>
+					</face>
+					<skills >
+						<skill id="Athletics" value="180"/>
+						<skill id="Riding" value="60"/>
+						<skill id="OneHanded" value="60"/>
+						<skill id="TwoHanded" value="60"/>
+						<skill id="Polearm" value="60"/>
+						<skill id="Bow" value="300"/>
+						<skill id="Crossbow" value="60"/>
+						<skill id="Throwing" value="300"/>
+					</skills>
+					<Equipments>
+						<EquipmentRoster>
+							<equipment slot="Item0" id="Item.sword_sparta2"/>
+							<equipment slot="Item1" id="Item.javelin_sparta2"/>
+							<equipment slot="Item2" id="Item.greekbow"/>
+							<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+							<equipment slot="Head" id="Item.greekhead3"/>
+							<equipment slot="Cape" id="Item.greekcapef"/>
+							<equipment slot="Body" id="Item.greekchestf2"/>
+							<equipment slot="Gloves" id="Item.greekhand"/>
+							<equipment slot="Leg" id="Item.greekleg"/>
+							<equipment slot="Horse" id="Item.noble_horse"/>
+							<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+						</EquipmentRoster>
+						<EquipmentRoster civilian="true">
+							<equipment slot="Item0" id="Item.sword_sparta2"/>
+							<equipment slot="Item1" id="Item.javelin_sparta2"/>
+							<equipment slot="Item2" id="Item.greekbow"/>
+							<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+							<equipment slot="Head" id="Item.greekhead3"/>
+							<equipment slot="Cape" id="Item.greekcapef"/>
+							<equipment slot="Body" id="Item.greekchestf2"/>
+							<equipment slot="Gloves" id="Item.greekhand"/>
+							<equipment slot="Leg" id="Item.greekleg"/>
+						</EquipmentRoster>
+					</Equipments>
+				</NPCCharacter>
+
+
+			<NPCCharacter id="athens"
+				default_group="Infantry"
+				level="12"
+				name="Афинский гражданин"
+				occupation="Soldier"
+				culture="Culture.empire" is_female="false">
+				<face>
+																		 <BodyProperties version="4" age="26.03" weight="0.025" build="0.5651"  key="0000000080E40003537666CFB0678FF871A387159488C803888ABA348F92000500B806020B13411000000000000000000000000000000000000000007D844002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="50"/>
+					<skill id="Riding" value="40"/>
+					<skill id="OneHanded" value="50"/>
+					<skill id="TwoHanded" value="40"/>
+					<skill id="Polearm" value="100"/>
+					<skill id="Bow" value="40"/>
+					<skill id="Crossbow" value="40"/>
+					<skill id="Throwing" value="40"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.athensreserve"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.spear_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead"/>
+						<equipment slot="Body" id="Item.greekrobe"/>
+						<equipment slot="Gloves" id="Item.greekhand2"/>
+						<equipment slot="Leg" id="Item.greekleg2"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.spear_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead"/>
+						<equipment slot="Body" id="Item.greekrobe"/>
+						<equipment slot="Gloves" id="Item.greekhand2"/>
+						<equipment slot="Leg" id="Item.greekleg2"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+			<NPCCharacter id="athensreserve"
+				default_group="Infantry"
+				level="16"
+				name="Афинский рядовой солдат"
+				occupation="Soldier"
+				culture="Culture.empire" is_female="false">
+				<face>
+																		 <BodyProperties version="4" age="31.03" weight="0.025" build="0.5651"  key="0000000080E40003537666CFB0678FF871A387159488C803888ABA348F92000500B806020B13411000000000000000000000000000000000000000007D844002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="75"/>
+					<skill id="Riding" value="60"/>
+					<skill id="OneHanded" value="75"/>
+					<skill id="TwoHanded" value="60"/>
+					<skill id="Polearm" value="150"/>
+					<skill id="Bow" value="60"/>
+					<skill id="Crossbow" value="60"/>
+					<skill id="Throwing" value="60"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.athenshoplite"/>
+					<upgrade_target id="NPCCharacter.athensguard"/>
+					<upgrade_target id="NPCCharacter.athensarcher"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.spear_sparta2"/>
+						<equipment slot="Item1" id="Item.sword_sparta2"/>
+						<equipment slot="Item2" id="Item.greekshield"/>
+						<equipment slot="Head" id="Item.greekhead"/>
+						<equipment slot="Body" id="Item.gkymj"/>
+						<equipment slot="Gloves" id="Item.greekhand2"/>
+						<equipment slot="Leg" id="Item.greekleg2"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sword_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead"/>
+						<equipment slot="Body" id="Item.gkymj"/>
+						<equipment slot="Gloves" id="Item.greekhand2"/>
+						<equipment slot="Leg" id="Item.greekleg2"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+			<NPCCharacter id="athenshoplite"
+				default_group="Infantry"
+				level="21"
+				name="Афинский гоплит"
+				occupation="Soldier"
+				culture="Culture.empire" is_female="false">
+				<face>
+																		 <BodyProperties version="4" age="31.03" weight="0.025" build="0.5651"  key="0000000080E40003537666CFB0678FF871A387159488C803888ABA348F92000500B806020B13411000000000000000000000000000000000000000007D844002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="100"/>
+					<skill id="Riding" value="80"/>
+					<skill id="OneHanded" value="100"/>
+					<skill id="TwoHanded" value="80"/>
+					<skill id="Polearm" value="200"/>
+					<skill id="Bow" value="80"/>
+					<skill id="Crossbow" value="80"/>
+					<skill id="Throwing" value="80"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.athenscaptain"/>
+					<upgrade_target id="NPCCharacter.athensberserker"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.spear_sparta2"/>
+						<equipment slot="Item1" id="Item.sword_sparta2"/>
+						<equipment slot="Item2" id="Item.greekshield2"/>
+						<equipment slot="Head" id="Item.greekhead"/>
+						<equipment slot="Body" id="Item.greekbody"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sword_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead"/>
+						<equipment slot="Body" id="Item.greekbody"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+			<NPCCharacter id="athensguard"
+				default_group="Infantry"
+				level="21"
+				name="Афинский страж"
+				occupation="Soldier"
+				culture="Culture.empire" is_female="true">
+				<face>
+																		 <BodyProperties version="4" age="25.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="100"/>
+					<skill id="Riding" value="80"/>
+					<skill id="OneHanded" value="100"/>
+					<skill id="TwoHanded" value="80"/>
+					<skill id="Polearm" value="80"/>
+					<skill id="Bow" value="80"/>
+					<skill id="Crossbow" value="80"/>
+					<skill id="Throwing" value="200"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.athensrider"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.sword_sparta2"/>
+						<equipment slot="Item1" id="Item.javelin_sparta2"/>
+						<equipment slot="Item2" id="Item.greekshield"/>
+						<equipment slot="Head" id="Item.greekhead"/>
+						<equipment slot="Body" id="Item.greekchestf"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sword_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead"/>
+						<equipment slot="Body" id="Item.greekchestf"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+			<NPCCharacter id="athensrider"
+				default_group="HorseArcher"
+				level="28"
+				name="Афинский всадник"
+				occupation="Soldier"
+				culture="Culture.empire" is_female="true">
+				<face>
+																		 <BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="100"/>
+					<skill id="Riding" value="200"/>
+					<skill id="OneHanded" value="200"/>
+					<skill id="TwoHanded" value="100"/>
+					<skill id="Polearm" value="200"/>
+					<skill id="Bow" value="100"/>
+					<skill id="Crossbow" value="100"/>
+					<skill id="Throwing" value="250"/>
+				</skills>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.sword_sparta2"/>
+						<equipment slot="Item1" id="Item.javelin_sparta2"/>
+						<equipment slot="Item2" id="Item.greekshield"/>
+						<equipment slot="Head" id="Item.greekhead3"/>
+						<equipment slot="Body" id="Item.greekchestf"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+						<equipment slot="Horse" id="Item.noble_horse"/>
+						<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sword_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead3"/>
+						<equipment slot="Body" id="Item.greekchestf"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+			<NPCCharacter id="athensarcher"
+				default_group="Ranged"
+				level="21"
+				name="Афинский лучник"
+				occupation="Soldier"
+				culture="Culture.empire" is_female="false">
+				<face>
+																		 <BodyProperties version="4" age="31.03" weight="0.025" build="0.5651"  key="0000000080E40003537666CFB0678FF871A387159488C803888ABA348F92000500B806020B13411000000000000000000000000000000000000000007D844002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="100"/>
+					<skill id="Riding" value="80"/>
+					<skill id="OneHanded" value="100"/>
+					<skill id="TwoHanded" value="80"/>
+					<skill id="Polearm" value="80"/>
+					<skill id="Bow" value="200"/>
+					<skill id="Crossbow" value="80"/>
+					<skill id="Throwing" value="80"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.athenselitearcher"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.greekbow"/>
+						<equipment slot="Item1" id="Item.sword_sparta2"/>
+						<equipment slot="Item2" id="Item.greekarrow"/>
+						<equipment slot="Head" id="Item.greekhead"/>
+						<equipment slot="Body" id="Item.gkymj"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sword_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead"/>
+						<equipment slot="Body" id="Item.gkymj"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+			<NPCCharacter id="athenscaptain"
+				default_group="Infantry"
+				level="26"
+				name="Афинский гвардеец"
+				occupation="Soldier"
+				culture="Culture.empire" is_female="false">
+				<face>
+																		 <BodyProperties version="4" age="45.03" weight="0.025" build="0.5651"  key="0000000080E40003537666CFB0678FF871A387159488C803888ABA348F92000500B806020B13411000000000000000000000000000000000000000007D844002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="125"/>
+					<skill id="Riding" value="100"/>
+					<skill id="OneHanded" value="125"/>
+					<skill id="TwoHanded" value="100"/>
+					<skill id="Polearm" value="250"/>
+					<skill id="Bow" value="100"/>
+					<skill id="Crossbow" value="100"/>
+					<skill id="Throwing" value="100"/>
+				</skills>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.spear_sparta2"/>
+						<equipment slot="Item1" id="Item.sword_sparta2"/>
+						<equipment slot="Item2" id="Item.greekshield2"/>
+						<equipment slot="Head" id="Item.greekhead3"/>
+						<equipment slot="Body" id="Item.greekbody4"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sword_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead3"/>
+						<equipment slot="Body" id="Item.greekbody4"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+			<NPCCharacter id="athensberserker"
+				default_group="Infantry"
+				level="26"
+				name="Афинский уничтожитель с двуручником"
+				occupation="Soldier"
+				culture="Culture.empire" is_female="false">
+				<face>
+																		 <BodyProperties version="4" age="45.03" weight="0.025" build="0.5651"  key="0000000080E40003537666CFB0678FF871A387159488C803888ABA348F92000500B806020B13411000000000000000000000000000000000000000007D844002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="125"/>
+					<skill id="Riding" value="100"/>
+					<skill id="OneHanded" value="125"/>
+					<skill id="TwoHanded" value="250"/>
+					<skill id="Polearm" value="100"/>
+					<skill id="Bow" value="100"/>
+					<skill id="Crossbow" value="100"/>
+					<skill id="Throwing" value="100"/>
+				</skills>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.axe_athens"/>
+						<equipment slot="Item1" id="Item.sword_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead3"/>
+						<equipment slot="Body" id="Item.greekbody3"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sword_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead3"/>
+						<equipment slot="Body" id="Item.greekbody3"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+			<NPCCharacter id="athenselitearcher"
+				default_group="Ranged"
+				level="26"
+				name="Афинский элитный снайпер"
+				occupation="Soldier"
+				culture="Culture.empire" is_female="false">
+				<face>
+																		 <BodyProperties version="4" age="41.03" weight="0.025" build="0.5651"  key="0000000080E40003537666CFB0678FF871A387159488C803888ABA348F92000500B806020B13411000000000000000000000000000000000000000007D844002"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="125"/>
+					<skill id="Riding" value="100"/>
+					<skill id="OneHanded" value="125"/>
+					<skill id="TwoHanded" value="100"/>
+					<skill id="Polearm" value="100"/>
+					<skill id="Bow" value="250"/>
+					<skill id="Crossbow" value="100"/>
+					<skill id="Throwing" value="100"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.athensasmaid"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.greekbow"/>
+						<equipment slot="Item1" id="Item.sword_sparta2"/>
+						<equipment slot="Item2" id="Item.greekarrow"/>
+						<equipment slot="Head" id="Item.greekhead2"/>
+						<equipment slot="Body" id="Item.greekbody3"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sword_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead2"/>
+						<equipment slot="Body" id="Item.greekbody3"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+			<NPCCharacter id="athensasmaid"
+				default_group="Ranged"
+				level="31"
+				name="Лучник Артемиды"
+				occupation="Soldier"
+				culture="Culture.empire" is_female="true">
+				<face>
+				<BodyProperties version="4" age="30.93" weight="0" build="0.0023"  key="00051C009214324A2E8994586364669494F589463B995F1B79AB8FE087FA070701A006130A4752200000000000000000000000000000000000000000794420C3"  />
+				</face>
+				<skills >
+					<skill id="Athletics" value="150"/>
+					<skill id="Riding" value="120"/>
+					<skill id="OneHanded" value="150"/>
+					<skill id="TwoHanded" value="120"/>
+					<skill id="Polearm" value="120"/>
+					<skill id="Bow" value="300"/>
+					<skill id="Crossbow" value="120"/>
+					<skill id="Throwing" value="120"/>
+				</skills>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.greekbow"/>
+						<equipment slot="Item1" id="Item.sword_sparta2"/>
+						<equipment slot="Item2" id="Item.greekarrow"/>
+						<equipment slot="Head" id="Item.greekhead3"/>
+						<equipment slot="Body" id="Item.greekchestf2"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sword_sparta2"/>
+						<equipment slot="Head" id="Item.greekhead3"/>
+						<equipment slot="Body" id="Item.greekchestf2"/>
+						<equipment slot="Gloves" id="Item.greekhand"/>
+						<equipment slot="Leg" id="Item.greekleg"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+</NPCCharacters>

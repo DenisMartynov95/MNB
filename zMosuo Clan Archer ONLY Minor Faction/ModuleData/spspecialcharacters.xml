@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_musuo_leader_0" name="{=!}Asa Nujee" is_female="true" age="21" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="21.15" weight="0.2824" build="0.5571"  key="0000940F00B42002C647ED2CB89B528739B54869937D793BD43C7A689A69D71500A846030A4DACB30000000000000000000000000000000000000000494C2083"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.han_huanshoudao"/>
+				<equipment slot="Item1" id="Item.yuandun_two_1"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.han_huanshoudao"/>
+				<equipment slot="Item1" id="Item.yuandun_two_1"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_musuo_leader_object" name="Asa Nujee" is_female="true" age="21" voice="ironic" default_group="Infantry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="21.15" weight="0.2824" build="0.5571"  key="0000940F00B42002C647ED2CB89B528739B54869937D793BD43C7A689A69D71500A846030A4DACB30000000000000000000000000000000000000000494C2083"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.han_huanshoudao"/>
+				<equipment slot="Item1" id="Item.yuandun_two_1"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.han_huanshoudao"/>
+				<equipment slot="Item1" id="Item.yuandun_two_1"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_musuo_leader_1" name="{=!}Ariande" is_female="true" age="18" voice="softspoken" is_template="true" default_group="Ranged" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+				<equipment slot="Head" id="Item.zhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_musuo_leader_2" name="{=!}Ericka" is_female="true" age="18" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.wanrenjian"/>
+				<equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item2" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.wanrenjian"/>
+				<equipment slot="Item1" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item2" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Item3" id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_musuo_leader_3" name="{=!}Arstat" is_female="true" age="18" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.han_huanshoudao"/>
+				<equipment slot="Item1" id="Item.yuandun_two"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.han_huanshoudao"/>
+				<equipment slot="Item1" id="Item.yuandun_two"/>
+				<equipment slot="Head" id="Item.nvshanwenjiazhumao"/>
+				<equipment slot="Cape" id="Item.yiyubanjiajianjia"/>
+				<equipment slot="Body" id="Item.nvshanwenjia"/>
+				<equipment slot="Gloves" id="Item.wannenghushou"/>
+				<equipment slot="Leg" id="Item.nvcikejiaxiezi"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

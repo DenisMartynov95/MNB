@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_wonderwoman_leader_object" text="Queen Thalassa is the wise and powerful ruler of Themyscira, a matriarchal society of warrior women. She leads her people with a just and compassionate hand, while also being a skilled warrior herself. Her regal demeanor and commanding presence make her a respected leader." faction="Faction.wonderwoman_company" />
+
+</Heroes>

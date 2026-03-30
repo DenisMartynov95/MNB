@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_empyrean_leader_object" text="Malenia is the leader of the Golden Order of Erdtree, the Goddess of Rot." faction="Faction.empyrean_company" />
+
+</Heroes>

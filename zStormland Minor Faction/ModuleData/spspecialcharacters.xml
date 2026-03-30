@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_stormland_leader_0" name="{=!}Erich III Durrandon" is_female="false" age="35" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35" weight="0.6744" build="0.733"  key="0002180C402C2982BEA729958AC6522976B89B485C76B985B8B76A54B75832B300CBA6030C73819B000000000000000000000000000000000000000017849042"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bar_hammer_4"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.rb_hlm_stg_2"/>
+				<equipment slot="Cape" id="Item.vip_shldr"/>
+				<equipment slot="Body" id="Item.rb_arm_2"/>
+				<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+				<equipment slot="Leg" id="Item.rb_bts_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.bar_hammer_4"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.rb_hlm_stg_2"/>
+				<equipment slot="Cape" id="Item.vip_shldr"/>
+				<equipment slot="Body" id="Item.rb_arm_2"/>
+				<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+				<equipment slot="Leg" id="Item.rb_bts_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_stormland_leader_object" name="Erich III Durrandon" is_female="false" age="35" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35" weight="0.6744" build="0.733"  key="0002180C402C2982BEA729958AC6522976B89B485C76B985B8B76A54B75832B300CBA6030C73819B000000000000000000000000000000000000000017849042"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bar_hammer_4"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.rb_hlm_stg_2"/>
+				<equipment slot="Cape" id="Item.vip_shldr"/>
+				<equipment slot="Body" id="Item.rb_arm_2"/>
+				<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+				<equipment slot="Leg" id="Item.rb_bts_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.bar_hammer_4"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.rb_hlm_stg_2"/>
+				<equipment slot="Cape" id="Item.vip_shldr"/>
+				<equipment slot="Body" id="Item.rb_arm_2"/>
+				<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+				<equipment slot="Leg" id="Item.rb_bts_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_stormland_leader_1" name="{=!}Barron" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.stormland_common" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bar_hammer_4"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.rb_hlm_stg_2"/>
+				<equipment slot="Cape" id="Item.vip_shldr"/>
+				<equipment slot="Body" id="Item.rb_arm_2"/>
+				<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+				<equipment slot="Leg" id="Item.rb_bts_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.bar_hammer_4"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.rb_hlm_stg_2"/>
+				<equipment slot="Cape" id="Item.vip_shldr"/>
+				<equipment slot="Body" id="Item.rb_arm_2"/>
+				<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+				<equipment slot="Leg" id="Item.rb_bts_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_stormland_leader_2" name="{=!}Arrec" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.stormland_common" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bar_hammer_4"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.rb_hlm_stg_2"/>
+				<equipment slot="Cape" id="Item.vip_shldr"/>
+				<equipment slot="Body" id="Item.rb_arm_2"/>
+				<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+				<equipment slot="Leg" id="Item.rb_bts_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.bar_hammer_4"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.rb_hlm_stg_2"/>
+				<equipment slot="Cape" id="Item.vip_shldr"/>
+				<equipment slot="Body" id="Item.rb_arm_2"/>
+				<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+				<equipment slot="Leg" id="Item.rb_bts_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_stormland_leader_3" name="{=!}Argilac" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.stormland_common" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bar_hammer_4"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.rb_hlm_stg_2"/>
+				<equipment slot="Cape" id="Item.vip_shldr"/>
+				<equipment slot="Body" id="Item.rb_arm_2"/>
+				<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+				<equipment slot="Leg" id="Item.rb_bts_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.bar_hammer_4"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.rb_hlm_stg_2"/>
+				<equipment slot="Cape" id="Item.vip_shldr"/>
+				<equipment slot="Body" id="Item.rb_arm_2"/>
+				<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+				<equipment slot="Leg" id="Item.rb_bts_2"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

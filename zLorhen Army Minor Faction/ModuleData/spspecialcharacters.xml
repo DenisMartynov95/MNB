@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_lorhen_leader_0" name="{=!}Kelcius Lorhen" is_female="false" age="35" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="30.36" weight="0.3194" build="0.5308"  key="000068000000218186A76889689A77CA78685948BB53A854C6E98BC77378441300A856030A5797370000000000000000000000000000000000000000454C8042"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.full_helm_over_mail_coif_z"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_t"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.full_helm_over_mail_coif_z"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_t"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_lorhen_leader_object" name="Kelcius Lorhen" is_female="false" age="35" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="30.36" weight="0.3194" build="0.5308"  key="000068000000218186A76889689A77CA78685948BB53A854C6E98BC77378441300A856030A5797370000000000000000000000000000000000000000454C8042"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.full_helm_over_mail_coif_z"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_t"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.full_helm_over_mail_coif_z"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_t"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_lorhen_leader_1" name="{=!}Valmur" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_d"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_d"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_lorhen_leader_2" name="{=!}Ralph" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_d"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_d"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_lorhen_leader_3" name="{=!}Andrew" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_d"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_d"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_f"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="redsun_company"
+			 initial_posX="742.676"
+			 initial_posY="622.405"
+			 banner_key="11.40.40.1640.1158.767.769.1.0.0.504.83.83.170.2136.1160.1132.0.1.51.504.83.83.170.2136.1234.991.0.1.65.504.83.83.170.2136.1266.841.0.1.82.504.83.83.170.2136.1290.699.0.1.98.504.83.83.170.2136.1262.540.0.1.116.504.83.83.170.2136.1146.398.0.1.137.504.83.83.170.2136.961.1148.0.1.24.504.83.83.170.2136.817.1220.0.1.2.504.83.83.170.2136.683.1212.0.1.-9.504.83.83.170.2136.520.1190.0.1.-28.504.83.83.170.2136.334.1158.0.1.-48.504.83.83.170.2136.278.993.0.1.-67.504.83.83.170.2136.246.847.0.1.-83.504.83.83.170.2136.272.687.0.1.-101.504.83.83.170.2136.294.528.0.1.-120.504.83.83.170.2136.412.420.0.1.-136.504.83.83.170.2136.596.400.0.1.-156.504.83.83.170.2136.951.382.0.1.-205.504.83.83.170.2136.843.270.0.1.-187.504.83.83.170.2136.699.278.0.1.-172.503.83.83.505.505.764.764.0.1.0"
+             culture="Culture.khuzait"
+             default_party_template="PartyTemplate.redsun_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Самураи (6 Япония)"
+             tier="6"
+             text="The Red Suns stood tall and proud, their traditional armor and weapons gleaming in the bright sun. But they were far from home, in a land that was unfamiliar and strange to them. Despite the unfamiliarity of their surroundings, Raijin, the warlord remained calm and composed, showing no signs of fear or uncertainty. He and his men were trained to adapt to changing situations and to remain vigilant at all times."
+			 owner="Hero.spc_redsun_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_redsun_leader_0" />
+			<template id="NPCCharacter.spc_redsun_leader_1" />
+			<template id="NPCCharacter.spc_redsun_leader_2" />
+			<template id="NPCCharacter.spc_redsun_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

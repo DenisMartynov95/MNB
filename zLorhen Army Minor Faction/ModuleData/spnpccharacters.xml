@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<NPCCharacter id="lorhen_conscript"
+		default_group="Infantry"
+		level="11"
+		name="Православный муж"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lorhen_soldier"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_w"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_t"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.cervelliere_over_arming_coif"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_t"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_a"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_t"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.cervelliere_over_cloth_headwrap"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_t"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.cervelliere_over_cloth_headwrap"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_t"/>
+				<equipment slot="Gloves" id="Item.padded_vambrace"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lorhen_soldier"
+		default_group="Infantry"
+		level="16"
+		name="Православный солдат"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lorhen_infantry"/>
+			<upgrade_target id="NPCCharacter.lorhen_ranger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_m"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_q2"/>
+				<equipment slot="Gloves" id="Item.TV_khuzait_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_n"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_r"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_q2"/>
+				<equipment slot="Gloves" id="Item.TV_khuzait_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_t2"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_r"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_t2"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_r"/>
+				<equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lorhen_infantry"
+		default_group="Infantry"
+		level="21"
+		name="Православный воин"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lorhen_squire"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_g"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_q"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_g"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_r2"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_g"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_q"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_g"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_r2"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_g"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_r2"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lorhen_ranger"
+		default_group="Ranged"
+		level="21"
+		name="Православный стрелок"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lorhen_crossbow"/>
+			<upgrade_target id="NPCCharacter.lorhen_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_g"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_q"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.kettle_helmet_with_leather"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_r2"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_g"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_q"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.kettle_helmet_with_leather"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_r2"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.lowland_longbow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.kettle_helmet_with_leather"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_m"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_r2"/>
+				<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lorhen_crossbow"
+		default_group="Ranged"
+		level="26"
+		name="Православный арбалетчик"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="220"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lorhen_elite_crossbowman"/>
+			<upgrade_target id="NPCCharacter.lorhen_mounted_crossbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.crossbow_g"/>
+				<equipment slot="Item2" id="Item.bolt_d"/>
+				<equipment slot="Item3" id="Item.bolt_d"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_h"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.crossbow_g"/>
+				<equipment slot="Item2" id="Item.bolt_d"/>
+				<equipment slot="Item3" id="Item.bolt_d"/>
+				<equipment slot="Head" id="Item.kettle_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_e"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.crossbow_g"/>
+				<equipment slot="Item2" id="Item.bolt_d"/>
+				<equipment slot="Item3" id="Item.bolt_d"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_e3"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.crossbow_g"/>
+				<equipment slot="Item2" id="Item.bolt_d"/>
+				<equipment slot="Item3" id="Item.bolt_d"/>
+				<equipment slot="Head" id="Item.kettle_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_e"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.crossbow_g"/>
+				<equipment slot="Item2" id="Item.bolt_d"/>
+				<equipment slot="Item3" id="Item.bolt_d"/>
+				<equipment slot="Head" id="Item.kettle_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_e"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lorhen_archer"
+		default_group="Ranged"
+		level="26"
+		name="Православный лучник"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lorhen_elite_archer"/>
+			<upgrade_target id="NPCCharacter.lorhen_mounted_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_h"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.kettle_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_e"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_e3"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.kettle_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_e"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.steel_mace_t3"/>
+				<equipment slot="Item1" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.kettle_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_n"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_e"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_e2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lorhen_elite_archer"
+		default_group="Ranged"
+		level="31"
+		name="Православный элитный лучник"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_long_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lorhen_mounted_archer"
+		default_group="HorseArcher"
+		level="31"
+		name="Православный всадник снайпер"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.noble_bow"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lorhen_mounted_crossbowman"
+		default_group="HorseArcher"
+		level="31"
+		name="Православный элитный верховой арбалетчик"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.crossbow_g"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.crossbow_g"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.crossbow_g"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.crossbow_g"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.crossbow_g"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_c"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lorhen_elite_crossbowman"
+		default_group="Ranged"
+		level="31"
+		name="Православный великий стрелок"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.crossbow_f"/>
+				<equipment slot="Item2" id="Item.pavise_shield"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.crossbow_f"/>
+				<equipment slot="Item2" id="Item.pavise_shield"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.crossbow_f"/>
+				<equipment slot="Item2" id="Item.pavise_shield"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.crossbow_f"/>
+				<equipment slot="Item2" id="Item.pavise_shield"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.crossbow_f"/>
+				<equipment slot="Item2" id="Item.pavise_shield"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_k5"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_battania_gloves_a"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lorhen_squire"
+		default_group="Infantry"
+		level="26"
+		name="Православный хранитель"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.lorhen_knight"/>
+			<upgrade_target id="NPCCharacter.lorhen_champion"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_s"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_h"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_s"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_e"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_s"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_e3"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_s"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_e"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_s"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_empire_scale_armor_e3"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lorhen_champion"
+		default_group="Infantry"
+		level="31"
+		name="Православный чемпион"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_t"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_s"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_t"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_s"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_t"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_s"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_t"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_s"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_t"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_s"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lorhen_knight"
+		default_group="Cavalry"
+		level="31"
+		name="Православный великий всадник"
+		occupation="Soldier"
+		culture="Culture.rus">
+		<face>
+			<face_key_template value="BodyProperty.villager_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_2_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_t"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_s"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_d2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_2_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_t"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_s"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_d2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_2_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_t"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_s"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_d2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_2_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_t"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_s"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_d2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_mace_2_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Head" id="Item.AR_vlandia_helmet_t"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_s"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_u"/>
+				<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.TV_horse_armor_d2"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

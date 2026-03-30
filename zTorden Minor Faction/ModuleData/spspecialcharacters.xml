@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_nordic_leader_0" name="{=!}Thorviggo Haradson" is_female="false" age="35" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.4383" build="0.5602"  key="00027800000030097C7664876753888A7577866254C69643C4B647398C95A03701B876140BA749730000000000000000000000000000000000000000216C7002"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Rus_helm_regular"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Rus_helm_regular"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_nordic_leader_object" name="Thorviggo Haradson" is_female="false" age="35" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.4383" build="0.5602"  key="00027800000030097C7664876753888A7577866254C69643C4B647398C95A03701B876140BA749730000000000000000000000000000000000000000216C7002"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Rus_helm_regular"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Rus_helm_regular"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_nordic_leader_1" name="{=!}Erik" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.nordic_common" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Rus_helm_regular"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Rus_helm_regular"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_nordic_leader_2" name="{=!}Harald" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.nordic_common" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Rus_helm_regular"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Rus_helm_regular"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_nordic_leader_3" name="{=!}Ragnar" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.sturgia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.nordic_common" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Rus_helm_regular"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_round_shield"/>
+				<equipment slot="Head" id="Item.Rus_helm_regular"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.Rus_armour"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

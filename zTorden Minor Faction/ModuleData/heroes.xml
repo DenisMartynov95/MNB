@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_nordic_leader_object" text="Thorviggo is a Nordic Warlord and leader of the Torden Company who reached the North of Calradia looking for new lands to own." faction="Faction.nordic_company" />
+
+</Heroes>

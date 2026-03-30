@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="roman_tirones"
+		default_group="Infantry"
+		level="6"
+		name="Римский рекрут"
+		is_basic_troop="true"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="20" />
+			<skill id="Riding" value="0" />
+			<skill id="OneHanded" value="20" />
+			<skill id="TwoHanded" value="20" />
+			<skill id="Polearm" value="20" />
+			<skill id="Bow" value="0" />
+			<skill id="Crossbow" value="0" />
+			<skill id="Throwing" value="10" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.roman_soldier"/>
+			<upgrade_target id="NPCCharacter.roman_rider"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Gloves" id="Item."/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Gloves" id="Item."/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Gloves" id="Item."/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet
+				id="vlandia_troop_civilian_template_t1"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_soldier"
+		default_group="Infantry"
+		level="6"
+		name="Римский солдат"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.roman_ranger"/>
+			<upgrade_target id="NPCCharacter.roman_legionnaire"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_colus_a"/>
+				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Item1" id="Item.cts_roman_republic_square1"/>
+				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_colus22"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a"/>
+				<equipment slot="Body" id="Item.cts_lorica_hamata_b"/>
+				<equipment slot="Gloves" id="Item."/>
+				<equipment slot="Leg" id="Item.cts_roman_sandale_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Item1" id="Item.cts_roman_republic_square2"/>
+				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_colus2"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a"/>
+				<equipment slot="Body" id="Item.cts_lorica_hamata_b"/>
+				<equipment slot="Gloves" id="Item."/>
+				<equipment slot="Leg" id="Item.cts_roman_sandale_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Item1" id="Item.cts_roman_republic_square3"/>
+				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_colus22"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a"/>
+				<equipment slot="Body" id="Item.cts_lorica_hamata_b"/>
+				<equipment slot="Gloves" id="Item."/>
+				<equipment slot="Leg" id="Item.cts_roman_sandale_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Item1" id="Item.cts_roman_republic_square"/>
+				<equipment slot="Item2" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_colus2"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a"/>
+				<equipment slot="Body" id="Item.cts_lorica_hamata_b"/>
+				<equipment slot="Gloves" id="Item."/>
+				<equipment slot="Leg" id="Item.cts_roman_sandale_b"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_rider"
+		default_group="Cavalry"
+		level="12"
+		name="Римский всадник"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="90"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.roman_light_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.southern_oval_shield"/>
+				<equipment slot="Item2" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_republican_helmet_horse_tail"/>
+				<equipment slot="Cape" id="Item.cts_roman_lorica_shoulder_b1"/>
+				<equipment slot="Body" id="Item.cts_lorica_hamata_b1"/>
+				<equipment slot="Gloves" id="Item."/>
+				<equipment slot="Leg" id="Item.cts_roman_sandale_b"/>
+				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.southern_oval_shield"/>
+				<equipment slot="Item2" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_republican_helmet_horse_tail"/>
+				<equipment slot="Cape" id="Item.cts_roman_lorica_shoulder_b1"/>
+				<equipment slot="Body" id="Item.cts_lorica_hamata_b1"/>
+				<equipment slot="Gloves" id="Item."/>
+				<equipment slot="Leg" id="Item.cts_roman_sandale_b"/>
+				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_light_cavalry"
+		default_group="Cavalry"
+		level="16"
+		name="Римский легкий всадник"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="140"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.roman_heavy_cavalry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
+				<equipment slot="Item2" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_helmet_cav_mask"/>
+				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+				<equipment slot="Horse" id="Item.war_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a2"/>
+				<equipment slot="Item2" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_colus_a_crossguard"/>
+				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a1"/>
+				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+				<equipment slot="Horse" id="Item.war_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
+				<equipment slot="Item2" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_colus2_iron"/>
+				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a2"/>
+				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+				<equipment slot="Horse" id="Item.war_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
+				<equipment slot="Item2" id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_helmet_cav_mask"/>
+				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+				<equipment slot="Horse" id="Item.war_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_heavy_cavalry"
+		default_group="Cavalry"
+		level="21"
+		name="Римский тяжелый всадник"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="150"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.roman_equites"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
+				<equipment slot="Item2" id="Item.khuzait_lance_2_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_helmet_cav_mask3"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_imperial"/>
+				<equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a2"/>
+				<equipment slot="Item2" id="Item.khuzait_lance_2_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_helmet_cav_mask3"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_imperial"/>
+				<equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
+				<equipment slot="Item2" id="Item.khuzait_lance_2_t4"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_helmet_cav_mask3"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_imperial"/>
+				<equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_equites"
+		default_group="Cavalry"
+		level="28"
+		name="Римский преторианец всадник"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
+				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a2"/>
+				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
+				<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_legionnaire"
+		default_group="Infantry"
+		level="16"
+		name="Римский легионнер"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.roman_centurion"/>
+			<upgrade_target id="NPCCharacter.roman_hasta"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_colus_a"/>
+				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a2"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_colus_a_crossguard"/>
+				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a1"/>
+				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_colus2_iron"/>
+				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_colus_a"/>
+				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_centurion"
+		default_group="Infantry"
+		level="22"
+		name="Римский центурион"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.roman_primus"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_centurio_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_centurio_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_centurio_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_hasta"
+		default_group="Infantry"
+		level="22"
+		name="Римский центурион с метательным"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="170"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.roman_secun"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a1"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.cts_roman_centurio_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a1"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.cts_roman_centurio_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a1"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.cts_roman_centurio_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_secun"
+		default_group="Infantry"
+		level="31"
+		name="Римский императорский метатель"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a1"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a1"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a1"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_primus"
+		default_group="Infantry"
+		level="31"
+		name="Римский императорский воин"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.roman_praetorian_guard"/>
+			<upgrade_target id="NPCCharacter.roman_praetorian_vanguard"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_praetorian_guard"
+		default_group="Infantry"
+		level="28"
+		name="Римский Преторианец"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="210"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
+				<equipment slot="Body" id="Item.cts_roman_cuiras_b"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
+				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
+				<equipment slot="Body" id="Item.cts_roman_cuiras_b"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_praetorian_vanguard"
+		default_group="Infantry"
+		level="31"
+		name="Римский Преторианец с двуручником"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="250"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.war_razor_2hsword_t4"/>
+				<equipment slot="Item1" id="Item."/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
+				<equipment slot="Body" id="Item.cts_roman_cuiras_medusa"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.war_razor_2hsword_t4"/>
+				<equipment slot="Item1" id="Item."/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
+				<equipment slot="Body" id="Item.cts_roman_cuiras_medusa"/>
+				<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_ranger"
+		default_group="Ranged"
+		level="14"
+		name="Римский лучник"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="110"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.roman_sagittarii"/>
+			<upgrade_target id="NPCCharacter.roman_hama_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Head" id="Item.cts_roman_colus_a"/>
+				<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+				<equipment slot="Body" id="Item.cts_lorica_segmentata_a"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.gond_tab_9ld"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.gond_bts_lth_ld"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_sagittarii"
+		default_group="Ranged"
+		level="20"
+		name="Римский обученный всадник"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.roman_elite_sagittarii"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.cts_roman_centurio_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.narrow_sword_t3"/>
+				<equipment slot="Head" id="Item.cts_roman_centurio_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a2"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_cenurio_a"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_hama_archer"
+		default_group="Ranged"
+		level="21"
+		name="Римский меткий стрелок"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="250"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.roman_elite_hama_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+				<equipment slot="Cape" id="Item.cts_celtic_hamata_a"/>
+				<equipment slot="Body" id="Item.cts_roman_syrian_archer_armor_c"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_mail"/>
+				<equipment slot="Cape" id="Item.cts_celtic_hamata"/>
+				<equipment slot="Body" id="Item.cts_roman_syrian_archer_armor_c"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_mail"/>
+				<equipment slot="Cape" id="Item.cts_celtic_hamata_a"/>
+				<equipment slot="Body" id="Item.cts_roman_syrian_archer_armor_c"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.simple_back_sword_t2"/>
+				<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+				<equipment slot="Cape" id="Item.cts_celtic_hamata_a"/>
+				<equipment slot="Body" id="Item.cts_roman_syrian_archer_armor_c"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_elite_sagittarii"
+		default_group="Ranged"
+		level="27"
+		name="Римский Единичный стрелок"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.sturgia_noble_sword_3_t5"/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.sturgia_noble_sword_3_t5"/>
+				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="roman_elite_hama_archer"
+		default_group="Ranged"
+		level="27"
+		name="Римский Лучник Императора"
+		occupation="Soldier"
+		culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="180"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.cts_roman_syrian_helmet_a"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.cts_roman_syrian_archer_armor_a"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.noble_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.cts_roman_syrian_helmet_a"/>
+				<equipment slot="Cape" id="Item.linothorax_shoulders_4"/>
+				<equipment slot="Body" id="Item.cts_roman_syrian_archer_armor_a"/>
+				<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.cts_roman_caligae_pants_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

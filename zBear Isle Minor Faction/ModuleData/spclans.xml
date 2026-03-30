@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="mormont_company"
+			 initial_posX="529.492"
+			 initial_posY="596.696"
+			 banner_key="11.2.126.2380.2298.698.1384.1.0.0.138.116.142.573.621.764.756.0.0.0"
+             culture="Culture.sturgia"
+             default_party_template="PartyTemplate.mormont_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="The White Bear Company(6 Северяне)"
+             tier="6"
+             text="House Mormont of Bear Island is a noble house of the north, one of the principal families sworn to House Stark. Their seat is at Bear Island, located in the Bay of Ice northwest of Winterfell. Joren Mormont, known as the White Bear, is the Lord of Bear Island and head of House Mormont. After King Theon Stark executed Ravos and expelling the ironborns from Bear Island, he joined the King of Winter's fleet and was swept away by a maelstrom and transported them to Calradia."
+			 owner="Hero.spc_mormont_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_mormont_leader_0" />
+			<template id="NPCCharacter.spc_mormont_leader_1" />
+			<template id="NPCCharacter.spc_mormont_leader_2" />
+			<template id="NPCCharacter.spc_mormont_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

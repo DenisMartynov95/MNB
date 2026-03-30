@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="lorhen_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.lorhen_conscript" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.lorhen_soldier" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.lorhen_infantry" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.lorhen_ranger" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.lorhen_crossbow" />
+        <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.lorhen_archer" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.lorhen_elite_archer" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.lorhen_mounted_archer" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.lorhen_mounted_crossbowman" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.lorhen_elite_crossbowman" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.lorhen_squire" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.lorhen_champion" />
+        <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.lorhen_knight" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

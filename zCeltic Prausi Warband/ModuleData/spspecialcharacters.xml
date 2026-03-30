@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_celtic_leader_0" name="{=!}Brennus Prausi" is_female="false" age="35" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35.2" weight="0.5569" build="0.6418"  key="00008404C0701402879578835953B599923B76769B64CAAB7679D9734B9A779C009A86030969D4D80000000000000000000000000000000000000000633C5142"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helmet_g"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs1"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helmet_g"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs1"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_celtic_leader_object" name="Brennus Prausi" is_female="false" age="35" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="35.2" weight="0.5569" build="0.6418"  key="00008404C0701402879578835953B599923B76769B64CAAB7679D9734B9A779C009A86030969D4D80000000000000000000000000000000000000000633C5142"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helmet_g"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs1"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helmet_g"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs1"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_celtic_leader_1" name="{=!}Barron" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helmet_g"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs1"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helmet_g"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs1"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_celtic_leader_2" name="{=!}Arrec" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helmet_g"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs1"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helmet_g"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs1"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_celtic_leader_3" name="{=!}Argilac" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_battania" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="300"/>
+			<skill id="Riding" value="300"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="300"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helmet_g"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs1"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.cts_celtic_trapez_shield1"/>
+				<equipment slot="Head" id="Item.cts_celtic_helmet_g"/>
+				<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
+				<equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs1"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.cts_roman_long_pants_graves"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_athren_leader_0" name="{=!}Алзахред Гарвис" is_female="false" age="25" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.aserai" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="25" weight="0.5787" build="0.5231"  key="0026540F00002145B557987862439897C9CA6CA34399DB8A894A7289B976A64D01A896140A64B7C700000000000000000000000000000000000000003B5C6042"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_athren_leader_object" name="Алзахред Гарвис" is_female="false" age="25" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="25" weight="0.5787" build="0.5231"  key="0026540F00002145B557987862439897C9CA6CA34399DB8A894A7289B976A64D01A896140A64B7C700000000000000000000000000000000000000003B5C6042"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_athren_leader_1" name="{=!}Asama" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.aserai" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_athren_leader_2" name="{=!}Seki" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.aserai" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_athren_leader_3" name="{=!}Yamimaru" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.aserai" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_2hsword_2_t5"/>
+				<equipment slot="Item1" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Head" id="Item.drake_knight_helmet_red_m"/>
+				<equipment slot="Cape" id="Item.drake_knight_shoulders_red_m"/>
+				<equipment slot="Body" id="Item.drake_knight_armor_red_m"/>
+				<equipment slot="Gloves" id="Item.drake_knight_gauntlets_red_m"/>
+				<equipment slot="Leg" id="Item.drake_knight_boots_red_m"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

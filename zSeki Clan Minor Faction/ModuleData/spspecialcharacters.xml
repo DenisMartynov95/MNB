@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_sekiro_leader_0" name="{=!}Seki Raido" is_female="false" age="25" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="25.31" weight="0.3688" build="0.4306"  key="0002C40F00700001A8A3C4548874586676765AEC8CAC78365879D268916A4014009666030936B9A600000000000000000000000000000000000000003D2C0002"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.katnana_fg"/>
+				<equipment slot="Item1" id="Item.gondor_spear2"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.sam_hlm_22"/>
+				<equipment slot="Cape" id="Item.sam_shldr_20"/>
+				<equipment slot="Body" id="Item.samurai_41"/>
+				<equipment slot="Gloves" id="Item.sam_glv_20"/>
+				<equipment slot="Leg" id="Item.sam_bts_20"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.katnana_fg"/>
+				<equipment slot="Item1" id="Item.gondor_spear2"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.sam_hlm_22"/>
+				<equipment slot="Cape" id="Item.sam_shldr_20"/>
+				<equipment slot="Body" id="Item.samurai_41"/>
+				<equipment slot="Gloves" id="Item.sam_glv_20"/>
+				<equipment slot="Leg" id="Item.sam_bts_20"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_sekiro_leader_object" name="Seki Raido" is_female="false" age="25" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="25.31" weight="0.3688" build="0.4306"  key="0002C40F00700001A8A3C4548874586676765AEC8CAC78365879D268916A4014009666030936B9A600000000000000000000000000000000000000003D2C0002"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.katnana_fg"/>
+				<equipment slot="Item1" id="Item.gondor_spear2"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.sam_hlm_22"/>
+				<equipment slot="Cape" id="Item.sam_shldr_20"/>
+				<equipment slot="Body" id="Item.samurai_41"/>
+				<equipment slot="Gloves" id="Item.sam_glv_20"/>
+				<equipment slot="Leg" id="Item.sam_bts_20"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.katnana_fg"/>
+				<equipment slot="Item1" id="Item.gondor_spear2"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.sam_hlm_22"/>
+				<equipment slot="Cape" id="Item.sam_shldr_20"/>
+				<equipment slot="Body" id="Item.samurai_41"/>
+				<equipment slot="Gloves" id="Item.sam_glv_20"/>
+				<equipment slot="Leg" id="Item.sam_bts_20"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_sekiro_leader_1" name="{=!}Asama" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.sekiro_common" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.katnana_fg"/>
+				<equipment slot="Item1" id="Item.gondor_spear2"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.sam_hlm_22"/>
+				<equipment slot="Cape" id="Item.sam_shldr_20"/>
+				<equipment slot="Body" id="Item.samurai_41"/>
+				<equipment slot="Gloves" id="Item.sam_glv_20"/>
+				<equipment slot="Leg" id="Item.sam_bts_20"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.katnana_fg"/>
+				<equipment slot="Item1" id="Item.gondor_spear2"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.sam_hlm_22"/>
+				<equipment slot="Cape" id="Item.sam_shldr_20"/>
+				<equipment slot="Body" id="Item.samurai_41"/>
+				<equipment slot="Gloves" id="Item.sam_glv_20"/>
+				<equipment slot="Leg" id="Item.sam_bts_20"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_sekiro_leader_2" name="{=!}Seki" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.sekiro_common" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.katnana_fg"/>
+				<equipment slot="Item1" id="Item.gondor_spear2"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.sam_hlm_22"/>
+				<equipment slot="Cape" id="Item.sam_shldr_20"/>
+				<equipment slot="Body" id="Item.samurai_41"/>
+				<equipment slot="Gloves" id="Item.sam_glv_20"/>
+				<equipment slot="Leg" id="Item.sam_bts_20"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.katnana_fg"/>
+				<equipment slot="Item1" id="Item.gondor_spear2"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.sam_hlm_22"/>
+				<equipment slot="Cape" id="Item.sam_shldr_20"/>
+				<equipment slot="Body" id="Item.samurai_41"/>
+				<equipment slot="Gloves" id="Item.sam_glv_20"/>
+				<equipment slot="Leg" id="Item.sam_bts_20"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_sekiro_leader_3" name="{=!}Yamimaru" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.sekiro_common" />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="300"/>
+			<skill id="TwoHanded" value="300"/>
+			<skill id="Polearm" value="300"/>
+			<skill id="Bow" value="300"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="300"/>
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.katnana_fg"/>
+				<equipment slot="Item1" id="Item.gondor_spear2"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.sam_hlm_22"/>
+				<equipment slot="Cape" id="Item.sam_shldr_20"/>
+				<equipment slot="Body" id="Item.samurai_41"/>
+				<equipment slot="Gloves" id="Item.sam_glv_20"/>
+				<equipment slot="Leg" id="Item.sam_bts_20"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.katnana_fg"/>
+				<equipment slot="Item1" id="Item.gondor_spear2"/>
+				<equipment slot="Item2" id="Item."/>
+				<equipment slot="Item3" id="Item."/>
+				<equipment slot="Head" id="Item.sam_hlm_22"/>
+				<equipment slot="Cape" id="Item.sam_shldr_20"/>
+				<equipment slot="Body" id="Item.samurai_41"/>
+				<equipment slot="Gloves" id="Item.sam_glv_20"/>
+				<equipment slot="Leg" id="Item.sam_bts_20"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_pharsalos_leader_object" text="Eudorus is the second of Achilles' five commanders at the Trojan War. After the war and sailing back to their home, a powerful 'maelstrom' sweeps them off and they arrived in Calradia." faction="Faction.pharsalos_company" />
+
+</Heroes>

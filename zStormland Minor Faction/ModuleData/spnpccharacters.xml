@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<NPCCharacters>
+		<NPCCharacter id="stormland_knight"
+			default_group="Infantry"
+			level="14"
+			name="Наёмник Тёмной гвардии"
+			is_basic_troop="true"
+			occupation="Soldier"
+			culture="Culture.empire">
+			<face>
+				<face_key_template value="BodyProperty.villager_battania"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="110"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="100"/>
+				<skill id="TwoHanded" value="60"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.stormland_cavalry"/>
+				<upgrade_target id="NPCCharacter.stormland_champion"/>
+				<upgrade_target id="NPCCharacter.lacedaemon_bow_maiden"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.empire_mace_4_t5"/>
+					<equipment slot="Head" id="Item.swad_brb_hlm"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.k7_alt333"/>
+					<equipment slot="Gloves" id="Item.merc_com_glv_brc2"/>
+					<equipment slot="Leg" id="Item.rb_bts"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+					<equipment slot="Head" id="Item.rb_hlm_3"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.k7_alt3333"/>
+					<equipment slot="Gloves" id="Item.merc_com_glv_brc2"/>
+					<equipment slot="Leg" id="Item.rb_bts"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.empire_mace_4_t5"/>
+					<equipment slot="Head" id="Item.swad_brb_hlm"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.k7_alt333"/>
+					<equipment slot="Gloves" id="Item.merc_com_glv_brc2"/>
+					<equipment slot="Leg" id="Item.rb_bts"/>
+				</EquipmentRoster>
+			</Equipments>
+			</NPCCharacter>
+
+			<NPCCharacter id="lacedaemon_bow_maiden"
+				is_basic_troop="true"
+						is_female="true"
+				default_group="Ranged"
+				level="19"
+				name="Лакедемонская Лучница"
+				occupation="Soldier"
+				culture="Culture.empire">
+				<face>
+					<face_key_template value="BodyProperty.lacedaemon_commonf"/>
+				</face>
+				<skills >
+					<skill id="Athletics" value="140"/>
+					<skill id="Riding" value="60"/>
+					<skill id="OneHanded" value="90"/>
+					<skill id="TwoHanded" value="90"/>
+					<skill id="Polearm" value="60"/>
+					<skill id="Bow" value="200"/>
+					<skill id="Crossbow" value="60"/>
+					<skill id="Throwing" value="60"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.lacedaemon_artemisian"/>
+					<upgrade_target id="NPCCharacter.lacedaemon_defender"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.sphpsword"/>
+						<equipment slot="Item1" id="Item.noble_long_bow"/>
+						<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Head" id="Item.sphpheadf"/>
+						<equipment slot="Cape" id="Item.sphpcape2"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item."/>
+						<equipment slot="Leg" id="Item.sphpleg2"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sphpsword"/>
+						<equipment slot="Item1" id="Item.noble_long_bow"/>
+						<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Head" id="Item.sphpheadf"/>
+						<equipment slot="Cape" id="Item.sphpcape2"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item."/>
+						<equipment slot="Leg" id="Item.sphpleg2"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+			<NPCCharacter id="lacedaemon_artemisian"
+						is_female="true"
+				default_group="Ranged"
+				level="29"
+				name="Лакедемонская убийца лучница"
+				occupation="Soldier"
+				culture="Culture.empire">
+				<face>
+					<face_key_template value="BodyProperty.lacedaemon_commonf"/>
+				</face>
+				<skills >
+					<skill id="Athletics" value="180"/>
+					<skill id="Riding" value="60"/>
+					<skill id="OneHanded" value="130"/>
+					<skill id="TwoHanded" value="130"/>
+					<skill id="Polearm" value="60"/>
+					<skill id="Bow" value="280"/>
+					<skill id="Crossbow" value="60"/>
+					<skill id="Throwing" value="60"/>
+				</skills>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.sphpsword2"/>
+						<equipment slot="Item1" id="Item.sphpbow"/>
+						<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Head" id="Item.sphpheadf"/>
+						<equipment slot="Cape" id="Item.sphpcape2"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item.sphphandf"/>
+						<equipment slot="Leg" id="Item.sphplegf"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sphpsword2"/>
+						<equipment slot="Item1" id="Item.sphpbow"/>
+						<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Head" id="Item.sphpheadf"/>
+						<equipment slot="Cape" id="Item.sphpcape2"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item.sphphandf"/>
+						<equipment slot="Leg" id="Item.sphplegf"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+			<NPCCharacter id="lacedaemon_defender"
+						is_female="true"
+				default_group="Infantry"
+				level="31"
+				name="Лакедемонский тяжелый гоплит"
+				occupation="Soldier"
+				culture="Culture.empire">
+				<face>
+					<face_key_template value="BodyProperty.lacedaemon_commonf2"/>
+				</face>
+				<skills >
+					<skill id="Athletics" value="220"/>
+					<skill id="Riding" value="60"/>
+					<skill id="OneHanded" value="290"/>
+					<skill id="TwoHanded" value="60"/>
+					<skill id="Polearm" value="60"/>
+					<skill id="Bow" value="60"/>
+					<skill id="Crossbow" value="60"/>
+					<skill id="Throwing" value="60"/>
+				</skills>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.sphpsword2"/>
+						<equipment slot="Item1" id="Item.sphpshield"/>
+						<equipment slot="Head" id="Item.sphphead"/>
+						<equipment slot="Cape" id="Item.sphpcape3"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item.sphphand"/>
+						<equipment slot="Leg" id="Item.sphpleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.sphpsword2"/>
+						<equipment slot="Item1" id="Item.sphpshield"/>
+						<equipment slot="Head" id="Item.sphphead3"/>
+						<equipment slot="Cape" id="Item.sphpcape3"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item.sphphand"/>
+						<equipment slot="Leg" id="Item.sphpleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sphpsword2"/>
+						<equipment slot="Item1" id="Item.sphpshield"/>
+						<equipment slot="Head" id="Item.sphphead"/>
+						<equipment slot="Cape" id="Item.sphpcape3"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item.sphphand"/>
+						<equipment slot="Leg" id="Item.sphpleg"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+
+		<NPCCharacter id="lacedaemon_bow_maiden"
+				is_basic_troop="true"
+						is_female="true"
+				default_group="Ranged"
+				level="19"
+				name="Лакедемонская Лучница"
+				occupation="Soldier"
+				culture="Culture.empire">
+				<face>
+					<face_key_template value="BodyProperty.lacedaemon_commonf"/>
+				</face>
+				<skills >
+					<skill id="Athletics" value="140"/>
+					<skill id="Riding" value="60"/>
+					<skill id="OneHanded" value="90"/>
+					<skill id="TwoHanded" value="90"/>
+					<skill id="Polearm" value="60"/>
+					<skill id="Bow" value="200"/>
+					<skill id="Crossbow" value="60"/>
+					<skill id="Throwing" value="60"/>
+				</skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.lacedaemon_artemisian"/>
+					<upgrade_target id="NPCCharacter.lacedaemon_defender"/>
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.sphpsword"/>
+						<equipment slot="Item1" id="Item.noble_long_bow"/>
+						<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Head" id="Item.sphpheadf"/>
+						<equipment slot="Cape" id="Item.sphpcape2"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item."/>
+						<equipment slot="Leg" id="Item.sphpleg2"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sphpsword"/>
+						<equipment slot="Item1" id="Item.noble_long_bow"/>
+						<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Head" id="Item.sphpheadf"/>
+						<equipment slot="Cape" id="Item.sphpcape2"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item."/>
+						<equipment slot="Leg" id="Item.sphpleg2"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+		<NPCCharacter id="lacedaemon_artemisian"
+						is_female="true"
+				default_group="Ranged"
+				level="29"
+				name="Лакедемонская убийца лучница"
+				occupation="Soldier"
+				culture="Culture.empire">
+				<face>
+					<face_key_template value="BodyProperty.lacedaemon_commonf"/>
+				</face>
+				<skills >
+					<skill id="Athletics" value="180"/>
+					<skill id="Riding" value="60"/>
+					<skill id="OneHanded" value="130"/>
+					<skill id="TwoHanded" value="130"/>
+					<skill id="Polearm" value="60"/>
+					<skill id="Bow" value="280"/>
+					<skill id="Crossbow" value="60"/>
+					<skill id="Throwing" value="60"/>
+				</skills>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.sphpsword2"/>
+						<equipment slot="Item1" id="Item.sphpbow"/>
+						<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Head" id="Item.sphpheadf"/>
+						<equipment slot="Cape" id="Item.sphpcape2"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item.sphphandf"/>
+						<equipment slot="Leg" id="Item.sphplegf"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sphpsword2"/>
+						<equipment slot="Item1" id="Item.sphpbow"/>
+						<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+						<equipment slot="Head" id="Item.sphpheadf"/>
+						<equipment slot="Cape" id="Item.sphpcape2"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item.sphphandf"/>
+						<equipment slot="Leg" id="Item.sphplegf"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+		<NPCCharacter id="lacedaemon_defender"
+						is_female="true"
+				default_group="Infantry"
+				level="31"
+				name="Лакедемонский тяжелый гоплит"
+				occupation="Soldier"
+				culture="Culture.empire">
+				<face>
+					<face_key_template value="BodyProperty.lacedaemon_commonf2"/>
+				</face>
+				<skills >
+					<skill id="Athletics" value="220"/>
+					<skill id="Riding" value="60"/>
+					<skill id="OneHanded" value="290"/>
+					<skill id="TwoHanded" value="60"/>
+					<skill id="Polearm" value="60"/>
+					<skill id="Bow" value="60"/>
+					<skill id="Crossbow" value="60"/>
+					<skill id="Throwing" value="60"/>
+				</skills>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.sphpsword2"/>
+						<equipment slot="Item1" id="Item.sphpshield"/>
+						<equipment slot="Head" id="Item.sphphead"/>
+						<equipment slot="Cape" id="Item.sphpcape3"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item.sphphand"/>
+						<equipment slot="Leg" id="Item.sphpleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.sphpsword2"/>
+						<equipment slot="Item1" id="Item.sphpshield"/>
+						<equipment slot="Head" id="Item.sphphead3"/>
+						<equipment slot="Cape" id="Item.sphpcape3"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item.sphphand"/>
+						<equipment slot="Leg" id="Item.sphpleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sphpsword2"/>
+						<equipment slot="Item1" id="Item.sphpshield"/>
+						<equipment slot="Head" id="Item.sphphead"/>
+						<equipment slot="Cape" id="Item.sphpcape3"/>
+						<equipment slot="Body" id="Item.sphpbodyf"/>
+						<equipment slot="Gloves" id="Item.sphphand"/>
+						<equipment slot="Leg" id="Item.sphpleg"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+		<NPCCharacter id="stormland_cavalry"
+			default_group="Cavalry"
+			level="19"
+			name="Всадник Тёмной гвардии"
+			occupation="Soldier"
+			culture="Culture.empire">
+			<face>
+				<face_key_template value="BodyProperty.villager_battania"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="120"/>
+				<skill id="Riding" value="150"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="150"/>
+				<skill id="Polearm" value="150"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.stormland_heavy_cavalry"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="bar_hammer_2_sm"/>
+					<equipment slot="Item1" id="empire_lance_1_t3"/>
+					<equipment slot="Head" id="Item.rb_hlm_2"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.k7_alt333"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt"/>
+					<equipment slot="Leg" id="Item.rb_bts"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.chain_barding"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="bar_hammer_2_sm"/>
+					<equipment slot="Item1" id="empire_lance_1_t3"/>
+					<equipment slot="Head" id="Item.rb_hlm_4"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.k7_alt333"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt"/>
+					<equipment slot="Leg" id="Item.rb_bts"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.chain_barding"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="bar_hammer_2_sm"/>
+					<equipment slot="Item1" id="empire_lance_1_t3"/>
+					<equipment slot="Head" id="Item.rb_hlm_5"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.k7_alt333"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt"/>
+					<equipment slot="Leg" id="Item.rb_bts"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.chain_barding"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="bar_hammer_2_sm"/>
+					<equipment slot="Head" id="Item.rb_hlm_2"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.k7_alt333"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt"/>
+					<equipment slot="Leg" id="Item.rb_bts"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="stormland_champion"
+			default_group="Infantry"
+			level="19"
+			name="Чемпион Тёмной гвардии"
+			occupation="Soldier"
+			culture="Culture.empire">
+			<face>
+				<face_key_template value="BodyProperty.villager_battania"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="140"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="180"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.stormland_legend"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="bear_axe_2"/>
+					<equipment slot="Head" id="Item.rb_hlm_2"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.k7_alt22"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+					<equipment slot="Leg" id="Item.rb_bts_2"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="bar_hammer_3"/>
+					<equipment slot="Head" id="Item.rb_hlm_4"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.k7_alt222"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+					<equipment slot="Leg" id="Item.rb_bts_2"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="hbgs_grt_sword_alt7"/>
+					<equipment slot="Head" id="Item.rb_hlm_5"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.k7_alt22222"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+					<equipment slot="Leg" id="Item.rb_bts_2"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="bar_hammer_3"/>
+					<equipment slot="Head" id="Item.rb_hlm_2"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.k7_alt22"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt_4"/>
+					<equipment slot="Leg" id="Item.rb_bts_2"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="stormland_heavy_cavalry"
+			default_group="Cavalry"
+			level="31"
+			name="Всадник разрушитель Тёмной гвардии"
+			occupation="Soldier"
+			culture="Culture.empire">
+			<face>
+				<face_key_template value="BodyProperty.villager_battania"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="150"/>
+				<skill id="Riding" value="200"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="220"/>
+				<skill id="Polearm" value="280"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="bar_hammer_4"/>
+					<equipment slot="Item1" id="khuzait_lance_2_t4"/>
+					<equipment slot="Head" id="Item.rb_hlm"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.rb_arm"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt"/>
+					<equipment slot="Leg" id="Item.rb_bts"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.chain_barding"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="bar_hammer_4"/>
+					<equipment slot="Item1" id="khuzait_lance_2_t4"/>
+					<equipment slot="Head" id="Item.rb_hlm"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.rb_arm"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt"/>
+					<equipment slot="Leg" id="Item.rb_bts"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.chain_barding"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="bar_hammer_4"/>
+					<equipment slot="Item1" id="khuzait_lance_2_t4"/>
+					<equipment slot="Head" id="Item.rb_hlm"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.rb_arm"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt"/>
+					<equipment slot="Leg" id="Item.rb_bts"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.chain_barding"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="bar_hammer_4"/>
+					<equipment slot="Head" id="Item.rb_hlm"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.rb_arm"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt"/>
+					<equipment slot="Leg" id="Item.rb_bts"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="stormland_legend"
+			default_group="Infantry"
+			level="31"
+			name="Уничтожитель Тёмной гвардии"
+			occupation="Soldier"
+			culture="Culture.empire">
+			<face>
+				<face_key_template value="BodyProperty.villager_battania"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="250"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="280"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="bear_axe_2"/>
+					<equipment slot="Head" id="Item.nv_hlm_alt_2"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.rb_arm_3"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt_2"/>
+					<equipment slot="Leg" id="Item.rb_bts_3"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="bar_hammer_4"/>
+					<equipment slot="Head" id="Item.rb_hlm_4"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.rb_arm_3"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt_2"/>
+					<equipment slot="Leg" id="Item.rb_bts_3"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="hbgs_grt_sword_alt7"/>
+					<equipment slot="Head" id="Item.rb_hlm_5"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.rb_arm_3"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt_2"/>
+					<equipment slot="Leg" id="Item.rb_bts_3"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="bar_hammer_4"/>
+					<equipment slot="Head" id="Item.rb_hlm_2"/>
+					<equipment slot="Cape" id="Item.vip_shldr"/>
+					<equipment slot="Body" id="Item.rb_arm_3"/>
+					<equipment slot="Gloves" id="Item.rb_gnlt_2"/>
+					<equipment slot="Leg" id="Item.rb_bts_3"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+</NPCCharacters>

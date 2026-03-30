@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="spc_stark_leader_0" name="{=!}Theon" is_female="false" age="35" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.6127" build="0.5262"  key="00004C0C40A0234948AA9237628585676899886937B9657B4C5C4A8AA97755A401A896140A31C7B6000000000000000000000000000000000000000055640042"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.stark_house_sword"/>
+				<equipment slot="Item2" id="Item.stark_shield_a"/>
+				<equipment slot="Head" id="Item.knt_hlm_5"/>
+				<equipment slot="Cape" id="Item.north_van_plt_a2"/>
+				<equipment slot="Body" id="Item.north_van44"/>
+				<equipment slot="Gloves" id="Item.merc_std_blgl"/>
+				<equipment slot="Leg" id="Item.north_van_bts_9"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.stark_house_sword"/>
+				<equipment slot="Item2" id="Item.stark_shield_a"/>
+				<equipment slot="Head" id="Item.knt_hlm_5"/>
+				<equipment slot="Cape" id="Item.north_van_plt_a2"/>
+				<equipment slot="Body" id="Item.north_van44"/>
+				<equipment slot="Gloves" id="Item.merc_std_blgl"/>
+				<equipment slot="Leg" id="Item.north_van_bts_9"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_stark_leader_object" name="Theon" is_female="false" age="35" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.6127" build="0.5262"  key="00004C0C40A0234948AA9237628585676899886937B9657B4C5C4A8AA97755A401A896140A31C7B6000000000000000000000000000000000000000055640042"  />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.stark_house_sword"/>
+				<equipment slot="Item2" id="Item.stark_shield_a"/>
+				<equipment slot="Head" id="Item.knt_hlm_5"/>
+				<equipment slot="Cape" id="Item.north_van_plt_a2"/>
+				<equipment slot="Body" id="Item.north_van44"/>
+				<equipment slot="Gloves" id="Item.merc_std_blgl"/>
+				<equipment slot="Leg" id="Item.north_van_bts_9"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.stark_house_sword"/>
+				<equipment slot="Item2" id="Item.stark_shield_a"/>
+				<equipment slot="Head" id="Item.knt_hlm_5"/>
+				<equipment slot="Cape" id="Item.north_van_plt_a2"/>
+				<equipment slot="Body" id="Item.north_van44"/>
+				<equipment slot="Gloves" id="Item.merc_std_blgl"/>
+				<equipment slot="Leg" id="Item.north_van_bts_9"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_stark_leader_1" name="{=!}Eren" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.stark_common" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.stark_house_sword"/>
+				<equipment slot="Item2" id="Item.stark_shield_a"/>
+				<equipment slot="Head" id="Item.knt_hlm_5"/>
+				<equipment slot="Cape" id="Item.north_van_plt_a2"/>
+				<equipment slot="Body" id="Item.north_van44"/>
+				<equipment slot="Gloves" id="Item.merc_std_blgl"/>
+				<equipment slot="Leg" id="Item.north_van_bts_9"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.stark_house_sword"/>
+				<equipment slot="Item2" id="Item.stark_shield_a"/>
+				<equipment slot="Head" id="Item.knt_hlm_5"/>
+				<equipment slot="Cape" id="Item.north_van_plt_a2"/>
+				<equipment slot="Body" id="Item.north_van44"/>
+				<equipment slot="Gloves" id="Item.merc_std_blgl"/>
+				<equipment slot="Leg" id="Item.north_van_bts_9"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_stark_leader_2" name="{=!}Benjen" is_female="false" age="22" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.stark_common" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.stark_house_sword"/>
+				<equipment slot="Item2" id="Item.stark_shield_a"/>
+				<equipment slot="Head" id="Item.knt_hlm_5"/>
+				<equipment slot="Cape" id="Item.north_van_plt_a2"/>
+				<equipment slot="Body" id="Item.north_van44"/>
+				<equipment slot="Gloves" id="Item.merc_std_blgl"/>
+				<equipment slot="Leg" id="Item.north_van_bts_9"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.stark_house_sword"/>
+				<equipment slot="Item2" id="Item.stark_shield_a"/>
+				<equipment slot="Head" id="Item.knt_hlm_5"/>
+				<equipment slot="Cape" id="Item.north_van_plt_a2"/>
+				<equipment slot="Body" id="Item.north_van44"/>
+				<equipment slot="Gloves" id="Item.merc_std_blgl"/>
+				<equipment slot="Leg" id="Item.north_van_bts_9"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_stark_leader_3" name="{=!}Branston" is_female="false" age="20" voice="softspoken" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.vlandia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.stark_common" />
+		</face>
+		<skills>
+			<skill id="Riding" value="300" />
+			<skill id="Athletics" value="300" />
+			<skill id="OneHanded" value="300" />
+			<skill id="TwoHanded" value="300" />
+			<skill id="Polearm" value="300" />
+			<skill id="Crossbow" value="300" />
+			<skill id="Bow" value="300" />
+			<skill id="Throwing" value="300" />
+		</skills>
+		<Traits>
+			<Trait id="Honor" value="2" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.stark_house_sword"/>
+				<equipment slot="Item2" id="Item.stark_shield_a"/>
+				<equipment slot="Head" id="Item.knt_hlm_5"/>
+				<equipment slot="Cape" id="Item.north_van_plt_a2"/>
+				<equipment slot="Body" id="Item.north_van44"/>
+				<equipment slot="Gloves" id="Item.merc_std_blgl"/>
+				<equipment slot="Leg" id="Item.north_van_bts_9"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.stark_house_sword"/>
+				<equipment slot="Item2" id="Item.stark_shield_a"/>
+				<equipment slot="Head" id="Item.knt_hlm_5"/>
+				<equipment slot="Cape" id="Item.north_van_plt_a2"/>
+				<equipment slot="Body" id="Item.north_van44"/>
+				<equipment slot="Gloves" id="Item.merc_std_blgl"/>
+				<equipment slot="Leg" id="Item.north_van_bts_9"/>
+				<equipment slot="Horse" id="Item.noble_horse_southern"/>
+				<equipment slot="HorseHarness" id="Item.fortunas_choice"/>	
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

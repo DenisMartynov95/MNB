@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_lacedaemon_leader_object" text="Is a former King of Sparta, exiled for a framed bribery. In the wilderness of his exile, far from the land he loved and the people he swore to protect, Leotychidas II reflected on the fickleness of fate and the venom of envy. Yet, even in his darkest hour, his spirit remained unbroken. From the ashes of his downfall, a new resolve was kindled—a resolve to prove his innocence and restore his legacy. Sailing the Aegean Sea, his ship is caught in a maelstrom and landed into Calradia. Will the exiled King be able to establish his Kingdom on a new land?" faction="Faction.lacedaemon_company" />
+
+</Heroes>

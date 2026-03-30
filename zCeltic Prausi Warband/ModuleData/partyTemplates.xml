@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="celtic_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="40" troop="NPCCharacter.celtic_recruit" />
+        <PartyTemplateStack min_value="10" max_value="40" troop="NPCCharacter.celtic_fighter" />	
+        <PartyTemplateStack min_value="10" max_value="30" troop="NPCCharacter.celtic_warrior" />	
+        <PartyTemplateStack min_value="10" max_value="30" troop="NPCCharacter.celtic_woad_warrior" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.celtic_bowman" />	
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.celtic_archer" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.celtic_gallowglass" />	
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.celtic_gaebolga" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

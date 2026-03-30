@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_dacian_leader_object" text="King Decebalus﻿ unified the various Dacian tribes﻿ into one nation and led them in wars against the Roman emperors Domitian and Trajan. After the second Dacian War﻿, Trajan seized Sarmizegethusa for the second time and Decebalus in shame wanted to commit suicide and decided to go out in sea to meet Poseidon. Instead of dying in a shipwreck, his fleet was swept into a new world called Calradia. The Exiled King has a new purpose." faction="Faction.dacian_army" />
+
+</Heroes>

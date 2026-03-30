@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<NPCCharacters>
+		<NPCCharacter id="sekiro_soldier"
+			default_group="Infantry"
+			level="12"
+			name="Японский новобранец"
+			is_basic_troop="true"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.sekiro_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="60"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="100"/>
+				<skill id="TwoHanded" value="100"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="60"/>
+
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.redsun_soldier"/>
+				<upgrade_target id="NPCCharacter.sekiro_warrior"/>
+				<upgrade_target id="NPCCharacter.sekiro_rider"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.kat_alt_fg"/>
+					<equipment slot="Item1" id="Item."/>
+					<equipment slot="Item2" id="Item."/>
+					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Head" id="Item.sam_hlm_21"/>
+					<equipment slot="Cape" id="Item.sam_shldr_22"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.kat_alt_fg"/>
+					<equipment slot="Item1" id="Item."/>
+					<equipment slot="Item2" id="Item."/>
+					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Head" id="Item.sam_hlm_21"/>
+					<equipment slot="Cape" id="Item.sam_shldr_22"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="redsun_soldier"
+			default_group="Infantry"
+			level="16"
+			name="Воин восходящего солнца"
+			is_basic_troop="true"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.redsun_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="110"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="140"/>
+				<skill id="TwoHanded" value="140"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.redsun_warrior"/>
+				<upgrade_target id="NPCCharacter.redsun_rider"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+					<equipment slot="Cape" id="Item.empire_cape_a"/>
+					<equipment slot="Body" id="Item.steppe_armor"/>
+					<equipment slot="Leg" id="Item.fine_town_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+					<equipment slot="Cape" id="Item.wrapped_scarf"/>
+					<equipment slot="Body" id="Item.tundra_tunic"/>
+					<equipment slot="Leg" id="Item.fine_town_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+					<equipment slot="Cape" id="Item.scarf"/>
+					<equipment slot="Body" id="Item.tundra_tunic"/>
+					<equipment slot="Leg" id="Item.fine_town_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+					<equipment slot="Body" id="Item.steppe_armor"/>
+					<equipment slot="Leg" id="Item.fine_town_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+					<equipment slot="Cape" id="Item.empire_cape_a"/>
+					<equipment slot="Body" id="Item.steppe_armor"/>
+					<equipment slot="Leg" id="Item.fine_town_boots"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="sekiro_warrior"
+			default_group="Infantry"
+			level="26"
+			name="Секи воин"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.sekiro_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="140"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="200"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.sekiro_samurai"/>
+				<upgrade_target id="NPCCharacter.sekiro_archer"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.kat_alt_fg"/>
+					<equipment slot="Item1" id="Item."/>
+					<equipment slot="Item2" id="Item."/>
+					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Head" id="Item.sam_hlm_20"/>
+					<equipment slot="Cape" id="Item.sam_shldr_21"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.kat_alt_fg"/>
+					<equipment slot="Item1" id="Item."/>
+					<equipment slot="Item2" id="Item."/>
+					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Head" id="Item.sam_hlm_20"/>
+					<equipment slot="Cape" id="Item.sam_shldr_21"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="sekiro_rider"
+			default_group="Cavalry"
+			level="26"
+			name="Секи всадник"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.sekiro_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="120"/>
+				<skill id="Riding" value="150"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="200"/>
+				<skill id="Polearm" value="200"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.sekiro_cavalry"/>
+				<upgrade_target id="NPCCharacter.sekiro_horsearcher"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.kat_alt_fg"/>
+					<equipment slot="Item1" id="Item.gondor_spear2"/>
+					<equipment slot="Item2" id="Item."/>
+					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Head" id="Item.sam_hlm_20"/>
+					<equipment slot="Cape" id="Item.sam_shldr_21"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.kat_alt_fg"/>
+					<equipment slot="Item1" id="Item.gondor_spear2"/>
+					<equipment slot="Item2" id="Item."/>
+					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Head" id="Item.sam_hlm_20"/>
+					<equipment slot="Cape" id="Item.sam_shldr_21"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="sekiro_cavalry"
+			default_group="Cavalry"
+			level="31"
+			name="Секи самурайский всадник"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.sekiro_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="150"/>
+				<skill id="Riding" value="200"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="300"/>
+				<skill id="Polearm" value="300"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.katnana_fg"/>
+					<equipment slot="Item1" id="Item.gondor_spear2"/>
+					<equipment slot="Item2" id="Item."/>
+					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Head" id="Item.sam_hlm_22"/>
+					<equipment slot="Cape" id="Item.sam_shldr_20"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.katnana_fg"/>
+					<equipment slot="Item1" id="Item.gondor_spear2"/>
+					<equipment slot="Item2" id="Item."/>
+					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Head" id="Item.sam_hlm_22"/>
+					<equipment slot="Cape" id="Item.sam_shldr_20"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="sekiro_horsearcher"
+			default_group="HorseArcher"
+			level="31"
+			name="Секи всадник-стрелок"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.sekiro_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="150"/>
+				<skill id="Riding" value="200"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="180"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="300"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.katnana_fg"/>
+					<equipment slot="Item1" id="Item.noble_bow"/>
+					<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Head" id="Item.sam_hlm_23"/>
+					<equipment slot="Cape" id="Item.sam_shldr_20"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.katnana_fg"/>
+					<equipment slot="Item1" id="Item.noble_bow"/>
+					<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Head" id="Item.sam_hlm_23"/>
+					<equipment slot="Cape" id="Item.sam_shldr_20"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="sekiro_samurai"
+			default_group="Infantry"
+			level="31"
+			name="Секи самурай"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.sekiro_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="250"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="300"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.katnana_fg"/>
+					<equipment slot="Item1" id="Item."/>
+					<equipment slot="Item2" id="Item."/>
+					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Head" id="Item.sam_hlm_22"/>
+					<equipment slot="Cape" id="Item.sam_shldr_20"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.katnana_fg"/>
+					<equipment slot="Item1" id="Item."/>
+					<equipment slot="Item2" id="Item."/>
+					<equipment slot="Item3" id="Item."/>
+					<equipment slot="Head" id="Item.sam_hlm_22"/>
+					<equipment slot="Cape" id="Item.sam_shldr_20"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="sekiro_archer"
+			default_group="Ranged"
+			level="31"
+			name="Секи самурай стрелок"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.sekiro_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="180"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="180"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="300"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.katnana_fg"/>
+					<equipment slot="Item1" id="Item.noble_long_bow"/>
+					<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Head" id="Item.sam_hlm_23"/>
+					<equipment slot="Cape" id="Item.sam_shldr_20"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.katnana_fg"/>
+					<equipment slot="Item1" id="Item.noble_long_bow"/>
+					<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Head" id="Item.sam_hlm_23"/>
+					<equipment slot="Cape" id="Item.sam_shldr_20"/>
+					<equipment slot="Body" id="Item.samurai_41"/>
+					<equipment slot="Gloves" id="Item.sam_glv_20"/>
+					<equipment slot="Leg" id="Item.sam_bts_20"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="redsun_warrior"
+			default_group="Infantry"
+			level="26"
+			name="Гвардеец Японии"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.redsun_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="140"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="200"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.redsun_samurai"/>
+				<upgrade_target id="NPCCharacter.redsun_archer"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.katana2"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.katana3"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.katana4"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.katana2"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="redsun_rider"
+			default_group="Cavalry"
+			level="26"
+			name="Гвардейский всадник Японии"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.redsun_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="120"/>
+				<skill id="Riding" value="150"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="200"/>
+				<skill id="Polearm" value="200"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.redsun_cavalry"/>
+				<upgrade_target id="NPCCharacter.redsun_horsearcher"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+					<equipment slot="Item1" id="Item.katana3"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+					<equipment slot="Item1" id="Item.katana4"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+					<equipment slot="Item1" id="Item.katana2"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+					<equipment slot="Item1" id="Item.katana3"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="redsun_cavalry"
+			default_group="Cavalry"
+			level="31"
+			name="Великий гвардейский всадник японии"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.redsun_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="150"/>
+				<skill id="Riding" value="200"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="300"/>
+				<skill id="Polearm" value="300"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+					<equipment slot="Item1" id="Item.katana1"/>
+					<equipment slot="Head" id="Item.wushitoukui"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+					<equipment slot="Item1" id="Item.katana1"/>
+					<equipment slot="Head" id="Item.wushitoukui"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="redsun_horsearcher"
+			default_group="HorseArcher"
+			level="31"
+			name="Гвардейский конный стрелок"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.redsun_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="150"/>
+				<skill id="Riding" value="200"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="180"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="300"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.katana1"/>
+					<equipment slot="Item1" id="Item.noble_bow"/>
+					<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Head" id="Item.wushitoukui"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.katana1"/>
+					<equipment slot="Item1" id="Item.noble_bow"/>
+					<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Head" id="Item.wushitoukui"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+					<equipment slot="Horse" id="Item.noble_horse_southern"/>
+					<equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="redsun_samurai"
+			default_group="Infantry"
+			level="31"
+			name="Гвардейский самурай Японии"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.redsun_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="250"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="300"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.katana1"/>
+					<equipment slot="Head" id="Item.wushitoukui"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.katana1"/>
+					<equipment slot="Head" id="Item.wushitoukui"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="redsun_archer"
+			default_group="Ranged"
+			level="31"
+			name="Меткий лучник гвардии Японии"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.redsun_common"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="180"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="180"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="300"/>
+				<skill id="Crossbow" value="60"/>
+				<skill id="Throwing" value="60"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.katana1"/>
+					<equipment slot="Item1" id="Item.noble_long_bow"/>
+					<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Head" id="Item.wushitoukui"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.katana1"/>
+					<equipment slot="Item1" id="Item.noble_long_bow"/>
+					<equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Head" id="Item.wushitoukui"/>
+					<equipment slot="Body" id="Item.wwushikuijia"/>
+					<equipment slot="Leg" id="Item.wushituijia"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,5 @@
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="spc_thebes_leader_object" text="Pelopidas is an important Theban statesman and general in Greece, after getting lost at sea due to a 'maelstrom' he leads his band to survive in Calradia." faction="Faction.thebes_company" />
+
+</Heroes>

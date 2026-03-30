@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="vespan_knights"
+			 initial_posX="382.167"
+			 initial_posY="369.332"
+			 banner_key="28.14.149.1746.1746.774.769.1.0.0.423.132.116.700.651.764.801.1.0.0.316.132.116.614.565.764.788.1.0.0.447.132.116.294.283.762.494.1.0.270.322.132.116.136.400.572.694.1.0.0.322.132.116.136.400.956.694.1.0.0.222.14.116.370.386.764.796.1.0.0.328.132.116.215.198.764.690.1.0.0.321.132.116.185.270.764.897.1.0.0.322.132.116.273.219.764.909.1.0.0.154.132.116.277.254.751.877.1.0.-9"
+             culture="Culture.empire"
+             default_party_template="PartyTemplate.vespan_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Веспирские рыцари (6 Крестоносцы)"
+             tier="6"
+             text="The Vespan Knights, a venerable order steeped in tradition and bound by an unyielding code of chivalry, stand as stalwart guardians within the kingdom's annals. Nestled in the heart of Vespanola, their stronghold echoes with the clinking of armor and the cadence of martial drills—a testament to the ceaseless dedication that courses through the veins of these noble warriors. Clad in resplendent suits of armor, each adorned with the emblem of Vespanola—a symbol of unity and unwavering allegiance—the Knights cut a striking figure. From the gleaming helmets that conceal their faces to the meticulously crafted breastplates that bear the scars of countless conflicts, their attire is a reflection of the order's commitment to both martial prowess and unassailable honor."
+			 owner="Hero.spc_vespan_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_vespan_leader_0" />
+			<template id="NPCCharacter.spc_vespan_leader_1" />
+			<template id="NPCCharacter.spc_vespan_leader_2" />
+			<template id="NPCCharacter.spc_vespan_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

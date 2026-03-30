@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+	<Faction id="lorhen_company"
+			 initial_posX="169.52"
+			 initial_posY="448.11"
+			 banner_key="11.148.148.2363.1995.752.724.1.0.0.160.39.39.231.218.929.754.1.1.0.160.39.39.231.218.595.754.1.0.0.340.39.148.309.292.764.562.1.1.0.316.39.148.434.410.764.764.1.1.0.316.148.39.360.337.763.780.1.1.0.140.39.148.231.218.769.787.1.0.0.200.39.148.180.170.684.917.1.0.13.200.39.148.180.170.851.917.1.1.346.133.39.148.180.170.769.927.1.1.0.512.148.148.38.35.763.580.1.1.0.503.148.148.16.16.714.588.1.1.0.503.148.148.16.16.814.588.1.1.0.424.148.148.20.24.676.640.1.1.0.424.148.148.20.24.720.640.1.1.0.424.148.148.20.24.764.640.1.1.0.424.148.148.20.24.805.640.1.1.0.424.148.148.20.24.849.640.1.1.0.301.39.148.210.257.794.1039.1.0.114.301.39.148.209.257.744.1039.1.1.-115"
+             culture="Culture.vlandia"
+             default_party_template="PartyTemplate.lorhen_party_template"
+			 settlement_banner_mesh="encounter_flag_f"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+             name="Lorhen Army (6 Византия)"
+             tier="6"
+             text="Kelcius Lorhen's militaristic kingdom is a formidable force, known as the 'Iron Dominion' and it is engaged in a ruthless and protracted war against the expansive and powerful Empire of Gildor. This conflict has engulfed the land in chaos, shaping the destiny of the entire realm."
+			 owner="Hero.spc_lorhen_leader_object">
+		<!--
+           label_color="000000"
+           color="000000"
+           color2="000000"
+           alternative_color="000000"
+           alternative_color2="000000"
+		   -->
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_lorhen_leader_0" />
+			<template id="NPCCharacter.spc_lorhen_leader_1" />
+			<template id="NPCCharacter.spc_lorhen_leader_2" />
+			<template id="NPCCharacter.spc_lorhen_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+</Factions>

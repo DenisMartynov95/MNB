@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="redsun_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.redsun_soldier" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.redsun_warrior" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.redsun_rider" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.redsun_cavalry" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.redsun_horsearcher" />
+        <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.redsun_samurai" />
+		<PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.redsun_archer" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>
