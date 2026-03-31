@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Фиксил баги (убрал пустые слоты из многих древ модов)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/lords.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/lords.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spnpccharactertemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spnpccharactertemplates.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/sandboxcore_equipment_sets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/sandboxcore_equipment_sets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774909136173</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Фиксил баги (убрал пустые слоты из многих древ модов)">
+      <option name="closed" value="true" />
+      <created>1774945390308</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1774945390308</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
