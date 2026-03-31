@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Фиксил баги (убрал пустые слоты из многих древ модов)">
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Закомментил все внедренные кастомные древа в КОР">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spnpccharacters.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774945390308</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Закомментил все внедренные кастомные древа в КОР">
+      <option name="closed" value="true" />
+      <created>1774946886540</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1774946886540</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,6 +322,7 @@
     <MESSAGE value="Внедрил древа юнитов в КОР + закомментил культуру вавилона в НАТИВЕ" />
     <MESSAGE value="Фиксил баги (убрал пустые слоты из КОРА)" />
     <MESSAGE value="Фиксил баги (убрал пустые слоты из многих древ модов)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Фиксил баги (убрал пустые слоты из многих древ модов)" />
+    <MESSAGE value="Закомментил все внедренные кастомные древа в КОР" />
+    <option name="LAST_COMMIT_MESSAGE" value="Закомментил все внедренные кастомные древа в КОР" />
   </component>
 </project>
