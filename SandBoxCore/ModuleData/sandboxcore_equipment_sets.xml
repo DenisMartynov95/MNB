@@ -5407,8 +5407,8 @@
 		<EquipmentSet>
 			<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 			<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
-			<equipment slot="Item2" id="Item."/>
-			<equipment slot="Item3" id="Item."/>
+
+
 			<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 			<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 			<equipment slot="Body" id="Item.cts_roman_cuiras_b"/>
@@ -5419,9 +5419,9 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<equipment slot="Item0" id="Item.war_razor_2hsword_t4"/>
-			<equipment slot="Item1" id="Item."/>
-			<equipment slot="Item2" id="Item."/>
-			<equipment slot="Item3" id="Item."/>
+
+
+
 			<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 			<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 			<equipment slot="Body" id="Item.cts_roman_cuiras_medusa"/>
@@ -5430,9 +5430,9 @@
 		</EquipmentSet>
 		<EquipmentSet>
 			<equipment slot="Item0" id="Item.war_razor_2hsword_t4"/>
-			<equipment slot="Item1" id="Item."/>
-			<equipment slot="Item2" id="Item."/>
-			<equipment slot="Item3" id="Item."/>
+
+
+
 			<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 			<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 			<equipment slot="Body" id="Item.cts_roman_cuiras_medusa"/>
@@ -5444,8 +5444,8 @@
 		<EquipmentSet>
 			<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 			<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
-			<equipment slot="Item2" id="Item."/>
-			<equipment slot="Item3" id="Item."/>
+
+
 			<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 			<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 			<equipment slot="Body" id="Item.cts_roman_cuiras_b"/>
@@ -18091,7 +18091,7 @@
 					<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 					<equipment slot="Item1" id="Item.cts_roman_auxiliares_shield_a1"/>
 					<equipment slot="Item2" id="Item.vlandia_lance_3_t5"/>
-					<equipment slot="Item3" id="Item."/>
+
 					<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 					<equipment slot="Cape" id="Item.cts_roma_lorica_shoulder_a21"/>
 					<equipment slot="Body" id="Item.cts_roman_lorica_scale_pterges"/>

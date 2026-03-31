@@ -12623,8 +12623,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
-				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 				<equipment slot="Body" id="Item.cts_roman_cuiras_b"/>
@@ -13874,8 +13874,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
-				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 				<equipment slot="Body" id="Item.cts_roman_cuiras_b"/>
@@ -13934,8 +13934,8 @@ voice="Male, northern accent, older, authoritative and competent"-->
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
 				<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
-				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 				<equipment slot="Body" id="Item.cts_roman_cuiras_b"/>
@@ -14041,9 +14041,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.war_razor_2hsword_t4"/>
-				<equipment slot="Item1" id="Item."/>
-				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
+
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 				<equipment slot="Body" id="Item.cts_roman_cuiras_medusa"/>
@@ -14231,9 +14231,9 @@ voice="Male, northern accent, older, authoritative and competent"-->
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.war_razor_2hsword_t4"/>
-				<equipment slot="Item1" id="Item."/>
-				<equipment slot="Item2" id="Item."/>
-				<equipment slot="Item3" id="Item."/>
+
+
+
 				<equipment slot="Head" id="Item.cts_roman_feathers_a"/>
 				<equipment slot="Cape" id="Item.cts_cape_a1a"/>
 				<equipment slot="Body" id="Item.cts_roman_cuiras_medusa"/>
