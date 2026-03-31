@@ -12,4 +12,9 @@
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.emissary_master_horseman"/>
 		</upgrade_targets>
-					<equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4"/>
+
+            elite_basic_troop="NPCCharacter.aserai_recruit"
+			basic_troop="NPCCharacter.aserai_recruit"
+			melee_militia_troop="NPCCharacter.aserai_recruit"
+			ranged_militia_troop="NPCCharacter.aserai_recruit"
+			melee_elite_militia_troop="NPCCharacter.aserai_recruit"
