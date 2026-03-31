@@ -4,33 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Внес дефолтные войска у культур, чтобы вычеслить проститутку которая крашит все">
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/Languages/RU/language_data.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/Languages/RU/std_lords_rus.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/Languages/RU/std_spclans.ll_rus.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/Languages/RU/std_spkingdoms_rus.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/heroes.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/lords.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/settlements.ee.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/settlements.khe.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/settlements.ll.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/settlements.sar.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/settlements.var.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.ee.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.khe.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.ll.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.ll.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.sar.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.swa.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.uc.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.var.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spkingdoms.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spkingdoms.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/SubModule.xml" afterDir="false" />
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Переработка культур, &#10;ЗАКОМИТИЛ в базовых культурах в КОР - одну культуру, возможно это дубль римской иимперии">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spcultures.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774948666067</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Переработка культур, &#10;ЗАКОМИТИЛ в базовых культурах в КОР - одну культуру, возможно это дубль римской иимперии">
+      <option name="closed" value="true" />
+      <created>1774950686551</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1774950686551</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,6 +357,7 @@
     <MESSAGE value="Фиксил баги (убрал пустые слоты из многих древ модов)" />
     <MESSAGE value="Закомментил все внедренные кастомные древа в КОР" />
     <MESSAGE value="Внес дефолтные войска у культур, чтобы вычеслить проститутку которая крашит все" />
-    <option name="LAST_COMMIT_MESSAGE" value="Внес дефолтные войска у культур, чтобы вычеслить проститутку которая крашит все" />
+    <MESSAGE value="Переработка культур, &#10;ЗАКОМИТИЛ в базовых культурах в КОР - одну культуру, возможно это дубль римской иимперии" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переработка культур, &#10;ЗАКОМИТИЛ в базовых культурах в КОР - одну культуру, возможно это дубль римской иимперии" />
   </component>
 </project>

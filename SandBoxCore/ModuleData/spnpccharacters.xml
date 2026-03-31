@@ -53070,8 +53070,11 @@
 		</Equipments>
 	</NPCCharacter>
 
+    <!-- Кастом -->
 
 	<!-- #Вавилонская империя -->
+
+    <!--
     <NPCCharacter id="solruine_trainee"
                   default_group="Infantry"
                   level="6"
@@ -54497,8 +54500,9 @@
             </EquipmentRoster>
         </Equipments>
     </NPCCharacter>
-
+        -->
 	<!-- Кельтская -->
+    <!--
 		<NPCCharacter id="celtic_recruit"
 			default_group="Infantry"
 			level="11"
@@ -55039,8 +55043,9 @@
 				</EquipmentRoster>
 			</Equipments>
 		</NPCCharacter>
-
+        -->
 		<!-- Фракия Dacian -->
+    <!--
 		<NPCCharacter id="dacian_recruit"
 			default_group="Infantry"
 			level="11"
@@ -56655,8 +56660,9 @@
 				</EquipmentRoster>
 			</Equipments>
 		</NPCCharacter>
-
+        -->
   <!-- Македонская -->
+    <!--
 		<NPCCharacter id="dbsteen"
 					is_basic_troop="true"
 					default_group="Infantry"
@@ -57321,8 +57327,7 @@
 								</EquipmentRoster>
 							</Equipments>
 						</NPCCharacter>
-
-
+						   -->
 
 	<!-- Русь -->
     <!--
