@@ -5,6 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Внес дефолтные войска у культур, чтобы вычеслить проститутку которая крашит все">
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/Languages/RU/language_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/Languages/RU/std_lords_rus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/Languages/RU/std_spclans.ll_rus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/Languages/RU/std_spkingdoms_rus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/heroes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/heroes.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/lords.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/settlements.ee.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/settlements.khe.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/settlements.ll.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/settlements.sar.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/settlements.var.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.ee.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.khe.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.ll.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.ll.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.sar.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.swa.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.uc.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spclans.var.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spkingdoms.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spkingdoms.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerySimpleDivider/SubModule.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spcultures.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
@@ -295,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774948183846</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Внес дефолтные войска у культур, чтобы вычеслить проститутку которая крашит все">
+      <option name="closed" value="true" />
+      <created>1774948666067</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1774948666067</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

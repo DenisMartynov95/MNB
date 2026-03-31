@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+
+	<Faction
+		id="clan_lowlands"
+		name="{=faction.batt_lowlands}fen Battan"
+		tier="6"
+		owner="Hero.lord_lowlands"
+		culture="Culture.celtic"
+		super_faction="Kingdom.lowlands"
+		is_noble="true"
+		banner_key="11.23.75.4345.4345.764.764.1.0.0.414.39.0.457.457.764.764.0.0.0" />
+
+</Factions>

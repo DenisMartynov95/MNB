@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Русский" />
+  </tags>
+  <strings>
+	
+	<!-- New Lords -->
+	<string id="lord_lowlands" text="Мон"/>
+	<string id="lord_lowlands_m" text="Бран"/>
+	<string id="lord_lowlands_f" text="Бранвен"/>
+	<string id="StJ9aR91" text="Кадфин"/>
+	<string id="6bBj5HgU" text="Гарейн"/>
+	<string id="6AwXDgIK" text="Муч"/>
+	<string id="fydMDGtL" text="Феркред"/>
+	<string id="T9bXZA0W" text="Цинак"/>
+	<string id="MpZCQ0z1" text="Бреадан"/>
+	<string id="uAS832LM" text="Идвин"/>
+	<string id="fG19XSVm" text="Руган"/>
+	
+  </strings>
+</base>

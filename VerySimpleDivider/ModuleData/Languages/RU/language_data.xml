@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData id="Русский">
+
+  <LanguageFile xml_path="RU/std_spkingdoms_rus.xml" />
+  <LanguageFile xml_path="RU/std_lords_rus.xml" />
+  <LanguageFile xml_path="RU/std_spclans.ll_rus.xml" />
+
+</LanguageData>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<!--Есть -->
+	<Kingdom
+		id="empire_e"
+		owner="Hero.lord_1_5"
+		banner_key="11.98.4.4345.4345.764.764.1.0.0.302.36.0.294.294.802.604.0.0.327.302.36.0.294.294.726.604.0.0.32.202.36.0.366.366.854.864.0.0.47.202.36.0.371.382.674.864.0.1.316.320.36.0.315.315.764.715.0.0.0"
+		primary_banner_color="0xff422C2E"
+		secondary_banner_color="0xfff5b365"
+		label_color="FF422C2E"
+		color="FF422C2E"
+		color2="FFf5b365"
+		alternative_color="FFf5b365"
+		alternative_color2="FF422C2E"
+		culture="Culture.empire"
+		settlement_banner_mesh="encounter_flag_a"
+		flag_mesh="info_screen_flags_a"
+		name="{=kgdom.emp_estern_name}Eastern Empire"
+		short_name="{=kgdom.emp_estern_sname}eastern Empire"
+		title="{=kgdom.emp_estern_title}Eastern Empire"
+		ruler_title="{=OoHhCa11}Senator"
+		text="{=kgdom.emp_estern_descr}Who needs emperor's wife and daughter as rulers when there is a legitimate son of the previous emperor? That might suit the sea-weary southerners, but not here on the frontier! Yes, Emperor Drosios Neretzes was defeated, but the eastern provinces were hardly affected by that war. They now support his son, Penton Neretzes, in his right to the throne of the Empire. The inhabitants of this region, worn out by the raids of the steppe, need just such a decided ruler. Only a noble king will bring order and victory here!">
+		<relationships>
+			<relationship kingdom="Kingdom.khergit" value="-1" isAtWar="true" />
+			<relationship kingdom="Kingdom.empire" value="-1" isAtWar="true" />
+		</relationships>
+		<policies>
+			<policy id="policy_royal_privilege" />
+		</policies>
+	</Kingdom>
+	<!--Есть -->
+	<Kingdom
+		id="swadia"
+		owner="Hero.lord_4_3"
+		banner_key="11.149.121.4922.4922.776.777.1.0.0.10104.211.116.566.566.755.755.1.0.0"
+		primary_banner_color="0xff0B0C11"
+		secondary_banner_color="0xffEA4F00"
+		label_color="0xff0B0C11"
+		color="0xff0B0C11"
+		color2="0xffEA4F00"
+		alternative_color="0xffEA4F00"
+		alternative_color2="0xff0B0C11"
+		culture="Culture.vlandia"
+		settlement_banner_mesh="encounter_flag_d"
+		flag_mesh="info_screen_flags_c"
+		name="{=kgdom.swadia_name}Swadia"
+		short_name="{=kgdom.swadia_sname}Swadians"
+		title="{=kgdom.swadia_title}Kingdom of Swadia"
+		ruler_title="{=hwnp9abW}King"
+		text="{=kgdom.swadia_descr}When Osrac Iron-Arm declared himself king, the emperor sent us a golden crown as a goodwill gift. Do not trust gifts from the Empire. If you toss a bone into a pack of wild dogs, what does having that bone mean? It means that you get bitten a lot. There will never be peace. But the rich Swadian Plains by the Trand River is a good base to achieve at least temporary success.">
+		<relationships>
+			<relationship kingdom="Kingdom.battania" value="-1" isAtWar="true" />
+		</relationships>
+	</Kingdom>
+	<!--Есть -->
+	<Kingdom
+		id="varangia"
+		owner="Hero.lord_2_3"
+		banner_key="11.116.116.4922.4922.764.764.1.0.0.10097.84.84.771.677.764.767.0.0.0"
+		primary_banner_color="0xff0B0C11"
+		secondary_banner_color="0xfff4d32e"
+		label_color="0xff0B0C11"
+		color="0xff0B0C11"
+		color2="0xfff4d32e"
+		alternative_color="0xfff4d32e"
+		alternative_color2="0xff0B0C11"
+		culture="Culture.sturgia"
+		settlement_banner_mesh="encounter_flag_b"
+		flag_mesh="info_screen_flags_c"
+		name="{=kgdom.varangia_name}Varangia"
+		short_name="{=kgdom.varangia_sname}Varangians"
+		title="{=kgdom.varangia_title}Kingdom of Varangia"
+		ruler_title="{=hwnp9abW}King"
+		text="{=kgdom.varangia_descr}Olek the Old had pried the dragon banner out of the Emperor's dead hands. But then Prince Raganvad, who had not so much as drawn his sword in the battle, claimed it as a trophy, an act with was taken as an affront. Olek broke the banner apart and threw them at Raganvad instead. After Olek the Old's death, his son, Olek the Young succeeded him as knyaz. He would continue to hold a grudge against Prince Raganvad for the dishonor done to his father, spurring Olek the Young to call for the authority of the Sturgia Grand Prince to be diminished. Those who joined him in this struggle now call themselves Varangians, that is, Sworn Companions, especially as the name of the place of treaty, Varcheg, is of the same origin.">
+		<relationships>
+			<relationship kingdom="Kingdom.battania" value="-1" isAtWar="true" />
+			<relationship kingdom="Kingdom.sturgia" value="-1" isAtWar="true" />
+		</relationships>
+	</Kingdom>
+	<!--Есть -->
+	<Kingdom
+		id="khergit"
+		owner="Hero.lord_6_4"
+		banner_key="11.72.10.4345.4345.764.764.1.0.0.128.48.0.454.454.764.764.0.0.0"
+		primary_banner_color="0xff00667F"
+		secondary_banner_color="0xffe44434"
+		label_color="FF00667F"
+		color="FF00667F"
+		color2="FFe44434"
+		alternative_color="FFe44434"
+		alternative_color2="FF00667F"
+		culture="Culture.khuzait"
+		settlement_banner_mesh="encounter_flag_f"
+		flag_mesh="info_screen_flags_b"
+		name="{=kgdom.khergit_name}Khergit"
+		short_name="{=kgdom.khergit_sname}Khergits"
+		title="{=kgdom.khergit_title}Khergit Khanate"
+		ruler_title="{=hwnp9abW}King"
+		text="{=kgdom.khergit_descr}The Khergits were never the richest of the clans, but we made up for it with our valor. We fought the Vlandians. We won, but there was a great slaughter. When word spread of what happened to our menfolk, the other clans - the Arkits in particular - knew we were weak. Our herds were raided. Anyone who protested was killed. Monchug did little to stop it. It taught us that valor will get you killed, but treachery will make you rich.">
+		<relationships>
+			<relationship kingdom="Kingdom.khuzait" value="-1" isAtWar="true" />
+			<relationship kingdom="Kingdom.empire_e" value="-1" isAtWar="true" />
+		</relationships>
+	</Kingdom>
+	<!--Есть -->
+	<Kingdom
+		id="sarranid"
+		owner="Hero.lord_3_18"
+		banner_key="11.47.75.4345.4345.764.764.1.0.0.223.116.0.454.454.764.764.0.0.359.515.116.0.177.177.764.764.0.0.0.500.116.0.358.358.764.764.0.0.0"
+		primary_banner_color="0xfff9d575"
+		secondary_banner_color="0xff0B0C11"
+		label_color="FFf9d575"
+		color="FFf9d575"
+		color2="FF0B0C11"
+		alternative_color="FF0B0C11"
+		alternative_color2="FFf9d575"
+		culture="Culture.aserai"
+		settlement_banner_mesh="encounter_flag_c"
+		flag_mesh="info_screen_flags_a"
+		name="{=kgdom.sarranid_name}Sarranid"
+		short_name="{=kgdom.sarranid_sname}Sarranids"
+		title="{=kgdom.sarranid_title}Sarranid Sultanate"
+		ruler_title="{=5djtBrHj}Sultan"
+		text="{=kgdom.sarranid_descr}The bravest and most valiant son of our clan, Nimr, led off a large group of the Banu Sarran warriors to fight for the Empire, for gold and glory. We were attacked on two sides by the Vlandian knights and the Emperor, who could have sent men to save us, took his time. But Nimr returned, in well-deserved glory. A daughter of the Banu Qild took an interest in him, and they had a secret affair, as the youth sometimes do. As heroes do. But Nimr's acts wounded the Qildi's pride. They kidnapped him, slew him and hung him in a cage in their market. We will forgive the Empire and the Vlandians. The Qildis... better not ask me that.">
+		<relationships>
+			<relationship kingdom="Kingdom.empire_s" value="-1" isAtWar="true" />
+			<relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
+		</relationships>
+	</Kingdom>
+	<!--Есть -->
+	<Kingdom
+		id="lowlands"
+		owner="Hero.lord_lowlands"
+		banner_key="11.126.75.4345.4345.764.764.1.0.0.413.84.0.457.457.764.764.0.0.0.502.84.0.500.500.764.764.0.0.0"
+		primary_banner_color="0xff955066"
+		secondary_banner_color="0xffd9dbce"
+		label_color="0xff955066"
+		color="0xff955066"
+		color2="0xffd9dbce"
+		alternative_color="0xffd9dbce"
+		alternative_color2="0xff955066"
+		culture="Culture.battania"
+		settlement_banner_mesh="encounter_flag_e"
+		flag_mesh="info_screen_flags_b"
+		name="{=kgdom.lowlands_name}Battanian Lowlands"
+		short_name="{=kgdom.lowlands_sname}Lowlanders"
+		title="{=kgdom.lowlands_title}Kingdom of the Battanian Lowlands"
+		ruler_title="{=afvM7XpQ}High King"
+		text="{=kgdom.lowlands_descr}Staring north on a clear day from the cliffs of Ailta Druin one can see the waters of the Bay of Varcheg. The Battanian tribes once lived along its coastal plains. These were the Battanian Lowlands but are now held by the Sturgians and Vlandians. It is said that those who keep faith will one day witness the ships of the vanished High King Mon, who shall return to deliver his people from their enemies. However, it is unlikely that the current High King and his chieftains from the Highlands will be happy about this.">
+		<relationships>
+		</relationships>
+	</Kingdom>
+</Kingdoms>

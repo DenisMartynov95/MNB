@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+
+	<Hero id="lord_lowlands" faction="Faction.clan_lowlands" />
+	<Hero id="lord_lowlands_m" father="Hero.lord_lowlands" faction="Faction.clan_lowlands" />
+	<Hero id="lord_lowlands_f" father="Hero.lord_lowlands" faction="Faction.clan_lowlands" />
+
+	<Hero id="lord_lowlands_1" faction="Faction.clan_lowlands" />
+	<Hero id="lord_lowlands_2" faction="Faction.clan_lowlands" />
+	<Hero id="lord_lowlands_3" faction="Faction.clan_lowlands" />
+	<Hero id="lord_lowlands_4" faction="Faction.clan_lowlands" />
+
+	<Hero id="lord_lowlands_5" faction="Faction.clan_lowlands" />
+	<Hero id="lord_lowlands_6" faction="Faction.clan_lowlands" />
+	<Hero id="lord_lowlands_7" faction="Faction.clan_lowlands" />
+	<Hero id="lord_lowlands_8" faction="Faction.clan_lowlands" />
+
+</Heroes>
