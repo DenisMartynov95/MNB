@@ -17,7 +17,6 @@
 			<template name="NPCCharacter.lacedaemon_bow" />
 			<template name="NPCCharacter.spartankingsguard_archer" />
 			<template name="NPCCharacter.spartan_eurypontids" />
-			<template name="NPCCharacter.spartan_agiad" />
 			<template name="NPCCharacter.spartan_archer" />
 			<template name="NPCCharacter.spartan_elite_archer" />
 		</xsl:copy>

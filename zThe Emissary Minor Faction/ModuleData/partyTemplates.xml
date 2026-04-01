@@ -9,11 +9,8 @@
         <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.emissary_elite_bowman" />
         <PartyTemplateStack min_value="7" max_value="13" troop="NPCCharacter.emissary_master_bowman" />
         <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.emissary_warrior" />
-        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.emissary_spearman" />
         <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.emissary_piker" />
-        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.emissary_defender" />
         <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.emissary_elite_piker" />
-        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.emissary_squire" />
         <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.emissary_knight" />
         <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.emissary_knight_cavalry" />
       </stacks>

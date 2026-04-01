@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Закомментировал все юниты в коре">
-      <change afterPath="$PROJECT_DIR$/SpartaKingdom/ModuleData/heroes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpartaKingdom/ModuleData/lords.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpartaKingdom/ModuleData/settlements.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpartaKingdom/ModuleData/spclans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpartaKingdom/ModuleData/spcultures.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpartaKingdom/ModuleData/spkingdoms.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpartaKingdom/SubModule.xml" afterDir="false" />
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Перенес из культуры КОРА в Sparta Kingdom">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KronitumiraiMC/ModuleData/partyTemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KronitumiraiMC/ModuleData/partyTemplates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/edit_spcultures.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/partyTemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zBlack Gondor Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zSpartan Minor Faction/ModuleData/edit_spcultures.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/zSpartan Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zSpartan Minor Faction/ModuleData/partyTemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zSpartan Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/edit_partyTemplates.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/edit_spcultures.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/partyTemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zThebes Minor Faction/ModuleData/spclans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zThebes Minor Faction/ModuleData/spclans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/edit_partyTemplates.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/edit_spcultures.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/edit_spcultures.xslt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/partyTemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/spspecialcharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zZeyaddi Mercenary Minor Faction/ModuleData/spspecialcharacters.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774956529542</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Перенес из культуры КОРА в Sparta Kingdom">
+      <option name="closed" value="true" />
+      <created>1775052241819</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1775052241819</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,6 +386,7 @@
     <MESSAGE value="Внес дефолтные войска у культур, чтобы вычеслить проститутку которая крашит все" />
     <MESSAGE value="Переработка культур, &#10;ЗАКОМИТИЛ в базовых культурах в КОР - одну культуру, возможно это дубль римской иимперии" />
     <MESSAGE value="Закомментировал все юниты в коре" />
-    <option name="LAST_COMMIT_MESSAGE" value="Закомментировал все юниты в коре" />
+    <MESSAGE value="Перенес из культуры КОРА в Sparta Kingdom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перенес из культуры КОРА в Sparta Kingdom" />
   </component>
 </project>

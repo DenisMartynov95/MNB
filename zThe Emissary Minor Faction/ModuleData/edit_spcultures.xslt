@@ -18,11 +18,8 @@
 			<template name="NPCCharacter.emissary_elite_bowman" />
 			<template name="NPCCharacter.emissary_master_bowman" />
 			<template name="NPCCharacter.emissary_warrior" />
-			<template name="NPCCharacter.emissary_spearman" />
 			<template name="NPCCharacter.emissary_piker" />
-			<template name="NPCCharacter.emissary_defender" />
 			<template name="NPCCharacter.emissary_elite_piker" />
-			<template name="NPCCharacter.emissary_squire" />
 			<template name="NPCCharacter.emissary_knight" />
 			<template name="NPCCharacter.emissary_knight_cavalry" />
 		</xsl:copy>

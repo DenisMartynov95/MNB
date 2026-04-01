@@ -12,27 +12,13 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@* | node()"/>
 			<template name="NPCCharacter.zeyaddi_nomad" />
-			<template name="NPCCharacter.zeyaddi_infantry" />
-			<template name="NPCCharacter.zeyaddi_soldier" />
 			<template name="NPCCharacter.zeyaddi_ranger" />
-			<template name="NPCCharacter.zeyaddi_fighter" />
-			<template name="NPCCharacter.zeyaddi_warrior" />
 			<template name="NPCCharacter.zeyaddi_rider" />
-			<template name="NPCCharacter.zeyaddi_crossbow" />
-			<template name="NPCCharacter.zeyaddi_archer" />
-			<template name="NPCCharacter.zeyaddi_swordsman" />
-			<template name="NPCCharacter.zeyaddi_axeman" />
-			<template name="NPCCharacter.zeyaddi_spearman" />
 			<template name="NPCCharacter.zeyaddi_horse_archer" />
-			<template name="NPCCharacter.zeyaddi_cavalry" />
 			<template name="NPCCharacter.zeyaddi_elite_crossbow" />
-			<template name="NPCCharacter.zeyaddi_elite_slingshot" />
 			<template name="NPCCharacter.zeyaddi_elite_archer" />
 			<template name="NPCCharacter.zeyaddi_shielder" />
 			<template name="NPCCharacter.zeyaddi_blader" />
-			<template name="NPCCharacter.zeyaddi_shielder_breaker" />
-			<template name="NPCCharacter.zeyaddi_champion" />
-			<template name="NPCCharacter.zeyaddi_pikeman" />
 			<template name="NPCCharacter.zeyaddi_elite_horse_archer" />
 			<template name="NPCCharacter.zeyaddi_heavy_cavalry" />
 		</xsl:copy>

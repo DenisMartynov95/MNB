@@ -3,13 +3,11 @@
     <MBPartyTemplate id="spartan_party_template">
       <stacks>
         <PartyTemplateStack min_value="3" max_value="15" troop="NPCCharacter.spartan_homoioi" />
-		<PartyTemplateStack min_value="3" max_value="10" troop="NPCCharacter.spartanguard" />
+        <PartyTemplateStack min_value="3" max_value="10" troop="NPCCharacter.spartanguard" />
         <PartyTemplateStack min_value="3" max_value="10" troop="NPCCharacter.lacedaemon_warrior" />
         <PartyTemplateStack min_value="3" max_value="10" troop="NPCCharacter.spartankingsguard" />
-		<PartyTemplateStack min_value="3" max_value="10" troop="NPCCharacter.spartan_heraclid" />
+        <PartyTemplateStack min_value="3" max_value="10" troop="NPCCharacter.spartan_heraclid" />
         <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.spartan_eurypontids" />
-        <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.spartan_agiad" />
-
         <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.spartan_archer" />
         <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.spartan_elite_archer" />
       </stacks>

@@ -18,7 +18,7 @@
 	<xsl:template match="MBPartyTemplate[@id='elite_caravan_template_aserai']/stacks">
 		<xsl:copy>
 			<xsl:apply-templates select="@* | node()"/>
-			<PartyTemplateStack min_value="5" max_value="8" troop="NPCCharacter.zeyaddi_cavalry" />
+			<PartyTemplateStack min_value="5" max_value="8" troop="NPCCharacter.zeyaddi_heavy_cavalry" />
 		</xsl:copy>
 	</xsl:template>
 

@@ -2,8 +2,8 @@
 <partyTemplates>
     <MBPartyTemplate id="kronitumirai_party_template" >
       <stacks>
-        <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.kronitumirai_tier3" />
-        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.kronitumirai_tier2" />
+        <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.desertorder_tier1" />
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.garb_tier1" />
         <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.kronitumirai_tier1" />
       </stacks>
     </MBPartyTemplate>
