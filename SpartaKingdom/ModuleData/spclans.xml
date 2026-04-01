@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Спарта -->
+<Factions>
+  <Faction id="clan_sparta1"
+             name="Спартанцы Леонида"
+             tier="6"
+             owner="Hero.sparta_lord1"
+             culture="Culture.sic"
+             banner_key="11.145.145.1536.1536.764.764.0.0.0.438.38.38.358.442.764.854.0.0.180.511.38.38.453.559.764.714.0.0.0.423.38.38.769.740.764.764.0.0.0"
+             settlement_banner_mesh="encounter_flag_f"
+             super_faction="Kingdom.sparta"
+             is_noble="true"
+             text="Originally the Aquiad lineage of the two lineages under the Spartan two-king system, Sparta was transferred to the Euripotian lineage after the death of King Leonidas. Leonidas' daughter Mirine clashed violently with the current king Ashidamus, leaving Sparta and having her citizenship revoked." />
+
+    <Faction id="clan_sparta2"
+                        name="Дом Ахиллеса"
+                        tier="5"
+                        owner="Hero.sparta_lord11"
+                        culture="Culture.sic"
+                        super_faction="Kingdom.sparta"
+                        banner_key="11.149.149.1536.1536.764.764.0.0.0.423.38.38.773.740.764.764.0.0.0.411.38.38.238.228.764.764.0.0.180.401.38.38.505.484.764.764.0.0.180"
+                        is_noble="true"
+                        text="When Achilles, the first warrior of Greece, fell to Troy, the Guard lost his leader. However, its dazzling achievements made all the city-states look at each other, and they all wanted to bring this army under their command. Since Achilles and his cousin Patroclus are not alive, the guard is currently led by Achilles' best friend Odysseus." />
+</Factions>

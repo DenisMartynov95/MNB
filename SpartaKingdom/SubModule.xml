@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="SpartaKingdom"/>
+	<Id value="SpartaKingdom"/>
+	<Version value="v1.2.8"/>
+	<DefaultModule value="false"/>
+	<ModuleCategory value="Singleplayer"/>
+	<Official value="false"/>
+
+	<DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="CustomBattle"/>
+		<DependedModule Id="StoryMode" />
+	</DependedModules>
+
+	<Xmls>
+		<XmlNode>
+		<XmlName id="Kingdoms" path="spkingdoms"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "SandBoxCore"/>
+			<GameType value = "SandBox"/>
+		</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+		<XmlName id="Factions" path="spclans"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "SandBoxCore"/>
+			<GameType value = "SandBox"/>
+		</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="lords"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "SandBoxCore"/>
+				<GameType value = "SandBox"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+				<XmlName id="SPCultures" path="spcultures"/>
+				<IncludedGameTypes>
+					<GameType value = "Campaign"/>
+					<GameType value = "CampaignStoryMode"/>
+					<GameType value = "SandBoxCore"/>
+					<GameType value = "SandBox"/>
+				</IncludedGameTypes>
+			</XmlNode>
+
+	<XmlNode>
+		<XmlName id="Heroes" path="heroes"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "SandBoxCore"/>
+			<GameType value = "SandBox"/>
+		</IncludedGameTypes>
+	</XmlNode>
+
+	<XmlNode>
+		<XmlName id="Settlements" path="settlements"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "SandBoxCore"/>
+			<GameType value = "SandBox"/>
+		</IncludedGameTypes>
+	</XmlNode>
+
+	</Xmls>
+</Module>

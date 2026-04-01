@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Переработка культур, &#10;ЗАКОМИТИЛ в базовых культурах в КОР - одну культуру, возможно это дубль римской иимперии">
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Закомментировал все юниты в коре">
+      <change afterPath="$PROJECT_DIR$/SpartaKingdom/ModuleData/heroes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpartaKingdom/ModuleData/lords.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpartaKingdom/ModuleData/settlements.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpartaKingdom/ModuleData/spclans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpartaKingdom/ModuleData/spcultures.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpartaKingdom/ModuleData/spkingdoms.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpartaKingdom/SubModule.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spnpccharacters.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774950686551</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Закомментировал все юниты в коре">
+      <option name="closed" value="true" />
+      <created>1774956529542</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1774956529542</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,6 +371,7 @@
     <MESSAGE value="Закомментил все внедренные кастомные древа в КОР" />
     <MESSAGE value="Внес дефолтные войска у культур, чтобы вычеслить проститутку которая крашит все" />
     <MESSAGE value="Переработка культур, &#10;ЗАКОМИТИЛ в базовых культурах в КОР - одну культуру, возможно это дубль римской иимперии" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переработка культур, &#10;ЗАКОМИТИЛ в базовых культурах в КОР - одну культуру, возможно это дубль римской иимперии" />
+    <MESSAGE value="Закомментировал все юниты в коре" />
+    <option name="LAST_COMMIT_MESSAGE" value="Закомментировал все юниты в коре" />
   </component>
 </project>

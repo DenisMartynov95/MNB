@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+  <Kingdom id="sparta"
+    owner="Hero.sparta_lord1"
+    banner_key="11.145.145.1536.1536.764.764.0.0.0.438.38.38.358.442.764.854.0.0.180.511.38.38.453.559.764.714.0.0.0.423.38.38.769.740.764.764.0.0.0"
+    primary_banner_color="0xff955066"
+    secondary_banner_color="0xffd9dbce"
+    label_color="0xffff8c00"
+    color="0xffFCDE90"
+    color2="0xff5f4f44"
+    alternative_color="0xffFCDE90"
+    alternative_color2="0xff5f4f44"
+    culture="Culture.sic"
+    settlement_banner_mesh="encounter_flag_a"
+    flag_mesh="info_screen_flags_b"
+    name="Древняя Спарта"
+    short_name="Древняя Спарта"
+    title="Древняя Спарта"
+    text="Все что осталось от Древней спарты">
+    <relationships>
+      <relationship kingdom="Kingdom.khuzait" value="-1" isAtWar="true" />
+    </relationships>
+    <policies>
+      <policy
+        id="policy_royal_privilege" />
+    </policies>
+  </Kingdom>
+</Kingdoms>

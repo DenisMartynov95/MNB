@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <!-- Спарта -->
+
+	<NPCCharacter id="sparta_lord1"
+							name="ЦАРЬ Спарты Леонид"
+							age="29"
+							voice="ironic"
+							is_hero="true"
+							culture="Culture.sic"
+							occupation="Lord"
+							default_group="Infantry"
+							face_mesh_cache="true">
+		<face>
+		<BodyProperties version="4" age="29.76" weight="0" build="0.9663"  key="000DBC0E400013C33A9345778463F05776CD867784CBE806C9BB86656AA60C0505CE06570CA7A6567FFFB4EF7F005FFA0000000000001AA400000000379C3002"  />
+		</face>
+	<skills>
+		<skill id="Athletics" value="300"/>
+		<skill id="Riding" value="300"/>
+		<skill id="OneHanded" value="300"/>
+		<skill id="TwoHanded" value="300"/>
+		<skill id="Polearm" value="300"/>
+		<skill id="Bow" value="300"/>
+		<skill id="Crossbow" value="300"/>
+		<skill id="Throwing" value="300"/>
+		<skill id="Crafting" value="300"/>
+		<skill id="Tactics" value="300"/>
+		<skill id="Scouting" value="300"/>
+		<skill id="Leadership" value="300"/>
+		<skill id="Charm" value="300"/>
+		<skill id="Trade" value="300"/>
+		<skill id="Roguery" value="300"/>
+		<skill id="Steward" value="300"/>
+		<skill id="Medicine" value="300"/>
+		<skill id="Engineering" value="300"/>
+	</skills>
+	<Traits>
+		<Trait id="Honor" value="2" />
+		<Trait id="Valor" value="2" />
+		<Trait id="Mercy" value="2" />
+		<Trait id="Generosity" value="2" />
+		<Trait id="Calculating" value="2" />
+		<Trait id="Commander" value="10" />
+		<Trait id="Politician" value="10" />
+		<Trait id="Manager" value="10" />
+		<Trait id="BalancedFightingSkills" value="10" />
+	</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_leo"/>
+				<equipment slot="Item1" id="Item.sword_sparta4"/>
+				<equipment slot="Item2" id="Item.spheroshield"/>
+				<equipment slot="Item4" id="Item.standard_of_discipline_t3" />
+				<equipment slot="Head" id="Item.leonidas2"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spherobody"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_sparta4"/>
+				<equipment slot="Head" id="Item.leonidas2"/>
+				<equipment slot="Cape" id="Item.spherocape"/>
+				<equipment slot="Body" id="Item.spherobody"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+		</Equipments>
+</NPCCharacter>
+
+	<NPCCharacter id="sparta_lord2"
+							name="ЦАРИЦА Спарты Горго"
+							age="29"
+							voice="softspoken"
+							is_hero="true"
+							is_female="true"
+							culture="Culture.sic"
+							occupation="Lord"
+							default_group="Infantry">
+		<face>
+			<BodyProperties version="4" age="29.56" weight="0.0208" build="0.5694"  key="0010000D92143004CE8994586367699494D589462B9DB8017CCBBEB0879A070706B906670B2752200000000000000000000000000000000000000000797C10C3"  />
+		</face>
+	<skills>
+		<skill id="Athletics" value="300"/>
+		<skill id="Riding" value="300"/>
+		<skill id="OneHanded" value="300"/>
+		<skill id="TwoHanded" value="300"/>
+		<skill id="Polearm" value="300"/>
+		<skill id="Bow" value="300"/>
+		<skill id="Crossbow" value="300"/>
+		<skill id="Throwing" value="300"/>
+		<skill id="Crafting" value="300"/>
+		<skill id="Tactics" value="300"/>
+		<skill id="Scouting" value="300"/>
+		<skill id="Leadership" value="300"/>
+		<skill id="Charm" value="300"/>
+		<skill id="Trade" value="300"/>
+		<skill id="Roguery" value="300"/>
+		<skill id="Steward" value="300"/>
+		<skill id="Medicine" value="300"/>
+		<skill id="Engineering" value="300"/>
+	</skills>
+	<Traits>
+		<Trait id="Honor" value="2" />
+		<Trait id="Valor" value="2" />
+		<Trait id="Mercy" value="2" />
+		<Trait id="Generosity" value="2" />
+		<Trait id="Calculating" value="2" />
+		<Trait id="Commander" value="10" />
+		<Trait id="Politician" value="10" />
+		<Trait id="Manager" value="10" />
+		<Trait id="BalancedFightingSkills" value="10" />
+	</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sword_sparta4"/>
+				<equipment slot="Item1" id="Item.shield2"/>
+																															 <equipment slot="Item4" id="Item.standard_of_discipline_t3" />
+				<equipment slot="Head" id="Item.spherohead2"/>
+				<equipment slot="Body" id="Item.sprobef"/>
+				<equipment slot="Leg" id="Item.spfoot"/>
+				<equipment slot="Horse" id="Item.noble_horse"/>
+				<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_sparta4"/>
+				<equipment slot="Head" id="Item.spherohead2"/>
+				<equipment slot="Body" id="Item.sprobef"/>
+				<equipment slot="Leg" id="Item.spfoot"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="sparta_lord3"
+							name="Мирэн"
+							age="18"
+							voice="softspoken"
+							is_hero="true"
+							is_female="true"
+							culture="Culture.sic"
+							occupation="Lord"
+							default_group="Infantry">
+		<face>
+		<BodyProperties version="4" age="22.11" weight="0" build="0.5378"  key="001ED00E541400056A899541B076974683E78584884B9812C9FBCFD18795070A039806350947900100000000000000000000000000000000000000007D2C40C3"  />
+		</face>
+		<skills>
+		  <skill id="Athletics" value="200"/>
+		  <skill id="Riding" value="200"/>
+		  <skill id="OneHanded" value="200"/>
+		  <skill id="TwoHanded" value="200"/>
+		  <skill id="Polearm" value="200"/>
+		  <skill id="Bow" value="200"/>
+		  <skill id="Crossbow" value="200"/>
+		  <skill id="Throwing" value="200"/>
+		  <skill id="Crafting" value="200"/>
+		  <skill id="Tactics" value="200"/>
+		  <skill id="Scouting" value="200"/>
+		  <skill id="Leadership" value="200"/>
+		  <skill id="Charm" value="200"/>
+		  <skill id="Trade" value="200"/>
+		  <skill id="Roguery" value="200"/>
+		  <skill id="Steward" value="200"/>
+		  <skill id="Medicine" value="200"/>
+		  <skill id="Engineering" value="200"/>
+		</skills>
+	<Traits>
+		<Trait id="Honor" value="2" />
+		<Trait id="Valor" value="2" />
+		<Trait id="Mercy" value="2" />
+		<Trait id="Generosity" value="2" />
+		<Trait id="Calculating" value="2" />
+		<Trait id="Commander" value="10" />
+		<Trait id="Politician" value="10" />
+		<Trait id="Manager" value="10" />
+		<Trait id="BalancedFightingSkills" value="10" />
+	</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item4" id="Item.standard_of_discipline_t3" />
+				<equipment slot="Body" id="Item.sprobef"/>
+				<equipment slot="Leg" id="Item.spfoot"/>
+				<equipment slot="Horse" id="Item.noble_horse"/>
+				<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Body" id="Item.sprobef"/>
+				<equipment slot="Leg" id="Item.spfoot"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="sparta_lord4"
+							name="Нейрокас"
+							age="18"
+							voice="ironic"
+							is_hero="true"
+							culture="Culture.sic"
+							occupation="Lord"
+							default_group="Infantry">
+		<face>
+		<BodyProperties version="4" age="18.07" weight="0" build="0.7003"  key="000DC00E4000134F22A68A5704DC75B576CD97829D866396C9BB86656AA60C0504CB06450CA7A6567FFFB4EF7F005FFA0000000000001AA400000000379C5002"  />
+		</face>
+		<skills>
+		  <skill id="Athletics" value="200"/>
+		  <skill id="Riding" value="200"/>
+		  <skill id="OneHanded" value="200"/>
+		  <skill id="TwoHanded" value="200"/>
+		  <skill id="Polearm" value="200"/>
+		  <skill id="Bow" value="200"/>
+		  <skill id="Crossbow" value="200"/>
+		  <skill id="Throwing" value="200"/>
+		  <skill id="Crafting" value="200"/>
+		  <skill id="Tactics" value="200"/>
+		  <skill id="Scouting" value="200"/>
+		  <skill id="Leadership" value="200"/>
+		  <skill id="Charm" value="200"/>
+		  <skill id="Trade" value="200"/>
+		  <skill id="Roguery" value="200"/>
+		  <skill id="Steward" value="200"/>
+		  <skill id="Medicine" value="200"/>
+		  <skill id="Engineering" value="200"/>
+		</skills>
+	<Traits>
+		<Trait id="Honor" value="2" />
+		<Trait id="Valor" value="2" />
+		<Trait id="Mercy" value="2" />
+		<Trait id="Generosity" value="2" />
+		<Trait id="Calculating" value="2" />
+		<Trait id="Commander" value="10" />
+		<Trait id="Politician" value="10" />
+		<Trait id="Manager" value="10" />
+		<Trait id="BalancedFightingSkills" value="10" />
+	</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_leo2"/>
+				<equipment slot="Item1" id="Item.sword_sparta4"/>
+				<equipment slot="Item2" id="Item.shield3"/>
+				<equipment slot="Item4" id="Item.standard_of_discipline_t3" />
+				<equipment slot="Head" id="Item.spherohead"/>
+				<equipment slot="Cape" id="Item.spcape"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_sparta4"/>
+				<equipment slot="Head" id="Item.spherohead"/>
+				<equipment slot="Cape" id="Item.spcape"/>
+				<equipment slot="Body" id="Item.spchestarmor"/>
+				<equipment slot="Gloves" id="Item.spherohand"/>
+				<equipment slot="Leg" id="Item.spheroleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="sparta_lord5"
+							name="Cassandra"
+							age="16"
+							voice="softspoken"
+							is_hero="true"
+							is_female="true"
+							culture="Culture.sic"
+							occupation="Lord"
+							default_group="Infantry">
+		<face>
+		<BodyProperties version="4" age="18.71" weight="0" build="0.5378"  key="001ED00E521430025A899541B076974683E78589884B9801C9FBCFD18795070A01B806130B47900100000000000000000000000000000000000000007D7C10C3"  />
+		</face>
+		<skills>
+		  <skill id="Athletics" value="200"/>
+		  <skill id="Riding" value="200"/>
+		  <skill id="OneHanded" value="200"/>
+		  <skill id="TwoHanded" value="200"/>
+		  <skill id="Polearm" value="200"/>
+		  <skill id="Bow" value="200"/>
+		  <skill id="Crossbow" value="200"/>
+		  <skill id="Throwing" value="200"/>
+		  <skill id="Crafting" value="200"/>
+		  <skill id="Tactics" value="200"/>
+		  <skill id="Scouting" value="200"/>
+		  <skill id="Leadership" value="200"/>
+		  <skill id="Charm" value="200"/>
+		  <skill id="Trade" value="200"/>
+		  <skill id="Roguery" value="200"/>
+		  <skill id="Steward" value="200"/>
+		  <skill id="Medicine" value="200"/>
+		  <skill id="Engineering" value="200"/>
+		</skills>
+	<Traits>
+		<Trait id="Honor" value="2" />
+		<Trait id="Valor" value="2" />
+		<Trait id="Mercy" value="2" />
+		<Trait id="Generosity" value="2" />
+		<Trait id="Calculating" value="2" />
+		<Trait id="Commander" value="10" />
+		<Trait id="Politician" value="10" />
+		<Trait id="Manager" value="10" />
+		<Trait id="BalancedFightingSkills" value="10" />
+	</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sword_sparta3"/>
+				<equipment slot="Item1" id="Item.shield3"/>
+				<equipment slot="Item4" id="Item.standard_of_discipline_t3" />
+				<equipment slot="Head" id="Item.spherohead"/>
+				<equipment slot="Body" id="Item.spchestf2"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+				<equipment slot="Horse" id="Item.noble_horse"/>
+				<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_sparta3"/>
+				<equipment slot="Head" id="Item.spherohead"/>
+				<equipment slot="Body" id="Item.spchestf2"/>
+				<equipment slot="Gloves" id="Item.spbracer"/>
+				<equipment slot="Leg" id="Item.spgreave"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="sparta_lord11"
+						name="Ахиллес"
+						age="22"
+						voice="ironic"
+						is_hero="true"
+						culture="Culture.sic"
+						occupation="Lord"
+						default_group="Infantry">
+		<face>
+		<BodyProperties version="4" age="22.29" weight="0" build="0.5995"  key="00051C00000000020C75BE2F54A73A846EF48AA881BD1521B5EC96458DB3683601C906140C489C0400000000000000000000000000000000000000002B8C3002"  />
+		</face>
+	<skills>
+		<skill id="Athletics" value="300"/>
+		<skill id="Riding" value="300"/>
+		<skill id="OneHanded" value="300"/>
+		<skill id="TwoHanded" value="300"/>
+		<skill id="Polearm" value="300"/>
+		<skill id="Bow" value="300"/>
+		<skill id="Crossbow" value="300"/>
+		<skill id="Throwing" value="300"/>
+		<skill id="Crafting" value="300"/>
+		<skill id="Tactics" value="300"/>
+		<skill id="Scouting" value="300"/>
+		<skill id="Leadership" value="300"/>
+		<skill id="Charm" value="300"/>
+		<skill id="Trade" value="300"/>
+		<skill id="Roguery" value="300"/>
+		<skill id="Steward" value="300"/>
+		<skill id="Medicine" value="300"/>
+		<skill id="Engineering" value="300"/>
+	</skills>
+	<Traits>
+		<Trait id="Honor" value="2" />
+		<Trait id="Valor" value="2" />
+		<Trait id="Mercy" value="2" />
+		<Trait id="Generosity" value="2" />
+		<Trait id="Calculating" value="2" />
+		<Trait id="Commander" value="10" />
+		<Trait id="Politician" value="10" />
+		<Trait id="Manager" value="10" />
+		<Trait id="BalancedFightingSkills" value="10" />
+	</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.spear_achilles"/>
+				<equipment slot="Item1" id="Item.sword_achilles"/>
+				<equipment slot="Item2" id="Item.aklsshield"/>
+				<equipment slot="Item4" id="Item.standard_of_discipline_t3" />
+				<equipment slot="Head" id="Item.aklshead"/>
+				<equipment slot="Body" id="Item.aklsbody2"/>
+				<equipment slot="Gloves" id="Item.aklshand"/>
+				<equipment slot="Leg" id="Item.aklsleg"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.sword_achilles"/>
+				<equipment slot="Head" id="Item.aklshead"/>
+				<equipment slot="Body" id="Item.aklsbody2"/>
+				<equipment slot="Gloves" id="Item.aklshand"/>
+				<equipment slot="Leg" id="Item.aklsleg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="sparta_lord12"
+						name="Patroclus"
+						age="17"
+						voice="ironic"
+						is_hero="true"
+						culture="Culture.sic"
+						occupation="Lord"
+						default_group="Infantry">
+				<face>
+				<BodyProperties version="4" age="17.5" weight="0" build="0.534"  key="00001400000000023F8B6907EA645CC6E2788B1F2F78B8B4DFF8FE3085F6000801A806130A44A83100EB0400683000A90000000000000000000000005D5C40C2"  />
+				</face>
+				<skills>
+				  <skill id="Athletics" value="200"/>
+				  <skill id="Riding" value="200"/>
+				  <skill id="OneHanded" value="200"/>
+				  <skill id="TwoHanded" value="200"/>
+				  <skill id="Polearm" value="200"/>
+				  <skill id="Bow" value="200"/>
+				  <skill id="Crossbow" value="200"/>
+				  <skill id="Throwing" value="200"/>
+				  <skill id="Crafting" value="200"/>
+				  <skill id="Tactics" value="200"/>
+				  <skill id="Scouting" value="200"/>
+				  <skill id="Leadership" value="200"/>
+				  <skill id="Charm" value="200"/>
+				  <skill id="Trade" value="200"/>
+				  <skill id="Roguery" value="200"/>
+				  <skill id="Steward" value="200"/>
+				  <skill id="Medicine" value="200"/>
+				  <skill id="Engineering" value="200"/>
+				</skills>
+			<Traits>
+				<Trait id="Honor" value="2" />
+				<Trait id="Valor" value="2" />
+				<Trait id="Mercy" value="2" />
+				<Trait id="Generosity" value="2" />
+				<Trait id="Calculating" value="2" />
+				<Trait id="Commander" value="10" />
+				<Trait id="Politician" value="10" />
+				<Trait id="Manager" value="10" />
+				<Trait id="BalancedFightingSkills" value="10" />
+			</Traits>
+				<Equipments>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.spear_achilles"/>
+						<equipment slot="Item1" id="Item.sword_achilles"/>
+						<equipment slot="Item2" id="Item.aklsshield"/>
+																																		<equipment slot="Item4" id="Item.standard_of_discipline_t3" />
+						<equipment slot="Head" id="Item.aklshead"/>
+						<equipment slot="Body" id="Item.aklsymj"/>
+						<equipment slot="Gloves" id="Item.aklshand"/>
+						<equipment slot="Leg" id="Item.aklsleg"/>
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.sword_achilles"/>
+						<equipment slot="Head" id="Item.aklshead"/>
+						<equipment slot="Body" id="Item.aklsymj"/>
+						<equipment slot="Gloves" id="Item.aklshand"/>
+						<equipment slot="Leg" id="Item.aklsleg"/>
+					</EquipmentRoster>
+				</Equipments>
+			</NPCCharacter>
+
+	<NPCCharacter id="sparta_lord13"
+						name="Odysseus"
+						age="31"
+						voice="ironic"
+						is_hero="true"
+						culture="Culture.sic"
+						occupation="Lord"
+						default_group="Infantry">
+					<face>
+					<BodyProperties version="4" age="31.06" weight="0" build="0.7003"  key="000D580E4000138222A68A5704DC75B576CD97829D866396C9BB86656AA60C0507CB06780CA7A6567FFFB4EF7F005FFA0000000000001AA400000000379C5002"  />
+					</face>
+					<skills>
+					  <skill id="Athletics" value="200"/>
+					  <skill id="Riding" value="200"/>
+					  <skill id="OneHanded" value="200"/>
+					  <skill id="TwoHanded" value="200"/>
+					  <skill id="Polearm" value="200"/>
+					  <skill id="Bow" value="200"/>
+					  <skill id="Crossbow" value="200"/>
+					  <skill id="Throwing" value="200"/>
+					  <skill id="Crafting" value="200"/>
+					  <skill id="Tactics" value="200"/>
+					  <skill id="Scouting" value="200"/>
+					  <skill id="Leadership" value="200"/>
+					  <skill id="Charm" value="200"/>
+					  <skill id="Trade" value="200"/>
+					  <skill id="Roguery" value="200"/>
+					  <skill id="Steward" value="200"/>
+					  <skill id="Medicine" value="200"/>
+					  <skill id="Engineering" value="200"/>
+					</skills>
+				<Traits>
+					<Trait id="Honor" value="2" />
+					<Trait id="Valor" value="2" />
+					<Trait id="Mercy" value="2" />
+					<Trait id="Generosity" value="2" />
+					<Trait id="Calculating" value="2" />
+					<Trait id="Commander" value="10" />
+					<Trait id="Politician" value="10" />
+					<Trait id="Manager" value="10" />
+					<Trait id="BalancedFightingSkills" value="10" />
+				</Traits>
+					<Equipments>
+						<EquipmentRoster>
+							<equipment slot="Item0" id="Item.spear_achilles"/>
+							<equipment slot="Item1" id="Item.sword_achilles"/>
+							<equipment slot="Item2" id="Item.aklsshield"/>
+																																			<equipment slot="Item4" id="Item.standard_of_discipline_t3" />
+							<equipment slot="Head" id="Item.aklshead2"/>
+							<equipment slot="Body" id="Item.aklsbody2"/>
+							<equipment slot="Gloves" id="Item.aklshand"/>
+							<equipment slot="Leg" id="Item.aklsleg"/>
+							<equipment slot="Horse" id="Item.noble_horse_southern"/>
+							<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+						</EquipmentRoster>
+						<EquipmentRoster civilian="true">
+							<equipment slot="Item0" id="Item.sword_achilles"/>
+							<equipment slot="Head" id="Item.aklshead2"/>
+							<equipment slot="Body" id="Item.aklsbody2"/>
+							<equipment slot="Gloves" id="Item.aklshand"/>
+							<equipment slot="Leg" id="Item.aklsleg"/>
+						</EquipmentRoster>
+					</Equipments>
+				</NPCCharacter>
+
+	<NPCCharacter id="sparta_lord14"
+						name="Telemachus"
+						age="24"
+						voice="ironic"
+						is_hero="true"
+						culture="Culture.sic"
+						occupation="Lord"
+						default_group="Infantry">
+					<face>
+					<BodyProperties version="4" age="28.32" weight="0" build="0.5725"  key="000D580E4000001222A68A5704DC75B576CD97829D866396C9BB86656AA60C0501C906130CA7A6567FFFB4EF7F005FFA0000000000001AA40000000037944002"  />
+					</face>
+					<skills>
+					  <skill id="Athletics" value="200"/>
+					  <skill id="Riding" value="200"/>
+					  <skill id="OneHanded" value="200"/>
+					  <skill id="TwoHanded" value="200"/>
+					  <skill id="Polearm" value="200"/>
+					  <skill id="Bow" value="200"/>
+					  <skill id="Crossbow" value="200"/>
+					  <skill id="Throwing" value="200"/>
+					  <skill id="Crafting" value="200"/>
+					  <skill id="Tactics" value="200"/>
+					  <skill id="Scouting" value="200"/>
+					  <skill id="Leadership" value="200"/>
+					  <skill id="Charm" value="200"/>
+					  <skill id="Trade" value="200"/>
+					  <skill id="Roguery" value="200"/>
+					  <skill id="Steward" value="200"/>
+					  <skill id="Medicine" value="200"/>
+					  <skill id="Engineering" value="200"/>
+					</skills>
+				<Traits>
+					<Trait id="Honor" value="2" />
+					<Trait id="Valor" value="2" />
+					<Trait id="Mercy" value="2" />
+					<Trait id="Generosity" value="2" />
+					<Trait id="Calculating" value="2" />
+					<Trait id="Commander" value="10" />
+					<Trait id="Politician" value="10" />
+					<Trait id="Manager" value="10" />
+					<Trait id="BalancedFightingSkills" value="10" />
+				</Traits>
+					<Equipments>
+						<EquipmentRoster>
+							<equipment slot="Item0" id="Item.spear_achilles"/>
+							<equipment slot="Item1" id="Item.sword_achilles"/>
+							<equipment slot="Item2" id="Item.aklsshield"/>
+							<equipment slot="Item4" id="Item.standard_of_discipline_t3" />
+							<equipment slot="Head" id="Item.aklshead"/>
+							<equipment slot="Body" id="Item.aklsbody"/>
+							<equipment slot="Gloves" id="Item.aklshand"/>
+							<equipment slot="Leg" id="Item.aklsleg"/>
+							<equipment slot="Horse" id="Item.noble_horse_southern"/>
+							<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+						</EquipmentRoster>
+						<EquipmentRoster civilian="true">
+							<equipment slot="Item0" id="Item.sword_achilles"/>
+							<equipment slot="Head" id="Item.aklshead"/>
+							<equipment slot="Body" id="Item.aklsbody"/>
+							<equipment slot="Gloves" id="Item.aklshand"/>
+							<equipment slot="Leg" id="Item.aklsleg"/>
+						</EquipmentRoster>
+					</Equipments>
+				</NPCCharacter>
+</NPCCharacters>
