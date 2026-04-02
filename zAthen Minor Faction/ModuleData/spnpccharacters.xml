@@ -129,7 +129,7 @@
 						</EquipmentRoster>
 					</Equipments>
 				</NPCCharacter>
-				<NPCCharacter id="athen_elite_soldier"
+			<NPCCharacter id="athen_elite_soldier"
 				default_group="Infantry"
 				level="31"
 				name="{=Athen Elite Soldier}Athen Elite Soldier"
