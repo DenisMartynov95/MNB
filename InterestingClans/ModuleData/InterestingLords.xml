@@ -1,0 +1,2898 @@
+<NPCCharacters>
+<!--**Imperial Lords**-->
+  <!--House of Corvii start-->
+  <NPCCharacter id="cs_hero_xanthe" default_group="Cavalry" age="35" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_xanthe}Xanthe" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="35.29" weight="0.0017" build="0.8441"  key="0010240F000013821146405A981083334428C89784C6DB23838895D211E55239039D063509B97667013400045770200100000000000039000000000019243000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="8" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="2" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Humanitarian" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_xelos" default_group="Cavalry" age="65" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_xelos}Xelios" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="65.50" weight="0.5015" build="0.7485"  key="0010240F000016CD1146405A981083334428769784C6D1C18388952971E55236066B866806B97667013400045770200100000000000066000000000018D43000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="8" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="2" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Humanitarian" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_medium_temp_archon" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_jason_a" default_group="Cavalry" age="50" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_jason_a}Jason" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="50.25" weight="0.8071" build="0.3009"  key="000DA80D8044338F09781D3B2F912C2CA8BB71838307FC11111E887D7D762B240485C44608F9A2B700001105000030A30000001F000000000000000001089000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="5" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Tactician" value="6" />
+      <Trait id="Calculating" value="2" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Valor" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!--House of Corvii end-->
+  <!--House of Apos start-->
+  <NPCCharacter id="cs_hero_apos_placeholder_family_head" default_group="Cavalry" age="55" voice="earnest" is_hero="true" is_template="true" culture="Culture.empire" occupation="Lord" name="Астерос" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="55" weight="0.6466" build="0.5"  key="0015800400FC038F00711126C235C1F8F64D6543151B8660B12063BA6D6D210D0697A667F9C521564989074128501005000000000000697000000000132C30C2"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_archon" />
+      <EquipmentSet id="emp_noncom_template_stoic"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>    <!-- divorced his wife, got killed by opposition powers -->
+  <NPCCharacter id="cs_hero_astor" default_group="Cavalry" age="90" voice="earnest" is_hero="true" is_female="false" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_astor}Astor" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="90.08" weight="0.304" build="0.5741"  key="00163403DAFC1448907111BAC230C1C8F34D6543151B8C00B12062776D68210D0789567808C521564983074838B10005000000000000397000000000130470C4"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="5" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Generosity" value="1" />
+      <Trait id="Honor" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_archon" />
+      <EquipmentSet id="emp_civ_light_temp_archon"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>        <!-- married second cousin at twentyeight years old -->
+  <NPCCharacter id="cs_hero_apos" default_group="Cavalry" age="36" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_apos}Apos" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="60.58" weight="0.6466" build="0.5"  key="0015800400FC038F00711126C235C1F8F64D6543151B8660B12063BA6D6D210D0597A65709C521564989074128501005000000000000697000000000132C3040"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="7" />
+      <Trait id="Manager" value="7" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_archon" />
+      <EquipmentSet id="emp_civ_light_temp_archon"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>	<!-- married second cousin at seventeen years old -->
+  <NPCCharacter id="cs_hero_apithi" default_group="Cavalry" age="45" voice="earnest" is_hero="true" is_female="true" occupation="Lord" culture="Culture.empire" name="{=InFa.hero_apithi}Apithi" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="45.00" weight="0.5617" build="0.5"  key="0015C80AD400300E60711126C235C1F8F64D6543151B860DB12063BA6D6D210D03578635F5552183444307412850100500000000000015770000000012BC30C3"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="7" />
+      <Trait id="Mercy" value="2" />
+      <Trait id="Valor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_noncom_temp" />
+      <EquipmentSet id="emp_civ_temp_archon_female"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_aposthenos" default_group="Cavalry" age="26" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_aposthenos}Aposthenos" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="26.00" weight="0.5" build="0.6852"  key="0015800400FC000FB0711126C235C1F8F64D6543151B860AB12063BA6D6D210D017A761307C52156498307412850100500000000000017770000000012F43000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="5" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-2" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant_aposthenos" />
+      <EquipmentSet id="emp_civ_light_temp_archon_aposthenos"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_aposthocles" default_group="Cavalry" age="26" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_aposthocles}Aposthokles" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="26.00" weight="0.5" build="0.2515"  key="0015680400FC000F60711126C235C1F8F64D6543151B8661B12063BA6D6D210D0174761307C52156498307412850100500000000000017770000000012F44040"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="6" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="7" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="-2" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_medium_temp_extravagant_aposthocles" />
+      <EquipmentSet id="emp_civ_temp_extravagant_aposthocles"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>	<!-- She got forced to learn how to fight to stop/divert her attention from men, keep her safe and not end up like her aunt. apollonia -->
+  <NPCCharacter id="cs_hero_apithena" default_group="Cavalry" age="20" voice="earnest" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_apithena}Apithena" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="20.10" weight="0.6358" build="0.412"  key="00158C0414FC3006E0711126C235C1F8F64D6543151B860AB12062BA6D6D210D0276A624F7C521564983074128B1000500000000000017770000000012E430C3"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="5" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Politician" value="7" />
+      <Trait id="Manager" value="6" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant_apithena" />
+      <EquipmentSet id="emp_civ_temp_extravagant_apithena"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>	<!-- Adventurous girl who left her family to marry a man, far away from home -->
+  <NPCCharacter id="cs_hero_apollonia" default_group="Cavalry" age="39" voice="earnest" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_apollonia}Apollonia" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="39" weight="0.1297" build="0.3237"  key="001C0003D42C1005D07111E9C8301028F34D6543151B8C31B12960776D68210903652635F6F221A14983074838B1000500000000000039700000000012DC40C3"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="7" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Politician" value="9" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_temp_horse_archer" />
+      <EquipmentSet id="emp_civ_temp_extravagant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>      <!-- Anthea took over the clan after Astor's death, but now she's gotten too old to continue leading the clan -->
+  <NPCCharacter id="cs_hero_anthea" default_group="Infantry" age="76" voice="earnest" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_anthea}Anthea" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="76.1" weight="0.8781" build="0.6034"  key="001E340F14FC144590B111BCC233C1C8F34D6543151B8C00B12062776D68210D0069D60306C521564983074838B1000500000000000039700000000012CC70C4"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="10" />
+      <Trait id="Manager" value="9" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_noncom_temp" />
+      <EquipmentSet id="emp_civ_temp_female"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>   <!-- After Astor's death Apochalis wanted to be the ruler of the Clan, but they dismissed him because he had no son, to further continue his path -->
+  <NPCCharacter id="cs_hero_apochalis" default_group="Cavalry" age="43" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_apochelos}Apochelos" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="43" weight="0.4537" build="0.5648"  key="0015340C40FC124290711126C235C1F8F64D6543151B860AB12062BA6D6D210D0398763509C521564983074838B1000500000000000039700000000013343080"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_medium_temp_archon" />
+      <EquipmentSet id="emp_civ_heavy_temp_archon_apochalis"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_aporros" default_group="HorseArcher" age="1" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_aporros}Aporros" face_mesh_cache="false">
+    <face>
+	<BodyProperties version="4" age="1" weight="0.2886" build="0.5625"  key="001B0009800009CFD07111E9C8301028F34D6543151B8C31B12960776D6821090068460306F222B94983074838B1000500000000000039700000000012C44000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="7" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="4" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Calculating" value="2" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_temp_horse_archer" />
+      <EquipmentSet id="emp_civ_temp_extravagant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_apharia" default_group="Cavalry" age="6" voice="curt" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_apharia}Apharia" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="6" weight="0.375" build="0.5417"  key="001B300F11141002E07432B7C23139A3D11D6143152B711AA12091BA6D6D210A00586603054711E54983074838B1000500000000000039700000000018AC40C3"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="7" />
+      <Trait id="Manager" value="7" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="-1" />
+      <Trait id="Valor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_noncom_temp" />
+      <EquipmentSet id="emp_civ_temp_female"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_apos_male_lord_template" default_group="Cavalry" age="0" voice="earnest" is_hero="true" is_template="true" culture="Culture.empire" occupation="Lord" name="{=!}Argos" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.1404" build="0.5100"  key="001800000000024FD07111E9C8301028F34D6543151B8C31B12960776D6821090058260305F221A14983074838B1000500000000000039700000000012A44002"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant" />
+      <EquipmentSet id="emp_noncom_template_stoic"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_apos_female_lord_template" default_group="Cavalry" age="0" voice="earnest" is_hero="true" is_female="true" is_template="true" culture="Culture.empire" occupation="Lord" name="{=!}Apathalia" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.5664" build="0.4722"  key="0015340F112C100DE061122DC2322128F64D6543152B861AA12091BA6D6D210D00778603074711E54983074838B1000500000000000039700000000018EC30C3"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_temp_horse_archer" />
+      <EquipmentSet id="emp_noncom_template_stoic"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!--House of Apos end-->
+  <!--House of Olympios start-->  <!-- Olympios Names Leandros, Credaros, Gennaros,  -->
+  <NPCCharacter id="cs_hero_pelakios" default_group="Cavalry" age="76" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_pelakios}Pelakios" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="76" weight="0" build="0.4213"  key="00155C0FC05813CF308812E900D0C942E37B751012133305688718118CCAE73A08860689F80A1018778000001701043B0000000000007800000000003D1C30C2"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="4" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_archon" />
+      <EquipmentSet id="emp_civ_heavy_temp_archon"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_cadmos" default_group="Cavalry" age="39" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_cadmos}Cadmos" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="44.00" weight="0.1265" build="0.4769"  key="00155C0F0058190FC08817E900D0C942E37B751012133311688718118CCAE73A04972646090A1018778000001701043B0000000000005800000000003D247080"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="6" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="6" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_archon_olympios" />
+      <EquipmentSet id="emp_civ_heavy_temp_archon"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_calligenia" default_group="Cavalry" age="26" voice="curt" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_calligenia}Calligenia" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="26.00" weight="0.0871" build="0.4485"  key="0015640D802C1004E0660110D1020A188925490F1571FB1CAB1013306D5E250601571613F54E2118442707412850100500000000000015100000000012BC40C3"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="4" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_light_temp_sergeant_female" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_kephalos" default_group="Cavalry" age="40" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_kephalos}Kephalos" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="40.21" weight="0.1929" build="0.6405"  key="00150C0F17E403CD1E5150C9800142F5F4E24D1198434906153A1E1C89E60523037A36350755510200630005550201120000000000003700000000003CF43000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="2" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant_kephalos" />
+      <EquipmentSet id="emp_civ_heavy_temp_archon_kephalos"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_caiaphos" default_group="Cavalry" age="22" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_caiaphos}Caiaphos" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="22.00" weight="0.0201" build="0.5"  key="0015500F0058100F408377E801C2C242E3CB781012133F42688718118CCAE73500870603080A101800800000170104590000000000000870000000003D143080"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="4" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="6" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_medium_temp_sergeant" />
+      <EquipmentSet id="emp_civ_temp_extravagant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_parthenia" default_group="Cavalry" age="22" voice="earnest" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_parthenia}Parthenia" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="22.77" weight="0.0401" build="0.1127"  key="001B640F1400000512A5EA1481004C4AD826DBBB4968E22D8575574753E7622200721603F7365941278712222240C31800000000000012770000000014E410C3"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="4" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant_olympios_female" />
+      <EquipmentSet id="emp_civ_heavy_temp"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_gregorios" default_group="Cavalry" age="32" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_gregorios}Gregorios" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="32.00" weight="0.6188" build="0.696"  key="0010340F00FC060F09734E5CC2C2C1FC311F634313533349B12062BA53C32102029A962409C5201749911979555277050000000000003A700000000007343040"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="2" />
+      <Trait id="Honor" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="emp_civ_heavy_temp"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_konstantina" default_group="Infantry" age="6" voice="curt" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_konstantina}Konstantina" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="6" weight="0.3534" build="0.5586"  key="001B3C0992B41005D07431C28BC9BE22F10B6189075E1016AB10DA426EBD71160188561308A310454983074838B10005000000000000397000000000190C20C0"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="8" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Calculating" value="2" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant_olympios_female" />
+      <EquipmentSet id="emp_civ_heavy_temp"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_xandros" default_group="Infantry" age="6" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_xandros}Xandros" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="6" weight="0.4429" build="0.6065"  key="00135C0F115812CFC4A812E900D0C944E339A58002131D0468876211EF4AE72001597614057C14A6778000001701043B0000000000007800000000003CAC90C2"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="9" />
+      <Trait id="Mercy" value="-2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_medium_temp_sergeant_olympios" />
+      <EquipmentSet id="emp_civ_temp_extravagant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_matios" default_group="Infantry" age="6" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_matios}Matios" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="6" weight="0.2423" build="0.7546"  key="001BC40C40FC000F194884163BB2E1FC1ADE326566C3228339E19FBF8C25200801AB46130ADB264649911979555277050000000000003A700000000007643040"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant_olympios" />
+      <EquipmentSet id="emp_civ_heavy_temp"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_olympios_placeholder_father_a" default_group="Cavalry" age="100" voice="curt" is_hero="true" is_template="true" culture="Culture.empire" occupation="Lord" name="{=!}cs_hero_olympios_placeholder_father_a" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="100" weight="0.7531" build="0.8688"  key="0011000F1E0017C1081221112008311EE1F3828232871D157707FE726D222112008DB60308CB492B0E11102F081008330000000000001777000000003B043003"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="emp_civ_template_stoic"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_olympios_placeholder_father_b" default_group="Cavalry" age="100" voice="curt" is_hero="true" is_template="true" culture="Culture.empire" occupation="Lord" name="{=!}cs_hero_olympios_placeholder_father_b" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="100" weight="0.4429" build="0.6065"  key="00135C0F115812CFC4A812E900D0C944E339A58002131D0468876211EF4AE72001597614057C14A6778000001701043B0000000000007800000000003CAC90C2"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="emp_civ_template_stoic"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_olympios_placeholder_father_c" default_group="Cavalry" age="100" voice="curt" is_hero="true" is_template="true" culture="Culture.empire" occupation="Lord" name="{=!}cs_hero_olympios_placeholder_father_c" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="100" weight="0.4429" build="0.6065"  key="00135C0F115812CFC4A812E900D0C944E339A58002131D0468876211EF4AE72001597614057C14A6778000001701043B0000000000007800000000003CAC90C2"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="emp_civ_template_stoic"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_olympios_male_lord_template" default_group="Cavalry" age="0" voice="curt" is_hero="true" is_template="true" culture="Culture.empire" occupation="Lord" name="{=!}Gennaros" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0" build="0.4213"  key="00155C0FC05813CF308812E900D0C942E37B751012133305688718118CCAE73A08860689F80A1018778000001701043B0000000000007800000000003D1C30C2"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant_olympios" />
+      <EquipmentSet id="emp_civ_heavy_temp"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_olympios_female_lord_template" default_group="Cavalry" age="0" voice="curt" is_hero="true" is_female="true" is_template="true" culture="Culture.empire" occupation="Lord" name="{=!}Gaiana" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.0871" build="0.4485"  key="0015640D802C1004E0660110D1020A188925490F1571FB1CAB1013306D5E250601571613F54E2118442707412850100500000000000015100000000012BC40C3"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant_olympios_female" />
+      <EquipmentSet id="emp_civ_heavy_temp"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!--House of Olympios End-->
+  <!--House of Morfomenos start-->  <!-- Morfomenos Names Hypatios, Onesiphoros, Sostrate,-->
+  <NPCCharacter id="cs_hero_menakleides" default_group="Cavalry" age="40" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_menakleides}Menakleides" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="40.06" weight="0.3318" build="0.5633"  key="0005540540FC138D44B842EC5115BFABDE1E72325573EF1EC8B5776466E76C2103A856350A6441044983074838B10005000000000000397000000000135C6000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="10" />
+      <Trait id="Manager" value="7" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Mercy" value="2" />
+      <Trait id="Valor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant" />
+      <EquipmentSet id="emp_civ_light_temp_archon"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_ligeia" default_group="Cavalry" age="25" voice="earnest" is_hero="true" is_female="true" occupation="Lord" culture="Culture.empire" name="{=InFa.hero_ligeia}Ligeia" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="25.00" weight="0.5432" build="0.1296"  key="00107C0B9314100BF08E5D2C2289A6D4E58055177AD64A0C7C12C2886994A1F101328613F3A903D7666603000012646400000000000016700000000036640043"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant_female" />
+      <EquipmentSet id="emp_civ_temp_archon_female_ligeia"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_erastos" default_group="Cavalry" age="30" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_erastos}Erastos" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="30" weight="0.8071" build="0.4645"  key="0005980200FC034F04B11A2CC11799FB664DA2325516BFF1C6B1BFB161EDC1210157C61405C6D0EF4983074838B1000500000000000039700000000012BC2000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="4" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="9" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Honor" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Mercy" value="-2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_medium_temp_extravagant" />
+      <EquipmentSet id="emp_civ_temp_extravagant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_desmatia" default_group="Cavalry" age="22" voice="earnest" is_hero="true" is_female="true" occupation="Lord" culture="Culture.empire" name="{=InFa.hero_desmatia}Desmatia" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="22" weight="0.1435" build="0.2562"  key="0005B00D93FC0006D07570342B80117484E4A23C32390402D6181C4D665D01160044260304BE0C3B3654034732C2000600000000000013730000000012941040"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="6" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Valor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_noncom_temp" />
+      <EquipmentSet id="emp_civ_temp_extravagant_female"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_vasileios" default_group="Cavalry" age="33" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_vasileios}Vasileios" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="33.15" weight="0.5617" build="0.588"  key="00080409800012CFC712211B2002311EE260592372989412B509732D6CB5391600A986030A2B494B0E11102F081008330000000000001777000000003B648043"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="5" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="6" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Valor" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant" />
+      <EquipmentSet id="emp_civ_temp_extravagant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_lachesis" default_group="Infantry" age="20" voice="earnest" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_lachesis}Lachesis" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="20" weight="0.3765" build="0.4383"  key="000D300290A01002D166072EC386E40381FD94185B2E2309011DF199812E9101006766030685012902000030300100430000000000001477000000003AC44044"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Honor" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_noncom_temp" />
+      <EquipmentSet id="emp_civ_temp_extravagant_female"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_hyperion" default_group="Cavalry" age="1" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_hyperion}Hyperion" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="1" weight="0.3417" build="0.588"  key="0008A404000012CFC712211B2002311EE2605123B237E312B50973246CB5391600A986030ABB494B0E11102F081008330000000000001777000000003B5C9044"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="1" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Honor" value="2" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant" />
+      <EquipmentSet id="emp_civ_temp_extravagant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_kleidophoros" default_group="Cavalry" age="6" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_kleidophoros}Kleidophoros" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="6" weight="0.6157" build="0.4954"  key="00058006C014134D078E54FE228376D4F83381A28454BEEFBB12A0876FE451510297962409A903D76666030000126464000000000000167000000000372C1000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="3" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="9" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Valor" value="-2" />
+      <Trait id="Generosity" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant" />
+      <EquipmentSet id="emp_civ_temp_extravagant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_morfomenos_male_lord_template" default_group="Cavalry" age="0" voice="earnest" is_hero="true" is_template="true" culture="Culture.empire" occupation="Lord" name="{=!}Ares" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.5617" build="0.588"  key="0008A40C400012CFC712211B2002311EE2605123B237E312B50973246CB5391600A986030ABB494B0E11102F081008330000000000001777000000003B649043"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_template_heavy" />
+      <EquipmentSet id="emp_civ_temp_extravagant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_morfomenos_female_lord_template" default_group="Cavalry" age="0" voice="earnest" is_hero="true" is_female="true" is_template="true" culture="Culture.empire" occupation="Lord" name="{=!}Themis" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.5432" build="0.1296"  key="00107C0B9314100BF08E5D2C2289A6D4E58055177AD64A0C7C12C2886994A1F101328613F3A903D7666603000012646400000000000016700000000036640043"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_template_heavy" />
+      <EquipmentSet id="emp_civ_temp_female"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!--House of Morfomenos end-->
+  <!--House of Plousios start-->
+  <NPCCharacter id="cs_hero_galaos" default_group="Cavalry" age="51" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_galaos}Galaos" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="51.00" weight="0.3796" build="0.4213"  key="0010440B800032CDF17F18484134FD8966FE23565206FA0B9F144812B755503305B666570B79421800210000550112660000000000006B0000000000117C2040"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="4" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="9" />
+      <Trait id="Manager" value="9" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="2" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_archon" />
+      <EquipmentSet id="emp_civ_light_temp_archon"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_rhea" default_group="Cavalry" age="43" voice="earnest" is_hero="true" is_female="true" occupation="Lord" culture="Culture.empire" name="{=InFa.hero_rhea}Rhea" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="43.00" weight="0.7639" build="0.3164"  key="0015D40AD0FC3005F27A15D194355E6888D92914523B3116B9982767B4C5D0330345B635F49E021E0001100000011245000000000000640000000000109440C3"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Calculating" value="-1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_noncom_temp" />
+      <EquipmentSet id="emp_civ_temp_archon_female"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_gathea" default_group="Cavalry" age="27" voice="earnest" is_hero="true" is_female="true" occupation="Lord" culture="Culture.empire" name="{=InFa.hero_gathea}Gathea" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="27.00" weight="0.0001" build="0.0011"  key="0016E40B4014300ED17A10E64631FE8785F62124645BBD138F153FAAB234104333115614F45941280002000055011203000000000000140000000000108C1003"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_noncom_temp" />
+      <EquipmentSet id="emp_civ_temp_female"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_sithea" default_group="Cavalry" age="27" voice="earnest" is_hero="true" is_female="true" occupation="Lord" culture="Culture.empire" name="{=InFa.hero_sithea}Sithea" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="27.00" weight="0.0001" build="0.0011"  key="0016E40B40143002D17A10E64631FE8785F62124645BBD138F153FAAB234104333115614F45941280002000055011203000000000000140000000000108C1003"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="6" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_noncom_temp" />
+      <EquipmentSet id="emp_civ_temp_female"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_dianthea" default_group="Cavalry" age="25" voice="earnest" is_hero="true" is_female="true" occupation="Lord" culture="Culture.empire" name="{=InFa.hero_dianthea}Dianthe" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="25.1" weight="0.1219" build="0.1219"  key="0015A40AC0A0300BF17A18E14638FE8966FE23565257860B9F144812B75550330152261305884218000100005501120300000000000015000000000010B410C0"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="9" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_noncom_temp" />
+      <EquipmentSet id="emp_civ_temp_extravagant_female_dianthe"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_rodanthea" default_group="Cavalry" age="24" voice="earnest" is_hero="true" is_female="true" occupation="Lord" culture="Culture.empire" name="{=InFa.hero_rodanthea}Rodanthe" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="24.00" weight="0.0034" build="0.1551"  key="001CD40B402C3003107A15D194355E6888D922145269961EB9987FD7B4C5D03311020603059E021E000110000001120100000000000005200000000010B410C3"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="7" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_noncom_temp" />
+      <EquipmentSet id="emp_civ_temp_extravagant_female"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_polaos" default_group="Cavalry" age="3" voice="earnest" is_hero="true" occupation="Lord" culture="Culture.empire" name="{=InFa.hero_polaos}Polaos" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="3" weight="0.0586" build="0.4491"  key="0010200ACF0035CE517F6B111133B88966FE23565206FA9598811A1AB755503400A716030A98421800210000550112660000000000001B000000000011443000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="5" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="7" />
+      <Trait id="Manager" value="7" />
+      <!-- PERSONALITY/REPUTATION-->
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_archon" />
+      <EquipmentSet id="emp_civ_heavy_temp_archon"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_eirene" default_group="Cavalry" age="18" voice="curt" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_eirene}Eirene" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="18" weight="0.7654" build="0.0008"  key="0011D40893141007507A15D8998D3C02730C2214323C2E05B999DF12B585881288320613F51702B400011000A0014287000000000000150B0000000050B400C3"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="5" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Valor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant_apithena" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_alexius" default_group="Cavalry" age="40" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_alexius}Alexius" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="40.00" weight="0.0617" build="0.5046"  key="000A8008C0FC060D836035F710B0F7C19116952411141C423FA81FBE64B3210A03881635F8311164565407347BFA0208000000000000480000000000131470C2"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Valor" value="2" />
+      <Trait id="Honor" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="emp_civ_heavy_temp"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_jason_b" default_group="Cavalry" age="52" voice="curt" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_jason_b}Jason" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="52" weight="0.8071" build="0.3009"  key="000DA80D8044338F09781D3B2F912C2CA8BB71838307FC11111E887D7D762B240485C44608F9A2B700001105000030A30000001F000000000000000001089000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="5" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Tactician" value="8" />
+      <Trait id="Calculating" value="2" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Valor" value="-2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="emp_civ_heavy_temp"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_plousios_male_lord_template" default_group="Cavalry" age="0" voice="curt" is_hero="true" is_template="true" culture="Culture.empire" occupation="Lord" name="{=!}Riamos" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="1.0" weight="0.0586" build="0.4491"  key="0010440AC0003008417F1B111133B88966FE23565206FA039881171DB755503403A71635FA98421800210000550112660000000000001B00FFFFFFFF9144703F"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="emp_civ_temp_extravagant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_plousios_female_lord_template" default_group="Cavalry" age="0" voice="curt" is_hero="true" is_female="true" is_template="true" culture="Culture.empire" occupation="Lord" name="{=!}Thetis" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="24.00" weight="0.0034" build="0.1551"  key="001CD40B402C3003107A15D194355E6888D922145269961EB9987FD7B4C5D03311020603059E021E000110000001120100000000000005200000000010B410C3"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="emp_bat_noncom_temp" />
+      <EquipmentSet id="emp_civ_temp_extravagant_female"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!--House of Plousios end-->
+<!--**Battanian Lords**-->
+  <!--Cativellaun start--> <!-- Cativellaun Male Names, Acichorios, Comontorios, Vitruvius. Female Names, Cassicia ,Tritia, Venivallia, Cantexta -->
+  <NPCCharacter id="cs_hero_caius" default_group="Infantry" age="71" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_caius}Caius" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="71.80" weight="0.8318" build="0.7207"  key="000500054058230F047185CD0331103CECBF94871088874280D5F33C8DDE1211078BC678F85F94E9023720476107974D000000000000780000000000111C4082"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="7" />
+      <Trait id="Commander" value="9" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Valor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_medium_temp_chieftain_caius" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_cassivius" default_group="Infantry" age="29" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_cassivius}Cassivius" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="29.00" weight="0.2438" build="0.5602"  key="000500014058200E647185CD0331103CECBF94871088870980D5F33C8DDE121701984613F95F94E9023720476107974D000000000000197700000000113C5082"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="7" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="0" />
+      <Trait id="Calculating" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_heavy_temp_chieftain_cassivius" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_cisenia" default_group="Infantry" age="53" voice="curt" is_hero="true" is_female="true" occupation="Lord" culture="Culture.battania" name="{=InFa.hero_cisenia}Cysenith" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="53.4" weight="0" build="0"  key="000B00014044200F047185CD0331103CE7BF94871088874280D5F33C8DDA121170373656F45F94E982372047E1079746000000000000540000000000108C4083"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="6" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Valor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_noncom_temp" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_clemena" default_group="Infantry" age="21" voice="curt" is_hero="true" is_female="true" occupation="Lord" culture="Culture.battania" name="{=InFa.hero_clemena}Clemia" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="21.00" weight="0.5324" build="0.3225"  key="00052009802C2006107185500333102CE1BF908B10887E1090F0EF8D8DDC121100358602030D2C593234204111074744000000000000030000000000105C1080"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Valor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_noncom_temp" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_cassvil" default_group="Infantry" age="16" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_cassvil}Cassvil" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="16.00" weight="0.5" build="0.5"  key="000000058058200E647185C40330103CC8B2948710C58E0980D5FA3C8DD156C670333624F65F94E98237204AE108875D00000000000026770000000010DC7083"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="6" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_medium_temp_sergeant_cassvil" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_vecaunos" default_group="Infantry" age="27" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_vecaunos}Vercaunos" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="27.30" weight="0" build="0.5522"  key="00054C0D8044214B203AB1BC3DE600D47BCF6B4C3332EF1FECDCE2FD8DD6EE1A01A800130AFA71AE2210000005A001110000000000001700000000006D407040"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="7" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_medium_temp_extravagant_vecaunos" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_boudicca" default_group="Infantry" age="22" voice="curt" is_hero="true" is_female="true" occupation="Lord" culture="Culture.battania" name="{=InFa.hero_boudicca}Boudicca" face_mesh_cache="false">
+    <face>
+    <BodyProperties version="4" age="22.57" weight="0.5509" build="0.0013"  key="0011740540FC2015207DF400EE8BB4D4E58078177A44F42AE4444E183E14FDF100408603F4C900D066660300001264640000000000001670000000006C7C40C3"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_noncom_temp" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_britomartus" default_group="Infantry" age="4" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_britomartus}Britomartus" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="4" weight="0.0015" build="0.4812"  key="0005780ACE442592203AB0DC3FFA00D47BCF6C2F3331EF1FECDCECF48DD6EE1A0097000309F7516E2210000005A001110000000000001700000000006D285000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_heavy_temp_extravagant" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_deuognata" default_group="Infantry" age="8" voice="curt" is_hero="true" is_female="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_deuognata}Deuognata" face_mesh_cache="false">
+    <face>
+	<BodyProperties version="4" age="8" weight="0.2515" build="0.517"  key="000830020C44400A7077E2DAAE11B37278DA840D687ED100DB4291BA7E93171900884603088E050E00621941231033210000000000002700000000004B0440C0"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="4" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="10" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_medium_temp_sergeant_cativellaun" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_cativellaun_placeholder_father_a" default_group="Cavalry" age="100" voice="earnest" is_hero="true" is_template="true" culture="Culture.battania" occupation="Lord" name="{=!}cs_hero_cativellaun_placeholder_father_a" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="100" weight="0.2515" build="0.517"  key="000830020C44400A7077E2DAAE11B37278DA840D687ED100DB4291BA7E93171900884603088E050E00621941231033210000000000002700000000004B0440C0"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_medium_temp_sergeant_cativellaun" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_cativellaun_male_lord_template" default_group="Infantry" age="0" voice="curt" is_hero="true" is_template="true" culture="Culture.battania" occupation="Lord" name="{=!}Farnech" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.0015" build="0.4812"  key="0005780D0E4427D2203AB0DC3FFA00D47BCF6C2F3331EF1FECDCECF48DD6EE1A0197001409F7516E2210000005A001110000000000001700000000006D285044"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_medium_temp_sergeant_cativellaun" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_cativellaun_female_lord_template" default_group="Infantry" age="0" voice="curt" is_hero="true" is_female="true" is_template="true" culture="Culture.battania" occupation="Lord" name="{=!}Doireann" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.0015" build="0.4812"  key="0005780D0E4427D2203AB0DC3FFA00D47BCF6C2F3331EF1FECDCECF48DD6EE1A0197001409F7516E2210000005A001110000000000001700000000006D285044"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_medium_temp_sergeant_cativellaun" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Cativellaun end-->
+  <!--fen Haldoc start-->
+  <NPCCharacter id="cs_hero_wyndor" default_group="Infantry" age="28" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_wyndor}Wyndor" face_mesh_cache="false">
+    <face>
+     <BodyProperties version="4" age="28.66" weight="0.5123" build="0.25"  key="0000980D80580905007D712484009C4A63AB9FA0A1A13F00397609B658B3574801448613F4B93116278714630D006768000000000000127700000000148C3042"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_heavy_temp_wildling" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_ocnar" default_group="Infantry" age="34" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_ocnar}Ocnar" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="34.18" weight="0.99" build="0.4552"  key="000A300352441343E077D7828401EC4CEA4D93A0A1A145905F773E4F8066EEC70277F624F7ED65EC2787178F0D00CA6800000000000012770000000014F44102"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="2" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_geldir" default_group="Infantry" age="24" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_geldir}Geldir" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="24.66" weight="0.5" build="0.5"  key="0005FC0B404413D0AADE7A2F84009411C887D8BB499B8BC37AC8C7675BC7672811311614023A5A62278712222240C31800000000000012770000000014541102"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="4" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Valor" value="-2" />
+      <Trait id="Calculating" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_medium_temp_sergeant" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_ednain" default_group="Infantry" age="24" voice="curt" is_hero="true" is_female="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_ednain}Ednain" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="24.71" weight="0.1296" build="0.5216"  key="000A780AD3581001DA0E7A2F84001E13C88744D9498D18047AC8C5675BC7672801182613F13A5A62278712222240C318000000000000127700000000261C40C3"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="4" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Valor" value="2" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_medium_temp_wildling" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_haldoc_male_lord_template" default_group="Infantry" age="0" voice="curt" is_hero="true" is_template="true" culture="Culture.battania" occupation="Lord" name="{=!}Nannus" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.2885" build="0.6296"  key="000088055E58261C0F3F3BF338C122C356EA2D4C331172009FEDFF0EE1E3CF910299402409F3816B2210177707A001110000000000001700000000006D200042"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_haldoc_female_lord_template" default_group="Infantry" age="0" voice="curt" is_hero="true" is_female="true" is_template="true" culture="Culture.battania" occupation="Lord" name="{=!}Cridhe" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.1466" build="0.5185"  key="0005C8055858260F9C74A8C5D648478B56EAAA986C5BBB879FEDFF0EE1E3CF910048200304F3816B2210177707A001110000000000001700000000006C880042"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bat_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!--fen Haldoc end-->
+  <!--Frostclaw start-->
+  <NPCCharacter id="cs_hero_hedwyr" default_group="Infantry" age="35" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_hedwyr}Hedwyr Frostclaw" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="35" weight="0.3843" build="0.4738"  key="0000840412582003003ED2FE31B1E00063C7614963111910ECDBA22D8DD5B41505976057F9597198040000012200000000000000000038000000000051303042"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="7" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="frostclaw_tier_6_template" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_bermon" default_group="Infantry" age="57" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_bermon}Bermon Frostclaw" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="57" weight="0.5679" build="0.4923"  key="0000840A5E5826C100F9D2FE31B1E00063C7D14963111910ECDBA22D8DD5B41505879057F8597198040000012200000000000000000038000000000051084042"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="frostclaw_tier_4" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_brogyx" default_group="Infantry" age="32" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_brogyx}Brogyx Frostclaw" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="31.30" weight="0.5" build="0.8843"  key="00007402814427CC7F3AB1BB3DE3313403CF614C3334EF15ECDBA22D8DD5EE11036D7035F6D971982210000005A001110000000000001700000000006CC80042"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="5" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="2" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Valor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="frostclaw_tier_5_template" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_dorron" default_group="Infantry" age="38" voice="curt" is_hero="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_dorron}Dorron Frostclaw" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="38" weight="0.6605" build="0.1219"  key="00008406CC5815817F3F727D31B3900063C7614C3331EF15ECDBA22D8DD5B4150262A02406597198040000012270511000000000000036000000000050C06100"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="5" />
+      <Trait id="Commander" value="9" />
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="2" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="frostclaw_tier_5_template" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Frostclaw end-->
+  <!--Forestsong start-->
+  <NPCCharacter id="cs_hero_vynedh" default_group="Infantry" age="24" voice="curt" is_hero="true" is_female="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_vynedh}Vynedh" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="24.09" weight="0.0123" build="0.5"  key="00158C0FCD58100EE08EF1F32224E000018B771E383FF604ECDB892D8E75878603970035F9487198000000080000F10000000000000039700000000001204043"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="9" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="forestsong_tier_4" />
+      <EquipmentSet id="forestsong_tier_1_civilian_template"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_ryvenae" default_group="Cavalry" age="28" voice="earnest" is_hero="true" is_female="true" culture="Culture.battania" occupation="Lord" name="{=InFa.hero_ryvenae}Ryvenae" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="28.00" weight="0.034" build="0.0602"  key="0015800006583010F07BF1F12E524F00115A3E1FE80C1500ECDD18038EE50E0D01711013F78170B1000000060000711300000000000016000000000000F01043"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="9" />
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="2" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Honor" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="forestsong_tier_4_c" />
+      <EquipmentSet id="forestsong_tier_1_civilian_template"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Forestsong end-->
+<!--**Vlandian Lords**-->
+  <!--dey Uxkhal start-->
+  <NPCCharacter id="cs_hero_traid" default_group="Cavalry" age="61" voice="earnest" is_hero="true" culture="Culture.empire" occupation="Lord" name="{=InFa.hero_traid}Traid" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="61" weight="0.4969" build="0.5"  key="00058C041A580383748731F9234482835A558829499B4760310B0E1C8BE04D290567765706662448021520322102271400000000000066770000000010D46000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="2" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Valor" value="2" />
+      <Trait id="Generosity" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_heavy_temp_sergeant_tremand" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_dora" default_group="Cavalry" age="23" voice="earnest" is_hero="true" is_female="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_dora}Dora" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="23.18" weight="0.1219" build="0.2454"  key="0010B8008088300520777B58E6312C557BAD875C360EE4D45A951FE78861015805542656F52A89F7432120354107242200000000000055000000000010B43003"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="9" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_heavy_temp_baron_female" />
+      <EquipmentSet id="vla_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_tremand" default_group="Cavalry" age="29" voice="earnest" is_hero="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_tremand}Tremand" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="29.00" weight="0.1306" build="0.5372"  key="00058C02805801C3F48731F9234482835A558529499BCD1A310B0E1C8BE07D2401882613086624480215203221022714000000000000183200000000111C6000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="2" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_heavy_temp_sergeant_tremand" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_lisara" default_group="Cavalry" age="25" voice="earnest" is_hero="true" is_female="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_lisara}Lisara" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="25.00" weight="0.1602" build="0.2083"  key="000DB8035214300420777B57E6C595537BE9875D564EEE3A5A9577576A61015501632613F62A87B7432120354107242200000000000016320000000010DC3003"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_heavy_temp_sergeant_female" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_tredias" default_group="Cavalry" age="23" voice="earnest" is_hero="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_tredias}Tredias" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="23.00" weight="0.0139" build="0.3904"  key="00058C0280580101815335E723414183AA788729499BFF47310B0E128BE07B220086060308662448774320322102261300000000000008000000000011045000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="9" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Valor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_heavy_temp_sergeant_tredias" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_rainwad" default_group="Cavalry" age="32" voice="earnest" is_hero="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_rainwad}Rainwad" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="32.00" weight="0" build="0.5"  key="0000D00540580700946993EE234035A8B24AA172439E0500D00B15238DC32D2102970624096512326377203651022733000000000000297000000000113C8040"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="6" />
+      <Trait id="Commander" value="9" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="6" />
+      <Trait id="Mercy" value="-2" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Generosity" value="-2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_heavy_temp_baron_rainwad" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_ilenna" default_group="Cavalry" age="26" voice="curt" is_hero="true" is_female="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_Ilenna}Hilenna" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="26" weight="0.2037" build="0.5"  key="000AA40D14E4200E1010D7561D11FE8BF18E8E3609878527A0077E13866728F201573613054510253254034632C200040000000000001538000000005E9C0003"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="9" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_noncom_temp" />
+      <EquipmentSet id="vla_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_sonaled" default_group="Cavalry" age="8" voice="earnest" is_hero="true" is_female="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_sonaled}Sonaled" face_mesh_cache="false">
+    <face>
+	<BodyProperties version="4" age="8" weight="0.1944" build="0.2454"  key="0000D0055414200BF44993EA23438BA8B24A4131439E3E00D00F1E238DC32D210154361305331012637720365102273300000000000029700000000010A400C3"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="9" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_noncom_temp" />
+      <EquipmentSet id="vla_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_despir" default_group="Cavalry" age="2" voice="earnest" is_hero="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_despir}Despir" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="2" weight="0.0149" build="0.483"  key="0005D006D15807CC346993EE234035ACF249A1724A9B55F1D00B71228DC32D2101970613096512326377203651022733000000000000297000000000113C7080"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="4" />
+      <Trait id="Commander" value="10" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_heavy_temp_baron" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_rochard" default_group="Cavalry" age="28" voice="earnest" is_hero="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_rochard}Rochard" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="28" weight="0.1111" build="0.4969"  key="0010E80F0058109C0469849849211923E79D908A43DD25A09109161D8AC5422301972613095710090379203C31072787000000000000297000000000113C7040"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Valor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_bernadelys" default_group="Cavalry" age="12" voice="curt" is_hero="true" is_female="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_bernadelys}Bernadelys" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="12" weight="0.2315" build="0.2809"  key="001E580AC014400A5010DFEA1D11E180D119888D096DB11F7001F1796EE711690164361306156A0B3254034632C2000400000000000015380000000012D42000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Politician" value="7" />
+      <Trait id="Manager" value="7" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_medium_temp_ranged_bernadelys" />
+      <EquipmentSet id="vla_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_uxkhal_placeholder_father_a" default_group="Cavalry" age="100" voice="earnest" is_hero="true" is_template="true" culture="Culture.vlandia" occupation="Lord" name="{=!}cs_hero_uxkhal_placeholder_father_a" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="100" weight="0.2315" build="0.2809"  key="001E580AC014400A5010DFEA1D11E180D119888D096DB11F7001F1796EE711690164361306156A0B3254034632C2000400000000000015380000000012D42000"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_medium_temp_ranged_bernadelys" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_uxkhal_male_lord_template" default_group="Infantry" age="0" voice="curt" is_hero="true" is_template="true" culture="Culture.vlandia" occupation="Lord" name="{=!}Stamar" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.2885" build="0.6296"  key="000088055E58261C0F3F3BF338C122C356EA2D4C331172009FEDFF0EE1E3CF910299402409F3816B2210177707A001110000000000001700000000006D200042"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_uxkhal_female_lord_template" default_group="Infantry" age="0" voice="curt" is_hero="true" is_female="true" is_template="true" culture="Culture.vlandia" occupation="Lord" name="{=!}Tibal" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.1466" build="0.5185"  key="0005C8055858260F9C74A8C5D648478B56EAAA986C5BBB879FEDFF0EE1E3CF910048200304F3816B2210177707A001110000000000001700000000006C880042"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_heavy_temp_sergeant_female" />
+      <EquipmentSet id="vla_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!--dey Uxkhal end-->
+  <!--Orebarons start-->
+  <!--Orebarons end-->
+<!--**Khuzait Lords**-->
+  <!--Teyjit start-->
+  <NPCCharacter id="cs_hero_teyju" default_group="Cavalry" age="33" voice="curt" is_hero="true" culture="Culture.khuzait" occupation="Lord" name="{=InFa.hero_teyju}Teyju" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="33.00" weight="0.0633" build="0.659"  key="0015F80F1700088170664F4744F0777C219D6587F2FC6672FF02310E7FE3F112057A1657075020C0000210601134712400000000000057710000000068F43000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_heavy_temp_khan" />
+      <EquipmentSet id="khu_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_atey" default_group="Cavalry" age="23" voice="curt" is_hero="true" is_female="false" culture="Culture.khuzait" occupation="Lord" name="{=InFa.hero_atey}Atey" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="23.00" weight="0.1065" build="0.6096"  key="0010F80F00000089D0664F4744F0777C219D6587F2FC66D1CF02310E7FB3F5120069260306345227000210601134712400000000000016710000000068C44000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="7" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_medium_temp_khan" />
+      <EquipmentSet id="khu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_kutey" default_group="Cavalry" age="25" voice="curt" is_hero="true" is_female="false" culture="Culture.khuzait" occupation="Lord" name="{=InFa.hero_kutey}Kutey" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="25.00" weight="0.1836" build="0.6034"  key="0015F80F000006C0B06501E4EF621675419763149EEE2D15340706DE69D3C500016936130646311E000210601134712400000000000016430000000068C47000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="7" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_medium_temp_khan" />
+      <EquipmentSet id="khu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_delyaz" default_group="Cavalry" age="21" voice="curt" is_hero="true" is_female="true" culture="Culture.khuzait" occupation="Lord" name="{=InFa.hero_delyaz}Delyaz" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="21.30" weight="0.4969" build="0.7531"  key="0015FC0F00A00004E37112220DDD33D33D3E1C2DC7FF105FD14716DEA7734144000B7602F006117D005061620001115400000000000010770000000066142043"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="4" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="khu_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_yaznam" default_group="Cavalry" age="57" voice="curt" is_hero="true" is_female="true" occupation="Lord" culture="Culture.khuzait" name="{=InFa.hero_yaznam}Yaznam" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="57.42" weight="0.3133" build="0.3765"  key="0015F80F142C0004B06501E4EF621670B5DA980CF7FE1F6134070EDE69DCEA1705365657F346311E000000601619715600000000000023710000000040641043"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="7" />
+      <Trait id="Manager" value="7" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_noncom_temp" />
+      <EquipmentSet id="khu_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_nizvan" default_group="Cavalry" age="24" voice="curt" is_hero="true" is_female="true" occupation="Lord" culture="Culture.khuzait" name="{=InFa.hero_nizvan}Nizvan" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="24.26" weight="0.7114" build="0.2407"  key="0015F80F14003005E0B002FEFF6B177407DF780CF7FEFF117101DEF169DCEA170044B603F446311E000000601619715600000000000023710000000040944043"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="2" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_noncom_temp" />
+      <EquipmentSet id="khu_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_sansey" default_group="HorseArcher" age="5" voice="softspoken" is_hero="true" occupation="Lord" culture="Culture.khuzait" name="{=InFa.hero_sansey}Sansey" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="5.00" weight="0.0602" build="0.5046"  key="0015F80F0000074AE0B002FEFF6B1172A7CF780CF7FEFF117101DEF169DCEA17014816130446311E000000601619715600000000000023710000000040844042"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="9" />
+      <Trait id="Commander" value="9" />
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_heavy_temp_sergeant_sansey" />
+      <EquipmentSet id="khu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_oktai" default_group="Cavalry" age="48" voice="curt" is_hero="true" culture="Culture.khuzait" occupation="Lord" name="{=InFa.hero_oktai}Oktai" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="48" weight="0.341" build="0.5617"  key="0018D80F15001791F33185A54BF11B4C111C3538F2DCBB02FF02203271E3F11600585603054750C0000210601134712400000000000057710000000068AC9082"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="5" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="9" />
+      <Trait id="Manager" value="9" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Generosity" value="-2" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="khu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_sarnai" default_group="Cavalry" age="12" voice="softspoken" is_hero="true" is_female="true" culture="Culture.khuzait" occupation="Lord" name="{=InFa.hero_sarnai}Sarnai" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="12" weight="0.054" build="0.2176"  key="001BF40F132C300AE26511DCB0F60001CA30510ED0FF0B20CC1BC00174161046002316030211402B000000000000000000000000000000000000000030442080"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="9" />
+      <Trait id="Generosity" value="2" />
+      <Trait id="Mercy" value="2" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_noncom_temp" />
+      <EquipmentSet id="khu_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_tuncai" default_group="Cavalry" age="51" voice="curt" is_hero="true" culture="Culture.khuzait" occupation="Lord" name="{=InFa.hero_tuncai}Tuncai" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="51" weight="0.6404" build="0.5478"  key="0015F80F1400368110B00BFCF435B87407DF780CF36E7F107101DEF169DCEA170078A6030746311E000000601619715600000000000023710000000040FC3042"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="10" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_heavy_temp_khan" />
+      <EquipmentSet id="khu_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_batugai" default_group="Cavalry" age="16" voice="curt" is_hero="true" culture="Culture.khuzait" occupation="Lord" name="{=InFa.hero_batugai}Batugai" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="16" weight="0.6404" build="0.5478"  key="0015F80F1C001088D7500FF7FD377A9792DB7D0CF78C7FD17101DEF185E6AA2D0078A6030746311E000000601619715600000000000023710000000040FC9042"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="4" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="5" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_medium_temp_khan_batugai" />
+      <EquipmentSet id="khu_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_kutlug" default_group="Cavalry" age="1" voice="curt" is_hero="true" culture="Culture.khuzait" occupation="Lord" name="{=InFa.hero_kutlug}Kutlug" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="1" weight="0.2731" build="0.5478"  key="0015940D8000008143900CFE5999811C8697715D75C70EA19CCA3D005CDACD100178461307763617000000601619715600000000000023710000000040FC4000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Honor" value="2" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_medium_temp_khan_kutlug" />
+      <EquipmentSet id="khu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_teyjit_placeholder_father_a" default_group="Cavalry" age="100" voice="curt" is_hero="true" is_template="true" culture="Culture.khuzait" occupation="Lord" name="{=!}cs_hero_teyjit_placeholder_father_a" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="100" weight="0.2731" build="0.5478"  key="0015940D8000008143900CFE5999811C8697715D75C70EA19CCA3D005CDACD100178461307763617000000601619715600000000000023710000000040FC4000"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_medium_temp_khan_kutlug" />
+      <EquipmentSet id="khu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_khuzait_male_lord_template" default_group="Cavalry" age="0" voice="curt" is_hero="true" is_template="true" culture="Culture.khuzait" occupation="Lord" name="{=!}Akcai" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.341" build="0.5617"  key="0018D80F15001791F33185A54BF11B4C111C3538F2DCBB02FF02203271E3F11600585603054750C0000210601134712400000000000057710000000068AC9082"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_template_flamboyant" />
+      <EquipmentSet id="khu_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_khuzait_female_lord_template" default_group="Cavalry" age="0" voice="curt" is_hero="true" is_female="true" is_template="true" culture="Culture.khuzait" occupation="Lord" name="{=!}Duuren" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.6404" build="0.7963"  key="001BF40F132C300AE26511DCB0F60001CA30510ED0FF0B20CC1BC00174161046002CA6030211402B0000000000000000000000000000000000000000303C2084"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="khu_bat_template_flamboyant" />
+      <EquipmentSet id="khu_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Teyjit end-->
+  <!--Hugunait start-->
+  <NPCCharacter id="cs_hero_atidin" default_group="Cavalry" age="38" voice="curt" is_hero="true" occupation="Lord" culture="Culture.khuzait"  name="{=InFa.hero_atidin}Atudin" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="38.00" weight="0.1883" build="0.2948"  key="001BD40A5D2C178104819439DF45D41CD332832EE8DA2CD281182E3273EED83307643678F6243118004505922200110000000000000066100000000024CC7002"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="8" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hugunait_tier_5_template" />
+      <EquipmentSet id="khu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_sudekin" default_group="Cavalry" age="28" voice="curt" is_hero="true" occupation="Lord" culture="Culture.khuzait"  name="{=InFa.hero_sudekin}Sudekin" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="28.00" weight="0.1219" build="0.5"  key="001BF40D80FC088AE0887E54EF094116A929850BF09B1F4FAE1224807D6E6F2101672613F601145C004505922200110000000000000016770000000072C41002"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="6" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Generosity" value="2" />
+      <Trait id="Calculating" value="-2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hugunait_barbarian_template" />
+      <EquipmentSet id="khu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+   <!--Hugunait end-->
+<!--**Aserai Lords**-->
+   <!-- banu Ghabar start-->
+  <NPCCharacter id="cs_hero_dariush" default_group="Cavalry" age="40" voice="curt" is_hero="true" culture="Culture.aserai" occupation="Lord" name="Нагаш" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="40.00" weight="0.0417" build="0.5417"  key="0029F80F0E000000A13B38CD11E012D862F1833330D6E95A00B8139DC7C3FE8403A81635FA4E011165653021131022110000000000001A770000000017648002"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="6" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="ase_bat_medium_temp_extravagant_dariush" />
+      <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_zhaleh" default_group="Cavalry" age="21" voice="curt" is_hero="true" is_female="true" culture="Culture.aserai" occupation="Lord" name="{=InFa.hero_zhaleh}Zhaleha" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="21.92" weight="0.4429" build="0.5"  key="002BD40FD4FC0012F0414341781CA487B8BB122F32B827C2B81ACF9F6D1CDFF20037760303FD19116637030707CC0025000000000000237100000000125C1043"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="8" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="6" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="ase_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="ase_noncom_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_arash" default_group="Cavalry" age="33" voice="curt" is_hero="true" culture="Culture.aserai" occupation="Lord" name="{=InFa.hero_arash}Arash" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="33.00" weight="0.1304" build="0.4863"  key="0020840F0F2C058FCF3BD1F03DF0114504DF614C4406E719FED7FE2FBDE5EE120297202409F99190000000000000000000000000000000000000000051207080"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="7" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Valor" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="ase_bat_medium_temp_extravagant_arash" />
+      <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_tahmineh" default_group="Cavalry" age="22" voice="curt" is_hero="true" is_female="true" culture="Culture.aserai" occupation="Lord" name="{=InFa.hero_tahmineh}Tahmineh" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="22.00" weight="0.125" build="0.2485"  key="0029E00FD22C100E9773422B30911AB5A8776729E773C2458F884A8A86A676000064200306116006000012200700047400000000000015400000000000C80003"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="4" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Valor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="ase_bat_medium_temp_extravagant_tahmineh" />
+      <EquipmentSet id="ase_noncom_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_derafsh" default_group="Cavalry" age="3" voice="curt" is_hero="true" culture="Culture.aserai" occupation="Lord" name="{=InFa.hero_derafsh}Derafsh" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="3" weight="0.1652" build="0.4198"  key="002BF80F0A2C05DAF17B36DC11E712DC62F1833330D94C1300B8139DC7C3FE8401962614099E033165653021131022110000000000001A7700000000173C6002"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="6" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="ase_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_selqet" default_group="Cavalry" age="9" voice="curt" is_hero="true" is_female="true" culture="Culture.aserai" occupation="Lord" name="{=InFa.hero_selqet}Selqet" face_mesh_cache="false">
+    <face> <!-- old face key:  <BodyProperties version="4" age="9" weight="0.3966" build="0.3596"  key="0031800C522C1003B275C110C124B03CE5924338AC1CD539A944CCE073F724010155601405865A4323230000180001A300000000000008710000000032A03003"  /> -->
+	<BodyProperties version="4" age="9" weight="0.3966" build="0.3596"  key="0031800C52141004B275C110C124B03CE5924338AC1CD539A944CCE073F724010055600305865A4323230000180001A300000000000008710000000032A03000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="4" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="7" />
+      <Trait id="Manager" value="7" />
+      <Trait id="Calculating" value="2" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="ase_bat_medium_temp_sergeant_selqet" />
+      <EquipmentSet id="ase_noncom_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_ghabar_placeholder_father_a" default_group="Cavalry" age="100" voice="curt" is_hero="true" is_template="true" culture="Culture.aserai" occupation="Lord" name="{=!}PlaceholderfatherA" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="100" weight="0.3966" build="0.3596"  key="0031800C52141004B275C110C124B03CE5924338AC1CD539A944CCE073F724010055600305865A4323230000180001A300000000000008710000000032A03000"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="ase_bat_template_flamboyant" />
+      <EquipmentSet id="ase_noncom_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_ghabar_male_lord_template" default_group="Cavalry" age="0" voice="curt" is_hero="true" is_template="true" culture="Culture.aserai" occupation="Lord" name="{=!}Arsham" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.1304" build="0.4863"  key="0020840F0F2C058FCF3BD1F03DF0114504DF614C4406E719FED7FE2FBDE5EE1202972024F9F991900000000000000000000000000000000000000000512070C2"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="ase_bat_template_flamboyant" />
+      <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_ghabar_female_lord_template" default_group="Cavalry" age="0" voice="curt" is_hero="true" is_female="true"  is_template="true" culture="Culture.aserai" occupation="Lord" name="{=!}Azadeh" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.3966" build="0.3596"  key="0031800C522C1003B275C110C124B03CE5924338AC1CD539A944CCE073F724010155601405865A4323230000180001A300000000000008710000000032A03003"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="ase_bat_template_flamboyant" />
+      <EquipmentSet id="ase_noncom_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+   <!--banu Ghabar end-->
+   <!--banu Qatal start-->
+  <NPCCharacter id="cs_hero_mamuk" default_group="Infantry" age="27" voice="curt" is_hero="true" culture="Culture.aserai" occupation="Lord" name="Палахафон" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="27.03" weight="0.0895" build="0.4614"  key="001BAC0F000019C041663DAA39957DA35CD88831802322B200B84335C7C32C3601671613F69A3599165130246614322600000000000076000000000016C43003"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="9" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hsh_bat_temp_emir" />
+      <EquipmentSet id="ase_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_nasib" default_group="Infantry" age="25" voice="curt" is_hero="true" culture="Culture.aserai" occupation="Lord" name="{=InFa.hero_nasib}Nasib" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="25.00" weight="0.4537" build="0.5"  key="0015F80F002C03C81720733DD3E0BD8011E081F0442EEEE03333068081F11E000147761304E4202D0018024819010555000000000000647700000000007C0040"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hsh_bat_temp_emir" />
+      <EquipmentSet id="ase_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_tufail" default_group="Infantry" age="43" voice="curt" is_hero="true" culture="Culture.aserai" occupation="Lord" name="{=InFa.hero_tufail}Tufail" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="43.00" weight="0.2608" build="0.1991"  key="001B7C0FC0000601E673E978CB545AB71C68845988878928083100087DF111810373463507B92158661730276611022300000000000019000000000016EC8000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="10" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="armored_hashishi" />
+      <EquipmentSet id="ase_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_jaffar" default_group="Infantry" age="25" voice="curt" is_hero="true" culture="Culture.aserai" occupation="Lord" name="{=InFa.hero_jaffar}Jaffar" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="25" weight="0.3287" build="0.4707"  key="001B740D96000080FB235A015988AE0330E3BB1A005B1616FFF15E181E2CC932014756130488C18808470003724145690000000000001377000000006A7C9000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="5" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+	  <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="errant_hashishi" />
+      <EquipmentSet id="ase_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_qatal_male_lord_template" default_group="Infantry" age="0" voice="curt" is_template="true"  is_hero="true" culture="Culture.aserai" occupation="Lord" name="{=!}Mufassa" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.4537" build="0.5"  key="0015F80F002C03C81720733DD3E0BD8011E081F0442EEEE03333068081F11E0001477613F4E4202D0018024819010555000000000000647700000000007C00C2"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="armored_hashishi" />
+      <EquipmentSet id="ase_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_qatal_female_lord_template" default_group="Infantry" age="0" voice="curt" is_hero="true" is_female="true" is_template="true" culture="Culture.aserai" occupation="Lord" name="{=!}Zahida" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.2608" build="0.1991"  key="001B7C0FC0000601E673E978CB545AB71C68845988878928083100087DF1118103734635F7B92158661730276611022300000000000019000000000016EC80C2"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="armored_hashishi" />
+      <EquipmentSet id="ase_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+   <!--banu Qatal end-->
+<!--**Sturgian Lords**-->
+   <!--Prigoroving start-->
+  <NPCCharacter id="cs_hero_aslav" default_group="Cavalry" age="35" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_aslav}Aslav" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="35.00" weight="0.7269" build="0.3565"  key="00005803C0E41A40107843ED21E2330753B7814A52A82514D310FD228DC5A4140295B624F91D616777750005154038050000000000002921000000002D344082"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_sulimbev" default_group="Infantry" age="28" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_sulimbev}Sulimir" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="28.27" weight="0.0358" build="0.3197"  key="0000E40F00E40941107000C400E2170721B7814A52681C10D3157E008D75710301A51613FA161322352600081112D70F0000000000001A51000000002D446082"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Valor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_rumisa" default_group="Infantry" age="17" voice="curt" is_hero="true" is_female="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_rumisa}Rumisa" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="17" weight="0.0448" build="0.3272"  key="00000402C014300F5B7445315583AAB9804D8716668A93288847EC1174585B5484221635043353130000000040000003000000000000345100000000789420C3"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="stu_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_kazbev" default_group="Infantry" age="26" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_kazbev}Kazbev" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="26.54" weight="0.0346" build="0.2334"  key="0000580580E42008107223E721E0330753B7814A52A82514D310FD228DC5A41412140613F5166167605500031100F5010000000000001541000000002CBC8083"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="6" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_ilyazev" default_group="Infantry" age="15" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_ilyasev}Ilyasev" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="15" weight="0.5324" build="0.7271"  key="0002A00AC0E4039C10700AA70EF70C0CC1D46A93025C0A50D2224E22BC839B01025B86240515110B352600081112D70F0000000000001A51000000002CBC2000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="6" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_sergeant" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_prigoroving_male_lord_template" default_group="Infantry" age="0" voice="curt" is_hero="true" is_template="true" culture="Culture.sturgia" occupation="Lord" name="{=!}Sulim" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.7269" build="0.3565"  key="00005803C0E41A40107843ED21E2330753B7814A52A82514D310FD228DC5A4140295B624F91D616777750005154038050000000000002921000000002D344082"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_template_medium" />
+      <EquipmentSet id="stu_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_prigoroving_female_lord_template" default_group="Infantry" age="26" voice="curt" is_hero="true" is_female="true" is_template="true" culture="Culture.sturgia" occupation="Lord" name="{=!}Seyna" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="24.00" weight="0.0448" build="0.3272"  key="00000402C014300F5B7445315583AAB9804D8716668A93288847EC1174585B5484221635043353130000000040000003000000000000345100000000789420C3"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_template_medium" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+   <!--Prigoroving end-->
+   <!--Polovtoving start-->
+  <NPCCharacter id="cs_hero_kaloyin" default_group="Cavalry" age="65" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_kaloyin}Kaloyin" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="65.32" weight="0.3997" build="0.4043"  key="0005400540FC18C4FA91733A2124228222215CDEC07BFD10D689E3529FC0520E06866668F88494764101487921000204000000000000187700000000111C3002"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_knyaz_yanrasin" />
+      <EquipmentSet id="stu_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_yanrasin" default_group="Cavalry" age="35" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_yanrasin}Yanrasin" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="30.38" weight="0.5" build="0.5"  key="0005400440FC08C6DA917338212A228222215CDEC09E4F31D689E3529FC0520E01000614F88494764101187921000204000000000000187700000000111C2002"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="8" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Valor" value="-2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_knyaz_yanrasin" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_yanolya" default_group="Cavalry" age="27" voice="curt" is_hero="true" is_female="true" occupation="Lord" culture="Culture.sturgia" name="{=InFa.hero_yanolya}Yanolya" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="27.00" weight="0.037" build="0.1219"  key="000A540800FC100EEA9A103101C222D122215CEDE0A82814A68A80F19FC0520801521613F5A49212410153292100020400000000000018770000000010B42003"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_noncom_temp_polovtsian" />
+      <EquipmentSet id="stu_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_galya" default_group="Cavalry" age="22" voice="curt" is_hero="true" is_female="true" occupation="Lord" culture="Culture.sturgia" name="{=InFa.hero_galya}Galya" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="22.02" weight="0.3781" build="0.4398"  key="0005A40D0088200AA17416E04407708878BC8855BDAC10C1E780A1F760EC0CCA00476603F47C233B2654034632C20004000000000000157700000000129400C3"  />
+    </face>
+    <Traits>
+      <!-- NONCOMBATANT FEMALE -->
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Valor" value="-2" />
+      <Trait id="Generosity" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_noncom_temp_polovtsian" />
+      <EquipmentSet id="stu_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_lovkin" default_group="HorseArcher" age="31" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_lovkin}Loykin" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="31.00" weight="0.6096" build="0.3256"  key="00050C03C088068D00775A1881A72E8222FB8331E2A22C013256D2E2BBAF1421017596140756316D0000178A012233900000000000000000000000001AFC1042"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="2" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_sergeant_polovtsian" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_yankoyin" default_group="Cavalry" age="5" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_yankoyin}Yankoyin" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="5" weight="0.1235" build="0.3873"  key="00051C0540700881DA969338212A218221215CDEC07E9F22D689ECB29FC0520B0076260307849476410118792100020400000000000018770000000010FC3002"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="7" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Cautious" value="-2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_knyaz_yanrasin" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_mesnin" default_group="Cavalry" age="39" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_mesnin}Mesnin" face_mesh_cache="false">
+    <face>
+	<BodyProperties version="4" age="39" weight="0.8133" build="0.5448"  key="00055404008837C8000D5A14AAE47E8822FBC751E2D7BC073956E2E2BBBF49BA0278C624074531970000178A012233900000000000000000000000001AFC7040"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="8" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="1" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="2" />
+      <Trait id="Mercy" value="-2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_knyaz_mesnin" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_zarya" default_group="HorseArcher" age="15" voice="curt" is_hero="true" is_female="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_zarya}Zarya" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="15" weight="0.2345" build="0.3812"  key="000A500814703002E19A90B3013719E161D0966DE0CE4C3CB223B2E46CD30A150056460305372214410153292100020400000000000018770000000010B40083"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="HorseArcherFightingSkills" value="6" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="6" />
+      <Trait id="Manager" value="6" />
+      <Trait id="Valor" value="2" />
+      <Trait id="Generosity" value="-2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_sergeant_polovtsian_female" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_polovtoving_male_lord_template" default_group="Cavalry" age="0" voice="curt" is_hero="true" is_template="true" culture="Culture.sturgia" occupation="Lord" name="{=!}Rasin" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.1235" build="0.3873"  key="00051C0540700881DA969338212A218221215CDEC07E9F22D689ECB29FC0520B0076260307849476410118792100020400000000000018770000000010FC3002"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_sergeant_polovtsian" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_polovtoving_female_lord_template" default_group="HorseArcher" age="0" voice="softspoken" is_hero="true" is_female="true" is_template="true" culture="Culture.sturgia" occupation="Lord" name="{=!}Yana" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="0" weight="0.2345" build="0.3812"  key="000A500814703002E19A90B3013719E161D0966DE0CE4C3CB223B2E46CD30A150056460305372214410153292100020400000000000018770000000010B40083"  />
+    </face>
+    <Traits>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="stu_bat_heavy_temp_sergeant_polovtsian_female" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+   <!--Polovtoving end-->
+   <!--Band of Stoneborn start-->
+  <NPCCharacter id="cs_hero_hrongar" default_group="Infantry" age="35" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_hrongar}Hrongar Stonewill" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="35.51" weight="0.588" build="0.6516"  key="0005B402804404544D636092EF15834CB7736CA612BB3B27E0515AEE86B80C67038A9635F81E017508D75333431740040000000000003800000000000F1C3102"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="9" />
+      <Trait id="Commander" value="7" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bandofstoneborn_tier_5_b_template" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_gusnor" default_group="Infantry" age="32" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_gusnor}Gusnor Stoneface" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="32.00" weight="0.7022" build="0.8627"  key="0005340141700A0AF5B790A2EF15834C622A644400C20509E6E1D41D86D60B4502CDB6240C1E0D6B08C55306241240070000000000002B00000000000FA46040"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bandofstoneborn_tier_4" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_erjar" default_group="Infantry" age="28" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_erjar}Erjar Stonehail" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="28.00" weight="0.1759" build="0.3704"  key="0005140158700541E571919922E117996655851215CD6501311102079BF5D4180186361308E44019410100255401050400000000000018000000000011040000"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="6" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="5" />
+      <Trait id="Manager" value="5" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bandofstoneborn_tier_5_template" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_yrsa" default_group="Infantry" age="27" voice="curt" is_hero="true" is_female="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_yrsa}Yrsa Stoneeye" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="27.95" weight="0.1914" build="0.5046"  key="000500029C880008E5C873CC00D01F99BAFA2C3452DFC7006C08A10F539118E501783613F70E088A63B1346F4A32578200000000000017700000000004FC3043"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="9" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="bandofstoneborn_tier_5_template" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+   <!--Band of Stoneborn end-->
+   <!--Snowpelts start-->
+  <NPCCharacter id="cs_hero_vikar" default_group="Infantry" age="32" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_vikar}Vikar" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="32.00" weight="0.2388" build="0.7454"  key="000534000C70258190CB00E800488877F111AFF37327210DAA03480F887EEF12049B4646F9E9AAA9667F154871898008000000000000597700000000093C8082"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="snowpelt_tier_4" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_brachnar" default_group="Infantry" age="55" voice="curt" is_hero="true" culture="Culture.sturgia" occupation="Lord" name="{=InFa.hero_brachnar}Brachnar" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="55.17" weight="0.733" build="0.5108"  key="000B4C02807008CC185F21540040337821777888022C2B72E0030E4F387EEF100588B656F84DF4EE6AAA0567711C8005000000000000580B0000000009048082"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="8" />
+      <Trait id="Commander" value="4" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="snowpelt_tier_4_b" />
+      <EquipmentSet id="stu_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+   <!--Snowpelts end-->
+<!--**Other Lords**-->
+   <!--Swordsisters start-->
+  <NPCCharacter id="cs_hero_brienna" default_group="Infantry" age="41" voice="earnest" is_hero="true" is_female="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_brienna}Brienna the Sword-Sister" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="41.00" weight="0.0525" build="0.5"  key="0010940FC0B40010A010DE244410658268BD222F223C021E71D171C86FAC1E8803871635F87919063254034632C2000400000000000015380000000013042043"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="sword_sister_tier_5" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_gevetina" default_group="Infantry" age="28" voice="curt" is_hero="true" is_female="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_gevetina}Gevetina the Sword-Sister" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="27.00" weight="0.1836" build="0.2454"  key="000AAC0AC088300B884143414400418868BD9ADCBA5689569554C58B6DDC0CBC01543613F56C62A22654034632C20004000000000000157700000000129C1003"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="5" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="sword_sister_tier_5" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_thianna" default_group="Infantry" age="23" voice="earnest" is_hero="true" is_female="true" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_thianna}Thianna the Sword-Sister" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="22.00" weight="0.5617" build="0.3086"  key="000A6C0280881002B69B83A5863B418868BD666478886679565557616DDC0CBC00558603F59B96872654034632C20004000000000000157700000000129C00C3"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="BalancedFightingSkills" value="4" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="sword_sister_tier_5" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+   <!--Swordsisters end-->
+   <!--Expedition start-->
+  <NPCCharacter id="cs_hero_ludvic" default_group="Cavalry" age="42" voice="earnest" is_hero="true" is_female="false" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_ludvic}Ludvic" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="42.00" weight="0.2531" build="0.6235"  key="000A200280E407C4C07128E011019CA9C78C8F116875EF879978E4AA82EA671D03A94635FA0FCC2A00620005540201330000000000002700000000003D448082"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="7" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Mercy" value="2" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="expedition_tier_5_template" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_arnich" default_group="Cavalry" age="28" voice="curt" is_hero="true" is_female="false" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_arnich}Arnich" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="28.29" weight="0.5" build="0.5"  key="0000DC0F00E400CC077858FA811000F5CFEB6D30584CF1E156BCF0DB8AA6044A01877613F8DC4D7300620005540201110000000000002700000000003D1C2002"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="7" />
+      <Trait id="Commander" value="8" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="3" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="expedition_tier_5_template" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cs_hero_sidrih" default_group="Cavalry" age="25" voice="earnest" is_hero="true" is_female="false" culture="Culture.vlandia" occupation="Lord" name="{=InFa.hero_sidrih}Sidrih" face_mesh_cache="false">
+    <face>
+      <BodyProperties version="4" age="25.05" weight="0.1111" build="0.5"  key="0005200280E402C2307827858111A297858E69118833EE00164ADE1A89B6371701772613F70E531200620005540201330000000000002700000000003CF46002"  />
+    </face>
+    <Traits>
+      <!-- USED TO DERIVE SKILLS-->
+      <Trait id="KnightFightingSkills" value="9" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="4" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="expedition_tier_5_template" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+   <!--Expedition end-->
+</NPCCharacters>

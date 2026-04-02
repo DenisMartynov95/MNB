@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+<!-- Interesting Clans Main Factions Lord Templates Region Start -->  
+<!-- Templates come in three types:
+1. Battle templates - *Sergeant templates, raw battle templates just for fighting purposes, rare capes, no scarfs.* - *Archon(faction clan lead title) templates, have capes at all times, exception for this are Khans.* - *Extravagant templates, for stylistic and stoic npcs(decorated gear), have scarfs just very rarely capes.*
+- *Then there are 'North - South - Western' frontier battle templates, for those npcs that live in those border areas.
+2. Civilian templates - Light or no armor, weapons. Only combatant lords or ladies wear these.
+3. NonCombatant templates - Women's dresses, no weapons. Only Noncombatant females wear these.
+									-->
+<!-- Empire start -->
+<!-- Battle Templates Start -->
+<!-- Sergeant Templates region -->
+  <NPCCharacter id="emp_bat_heavy_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_heavy_temp_sergeant"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="emp_bat_medium_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_medium_temp_sergeant"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_medium_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="emp_bat_light_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_light_temp_sergeant"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_light_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter>
+<!-- Female Sergeant Templates region -->  
+  <NPCCharacter id="emp_bat_heavy_temp_sergeant_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_heavy_temp_sergeant_female"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant_female" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="emp_bat_light_temp_sergeant_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_light_temp_sergeant_female"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_light_temp_sergeant_female" />
+    </Equipments>
+  </NPCCharacter>
+<!-- Archon Templates region -->  
+  <NPCCharacter id="emp_bat_heavy_temp_archon"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_heavy_temp_archon"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_heavy_temp_archon" />
+    </Equipments>
+  </NPCCharacter>   
+  <NPCCharacter id="emp_bat_medium_temp_archon"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_medium_temp_archon"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_medium_temp_archon" />
+    </Equipments>
+  </NPCCharacter>      
+<!-- Archon Templates female region -->  
+<!-- Not yet being used, so deactivated. Do NOTE that the EquipmentSets have to be created for these to work. 
+  <NPCCharacter id="emp_bat_heavy_temp_archon_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_heavy_temp_archon_female"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_heavy_temp_archon_female" />
+    </Equipments>
+  </NPCCharacter>   
+  <NPCCharacter id="emp_bat_medium_temp_archon_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_medium_temp_archon_female"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_medium_temp_archon_female" />
+    </Equipments>
+  </NPCCharacter>  -->
+<!-- Extravagant Templates region --> 
+  <NPCCharacter id="emp_bat_heavy_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_heavy_temp_extravagant"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter>  
+  <NPCCharacter id="emp_bat_medium_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_medium_temp_extravagant"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_medium_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter>  
+  <NPCCharacter id="emp_bat_light_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_light_temp_extravagant"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_light_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter>    
+<!-- Extravagant Templates female region -->   
+  <NPCCharacter id="emp_bat_heavy_temp_extravagant_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_heavy_temp_extravagant_female"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant_female" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="emp_bat_light_temp_extravagant_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_light_temp_extravagant_female"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_light_temp_extravagant_female" />
+    </Equipments>
+  </NPCCharacter>    
+<!-- Northern - Southern - Western frontier Templates -->  
+<!-- Western frontier sergeant templates region -->
+<!-- NonCombatant Battle Templates -->
+  <NPCCharacter id="emp_bat_noncom_temp"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_noncom_temp"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_noncom_temp" />
+    </Equipments>
+  </NPCCharacter>    
+<!-- Civilian Templates -->  
+  <NPCCharacter id="emp_civ_heavy_temp"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_heavy_temp"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_heavy_temp" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="emp_civ_heavy_temp_archon"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_heavy_temp_archon"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_heavy_temp_archon" />
+    </Equipments>
+  </NPCCharacter>   
+  <NPCCharacter id="emp_civ_light_temp_archon"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_light_temp_archon"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_light_temp_archon" />
+    </Equipments>
+  </NPCCharacter>  
+  <NPCCharacter id="emp_civ_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_temp_extravagant"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter>   
+<!-- females -->
+  <NPCCharacter id="emp_civ_temp_archon_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_temp_archon_female"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_temp_archon_female" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="emp_civ_temp_extravagant_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_temp_extravagant_female"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_temp_extravagant_female" />
+    </Equipments>
+  </NPCCharacter>     
+  <NPCCharacter id="emp_civ_temp_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_temp_female"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_temp_female" />
+    </Equipments>
+  </NPCCharacter>     
+<!-- Character specific Templates region --> 
+  <NPCCharacter id="emp_bat_temp_horse_archer"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_temp_horse_archer"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_temp_horse_archer" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="emp_bat_heavy_temp_extravagant_apithena"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_heavy_temp_extravagant_apithena"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant_apithena" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="emp_bat_medium_temp_extravagant_aposthocles"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_medium_temp_extravagant_aposthocles"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_medium_temp_extravagant_aposthocles" />
+    </Equipments>
+  </NPCCharacter>    
+  <NPCCharacter id="emp_bat_heavy_temp_extravagant_aposthenos"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_heavy_temp_extravagant_aposthenos"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_heavy_temp_extravagant_aposthenos" />
+    </Equipments>
+  </NPCCharacter> 
+<!-- character specific civilian templates -->    
+  <NPCCharacter id="emp_civ_heavy_temp_archon_apochalis"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_heavy_temp_archon_apochalis"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_heavy_temp_archon_apochalis" />
+    </Equipments>
+  </NPCCharacter>   
+  <NPCCharacter id="emp_civ_heavy_temp_archon_kephalos"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_heavy_temp_archon_kephalos"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_heavy_temp_archon_kephalos" />
+    </Equipments>
+  </NPCCharacter>     
+  <NPCCharacter id="emp_civ_light_temp_archon_aposthenos"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_light_temp_archon_aposthenos"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_light_temp_archon_aposthenos" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="emp_civ_temp_extravagant_aposthocles"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_temp_extravagant_aposthocles"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_temp_extravagant_aposthocles" />
+    </Equipments>
+  </NPCCharacter>   
+  <NPCCharacter id="emp_civ_temp_extravagant_apithena"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_temp_extravagant_apithena"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_temp_extravagant_apithena" />
+    </Equipments>
+  </NPCCharacter>     
+  <NPCCharacter id="emp_civ_temp_archon_female_ligeia"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_temp_archon_female_ligeia"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_temp_archon_female_ligeia" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="emp_civ_temp_extravagant_female_dianthe"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_civ_temp_extravagant_female_dianthe"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_civ_temp_extravagant_female_dianthe" />
+    </Equipments>
+  </NPCCharacter>      
+<!-- Olympios Template region -->
+  <NPCCharacter id="emp_bat_heavy_temp_sergeant_olympios"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_heavy_temp_sergeant_olympios"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant_olympios" />
+    </Equipments>
+  </NPCCharacter>    
+  <NPCCharacter id="emp_bat_medium_temp_sergeant_olympios"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_medium_temp_sergeant_olympios"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_medium_temp_sergeant_olympios" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="emp_bat_heavy_temp_sergeant_olympios_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}emp_bat_heavy_temp_sergeant_olympios_female"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="emp_bat_heavy_temp_sergeant_olympios_female" />
+    </Equipments>
+  </NPCCharacter>      
+<!-- Empire end -->  
+<!-- Khuzait start -->
+<!-- Battle Templates Start -->
+<!-- Sergeant Templates region -->
+  <NPCCharacter id="khu_bat_heavy_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}khu_bat_heavy_temp_sergeant"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_khuzait" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="khu_bat_heavy_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="khu_bat_medium_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}khu_bat_medium_temp_sergeant"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_khuzait" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="khu_bat_medium_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter> 
+<!-- Archon Templates region -->
+  <NPCCharacter id="khu_bat_heavy_temp_khan"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}khu_bat_heavy_temp_khan"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_khuzait" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="khu_bat_heavy_temp_khan" />
+    </Equipments>
+  </NPCCharacter>   
+  <NPCCharacter id="khu_bat_medium_temp_khan"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}khu_bat_medium_temp_khan"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_khuzait" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="khu_bat_medium_temp_khan" />
+    </Equipments>
+  </NPCCharacter>   
+<!-- Extravagant Templates region -->
+  <NPCCharacter id="khu_bat_heavy_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}khu_bat_heavy_temp_extravagant"
+                culture="Culture.khuzait"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_khuzait" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="khu_bat_heavy_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="khu_bat_medium_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}khu_bat_medium_temp_extravagant"
+                culture="Culture.khuzait"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_khuzait" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="khu_bat_medium_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter> 
+<!-- NonCombatant Battle Templates -->
+  <NPCCharacter id="khu_bat_noncom_temp"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}khu_bat_noncom_temp"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_khuzait" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="khu_bat_noncom_temp" />
+    </Equipments>
+  </NPCCharacter>  
+<!-- Civilian Templates -->  
+<!-- Character specific Templates region -->  
+  <NPCCharacter id="khu_bat_heavy_temp_sergeant_sansey"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}khu_bat_heavy_temp_sergeant_sansey"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_khuzait" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="khu_bat_heavy_temp_sergeant_sansey" />
+    </Equipments>
+  </NPCCharacter>    
+  <NPCCharacter id="khu_bat_medium_temp_khan_batugai"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}khu_bat_medium_temp_khan_batugai"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_khuzait" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="khu_bat_medium_temp_khan_batugai" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="khu_bat_medium_temp_khan_kutlug"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}khu_bat_medium_temp_khan_kutlug"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_khuzait" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="khu_bat_medium_temp_khan_kutlug" />
+    </Equipments>
+  </NPCCharacter>     
+<!-- Khuzait end -->
+<!-- Sturgia start -->
+<!-- Battle Templates Start -->
+<!-- Sergeant Templates region -->
+  <NPCCharacter id="stu_bat_heavy_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}stu_bat_heavy_temp_sergeant"
+                culture="Culture.sturgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="stu_bat_heavy_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter>
+<!-- Not yet being used, so deactivated. Do NOTE that the EquipmentSets have to be created for these to work.  
+  <NPCCharacter id="stu_bat_medium_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}stu_bat_medium_temp_sergeant"
+                culture="Culture.sturgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="stu_bat_medium_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter> -->
+<!-- Archon Templates region -->
+  <NPCCharacter id="stu_bat_heavy_temp_knyaz"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}stu_bat_heavy_temp_knyaz"
+                culture="Culture.sturgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="stu_bat_heavy_temp_knyaz" />
+    </Equipments>
+  </NPCCharacter>
+<!-- Not yet being used, so deactivated. Do NOTE that the EquipmentSets have to be created for these to work.    
+  <NPCCharacter id="stu_bat_medium_temp_knyaz"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}stu_bat_medium_temp_knyaz"
+                culture="Culture.sturgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="stu_bat_medium_temp_knyaz" />
+    </Equipments>
+  </NPCCharacter> -->
+<!-- Extravagant Templates region -->
+  <NPCCharacter id="stu_bat_heavy_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}stu_bat_heavy_temp_extravagant"
+                culture="Culture.sturgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="stu_bat_heavy_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter>
+<!-- Not yet being used, so deactivated. Do NOTE that the EquipmentSets have to be created for these to work.    
+  <NPCCharacter id="stu_bat_medium_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}stu_bat_medium_temp_extravagant"
+                culture="Culture.sturgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="stu_bat_medium_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter> -->
+<!-- Civilian Templates -->  
+<!-- Polovtsian Template Region -->
+  <NPCCharacter id="stu_bat_heavy_temp_sergeant_polovtsian"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}stu_bat_heavy_temp_sergeant_polovtsian"
+                culture="Culture.sturgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="stu_bat_heavy_temp_sergeant_polovtsian" />
+    </Equipments>
+  </NPCCharacter>    
+  <NPCCharacter id="stu_bat_heavy_temp_sergeant_polovtsian_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}stu_bat_heavy_temp_sergeant_polovtsian_female"
+                culture="Culture.sturgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="stu_bat_heavy_temp_sergeant_polovtsian_female" />
+    </Equipments>
+  </NPCCharacter>     
+  <NPCCharacter id="stu_bat_noncom_temp_polovtsian"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}stu_bat_noncom_temp_polovtsian"
+                culture="Culture.sturgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="stu_bat_noncom_temp_polovtsian" />
+    </Equipments>
+  </NPCCharacter>       
+<!-- Character specific Templates region --> 
+  <NPCCharacter id="stu_bat_heavy_temp_knyaz_yanrasin"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}stu_bat_heavy_temp_knyaz_yanrasin"
+                culture="Culture.sturgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="stu_bat_heavy_temp_knyaz_yanrasin" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="stu_bat_heavy_temp_knyaz_mesnin"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}stu_bat_heavy_temp_knyaz_mesnin"
+                culture="Culture.sturgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="stu_bat_heavy_temp_knyaz_mesnin" />
+    </Equipments>
+  </NPCCharacter>  
+<!-- Sturgia end -->
+<!-- Vlandia start -->
+<!-- Battle Templates Start -->
+<!-- Sergeant Templates region -->
+  <NPCCharacter id="vla_bat_heavy_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_heavy_temp_sergeant"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_heavy_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vla_bat_heavy_temp_sergeant_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_heavy_temp_sergeant_female"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_heavy_temp_sergeant_female" />
+    </Equipments>
+  </NPCCharacter>  
+<!-- Not yet being used, so deactivated. Do NOTE that the EquipmentSets have to be created for these to work.   
+  <NPCCharacter id="vla_bat_medium_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_medium_temp_sergeant"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_medium_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter> -->
+<!-- Archon Templates region -->
+  <NPCCharacter id="vla_bat_heavy_temp_baron"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_heavy_temp_baron"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_heavy_temp_baron" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vla_bat_heavy_temp_baron_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_heavy_temp_baron_female"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_heavy_temp_baron_female" />
+    </Equipments>
+  </NPCCharacter>  
+<!-- Not yet being used, so deactivated. Do NOTE that the EquipmentSets have to be created for these to work.  
+  <NPCCharacter id="vla_bat_medium_temp_baron"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_medium_temp_baron"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_medium_temp_baron" />
+    </Equipments>
+  </NPCCharacter>  -->
+<!-- Extravagant Templates region -->
+  <NPCCharacter id="vla_bat_heavy_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_heavy_temp_extravagant"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_heavy_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter>
+<!-- Not yet being used, so deactivated. Do NOTE that the EquipmentSets have to be created for these to work.  
+  <NPCCharacter id="vla_bat_medium_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_medium_temp_extravagant"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_medium_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter>   -->
+<!-- Not yet being used, so deactivated. Do NOTE that the EquipmentSets have to be created for these to work.    
+  <NPCCharacter id="vla_bat_heavy_temp_extravagant_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_heavy_temp_extravagant_female"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_heavy_temp_extravagant_female" />
+    </Equipments>
+  </NPCCharacter> -->  
+<!-- Not yet being used, so deactivated. Do NOTE that the EquipmentSets have to be created for these to work.    
+  <NPCCharacter id="vla_bat_medium_temp_extravagant_female"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_medium_temp_extravagant_female"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_medium_temp_extravagant_female" />
+    </Equipments>
+  </NPCCharacter> -->  
+<!-- NonCombatant Battle Templates -->
+  <NPCCharacter id="vla_bat_noncom_temp"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_noncom_temp"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_noncom_temp" />
+    </Equipments>
+  </NPCCharacter>    
+<!-- Civilian Templates -->  
+<!-- Character specific Templates region --> 
+  <NPCCharacter id="vla_bat_medium_temp_archer_bernadelys"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_medium_temp_archer_bernadelys"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_medium_temp_archer_bernadelys" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="vla_bat_heavy_temp_sergeant_tremand"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_heavy_temp_sergeant_tremand"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_heavy_temp_sergeant_tremand" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="vla_bat_heavy_temp_sergeant_tredias"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_heavy_temp_sergeant_tredias"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_heavy_temp_sergeant_tredias" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="vla_bat_heavy_temp_baron_rainwad"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}vla_bat_heavy_temp_baron_rainwad"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="vla_bat_heavy_temp_baron_rainwad" />
+    </Equipments>
+  </NPCCharacter>   
+<!-- Vlandia end -->
+<!-- Battania start -->
+<!-- Battle Templates Start -->
+<!-- Sergeant Templates region -->
+  <NPCCharacter id="bat_bat_heavy_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}bat_bat_heavy_temp_sergeant"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_battania" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="bat_bat_heavy_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="bat_bat_medium_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}bat_bat_medium_temp_sergeant"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_battania" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="bat_bat_medium_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter>   
+<!-- Archon Templates region -->
+  <NPCCharacter id="bat_bat_heavy_temp_chieftain"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}bat_bat_heavy_temp_chieftain"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_battania" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="bat_bat_heavy_temp_chieftain" />
+    </Equipments>
+  </NPCCharacter> 
+<!-- Extravagant Templates region -->
+  <NPCCharacter id="bat_bat_heavy_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}bat_bat_heavy_temp_extravagant"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_battania" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="bat_bat_heavy_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="bat_bat_medium_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}bat_bat_medium_temp_extravagant"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_battania" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="bat_bat_medium_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter>   
+<!-- Wildling Templates region -->
+  <NPCCharacter id="bat_bat_medium_temp_wildling"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}bat_bat_medium_temp_wildling"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_battania" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="bat_bat_medium_temp_wildling" />
+    </Equipments>
+  </NPCCharacter>     
+  <NPCCharacter id="bat_bat_heavy_temp_wildling"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}bat_bat_heavy_temp_wildling"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_battania" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="bat_bat_heavy_temp_wildling" />
+    </Equipments>
+  </NPCCharacter>    
+<!-- Civilian Templates -->  
+<!-- Cativellaun Templates region -->
+  <NPCCharacter id="bat_bat_medium_temp_sergeant_cativellaun"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}bat_bat_medium_temp_sergeant_cativellaun"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_battania" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="bat_bat_medium_temp_sergeant_cativellaun" />
+    </Equipments>
+  </NPCCharacter>    
+<!-- Character specific Templates region --> 
+  <NPCCharacter id="bat_bat_heavy_temp_chieftain_cassivius"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}bat_bat_heavy_temp_chieftain_cassivius"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_battania" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="bat_bat_heavy_temp_chieftain_cassivius" />
+    </Equipments>
+  </NPCCharacter>     
+  <NPCCharacter id="bat_bat_medium_temp_chieftain_caius"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}bat_bat_medium_temp_chieftain_caius"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_battania" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="bat_bat_medium_temp_chieftain_caius" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="bat_bat_medium_temp_sergeant_cassvil"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}bat_bat_medium_temp_sergeant_cassvil"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_battania" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="bat_bat_medium_temp_sergeant_cassvil" />
+    </Equipments>
+  </NPCCharacter>   
+  <NPCCharacter id="bat_bat_medium_temp_extravagant_vecaunos"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}bat_bat_medium_temp_extravagant_vecaunos"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_battania" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="bat_bat_medium_temp_extravagant_vecaunos" />
+    </Equipments>
+  </NPCCharacter>   
+<!-- Battania end -->
+<!-- Aserai start -->
+<!-- Battle Templates Start -->
+<!-- Sergeant Templates region -->
+  <NPCCharacter id="ase_bat_heavy_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}ase_bat_heavy_temp_sergeant"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_aserai" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="ase_bat_heavy_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter>
+<!-- Not yet being used, so deactivated. Do NOTE that the EquipmentSets have to be created for these to work.      
+  <NPCCharacter id="ase_bat_medium_temp_sergeant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}ase_bat_medium_temp_sergeant"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_aserai" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="ase_bat_medium_temp_sergeant" />
+    </Equipments>
+  </NPCCharacter>   -->
+<!-- Archon Templates region -->
+<!-- Extravagant Templates region -->
+  <NPCCharacter id="ase_bat_heavy_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}ase_bat_heavy_temp_extravagant"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_aserai" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="ase_bat_heavy_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="ase_bat_medium_temp_extravagant"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}ase_bat_medium_temp_extravagant"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_aserai" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="ase_bat_medium_temp_extravagant" />
+    </Equipments>
+  </NPCCharacter>   
+<!-- Civilian Templates -->  
+<!-- Banu Ghabar Templates region -->
+<!-- Character specific Templates region --> 
+  <NPCCharacter id="ase_bat_heavy_temp_extravagant_dariush"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}ase_bat_heavy_temp_extravagant_dariush"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_aserai" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="ase_bat_heavy_temp_extravagant_dariush" />
+    </Equipments>
+  </NPCCharacter> 
+  <NPCCharacter id="ase_bat_medium_temp_extravagant_tahmineh"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}ase_bat_medium_temp_extravagant_tahmineh"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_aserai" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="ase_bat_medium_temp_extravagant_tahmineh" />
+    </Equipments>
+  </NPCCharacter>   
+  <NPCCharacter id="ase_bat_medium_temp_extravagant_arash"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}ase_bat_medium_temp_extravagant_arash"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_aserai" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="ase_bat_medium_temp_extravagant_arash" />
+    </Equipments>
+  </NPCCharacter>    
+  <NPCCharacter id="ase_bat_medium_temp_sergeant_selqet"
+                default_group="Infantry"
+                is_hero="false"
+                level="16"
+                name="{=!}ase_bat_medium_temp_sergeant_selqet"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+                is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_aserai" />
+    </face>
+    <Traits></Traits>
+    <Equipments>
+      <EquipmentSet id="ase_bat_medium_temp_sergeant_selqet" />
+    </Equipments>
+  </NPCCharacter>       
+  
+<!-- Aserai end --> 
+</NPCCharacters>

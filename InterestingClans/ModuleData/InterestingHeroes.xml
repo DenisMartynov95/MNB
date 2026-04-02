@@ -1,0 +1,204 @@
+<Heroes>
+	<!-- Imperial Heroes-->
+	<!-- House of Corvii start-->
+	<Hero id="cs_hero_xanthe" father="Hero.cs_hero_xelos" faction="Faction.cs_clan_imperial_house_of_corvii" text="{=InFa.hero_xanthe.desc}Xanthe was a Lieutnant, and second in command of the Calradic Military after Garios. Even though most of Calradic citizens think that him and Garios were great friends, the Corvii claim that Xanthe got murdered by Garios' men in order to stop him from taking over the army. Xanthe had the reputation of being goodwilling and kind." />
+	<Hero id="cs_hero_xelos" alive="true"  faction="Faction.cs_clan_imperial_house_of_corvii" text="{=InFa.hero_xelos.desc}Xelios was Xanthe's Father. He was known to be a great leader, who always fought alongside his men during battles. He died an heroic death, during the great battle of Pendraic in 1077. Xelios had the reputation of being goodwilling and kind." />
+	<Hero id="cs_hero_jason_a" alive="true"  faction="Faction.cs_clan_imperial_house_of_corvii" text="{=InFa.hero_jason_a.desc}Jason was the military tactician to Xanthe, and served the Calradic Military. Jason laid up field tactics in the battle of Pendraic back in 1077. After the death of Xanthe and the destruction of the Corvii, Jason is believed to be also dead. But today it is rumored that he's been seen to be a part of the noble house of Plousios. Jason was reputed to be a man who enjoyed taking daring risks." />
+	<!-- House of Corvii end-->
+	<!-- House of Apos start-->
+	<Hero id="cs_hero_apos_placeholder_family_head" alive="true"  faction="Faction.cs_clan_imperial_house_of_apos" />
+    <Hero id="cs_hero_astor" alive="true"  father="Hero.cs_hero_apos_placeholder_family_head" faction="Faction.cs_clan_imperial_house_of_apos" text="{=InFa.hero_astor.desc}Astor was an archon of the Calradic Empire, when it was still united. He lost his life in a mysterious way, in 1033 at the age of 39, when him and his clan were a rising force in Calradia. Today his descendants believe that he was killed by his rivals. &#xA;Astor had the reputation of being noble and generous." />
+	<Hero id="cs_hero_apos" alive="true"  father="Hero.cs_hero_astor" spouse="Hero.cs_hero_apithi" faction="Faction.cs_clan_imperial_house_of_apos" text="{=InFa.hero_apos.desc}Apos is the head of the house of Apos, and the heir to Astor. Apos' marriage with his wife was a family arrangement, he married his second cousin Apithi just as she was seventeen years old, at the age of twentyeight in 1056. Rumours say that him and some of his acquaintances, played a part in the death of Emperor Arenicos. And that they are hand in glove with the hashashins of the far south, the Banu Qatal. But after a long quarrel between the backers of the Apos, that story got refuted. Apos is reputed to be a very family person, but sometimes cares about his own interests more than even his family's." />
+	<Hero id="cs_hero_apithi" alive="true"  spouse="Hero.cs_hero_apos" faction="Faction.cs_clan_imperial_house_of_apos" text="{=InFa.hero_apithi.desc}Apithi is the mother of three and the wife to Apos, the heir to her Father-in-law, Astor. Apithi's marriage with her husband was a family arrangement, she married her second cousin Apos, as she was at the age of seventeen in 1056. Altough it was a family arrangement, Apithi seems to be rather happy how things have panned out. &#xA;Apithi is reputed to be brave but merciful, even sometimes to her enemies." />
+	<Hero id="cs_hero_aposthenos" alive="true"  father="Hero.cs_hero_apos" mother="Hero.cs_hero_apithi" faction="Faction.cs_clan_imperial_house_of_apos" text="{=InFa.hero_aposthenos.desc}Aposthenos is the twin brother of Aposthokles and is the son to Apos, the heir of Astor. As they grew up, he always used to be the stronger brother, while Aposthokles was the smarter one. They seemed to be very inseperable as they have used each other's strengths in different kind of situations, but growing up brought it's responsibilities, they now had to support their father and be seperable. Other known nobles would often joke about them, and say that each of them would only have one side of the brain of their father. &#xA;Aposthenos is known to be honorable, but stiff-necked and cruel." />
+	<Hero id="cs_hero_aposthocles" alive="true"  father="Hero.cs_hero_apos" mother="Hero.cs_hero_apithi" faction="Faction.cs_clan_imperial_house_of_apos" text="{=InFa.hero_aposthocles.desc}Aposthokles is the twin brother to Aposthenos and is the son to Apos, the heir of Astor. As they grew up, he always used to be the smarter brother, while Aposthenos was the stronger one. They seemed to be very inseperable as they have used each other's strengths in different kind of situations, but growing up brought it's responsibilities, they now had to support their father and be seperable. Other known nobles would often joke about them, and say that each of them would only have one side of the brain of their father. &#xA;Aposthokles is known to be a very wayward man, except to those he is obligated to." />
+	<Hero id="cs_hero_apithena" alive="true"  father="Hero.cs_hero_apos" mother="Hero.cs_hero_apithi" faction="Faction.cs_clan_imperial_house_of_apos" text="{=InFa.hero_apithena.desc}Apithena is the daughter to the leading family of the house of Apos. Unlike almost all of the other ladies of Calradia, she got taught fighting with carved swords by her father, beginning at only six years old. Other noble families with aspiring sons were shocked and dissapointed to hear that a girl from such a noble house would get taught to be this rough and manly. Some say that it must have been a preventive act to not lose their daughter to another family too early, and to prevent her from ending up like her aunt, Apollonia. &#xA;Apithena has the reputation of being brave, but sometimes too much so." />
+	<Hero id="cs_hero_apollonia" alive="true"  father="Hero.cs_hero_astor" faction="Faction.cs_clan_imperial_house_of_apos" text="{=InFa.hero_apollonia.desc}Apollonia is the daughter to Astor, and the sister to Apos, the heir of Astor. She was once a very adventurous young girl who ran off and left her family to marry a charismatic man in the far eastern borders, which was back then belonging to the Calradic Empire. But with the death of the Emperor, and chaos breaking out, a civil war has errupted. The once so mighty Empire was crumbling. The armies needed more men to protect something which only once was, and Apollonia's husband was one of those that got drafted. Months after her husband being taken into service, she had gotten the bad news that he had fallen in battle. Even though Apollonia didn't want to just sit by but do something, she was helpless as she was expecting a baby, being three months pregnant. Her only option was to return home to where her roots are, as that was the only safe place for her baby. &#xA;Apollonia is reputed to be gracious and kind hearted to loyal followers." />
+    <Hero id="cs_hero_anthea" alive="true"  father="Hero.cs_hero_apos_placeholder_family_head" faction="Faction.cs_clan_imperial_house_of_apos" text="{=InFa.hero_anthea.desc}Anthea is the sister to Astor whom they lost to what they think of as some sort of an assassination. Initially after his death, she took over the leadership of the House. But as time has passed her age was catching up, eventually she got bad with decisions and the managing of the clan. Though she had plans for her son to take over. But it didn't go as she has expected and Astor's heir Apos, her nephew, took over the leading position of the house. &#xA;Anthea is reputed to be considerate of others." />
+	<Hero id="cs_hero_apochalis" alive="true"  mother="Hero.cs_hero_anthea" faction="Faction.cs_clan_imperial_house_of_apos" text="{=InFa.hero_apochalis.desc}Apochelos is the son to Anthea, and the cousin to Apos, the heir of Astor. Apochelos had actually expected to be the next leader of the house of Apos, after Astor. But it didn't go as expected, as it is customary in the house of Apos to have atleast one son, who could take over the throne after you. Now since that he didn't have the chance to take over the lead of the house there have appeared some rumours that claim, that Apochelos stirred up opposition against his cousin Apos. They are saying that Apochelos actually stirred up people, to spread rumours around that Apos played a part in the death of Emperor Arenicos. But Apos himself thinks that it's all farce, and that it's in reality the house of Apos which is being tried to be divided. Apochelos has the reputation of being honorable, angry and cruel, incapable of either breaking an oath or forgiving a slight."/>
+	<Hero id="cs_hero_aporros" alive="true"   mother="Hero.cs_hero_apollonia" faction="Faction.cs_clan_imperial_house_of_apos" text="{=InFa.hero_aporros.desc}Aporros is the son to Apollonia. He has the reputation of being a schemer." />
+	<Hero id="cs_hero_apharia" alive="true"  father="Hero.cs_hero_apochalis" faction="Faction.cs_clan_imperial_house_of_apos" text="{=InFa.hero_apharia.desc}Apharia is the daughter to Apochelos. She has the reputation of being brave, but easily enraged and unforgiving." />
+	<Hero id="cs_hero_apos_female_lord_template" alive="true"  faction="Faction.cs_clan_imperial_house_of_apos" />
+	<Hero id="cs_hero_apos_male_lord_template" alive="true"  faction="Faction.cs_clan_imperial_house_of_apos" />
+	<!-- House of Apos end-->
+	<!-- House of Olympios start-->
+	<Hero id="cs_hero_pelakios" alive="true"  faction="Faction.cs_clan_imperial_house_of_olympios" text="{=InFa.hero_pelakios.desc}Pelakios was an archon of the Calradic Empire. He was murdered by a criminal gang, in 1080 at the age of 73. He was reputed to be possessed of a fierce and dangerous temper." />
+	<Hero id="cs_hero_cadmos" alive="true"  father="Hero.cs_hero_pelakios" faction="Faction.cs_clan_imperial_house_of_olympios" />
+	<Hero id="cs_hero_kephalos" alive="true"  father="Hero.cs_hero_pelakios" faction="Faction.cs_clan_imperial_house_of_olympios" />
+	<Hero id="cs_hero_calligenia" alive="true"  father="Hero.cs_hero_pelakios" faction="Faction.cs_clan_imperial_house_of_olympios" />
+	<Hero id="cs_hero_caiaphos" alive="true"  father="Hero.cs_hero_cadmos" faction="Faction.cs_clan_imperial_house_of_olympios" />
+	<Hero id="cs_hero_parthenia" alive="true"  father="Hero.cs_hero_cadmos" faction="Faction.cs_clan_imperial_house_of_olympios" />
+	<Hero id="cs_hero_gregorios" alive="true"  faction="Faction.cs_clan_imperial_house_of_olympios" />
+	<Hero id="cs_hero_xandros" alive="true"  father="Hero.cs_hero_olympios_placeholder_father_b" faction="Faction.cs_clan_imperial_house_of_olympios" />
+	<Hero id="cs_hero_konstantina" alive="true"  father="Hero.cs_hero_olympios_placeholder_father_a" faction="Faction.cs_clan_imperial_house_of_olympios" />
+	<Hero id="cs_hero_matios" alive="true"  father="Hero.cs_hero_olympios_placeholder_father_c" faction="Faction.cs_clan_imperial_house_of_olympios" />
+	<Hero id="cs_hero_olympios_placeholder_father_a" alive="true"  faction="Faction.cs_clan_imperial_house_of_olympios" text="{=!}Kosmas' Father." />
+	<Hero id="cs_hero_olympios_placeholder_father_b" alive="true"  faction="Faction.cs_clan_imperial_house_of_olympios" text="{=!}Xandros' Father." />
+	<Hero id="cs_hero_olympios_placeholder_father_c" alive="true"  faction="Faction.cs_clan_imperial_house_of_olympios" text="{=!}Matios' Father." />
+	<Hero id="cs_hero_olympios_male_lord_template" alive="true"  faction="Faction.cs_clan_imperial_house_of_olympios" />
+	<Hero id="cs_hero_olympios_female_lord_template" alive="true"  faction="Faction.cs_clan_imperial_house_of_olympios" />
+	<!-- House of Olympios end-->
+	<!-- House of Morfomenos start-->
+	<Hero id="cs_hero_menakleides" alive="true"  spouse="Hero.cs_hero_ligeia" faction="Faction.cs_clan_imperial_house_of_morfomenos" />
+	<Hero id="cs_hero_ligeia" alive="true"  spouse="Hero.cs_hero_menakleides" faction="Faction.cs_clan_imperial_house_of_morfomenos" />
+	<Hero id="cs_hero_erastos" alive="true"  faction="Faction.cs_clan_imperial_house_of_morfomenos" />
+	<Hero id="cs_hero_desmatia" alive="true"  faction="Faction.cs_clan_imperial_house_of_morfomenos" />
+	<Hero id="cs_hero_vasileios" alive="true"  spouse="Hero.cs_hero_lachesis" faction="Faction.cs_clan_imperial_house_of_morfomenos" />
+	<Hero id="cs_hero_lachesis" alive="true"  spouse="Hero.cs_hero_vasileios" faction="Faction.cs_clan_imperial_house_of_morfomenos" />
+	<Hero id="cs_hero_kleidophoros" alive="true"  father="Hero.cs_hero_menakleides" mother="Hero.cs_hero_ligeia" faction="Faction.cs_clan_imperial_house_of_morfomenos" />
+	<Hero id="cs_hero_hyperion" alive="true"  father="Hero.cs_hero_vasileios" mother="Hero.cs_hero_lachesis" faction="Faction.cs_clan_imperial_house_of_morfomenos" />
+	<Hero id="cs_hero_morfomenos_male_lord_template" alive="true"  faction="Faction.cs_clan_imperial_house_of_morfomenos" />
+	<Hero id="cs_hero_morfomenos_female_lord_template" alive="true"  faction="Faction.cs_clan_imperial_house_of_morfomenos" />
+	<!-- House of Morfomenos end-->
+	<!-- House of Plousios start-->
+	<Hero id="cs_hero_galaos" alive="true"  spouse="Hero.cs_hero_rhea" faction="Faction.cs_clan_imperial_house_of_plousios" text="{=InFa.hero_galaos.desc}Galaos is the head of the house of Plousios and the the father of seven children, with two being dead and other two being missed. He lost his wife Rhea giving birth to their last child, his last hope to carry on his bloodlines, Polaos. Galaos is reputed to be noble, generous and merciful, even sometimes to his enemies." />
+  	<Hero id="cs_hero_rhea" alive="true"  spouse="Hero.cs_hero_galaos" faction="Faction.cs_clan_imperial_house_of_plousios" text="{=InFa.hero_rhea.desc}Rhea was the mother of seven children and the wife to Galaos, she died giving birth to their last child, Polaos. It is believed that casting rituals was the reason to her death. &#xA;Rhea was reputed to be foul-tempered." />
+	<Hero id="cs_hero_gathea" alive="true"  father="Hero.cs_hero_galaos" mother="Hero.cs_hero_rhea" faction="Faction.cs_clan_imperial_house_of_plousios" text="{=InFa.hero_gathea.desc}Gathea was one of the daughters of Galaos, she was the first child of the Plousios family. It is believed that their family casting foul rituals brought Gathea's death. &#xA;She had the reputation of never acting in haste." />
+	<Hero id="cs_hero_sithea" alive="true"  father="Hero.cs_hero_galaos" mother="Hero.cs_hero_rhea" faction="Faction.cs_clan_imperial_house_of_plousios" text="{=InFa.hero_sithea.desc}Sithea was one of the daughters of Galaos, she was the second child of the Plousios family. It is believed that their family casting foul rituals brought Sithea's death. &#xA;She had the reputation of being generous to friends." />
+	<Hero id="cs_hero_dianthea" alive="true"  father="Hero.cs_hero_galaos" mother="Hero.cs_hero_rhea" faction="Faction.cs_clan_imperial_house_of_plousios" text="{=InFa.hero_dianthea.desc}Dianthe is one of the daughters of Galaos, she is the fourth child of the Plousios family. Dianthe is a lady who values appropriate looks and is a lover for stylistic apparel. She's always wearing the latest lines of clothing no matter the occasion. She has the reputation of being loyal to her family, but also being manipulative." />
+	<Hero id="cs_hero_rodanthea" alive="true"  father="Hero.cs_hero_galaos" mother="Hero.cs_hero_rhea" faction="Faction.cs_clan_imperial_house_of_plousios" text="{=InFa.hero_rodanthea.desc}Rodanthe is one of the daughters of Galaos, she is the fith child of the Plousios family. Rodanthe is a lady who values family and is a lover for babies. She's always the babysitter when needed. She has the reputation of being caring but also being cautious." />
+	<Hero id="cs_hero_polaos" alive="true"  father="Hero.cs_hero_galaos" mother="Hero.cs_hero_rhea" faction="Faction.cs_clan_imperial_house_of_plousios" text="{=InFa.hero_polaos.desc}Polaos is the sibling to six, and is the son to Galaos. He is the last child of the Plousios family. While also being Galaos' heir and the last hope to carry on his bloodlines. Polaos is reputed to be noble, generous and merciful." />
+	<Hero id="cs_hero_eirene" alive="true"  father="Hero.cs_hero_alexius" faction="Faction.cs_clan_imperial_house_of_plousios" text="{=InFa.hero_eirene.desc}Eirene is the daughter of Alexius. Seventeen years ago the Plousios have picked them up as they were homeless, at that time Eirene was still a baby being one year old. Today she's grown into the family, and feels herself as a Plousios. Eirene has the reputation of being brave." />
+	<Hero id="cs_hero_alexius" alive="true"  faction="Faction.cs_clan_imperial_house_of_plousios" text="{=InFa.hero_alexius.desc}Alexius is an army veteran, Galaos' right hand and guard. Seventeen years ago, the Plousios have picked him up when they've found him and his daughter in the streets as homeless people. As time has passed they became part of the Plousios. Alexius has the reputation of being brave and honorable." />
+	<Hero id="cs_hero_jason_b" alive="true"  faction="Faction.cs_clan_imperial_house_of_plousios" text="{=InFa.hero_jason_b.desc}Jason is a military tactician, Galaos' left hand and advisor. Jason used to be part of the Corvii and served the Calradic Military, he laid up field tactics in the great battle of Pendraic back in 1077. But after civil war broke out, the Corvii had lost it's power due their leader's death. And were later suppressed by opposing powers, which have led them to their demise. Today after the destruction of their clan, Jason has become a part of the Plousios. Jason has the reputation of being the type who tries hard to not take unnecessary risks." />
+	<Hero id="cs_hero_plousios_male_lord_template" alive="true"  faction="Faction.cs_clan_imperial_house_of_plousios" />
+	<Hero id="cs_hero_plousios_female_lord_template" alive="true"  faction="Faction.cs_clan_imperial_house_of_plousios" />
+	<!-- House of Plousios end-->
+	<!-- Battanian Heroes-->
+	<!-- Cativellaun start-->
+	<Hero id="cs_hero_caius" alive="true"  spouse="Hero.cs_hero_cisenia" faction="Faction.cs_clan_battania_cativellaun" text="{=InFa.hero_caius.desc}Caius was believed to be the last great leader of the Cativellauns. But him and his wife had done a good job, bringing up their sons and prepared them to be able to lead the clan as the next great Chieftain." />
+	<Hero id="cs_hero_cisenia" alive="true"  spouse="Hero.cs_hero_caius" faction="Faction.cs_clan_battania_cativellaun" />
+	<Hero id="cs_hero_cassivius" alive="true"  father="Hero.cs_hero_caius" mother="Hero.cs_hero_cisenia" faction="Faction.cs_clan_battania_cativellaun" text="{=InFa.hero_cassivius.desc}Cassivius is the progeny of Caius and is accepted to be a very ambitious, young and charismatic leader of the Cativellauns." />
+	<Hero id="cs_hero_clemena" alive="true"  father="Hero.cs_hero_caius" mother="Hero.cs_hero_cisenia" faction="Faction.cs_clan_battania_cativellaun" />
+	<Hero id="cs_hero_cassvil" alive="true"  father="Hero.cs_hero_caius" mother="Hero.cs_hero_cisenia" faction="Faction.cs_clan_battania_cativellaun" />
+	<Hero id="cs_hero_vecaunos" alive="true"  spouse="Hero.cs_hero_boudicca" faction="Faction.cs_clan_battania_cativellaun" />
+	<Hero id="cs_hero_boudicca" alive="true"  spouse="Hero.cs_hero_vecaunos" faction="Faction.cs_clan_battania_cativellaun" />
+	<Hero id="cs_hero_britomartus" alive="true"  father="Hero.cs_hero_vecaunos" mother="Hero.cs_hero_boudicca" faction="Faction.cs_clan_battania_cativellaun" />
+	<Hero id="cs_hero_deuognata" alive="true" father="Hero.cs_hero_cativellaun_placeholder_father_a" faction="Faction.cs_clan_battania_cativellaun" />
+	<Hero id="cs_hero_cativellaun_placeholder_father_a" alive="true" faction="Faction.cs_clan_battania_cativellaun" />
+	<Hero id="cs_hero_cativellaun_male_lord_template" alive="true"  faction="Faction.cs_clan_battania_cativellaun" />
+	<Hero id="cs_hero_cativellaun_female_lord_template" alive="true"  faction="Faction.cs_clan_battania_cativellaun" />
+	<!-- Cativellaun end-->
+	<!-- fen Haldoc start-->
+	<Hero id="cs_hero_wyndor" alive="true"  faction="Faction.cs_clan_battania_haldoc" />
+	<Hero id="cs_hero_ocnar" alive="true"  faction="Faction.cs_clan_battania_haldoc"/>
+	<Hero id="cs_hero_geldir" alive="true"  faction="Faction.cs_clan_battania_haldoc" />
+	<Hero id="cs_hero_ednain" alive="true"  faction="Faction.cs_clan_battania_haldoc" />
+	<Hero id="cs_hero_haldoc_male_lord_template" alive="true"  faction="Faction.cs_clan_battania_haldoc" />
+	<Hero id="cs_hero_haldoc_female_lord_template" alive="true"  faction="Faction.cs_clan_battania_haldoc" />
+	<!-- fen Haldoc end-->
+	<!-- Frostclaw start-->
+	<Hero id="cs_hero_hedwyr" alive="true"  faction="Faction.cs_clan_battania_frostclaw" text="{=InFa.hero_hedwyr.desc}Hedwyr claims to be the messenger of their ancient stories of the 'Icebeast'. Which made the people of his tribe accept him and his brother, Bermon, as their leader. For long, they've ruled together, just till Hedwyr's bloodbrother suddenly died. Hedwyr believes, and says that he was killed by the beast in his sleep, because he tried to break through his oath." />
+	<Hero id="cs_hero_bermon" alive="true"  faction="Faction.cs_clan_battania_frostclaw" text="{=InFa.hero_bermon.desc}Bermons death brought a lot of rumours. It is thought that Hedwyr killed him with his own hands, to keep or gain the throne for himself. Though some skeptical people think it was something else, they claim that the stories about Hedwyr are fake and don't believe him to be the messenger of the beast. They say that he has silenced Bermon, to keep their secrets." />
+	<Hero id="cs_hero_brogyx" alive="true"  faction="Faction.cs_clan_battania_frostclaw" />
+	<Hero id="cs_hero_dorron" alive="true"  faction="Faction.cs_clan_battania_frostclaw" />
+	<!-- Frostclaw end-->
+	<!-- Forestsong start-->
+	<Hero id="cs_hero_vynedh" alive="true"  faction="Faction.cs_clan_battania_forestsong" text="{=InFa.hero_vynedh.desc}Vynedh led the last army of the Forestsong, she died heroicly in battle, defending their last sanctuary. She was known to be very giving and brave, rumours say that she was the last carrier of magical spells. And that it has disappeared together with her death." />
+	<Hero id="cs_hero_ryvenae" alive="true"  faction="Faction.cs_clan_battania_forestsong" text="{=InFa.hero_ryvenae.desc}Ryvenae was the captain of Forestsong's outwatch, the 'Forestsong Watch'. It was created as some sort of a last hope, after all men died during the wars against the Imperials. So they have equipped every young woman with a bow and arrow, and formed the Forestsong Watch. But with the destruction of Forestsong, and the fall of their last Sanctuary. Ryvenae has disappeared and is believed to be dead." />
+	<!-- Forestsong end-->
+	<!-- Vlandian Heroes-->
+	<!-- dey Uxkhal start-->
+	<Hero id="cs_hero_traid" alive="true" spouse="Hero.cs_hero_dora" faction="Faction.cs_clan_vlandia_dey_uxkhal" text="{=InFa.hero_dora.desc}Traid was the head of the family, and the husband to Dora. Traid is missing since summer 1080 and is believed to be dead. The people from the dey Uxkhal think that their skepticism towards King Derthert's decisions over the Kingdom brought his death, though some still cherish the thoughts of him being alive. Traid was reputed to be gallant." />
+	<Hero id="cs_hero_dora" alive="true"  spouse="Hero.cs_hero_traid" faction="Faction.cs_clan_vlandia_dey_uxkhal" text="{=InFa.hero_dora.desc}Dora is the mother of three, and the wife to the missing link of their family, Traid. In his absence she took the lead of the clan, as she has thought that their children weren't ready for such a role as of yet. Dora is reputed to be generous." />
+	<Hero id="cs_hero_tremand" alive="true"  father="Hero.cs_hero_traid" mother="Hero.cs_hero_dora" faction="Faction.cs_clan_vlandia_dey_uxkhal" />
+	<Hero id="cs_hero_lisara" alive="true"  father="Hero.cs_hero_traid" mother="Hero.cs_hero_dora" faction="Faction.cs_clan_vlandia_dey_uxkhal" />
+	<Hero id="cs_hero_tredias" alive="true"  father="Hero.cs_hero_traid" mother="Hero.cs_hero_dora" faction="Faction.cs_clan_vlandia_dey_uxkhal" />
+	<Hero id="cs_hero_rainwad" alive="true"  spouse="Hero.cs_hero_ilenna" faction="Faction.cs_clan_vlandia_dey_uxkhal" />
+	<Hero id="cs_hero_ilenna" alive="true"  spouse="Hero.cs_hero_rainwad" faction="Faction.cs_clan_vlandia_dey_uxkhal" />
+  	<Hero id="cs_hero_sonaled" alive="true"  father="Hero.cs_hero_rainwad" mother="Hero.cs_hero_ilenna" faction="Faction.cs_clan_vlandia_dey_uxkhal" />
+	<Hero id="cs_hero_despir" alive="true"  father="Hero.cs_hero_rainwad" mother="Hero.cs_hero_ilenna" faction="Faction.cs_clan_vlandia_dey_uxkhal" />
+	<Hero id="cs_hero_rochard" alive="true"  faction="Faction.cs_clan_vlandia_dey_uxkhal" />
+	<Hero id="cs_hero_bernadelys" alive="true" father="Hero.cs_hero_uxkhal_placeholder_father_a"   faction="Faction.cs_clan_vlandia_dey_uxkhal" />
+	<Hero id="cs_hero_uxkhal_placeholder_father_a" alive="true"  faction="Faction.cs_clan_vlandia_dey_uxkhal" />
+	<Hero id="cs_hero_uxkhal_male_lord_template" alive="true"  faction="Faction.cs_clan_vlandia_dey_uxkhal" />
+	<Hero id="cs_hero_uxkhal_female_lord_template" alive="true"  faction="Faction.cs_clan_vlandia_dey_uxkhal" />
+	<!-- dey Uxkhal end-->
+	<!-- Orebarons start-->
+	<!-- Orebarons end-->
+	<!-- Khuzait Heroes-->
+	<!-- Teyjit start-->
+	<Hero id="cs_hero_teyju" alive="true"  spouse="Hero.cs_hero_nizvan" faction="Faction.cs_clan_khuzait_teyjit" />
+	<Hero id="cs_hero_yaznam" alive="true"  spouse="Hero.cs_hero_teyju" faction="Faction.cs_clan_khuzait_teyjit" text="{=InFa.hero_yaznam.desc}Yaznam was a member of the Teyjit. It is believed that she was murdered by the Turkit people due to Teyju's controversy, at the age of 57. She was reputed to be very generous towards the tribespeople and was a great mother." />
+	<Hero id="cs_hero_atey" alive="true"  father="Hero.cs_hero_teyju" mother="Hero.cs_hero_yaznam" faction="Faction.cs_clan_khuzait_teyjit" />
+	<Hero id="cs_hero_kutey" alive="true"  father="Hero.cs_hero_teyju" mother="Hero.cs_hero_yaznam" faction="Faction.cs_clan_khuzait_teyjit" />
+	<Hero id="cs_hero_delyaz" alive="true"  father="Hero.cs_hero_teyju" mother="Hero.cs_hero_yaznam" faction="Faction.cs_clan_khuzait_teyjit" />
+	<Hero id="cs_hero_nizvan" alive="true"  father="Hero.cs_hero_tuncai" spouse="Hero.cs_hero_teyju" faction="Faction.cs_clan_khuzait_teyjit" text="{=InFa.hero_nizvan.desc}Nizvan is a member of the Teyjit and the daughter of who was once expected to be the next khan of the tribe, Tuncai. She is the fourth wife of Teyju after Yaznam, and has been acknowledged by him to be a part of their family unlike the ones before her. She has the reputation of being aloof and distant." />
+	<Hero id="cs_hero_sansey" alive="true"  father="Hero.cs_hero_teyju" mother="Hero.cs_hero_nizvan" faction="Faction.cs_clan_khuzait_teyjit" />
+	<Hero id="cs_hero_oktai" alive="true"  faction="Faction.cs_clan_khuzait_teyjit" text="{=InFa.hero_oktai.desc}Oktai is a member of the Teyjit and was the personal guard and advisor to Tuncai, who was once expected to be the next khan of the tribe. He and others think that Tuncai got backstabbed by his own people, some even say that it must have been someone who was very close to Tuncai. Today Oktai is serving Teyju, and follows his leadership. He is reputed to be just but pitiless." />
+	<Hero id="cs_hero_sarnai" alive="true"  father="Hero.cs_hero_oktai" faction="Faction.cs_clan_khuzait_teyjit" text="{=InFa.hero_sarnai.desc}Sarnai is a member of the Teyjit and the daughter to Oktai, who was Tuncai's personal guard and advisor. It is known that her father doesn't really look after her at all, and that she's brought up by the people who live in the tribe. Her father divorcing her mother because of her treacherous acts has not helped her any either. Sarnai is reputed to be a bit of a rogue, but a heart of gold." />
+	<Hero id="cs_hero_tuncai" alive="true"  faction="Faction.cs_clan_khuzait_teyjit" text="Tuncai was a member of the Teyjit, and the last ambitious khan from deep Turkit origin. People from Turkit lineages claim that he was murdered by Teyju's accomplices, to stabilize his own position in the tribe. Tuncai was reputed to be very honorable and to never turn his back to people in need." />
+	<Hero id="cs_hero_batugai" alive="true"  father="Hero.cs_hero_tuncai" faction="Faction.cs_clan_khuzait_teyjit" text="Batugai is a member of the Teyjit and the son of who was once expected to be the next khan of the tribe, Tuncai. Many of the tribespeople have set big hopes to him, to step into his father's footsteps and lead the Turkits to the better. But after losing his mother giving birth to him, Batugai has also lost his father just two years after. So he didn't have the chance for a good upbringing, and doesn't know any better." />
+	<Hero id="cs_hero_kutlug" alive="true" father="Hero.cs_hero_teyjit_placeholder_father_a" faction="Faction.cs_clan_khuzait_teyjit" />
+	<Hero id="cs_hero_teyjit_placeholder_father_a" alive="true"  faction="Faction.cs_clan_khuzait_teyjit" />
+	<Hero id="cs_hero_khuzait_male_lord_template" alive="true"  faction="Faction.cs_clan_khuzait_teyjit" />
+	<Hero id="cs_hero_khuzait_female_lord_template" alive="true"  faction="Faction.cs_clan_khuzait_teyjit" />
+	<!-- Teyjit end-->
+	<!-- Hugunait start-->
+	<Hero id="cs_hero_atidin" alive="true"  faction="Faction.cs_clan_khuzait_hugunait" text="{=InFa.hero_atidin.desc}Atudin was the Khan of the Hugunait. He was executed by the hand of Urkhun, in 1078 at the age of 68. He was reputed to be very generous and wise." />
+	<Hero id="cs_hero_sudekin" alive="true"  faction="Faction.cs_clan_khuzait_hugunait" text="{=InFa.hero_sudekin.desc}Sudekin was one of the last closest family relatives of Atudin, who was alive and witnessed his execution. After that, him and many of the other survivors of their tribe got split in to sections, and got forced to work in the mines of the steppes. Today it is said that the mine he got forced to work in collapsed and took all lives. Sudekin had the reputation of being profligate." />
+	<!-- Hugunait end-->
+	<!-- Aserai Heroes-->
+	<!-- Banu Ghabar start-->
+	<Hero id="cs_hero_zhaleh" alive="true"  spouse="Hero.cs_hero_dariush" faction="Faction.cs_clan_aserai_banu_ghabar" />
+	<Hero id="cs_hero_dariush" alive="true"  spouse="Hero.cs_hero_zhaleh" faction="Faction.cs_clan_aserai_banu_ghabar" />
+	<Hero id="cs_hero_arash" alive="true"  faction="Faction.cs_clan_aserai_banu_ghabar" />
+	<Hero id="cs_hero_tahmineh" alive="true"  faction="Faction.cs_clan_aserai_banu_ghabar" />
+	<Hero id="cs_hero_selqet" alive="true"  father="Hero.cs_hero_ghabar_placeholder_father_a" faction="Faction.cs_clan_aserai_banu_ghabar" />
+	<Hero id="cs_hero_derafsh" alive="true"  father="Hero.cs_hero_dariush" mother="Hero.cs_hero_zhaleh" faction="Faction.cs_clan_aserai_banu_ghabar" />
+	<Hero id="cs_hero_ghabar_placeholder_father_a" alive="true"  faction="Faction.cs_clan_aserai_banu_ghabar" />
+	<Hero id="cs_hero_ghabar_male_lord_template" alive="true"  faction="Faction.cs_clan_aserai_banu_ghabar" />
+	<Hero id="cs_hero_ghabar_female_lord_template" alive="true"  faction="Faction.cs_clan_aserai_banu_ghabar" />
+	<!-- Banu Ghabar end-->
+	<!-- Banu Qatal start-->
+	<Hero id="cs_hero_mamuk" alive="true"  faction="Faction.cs_clan_aserai_banu_qatal" text="{=InFa.hero_mamuk.desc}Mamuq is the new leader of the hashashins, he was put in power by the Aserai Sultan, Unqid. He is hated by many of the older hashashins and they see him as an enemy to the Banu Qatal." />
+	<Hero id="cs_hero_nasib" alive="true"  faction="Faction.cs_clan_aserai_banu_qatal" text="{=InFa.hero_nasib.desc}Nasib is accepted to be the last true hashashin. Many of the older hashashins expected him to be the new leader of the Banu Qatal." />
+	<Hero id="cs_hero_tufail" alive="true"  faction="Faction.cs_clan_aserai_banu_qatal" />
+	<Hero id="cs_hero_jaffar" alive="true"  faction="Faction.cs_clan_aserai_banu_qatal" />
+	<Hero id="cs_hero_qatal_male_lord_template" alive="true"  faction="Faction.cs_clan_aserai_banu_qatal" />
+	<Hero id="cs_hero_qatal_female_lord_template" alive="true"  faction="Faction.cs_clan_aserai_banu_qatal" />
+	<!-- Banu Qatal end-->
+	<!-- Sturgian Heroes-->
+	<!-- Polovtoving start-->
+	<Hero id="cs_hero_kaloyin" alive="true"  faction="Faction.cs_clan_sturgia_polovtoving" text="{=InFa.hero_kaloyin.desc}Kaloyin was a chieftain of the Polovtsians back at home. He died at the age of 65, in 1068, fleeing from the war. He was reputed to be very cautious, but friendly towards his people." />
+	<Hero id="cs_hero_yanrasin" alive="true"  father="Hero.cs_hero_kaloyin" spouse="Hero.cs_hero_galya" faction="Faction.cs_clan_sturgia_polovtoving" />
+	<Hero id="cs_hero_yanolya" alive="true"  father="Hero.cs_hero_kaloyin" faction="Faction.cs_clan_sturgia_polovtoving" />
+	<Hero id="cs_hero_galya" alive="true"  spouse="Hero.cs_hero_yanrasin" faction="Faction.cs_clan_sturgia_polovtoving" />
+	<Hero id="cs_hero_lovkin" alive="true"  faction="Faction.cs_clan_sturgia_polovtoving" />
+	<Hero id="cs_hero_mesnin" alive="true"  faction="Faction.cs_clan_sturgia_polovtoving" />
+	<Hero id="cs_hero_zarya" alive="true"  faction="Faction.cs_clan_sturgia_polovtoving" />
+	<Hero id="cs_hero_yankoyin" alive="true"  father="Hero.cs_hero_yanrasin" mother="Hero.cs_hero_galya" faction="Faction.cs_clan_sturgia_polovtoving" />
+	<Hero id="cs_hero_polovtoving_male_lord_template" alive="true" faction="Faction.cs_clan_sturgia_polovtoving" />
+	<Hero id="cs_hero_polovtoving_female_lord_template" alive="true" faction="Faction.cs_clan_sturgia_polovtoving" />
+	<!-- Polovtoving end-->
+	<!-- Prigoroving start-->
+	<Hero id="cs_hero_aslav" alive="true"  faction="Faction.cs_clan_sturgia_prigoroving" />
+	<Hero id="cs_hero_sulimbev" alive="true"  faction="Faction.cs_clan_sturgia_prigoroving" />
+	<Hero id="cs_hero_rumisa" alive="true"  faction="Faction.cs_clan_sturgia_prigoroving" />
+	<Hero id="cs_hero_kazbev" alive="true"  faction="Faction.cs_clan_sturgia_prigoroving" />
+	<Hero id="cs_hero_ilyazev" alive="true"  faction="Faction.cs_clan_sturgia_prigoroving" />
+	<Hero id="cs_hero_prigoroving_male_lord_template" alive="true" faction="Faction.cs_clan_sturgia_prigoroving" />
+	<Hero id="cs_hero_prigoroving_female_lord_template" alive="true" faction="Faction.cs_clan_sturgia_prigoroving" />
+	<!-- Prigoroving end-->
+	<!-- Band of Stoneborn start-->
+	<Hero id="cs_hero_hrongar" alive="true"  faction="Faction.cs_clan_sturgia_stoneborn" text="{=InFa.hero_hrongar.desc}Hrongar is a Stoneborn and is the head of the Band of the Stoneborns. He is known for his will to make anything possible, and for that he is known as the Stonewill." />
+	<Hero id="cs_hero_gusnor" alive="true"  faction="Faction.cs_clan_sturgia_stoneborn" text="{=InFa.hero_gusnor.desc}Gusnor is a Stoneborn and a member of the Band of the Stoneborns. Usually it is forbidden to a Stoneborn to interfere with any other Stoneborn's mission to become a true Stoneborn, but he couldn't stand and watch how a child gets molested by a man, and stepped in. Today it is said that he survived a mace to the face while relieving the man of his life." />
+	<Hero id="cs_hero_erjar" alive="true"  faction="Faction.cs_clan_sturgia_stoneborn" text="{=InFa.hero_erjar.desc}Erjar is a Stoneborn and a member of the Band of the Stoneborns. It is said that he has killed a group of hundred men, on just his own. By luring them into a cave and letting rocks rain onto their heads, with just a shout." />
+	<Hero id="cs_hero_yrsa" alive="true"  faction="Faction.cs_clan_sturgia_stoneborn" text="{=InFa.hero_yrsa.desc}Yrsa is a Stoneborn and a member of the Band of the Stoneborns. Usually only a Nord boy can become a Stoneborn, as for them, women are the gatekeepers to life. But not to her, she wanted to fight. Even if the Stoneborns wouldn't allow her to. She left home for the sake of becoming a Stoneborn. And for that she killed the old leader of the band, and lost her right eye in the process. Even then, they barely accepted her to join their ranks." />
+	<!-- Band of Stoneborn end-->
+	<!-- Snowpelts 	start-->
+	<Hero id="cs_hero_vikar" alive="true"  faction="Faction.cs_clan_sturgia_snowpelt" text="{=InFa.hero_vikar.desc}Vikar was the most just and bravest leader the Snowpelts ever had. It was a tragedy to lose him to a sickness, a sickness the Nords never had seen before. It was a 'unhealable' disease according to the herbal healers of their tribe." />
+	<Hero id="cs_hero_brachnar" alive="true"  faction="Faction.cs_clan_sturgia_snowpelt" text="{=InFa.hero_brachnar.desc}Brachnar was Vikar's right hand, and advisor. They grew up in the same family as children, later as they grew they became some kind of 'bloodbrothers' and have sworn to never stab each other in the back. Later when Vikar had become the Chief of the Snowpelts, he had made him to his right hand. Today, Brachnar is believed to be dead. Although some say he still roams around Calradia." />	
+	<!-- Snowpelts end-->
+	<!-- Other Heroes-->
+	<!-- Sword Sisters start-->
+	<Hero id="cs_hero_brienna" alive="true"  faction="Faction.cs_clan_other_swordsister" text="{=InFa.hero_brienna.desc}Brienna is a Sword-Sister and the head of the Sword Sisters. She has lost her family in a village raid as she was five. As Brienna grew she has sworn herself to always look after other people, but especially girls who are in times of need, and she has later formed the community of the Sword Sisters. Today people say that she has changed to the worse, and got egoistic." />
+	<Hero id="cs_hero_gevetina" alive="true"  faction="Faction.cs_clan_other_swordsister" text="{=InFa.hero_gevetina.desc}Gevetina is a Sword-Sister and a member of the Sword Sisters. She is of noble family and has always admired knights in shining armor. Every once in a while her parents have took her to tournaments and watched the fights. This motivated Gevetina to become a knight herself and made her want to join the tournaments. But her parents had other plans, they wanted her to study as fighting would be a boy's thing. So she has left home and ended up joining the Sword Sisters." />
+	<Hero id="cs_hero_thianna" alive="true"  faction="Faction.cs_clan_other_swordsister" text="{=InFa.hero_thianna.desc}Thianna is a Sword-Sister and a member of the Sword Sisters. She was the daughter of a single mother as they have lost the father of the family during wars. As time went worse for them, her mother has left and Thianna was alone, till Brienna has found her and welcomed her to their community. And since then Brienna was some kind of an older sister to her."/>
+	<!-- Sword Sisters end-->
+	<!-- Expedition Calradi end-->
+	<Hero id="cs_hero_ludvic" alive="true"  faction="Faction.cs_clan_other_expedition" text="{=InFa.hero_ludvic.desc}Ludvic is a member and the head of the Calradi Expedition. Even though he still believes of himself to be the chosen one to lead the expedition and take over Calradia, many of their once loyal members lost faith in him and left the clan. Today he is occupied with hunting down those disloyal members who were once a part of the Expedition, and strayed away from their main goal." />
+	<Hero id="cs_hero_arnich" alive="true"  faction="Faction.cs_clan_other_expedition" text="{=InFa.hero_arnich.desc}Arnich is a member and an operator of the Calradi Expedition. He is one of the few who still supports Ludvic, the head of the expedition. Unlike many of their worn-out followers, he still believes that there is a chance, and sees anyone who doesn't as a non believer. He says that those unfaithful people need to get hung up."/>
+	<Hero id="cs_hero_sidrih" alive="true"  faction="Faction.cs_clan_other_expedition" text="{=InFa.hero_sidrih.desc}Sidrih is a member and an operator of the Calradi Expedition. He is a knight and the best fighter, their highest order from home has sent to the expedition. Sidrih arrived with the last ship, which later got hijacked by the empire as they took control over the seas." />
+	<!-- Expedition Calradi end-->
+</Heroes>

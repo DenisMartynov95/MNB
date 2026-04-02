@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+  
+	<!-- Factions -->
+	<string id="InFa.fac_corvii" text="Corvii" />
+	<string id="InFa.fac_corvii.desc" text="The Corvii is a couple of decades old clan which was a part of the Calradic Military. Unlike some of the other houses, Corvii was a clan which had hugely supported the former Emperor of the Calradic Empire, Arenicos. But as civil war broke out and the Empire got splitted into 'wings', the Corvii were forced to lay down their support. Xanthe, the head of the Corvii, he wanted to form his own wing, and with it their own Empire. But it didn't go as expected, Xanthe whom was the second in command of the Calradic Military after Garios, was assassinated. Even if the clan's remains still had huge support of the people, it wasn't enough. His wife Chira, she couldn't manage to continue Xanthe's plans and lead the clan, as they had lost most of their military power to Garios. And soon, with the suppression by the opposition the Corvii were destroyed." />
+	<string id="InFa.fac_apos" text="Apos" />
+	<string id="InFa.fac_apos.desc" text="The Apos are one of the younger houses of the Empire, they were known as opposing the ideas of the dead Emperor, Arenicos. Altough Arenicos's supporters believe that the Apos were involved in the killing of the Emperor and with it in the splitting of the Empire, it got refuted by stronger powers and the backers of the Apos. After civil war broke out, the House of Apos tended toward supporting the Senate, and joined Lucon's side." />
+	<string id="InFa.fac_olympios" text="Olympios" />
+	<string id="InFa.fac_olympios.desc" text="The Olympios originally come from a house of Gladiators, decades ago they were known as condemned criminals who used to fight in the arenas, for the enjoyment of the Nobles. But as years passed and time has changed, their criminal families and their reputation of being bad faded. Later they have made their name heard in tournaments, and got known as the Olympios. Today they are a noble house of higher class, and teach children of other noble families their expertise in fighting. And the especially talented get granted a spot among their ranks." />
+	<string id="InFa.fac_morfomenos" text="Morfomenos" />
+	<string id="InFa.fac_morfomenos.desc" text="The Morfomenos come from highly educated families who used to be part of the Senate when the Empire formed as one, before the civil war in Calradia broke out. The majority of the Morfomenos were huge supporters of Emperor Arenicos and cultivated the same ideas as him. But his death caused splitting in the House of Morfomenos, some families wanted to stay in the Senate and keep their power. While the majority wanted to remain loyal to Arenicos and wanted to follow the new Empress. After a long quarrel, one of the more influental intellectuals stood up and took control. Today they have joined the Southern Empire even if it meant sacrificing a lot of power." />
+	<string id="InFa.fac_plousios" text="Plousios" />
+	<string id="InFa.fac_plousios.desc" text="The house of Plousios counts as one of the richest families of Calradia. Even if they are not the greatest at fighting wars they were of great service to Emperor Arenicos, when he was in power and ruled over the Empire as he was alive. After his death, and the splitting up of the Empire, the Plousios decided to stay with his wife, the new Empress, Rhagaea. Altough they tried covering their weaknesses by having a lot of children, Galaos never had the luck to have his wife give birth to a boy. They tried visiting different kinds of doctors, but with no avail. Witchcraft, and a mysterious witch was their last option. They started doing rituals, and other kinds of stuff, to make her give birth to a boy. Today it is said that, the involvement in sorcery brought upon the deaths of her and their two other daughters." />
+	<string id="InFa.fac_cativellaun" text="fen Cativellaun" />
+	<string id="InFa.fac_cativellaun.desc" text="The Cativellauns are descendants of a very old house of the Imperials. During wars, most of their families got destroyed and over time have split up themselves and thus from the Empire. After years have passed the Cativellauns have propagated themselves with Battanians and rooted themselves in the Battanian families. Today, Caius is known as their last 'real' leader and with it their last hope, to lead the Cativellauns for the greater. Although the family had big hopes that one of their twins would emerge as the new leader and step in their father's footsteps, they had a hard time deciding which son should take their father's place. But with the other twin's dissappearance, everything was left on Cassivius. Now, he is the one who got chosen to take their old father's place." />
+	<string id="InFa.fac_haldoc" text="fen Haldoc" />
+	<string id="InFa.fac_haldoc.desc" text="The Haldoc were once only a warrior tribe which consisted of like others say; 'barbaric' raiders and thieves. Though, today with the mysterious death of the High King Uthelhain, and Caladog coming to power, they have found themselves a chance to become something 'bigger'. And that's what happened, Caladog needed every support he could get so he has helped them to create their own clan, the fen Haldoc. Today the Haldoc have gave an oath to Caladog to always support him." />
+	<string id="InFa.fac_frostclaw" text="Frostclaws" />
+	<string id="InFa.fac_frostclaw.desc" text="The Frostclaws believe in a most ancient story of a 'Icebeast', it is said that the beast has huge claws of ice and that it lives in the snowy mountains of Calradia. Hedwyr is the head of the Frostclaws and known as the messenger of that beast, anyone who wants to join them has to give an oath to Hedwyr and with it, to the beast." />
+	<string id="InFa.fac_forestsong" text="Forestsong" />
+	<string id="InFa.fac_forestsong.desc" text="Forestsong was once a very evolved ancient kingdom consisting of a different breed of people. Rumours say that these people had pointed ears, mesmerizing eyes and were born with a expertise in archery. But later, as people from other lands have discovered Calradia, and have visited the kingdom, problems seemed to occur. More and more people from different places visited Calradia, which soon would lead to escalation. New Kings started to emerge who decided to build their own Empires in Calradia. Even if the people of the Forests were very friendly towards visitors, this was something they didn't approve of. The new King, he wasn't very friendly, he seemed to not care about the forests. He used the woods, which were to the Forest people a blessing of their God, as building material. He knew this would start a war, and that was exactly what he wanted. Within years of fighting against the Empire, which were superior in almost all areas of warfare, Forestsong gradually dispersed and soon became just a small tribe, though it was only a matter of time before the Empire would finish it's job and destroy their last sanctuary. Forestsong it became just a dream." />
+	<string id="InFa.fac_dey_uxkhal" text="dey Uxkhal" />
+	<string id="InFa.fac_dey_uxkhal.desc" text="Dey Uxkhal is one of the younger houses of the Vlandians. Once led by Traid, the father of the family. Although him and his people were thoroughly supportive towards King Derthert, they were skeptical on some of the decisions, which he still makes today. Today it is said that the Family's head, Traid... has been lost because of that skepticsm. And it is thought that the King was the one who has made him 'disappear'. Now, Dora took Traid's place and is managing the clan." />
+	<string id="InFa.fac_teyjit" text="Teyjit" />
+	<string id="InFa.fac_teyjit.desc" text="The Teyjit are a somewhat younger house of the Khuzaits and are known to be descendants of an older family, the 'Turkits'. Unlike many of the Khuzaits, the Turkits, even back then were known as a family who lived a more settled life. Though, today after a long struggle for peace and the loss of many Turkit Khans, Teyju took over and gone through a 'reformation' and renamed the clan to 'Teyjit'. Which despite bringing peace, may have angered the remains of the Turkits who today follow Teyju's leadership." />
+	<string id="InFa.fac_hugunait" text="Hugunait" />
+	<string id="InFa.fac_hugunait.desc" text="The Hugunaits were a decades old clan, which served the Empire as mercenaries when they were as one and had the power over Calradia. But as the Calradic Empire lost it's Emperor and Civil war broke out, things weren't going their way. The Empire has lost their economic control, and got splitted apart, which made the mercenary tribes including the Hugunaits turn against them. But unlike the Hugunaits, most of the other tribes which back then supported the Empire as mercenaries have later been brought together, and got united by Urkhun Urhunait, which afterwards have built the Khuzait Khanate. And the rest of the tribes, such as the Hugunaits, who were against their ideas got later hunted down by Urkhun. And with the death of Khan Atudin, the Hugunaits got destroyed and after years decayed. Today, Atudin's descendants are still looking for revenge." />
+	<string id="InFa.fac_banu_ghabar" text="Banu Ghabar" />
+	<string id="InFa.fac_banu_ghabar.desc" text="The Ghabars are slavers and use warfare as a way to get rich. Altough many people would think that they wouldn't take good care of their prisoners, its actually the opposite. Especially higher tier prisoners of war, as for them they're worthful goods and get an extra care until sold." />
+	<string id="InFa.fac_banu_qatal" text="Banu Qatal" />
+	<string id="InFa.fac_banu_qatal.desc" text="The Banu Qatal is a very, very old clan which lived its prime together with the establishment of the Aserai Sultanate. The Qatals serve the Aserai Sultan as assassins, they were known as the best ones at that, in all of Calradia. It is thought that, they even had a stake in the death of the great Emperor Arenicos. But since then, the clan was on it's downfall, it got infested with traitors and spies. The Sultan of the Aserai had started an act and intervened to clean out the clan. They arrested and executed every spy they found, even most of the other hashashins who were thought to be enemies, got imprisoned. And the rest of the clan, the experienced ones got forced to retire. Today the clan lost a lot of power, and almost destroyed itself." />
+	<string id="InFa.fac_prigoroving" text="Prigoroving" />
+	<string id="InFa.fac_prigoroving.desc" text="Prigoroving consists of once poor people. Who were kidnapped by a secret organisation, which took the children of poor villages. The organisation then trained and educated the children in hit and run tactics. To terrorize Sturgian territories and make it unsafe for traders. But some of the children, with the help of nearby militia of the villages, have formed an opposition and destroyed the organisation. Today these children have formed their clan, Prigoroving, and use their knowledge for the sake of the good. After some time, as they served the Sturgians as mercenaries, Raganvad has proposed them to become a family of the Sturgia and acknowledged them as a noble clan." />
+	<string id="InFa.fac_polovtoving" text="Polovtoving" />
+	<string id="InFa.fac_polovtoving.desc" text="Polovtoving is a clan of nobles who once lived in the vast steppes of Calradia, but after the establishment of the Khuzait Khanate and it's spread, they were forced to leave their homes. They couldn't fight back against the once parted tribes who were now united under Urkhun Urkhhunait. So they have fled and found refuge in the Kingdom of Sturgia. Today after decades, the Polovtoving are a part of the Sturgian families." />
+	<string id="InFa.fac_stoneborn" text="Band of the Stoneborn" />
+	<string id="InFa.fac_stoneborn.desc" text="The Band of the Stoneborns is a group of tough young Nord men from Stoneborn origins. They make Calradia an unsafe place, they raid, loot and destroy for glory. The Stoneborn families, they carry their babies over the seas and leave them at the shores of Calradia. They believe this to be a ritual to see if their sons are really capable of surviving the harsh conditions, this way they make sure their offspring survives and are able to carry on their bloodlines to the next generation. And when the child overcomes those conditions, it becomes a 'Stoneborn'. Each and every one of them gets a 'nickname' according to their mark, strengths or characteristics. Though, they'll have to loot atleast something of worth, before they can return home. And this warband was created for exactly that, to raid and loot." />
+	<string id="InFa.fac_snowpelt" text="Snowpelts" />
+	<string id="InFa.fac_snowpelt.desc" text="The Snowpelts were one of the earliest Nordic minor factions who had established themselves in Calradia. But their chief catching a sickness brought their downfall. Chaos had found the tribe after his death, people were fighting for the throne. But Vikar's right hand and his advisor, Brachnar, stepped in and brought a halt to the restlessness. There should be an election, the most ambitious and strongest families of the tribe should bring forth their sons, and the best one would be elected by the people. This may have brought a halt to the unrest, but only for some days, until a crazy man, a son of a family decided to run amok and killed his family. The people have gone crazy, it brought even more chaos to the barely stopped unrest. It is said that he did it for the sake of the throne, he sacrificed them, to prove to the people that it was him, he should be the new leader. Surprisingly the people have decided to make him the Chief, and with Brachnar's acknowledgement the tribe had its new leader. Even if it looked like the tribe was on a new rise, it was the opposite. Sickness had found the tribe. Which killed the people and soon destroyed the whole tribe." />
+	<string id="InFa.fac_swordsister" text="Swordsisters" />
+	<string id="InFa.fac_swordsister.desc" text="The Swordsisters are a community of girls who were forced to leave their homes for various reasons. Many girls of Calradia see them as their last hope for sanctuary, when they have nowhere to go. The Swordsisters who pick them up are experienced riders and use the art of warfare to protect themselves and create some kind of 'womenrights' movement, to stop the oppression of women. Though the majority of them decide to leave after a short stay, and use their skills in other ways, such as enlisting in mercenary companies or even in the armies of the kingdoms. This makes it hard for Brienna, the leader of the Swordsisters, to grow their clan and community and follow their main goal." />
+	<string id="InFa.fac_expedition" text="Calradi Expedition" />
+	<string id="InFa.fac_expedition.desc" text="The Calradi Expedition is a group of fanatic believers who think of themselves as the chosen people to bring peace, in the way of war. They were sent from different lands into Calradia to establish themselves, bring some sort of order and peace to these lands and anyone who would stand against them in their journey, would get killed. Though, as time has passed they have lost a lot of power, as their connections to their homes got cut off by the strong powers in Calradia. Now with the loss of majority of their power, many of their once so 'loyal' adherents left. Today, many of the members who still feel themselves bound to the order, got skeptical if their leader was really a 'chosen one' who should be leading the expedition." />
+
+
+	<!-- Lords -->
+	<string id="InFa.hero_xanthe" text="Xanthe" />
+	<string id="InFa.hero_xelos" text="Xelios" />
+	<string id="InFa.hero_jason_a" text="Jason" />	
+	<string id="InFa.hero_apos" text="Apos" />
+	<string id="InFa.hero_apithi" text="Apithi" />
+	<string id="InFa.hero_aposthenos" text="Aposthenos" />
+	<string id="InFa.hero_aposthocles" text="Aposthocles" />
+	<string id="InFa.hero_apithena" text="Apithena" />
+	<string id="InFa.hero_apollonia" text="Apollonia" />
+	<string id="InFa.hero_astor" text="Astor" />	
+	<string id="InFa.hero_anthea" text="Anthea" />	
+	<string id="InFa.hero_apochelos" text="Apochelos" />	
+	<string id="InFa.hero_aporros" text="Aporros" />	
+	<string id="InFa.hero_apharia" text="Apharia" />	
+	<string id="InFa.hero_pelakios" text="Pelakios" />
+	<string id="InFa.hero_cadmos" text="Cadmos" />
+	<string id="InFa.hero_calligenia" text="Calligenia" />
+	<string id="InFa.hero_parthenia" text="Parthenia" />	
+	<string id="InFa.hero_kephalos" text="Kephalos" />
+	<string id="InFa.hero_caiaphos" text="Caiaphos" />
+	<string id="InFa.hero_gregorios" text="Gregorios" />	
+	<string id="InFa.hero_xandros" text="Xandros" />	
+	<string id="InFa.hero_konstantina" text="Konstantina" />
+	<string id="InFa.hero_matios" text="Matios" />	
+	<string id="InFa.hero_menakleides" text="Menakleides" />
+	<string id="InFa.hero_ligeia" text="Ligeia" />
+	<string id="InFa.hero_erastos" text="Erastos" />
+	<string id="InFa.hero_desmatia" text="Desmatia" />
+	<string id="InFa.hero_vasileios" text="Vasileios" />	
+	<string id="InFa.hero_lachesis" text="Lachesis" />		
+	<string id="InFa.hero_kleidophoros" text="Kleidophoros" />		
+	<string id="InFa.hero_hyperion" text="Hyperion" />			
+	<string id="InFa.hero_galaos" text="Galaos" />
+	<string id="InFa.hero_rhea" text="Rhea" />
+	<string id="InFa.hero_gathea" text="Gathea" />
+	<string id="InFa.hero_sithea" text="Sithea" />
+	<string id="InFa.hero_dianthea" text="Dianthea" />
+	<string id="InFa.hero_rodanthea" text="Rodanthea" />
+	<string id="InFa.hero_polaos" text="Polaos" />
+	<string id="InFa.hero_eirene" text="Eirene" />
+	<string id="InFa.hero_alexius" text="Alexius" />
+	<string id="InFa.hero_jason_b" text="Jason" />	
+	<string id="InFa.hero_caius" text="Caius" />
+	<string id="InFa.hero_cassivius" text="Cassivius" />
+	<string id="InFa.hero_cisenia" text="Cysenith" />
+	<string id="InFa.hero_clemena" text="Clemia" />
+	<string id="InFa.hero_cassvil" text="Cassvil" />
+	<string id="InFa.hero_vecaunos" text="Vercaunos" />
+	<string id="InFa.hero_boudicca" text="Boudicca" />	
+	<string id="InFa.hero_britomartus" text="Britomartus" />		
+	<string id="InFa.hero_deuognata" text="Deuognata" />		
+	<string id="InFa.hero_wyndor" text="Wyndor" />
+	<string id="InFa.hero_ocnar" text="Ocnar" />
+	<string id="InFa.hero_geldir" text="Geldir" />	
+	<string id="InFa.hero_ednain" text="Ednain" />		
+	<string id="InFa.hero_hedwyr" text="Hedwyr Frostclaw" />
+	<string id="InFa.hero_bermon" text="Bermon Frostclaw" />
+	<string id="InFa.hero_brogyx" text="Brogyx Frostclaw" />
+	<string id="InFa.hero_dorron" text="Dorron Frostclaw" />
+	<string id="InFa.hero_vynedh" text="Vynedh" />
+	<string id="InFa.hero_ryvenae" text="Ryvenae" />	
+	<string id="InFa.hero_dora" text="Dora" />
+	<string id="InFa.hero_tremand" text="Tremand" />
+	<string id="InFa.hero_lisara" text="Lisara" />
+	<string id="InFa.hero_tredias" text="Tredias" />
+	<string id="InFa.hero_rainwad" text="Rainwad" />
+	<string id="InFa.hero_ilenna" text="Hilenna" />
+	<string id="InFa.hero_sonaled" text="Sonaled" />		
+	<string id="InFa.hero_despir" text="Despir" />	
+	<string id="InFa.hero_traid" text="Traid" />	
+	<string id="InFa.hero_rochard" text="Rochard" />	
+	<string id="InFa.hero_bernadelys" text="Bernadelys" />		
+	<string id="InFa.hero_teyju" text="Teyju" />
+	<string id="InFa.hero_atey" text="Atey" />
+	<string id="InFa.hero_kutey" text="Kutey" />
+	<string id="InFa.hero_delyaz" text="Delyaz" />
+	<string id="InFa.hero_yaznam" text="Yaznam" />
+	<string id="InFa.hero_nizvan" text="Nizvan" />
+	<string id="InFa.hero_sansey" text="Sansey" />	
+	<string id="InFa.hero_oktai" text="Oktai" />		
+	<string id="InFa.hero_sarnai" text="Sarnai" />		
+	<string id="InFa.hero_tuncai" text="Tuncai" />		
+	<string id="InFa.hero_batugai" text="Batugai" />
+	<string id="InFa.hero_kutlug" text="Kutlug" />	
+	<string id="InFa.hero_atidin" text="Atudin" />
+	<string id="InFa.hero_dariush" text="Dariush" />
+	<string id="InFa.hero_zhaleh" text="Zhaleha" />
+	<string id="InFa.hero_arash" text="Arash" />	
+	<string id="InFa.hero_tahmineh" text="Tahmineh" />		
+	<string id="InFa.hero_derafsh" text="Derafsh" />	
+	<string id="InFa.hero_selqet" text="Selqet" />	
+	<string id="InFa.hero_mamuk" text="Mamuq" />
+	<string id="InFa.hero_nasib" text="Nasib" />
+	<string id="InFa.hero_tufail" text="Tufail" />	
+	<string id="InFa.hero_jaffar" text="Jaffar" />		
+	<string id="InFa.hero_kaloyin" text="Kaloyin" />	
+	<string id="InFa.hero_yanrasin" text="Yanrasin" />
+	<string id="InFa.hero_yanolya" text="Yanolya" />	
+	<string id="InFa.hero_galya" text="Galya" />	
+	<string id="InFa.hero_lovkin" text="Loykin" />	
+	<string id="InFa.hero_mesnin" text="Mesnin" />
+	<string id="InFa.hero_yankoyin" text="Yankoyin" />
+	<string id="InFa.hero_zarya" text="Zarya" />	
+	<string id="InFa.hero_aslav" text="Aslav" />
+	<string id="InFa.hero_sulimbev" text="Sulimir" />
+	<string id="InFa.hero_rumisa" text="Rumisa" />
+	<string id="InFa.hero_kazbev" text="Kazbev" />
+	<string id="InFa.hero_hrongar" text="Hrongar Stonewill" />
+	<string id="InFa.hero_gusnor" text="Gusnor Stoneface" />
+	<string id="InFa.hero_erjar" text="Erjar Stonehail" />
+	<string id="InFa.hero_yrsa" text="Yrsa Stoneeye" />
+	<string id="InFa.hero_vikar" text="Vikar" />
+	<string id="InFa.hero_brachnar" text="Brachnar" />
+	<string id="InFa.hero_brienna" text="Brienna the Sword-Sister" />
+	<string id="InFa.hero_gevetina" text="Gevetina the Sword-Sister" />
+	<string id="InFa.hero_thianna" text="Thianna the Sword-Sister" />	
+	<string id="InFa.hero_ludvic" text="Ludvic" />
+	<string id="InFa.hero_arnich" text="Arnich" />
+	<string id="InFa.hero_sidrih" text="Sidrih" />
+
+	
+	<string id="InFa.hero_xanthe.desc" text="Xanthe was a Lieutnant, and second in command of the Calradic Military after Garios. Even though most of Calradic citizens think that him and Garios were great friends, the Corvii claim that Xanthe got murdered by Garios' men in order to stop him from taking over the army. Xanthe had the reputation of being goodwilling and kind." />
+	<string id="InFa.hero_xelos.desc" text="Xelios was Xanthe's Father. He was known to be a great leader, who always fought alongside his men during battles. He died an heroic death, during the great battle of Pendraic in 1077. Xelios had the reputation of being goodwilling and kind." />
+	<string id="InFa.hero_jason_a.desc" text="Jason was the military tactician to Xanthe, and served the Calradic Military. Jason laid up field tactics in the battle of Pendraic back in 1077. After the death of Xanthe and the destruction of the Corvii, Jason is believed to be also dead. But today it is rumored that he's been seen to be a part of the noble house of Plousios. Jason was reputed to be a man who enjoyed taking daring risks." />
+	<string id="InFa.hero_astor.desc" text="Astor was an archon of the Calradic Empire, when it was still united. He lost his life in a mysterious way, in 1033 at the age of 39, when him and his clan were a rising force in Calradia. Today his descendants believe that he was killed by his rivals. &#xA;Astor had the reputation of being noble and generous." />
+	<string id="InFa.hero_apos.desc" text="Apos is the head of the house of Apos, and the heir to Astor. Apos' marriage with his wife was a family arrangement, he married his second cousin Apithi just as she was seventeen years old, at the age of twentyeight in 1056. Rumours say that him and some of his acquaintances, played a part in the death of Emperor Arenicos. And that they are hand in glove with the hashashins of the far south, the Banu Qatal. But after a long quarrel between the backers of the Apos, that story got refuted. Apos is reputed to be a very family person, but sometimes cares about his own interests more than even his family's." />
+	<string id="InFa.hero_apithi.desc" text="Apithi is the mother of three and the wife to Apos, the heir to her Father-in-law, Astor. Apithi's marriage with her husband was a family arrangement, she married her second cousin Apos, as she was at the age of seventeen in 1056. Altough it was a family arrangement, Apithi seems to be rather happy how things have panned out. &#xA;Apithi is reputed to be courageous but merciful, even sometimes to her enemies." />
+	<string id="InFa.hero_aposthenos.desc" text="Aposthenos is the twin brother of Aposthokles and is the son to Apos, the heir of Astor. As they grew up, he always used to be the stronger brother, while Aposthokles was the smarter one. They seemed to be very inseperable as they have used each other's strengths in different kind of situations, but growing up brought it's responsibilities, they now had to support their father and be seperable. Other known nobles would often joke about them, and say that each of them would only have one side of the brain of their father. &#xA;Aposthenos is known to be honorable, but stiff-necked and cruel." />
+	<string id="InFa.hero_aposthocles.desc" text="Aposthokles is the twin brother to Aposthenos and is the son to Apos, the heir of Astor. As they grew up, he always used to be the smarter brother, while Aposthenos was the stronger one. They seemed to be very inseperable as they have used each other's strengths in different kind of situations, but growing up brought it's responsibilities, they now had to support their father and be seperable. Other known nobles would often joke about them, and say that each of them would only have one side of the brain of their father. &#xA;Aposthokles is known to be a very wayward man, except to those he is obligated to." />
+	<string id="InFa.hero_apithena.desc" text="Apithena is the daughter to the leading family of the house of Apos. Unlike almost all of the other ladies of Calradia, she got taught fighting with carved swords by her father, beginning at only six years old. Other noble families with aspiring sons were shocked and dissapointed to hear that a girl from such a noble house would get taught to be this rough and manly. Some say that it must have been a preventive act to not lose their daughter to another family too early, and to prevent her from ending up like her aunt, Apollonia. &#xA;Apithena is reputed to be courageous, but sometimes too much so." />
+	<string id="InFa.hero_apollonia.desc" text="Apollonia is the daughter to Astor, and the sister to Apos, the heir of Astor. She was once a very adventurous young girl who ran off and left her family to marry a charismatic man in the far eastern borders, which was back then belonging to the Calradic Empire. But with the death of the Emperor, and chaos breaking out, a civil war has errupted. The once so mighty Empire was crumbling. The armies needed more men to protect something which only once was, and Apollonia's husband was one of those that got drafted. Months after her husband being taken into service, she had gotten the bad news that he had fallen in battle. Even though Apollonia didn't want to just sit by but do something, she was helpless as she was expecting a baby, being three months pregnant. Her only option was to return home to where her roots are, as that was the only safe place for her baby. &#xA;Apollonia is reputed to be gracious and kind hearted to loyal followers." />
+	<string id="InFa.hero_apithena.desc" text="Apithena is the daughter to the leading family of the house of Apos. Unlike almost all of the other ladies of Calradia, she got taught fighting with carved swords by her father, beginning at only six years old. Other noble families with aspiring sons were shocked and dissapointed to hear that a girl from such a noble house would get taught to be this rough and manly. Some say that it must have been a preventive act to not lose their daughter to another family too early, and to prevent her from ending up like her aunt, Apollonia. &#xA;Apithena is reputed to be courageous, but sometimes too much so." />
+	<string id="InFa.hero_anthea.desc" text="Anthea is the sister to Astor whom they lost to what they think of as some sort of an assassination. Initially after his death, she took over the leadership of the House. But as time has passed her age was catching up, eventually she got bad with decisions and the managing of the clan. Though she had plans for her son to take over. But it didn't go as she has expected and Astor's heir Apos, her nephew, took over the leading position of the house. &#xA;Anthea is reputed to be considerate of others." />
+	<string id="InFa.hero_apochalis.desc" text="Apochelos is the son to Anthea, and the cousin to Apos, the heir of Astor. Apochelos had actually expected to be the next leader of the house of Apos, after Astor. But it didn't go as expected, as it is customary in the house of Apos to have atleast one son, who could take over the throne after you. Now since that he didn't have the chance to take over the lead of the house there have appeared some rumours that claim, that Apochelos stirred up opposition against his cousin Apos. They are saying that Apochelos actually stirred up people, to spread rumours around that Apos played a part in the death of Emperor Arenicos. But Apos himself thinks that it's all farce, and that it's in reality the house of Apos which is being tried to be divided. Apochelos is reputed to be honorable, angry and cruel, incapable of either breaking an oath or forgiving a slight." />
+	<string id="InFa.hero_aporros.desc" text="Aporros is the son to Apollonia. He is reputed to be a schemer." />
+	<string id="InFa.hero_apharia.desc" text="Apharia is the daughter to Apochelos. She is reputed to be prone to dangerous rages." />
+	<string id="InFa.hero_pelakios.desc" text="Pelakios was an archon of the Calradic Empire. He was murdered by a criminal gang, in 1080 at the age of 73. He was reputed to be possessed of a fierce and dangerous temper." />	
+	<string id="InFa.hero_galaos.desc" text="Galaos is the head of the house of Plousios and the the father of seven children, with two being dead and other two being missed. He lost his wife Rhea giving birth to their last child, his last hope to carry on his bloodlines, Polaos. Galaos is reputed to be noble, generous and merciful, even sometimes to his enemies." />
+	<string id="InFa.hero_rhea.desc" text="Rhea was the mother of seven children and the wife to Galaos, she died giving birth to their last child, Polaos. It is believed that casting rituals was the reason to her death. &#xA;Rhea was reputed to be foul-tempered." />
+	<string id="InFa.hero_gathea.desc" text="Gathea was one of the daughters of Galaos, she was the first child of the Plousios family. It is believed that their family casting foul rituals brought Gathea's death. &#xA;She had the reputation of never acting in haste." />
+	<string id="InFa.hero_sithea.desc" text="Sithea was one of the daughters of Galaos, she was the second child of the Plousios family. It is believed that their family casting foul rituals brought Sithea's death. &#xA;She had the reputation of being generous to friends." />
+	<string id="InFa.hero_dianthea.desc" text="Dianthe is one of the daughters of Galaos, she is the fourth child of the Plousios family. Dianthe is a lady who values appropriate looks and is a lover for stylistic apparel. She's always wearing the latest lines of clothing no matter the occasion. She has the reputation of being loyal to her family, but also being manipulative." />
+	<string id="InFa.hero_rodanthea.desc" text="Rodanthe is one of the daughters of Galaos, she is the fith child of the Plousios family. Rodanthe is a lady who values family and is a lover for babies. She's always the babysitter when needed. She has the reputation of being caring but also being cautious." />
+	<string id="InFa.hero_polaos.desc" text="Polaos is the sibling to six, and is the son to Galaos. He is the last child of the Plousios family. While also being Galaos' heir and the last hope to carry on his bloodlines. Polaos is reputed to be noble, generous and merciful." />
+	<string id="InFa.hero_eirene.desc" text="Eirene is the daughter of Alexius. Seventeen years ago the Plousios have picked them up as they were homeless, at that time Eirene was still a baby being one year old. Today she's grown into the family, and feels herself as a Plousios. Eirene has the reputation of being brave." />
+	<string id="InFa.hero_alexius.desc" text="Alexius is an army veteran, Galaos' right hand and guard. Seventeen years ago, the Plousios have picked him up when they've found him and his daughter in the streets as homeless people. As time has passed they became part of the Plousios. Alexius is reputed to be brave and honorable." />
+	<string id="InFa.hero_jason_b.desc" text="Jason is a military tactician, Galaos' left hand and advisor. Jason used to be part of the Corvii and served the Calradic Military, he laid up field tactics in the great battle of Pendraic back in 1077. But after civil war broke out, the Corvii had lost it's power due their leader's death. And were later suppressed by opposing powers, which have led them to their demise. Today after the destruction of their clan, Jason has become a part of the Plousios. Jason has the reputation of being the type who tries hard to not take unnecessary risks." />
+	<string id="InFa.hero_caius.desc" text="Caius was believed to be the last great leader of the Cativellauns. But him and his wife had done a good job, bringing up their sons and prepared them to be able to lead the clan as the next great Chieftain." />
+	<string id="InFa.hero_cassivius.desc" text="Cassivius is the progeny of Caius and is accepted to be a very ambitious, young and charismatic leader of the Cativellauns." />
+	<string id="InFa.hero_hedwyr.desc" text="Hedwyr claims to be the messenger of their ancient stories of the 'Icebeast'. Which made the people of his tribe accept him and his brother, Bermon, as their leader. For long, they've ruled together, just till Hedwyr's bloodbrother suddenly died. Hedwyr believes, and says that he was killed by the beast in his sleep, because he tried to break through his oath." />
+	<string id="InFa.hero_bermon.desc" text="Bermons death brought a lot of rumours. It is thought that Hedwyr killed him with his own hands, to keep or gain the throne for himself. Though some skeptical people think it was something else, they claim that the stories about Hedwyr are fake and don't believe him to be the messenger of the beast. They say that he has silenced Bermon, to keep their secrets." />
+	<string id="InFa.hero_vynedh.desc" text="Vynedh led the last army of the Forestsong, she died heroicly in battle, defending their last sanctuary. She was known to be very giving and brave, rumours say that she was the last carrier of magical spells. And that it has disappeared together with her death." />
+	<string id="InFa.hero_ryvenae.desc" text="Ryvenae was the captain of Forestsong's outwatch, the 'Forestsong Watch'. It was created as some sort of a last resort after all men died during the wars against the Imperials. So they have equipped every young woman with a bow and arrow, and formed the Forestsong Watch. But with the destruction of Forestsong, and the fall of their last Sanctuary. Ryvenae disappeared and is believed to be dead." />	
+	<string id="InFa.hero_dora.desc" text="Dora is the mother of three, and the wife to the missing link of their family, Traid. In his absence she took the lead of the clan, as she has thought that their children weren't ready for such a role as of yet. Dora is reputed to be generous." />
+	<string id="InFa.hero_traid.desc" text="Traid was the head of the family, and the husband to Dora. Traid is missing since summer 1080 and is believed to be dead. The people from the dey Uxkhal think that their skepticism towards King Derthert's decisions over the Kingdom brought his death, though some still cherish the thoughts of him being alive. Traid was reputed to be gallant." />
+	<string id="InFa.hero_yaznam.desc" text="Yaznam was a member of the Teyjit. It is believed that she was murdered by the Turkit people due to Teyju's controversy, at the age of 57. She was reputed to be very generous towards the tribespeople and was a great mother." />
+	<string id="InFa.hero_nizvan.desc" text="Nizvan is a member of the Teyjit and the daughter of who was once expected to be the next khan of the tribe, Tuncai. She is the fourth wife of Teyju after Yaznam, and has been acknowledged by him to be a part of their family unlike the ones before her. She has the reputation of being aloof and distant." />
+	<string id="InFa.hero_oktai.desc" text="Oktai is a member of the Teyjit and was the personal guard and advisor to Tuncai, who was once expected to be the next khan of the tribe. He and others think that Tuncai got backstabbed by his own people, some even say that it must have been someone who was very close to Tuncai. Today Oktai is serving Teyju, and follows his leadership. He is reputed to be just but pitiless." />
+	<string id="InFa.hero_sarnai.desc" text="Sarnai is a member of the Teyjit and the daughter to Oktai, who was Tuncai's personal guard and advisor. It is known that her father doesn't really look after her at all, and that she's brought up by the people who live in the tribe. Her father divorcing her mother because of her treacherous acts has not helped her any either. Sarnai is reputed to be a bit of a rogue, but a heart of gold." />
+	<string id="InFa.hero_tuncai.desc" text="Tuncai was a member of the Teyjit, and the last ambitious khan from deep Turkit origin. People from Turkit lineages claim that he was murdered by Teyju's accomplices, to stabilize his own position in the tribe. Tuncai was reputed to be very honorable and to never turn his back to people in need." />
+	<string id="InFa.hero_batugai.desc" text="Batugai is a member of the Teyjit and the son of who was once expected to be the next khan of the tribe, Tuncai. Many of the tribespeople have set big hopes to him, to step into his father's footsteps and lead the Turkits to the better. But after losing his mother giving birth to him, Batugai has also lost his father just two years after. So he didn't have the chance for a good upbringing, and doesn't know any better." />
+	<string id="InFa.hero_atidin.desc" text="Atudin was the Khan of the Hugunait. He was executed by the hand of Urkhun, in 1078 at the age of 68. He was reputed to be very generous and wise." />
+	<string id="InFa.hero_sudekin.desc" text="Sudekin was one of the last closest family relatives of Atudin, who was alive and witnessed his execution. After that, him and many of the other survivors of their tribe got split in to sections, and got forced to work in the mines of the steppes. Today it is said that the mine he got forced to work in collapsed and took all lives. Sudekin had the reputation of being profligate." />
+	<string id="InFa.hero_mamuk.desc" text="Mamuq is the new leader of the hashashins, he was put in power by the Aserai Sultan, Unqid. He is hated by many of the older hashashins and they see him as an enemy to the banu Qatal." />
+	<string id="InFa.hero_nasib.desc" text="Nasib is accepted to be the last true hashashin. Many of the older hashashins expected him to be the new leader of the banu Qatal." />
+	<string id="InFa.hero_kaloyin.desc" text="Kaloyin was a chieftain of the Polovtsians back at home. He died at the age of 65, in 1068, fleeing from the war. He was reputed to be very cautious, but friendly towards his people." />
+	<string id="InFa.hero_hrongar.desc" text="Hrongar is a Stoneborn and is the head of the Band of the Stoneborns. He is known for his will to make anything possible, and for that he is known as the Stonewill." />
+	<string id="InFa.hero_gusnor.desc" text="Gusnor is a Stoneborn and a member of the Band of the Stoneborns. Usually it is forbidden to a Stoneborn to interfere with any other Stoneborn's mission to become a true Stoneborn, but he couldn't stand and watch how a child gets molested by a man, and stepped in. Today it is said that he survived a mace to the face while relieving the man of his life." />
+	<string id="InFa.hero_erjar.desc" text="Erjar is a Stoneborn and a member of the Band of the Stoneborns. It is said that he has killed a group of hundred men, on just his own. By luring them into a cave and letting rocks rain onto their heads, with just a shout." />
+	<string id="InFa.hero_yrsa.desc" text="Yrsa is a Stoneborn and a member of the Band of the Stoneborns. Usually only a Nord boy can become a Stoneborn, as for them, women are the gatekeepers to life. But not to her, she wanted to fight. Even if the Stoneborns wouldn't allow her to. She left home for the sake of becoming a Stoneborn. And for that she killed the old leader of the band, and lost her right eye in the process. Even then, they barely accepted her to join their ranks." />
+	<string id="InFa.hero_vikar.desc" text="Vikar was the most just and bravest leader the Snowpelts ever had. It was a tragedy to lose him to a sickness, a sickness the Nords never had seen before. It was a 'unhealable' disease according to the herbal healers of their tribe." />
+	<string id="InFa.hero_brachnar.desc" text="Brachnar was Vikar's right hand, and advisor. They grew up in the same family as children, later as they grew they became some kind of 'bloodbrothers' and have sworn to never stab each other in the back. Later when Vikar had become the Chief of the Snowpelts, he had made him to his right hand. Today, Brachnar is believed to be dead. Although some say he still roams around Calradia." />
+	<string id="InFa.hero_brienna.desc" text="Brienna is a Sword-Sister and the head of the Sword Sisters. She has lost her family in a village raid as she was five. As Brienna grew she has sworn herself to always look after other people, but especially girls who are in times of need, and she has later formed the community of the Sword Sisters. Today people say that she has changed to the worse, and got egoistic." />
+	<string id="InFa.hero_gevetina.desc" text="Gevetina is a Sword-Sister and a member of the Sword Sisters. She is of noble family and has always admired knights in shining armor. Every once in a while her parents have took her to tournaments and watched the fights. This motivated Gevetina to become a knight herself and made her want to join the tournaments. But her parents had other plans, they wanted her to study as fighting would be a boy's thing. So she has left home and ended up joining the Sword Sisters." />
+	<string id="InFa.hero_thianna.desc" text="Thianna is a Sword-Sister and a member of the Sword Sisters. She was the daughter of a single mother as they have lost the father of the family during wars. As time went worse for them, her mother has left and Thianna was alone, till Brienna has found her and welcomed her to their community. And since then Brienna was some kind of an older sister to her." />
+	<string id="InFa.hero_ludvic.desc" text="Ludvic is a member and the head of the Calradi Expedition. Even though he still believes of himself to be the chosen one to lead the expedition and take over Calradia, many of their once loyal members lost faith in him and left the clan. Today he is occupied with hunting down any disloyal members who were once a part of their Expedition, and strayed away from their goals." />
+	<string id="InFa.hero_arnich.desc" text="Arnich is a member and an operator of the Calradi Expedition. He is one of the few who still supports Ludvic, the head of the expedition. Unlike many of their worn-out followers, he still believes that there is a chance, and sees anyone who doesn't as a non believer. He says that those unfaithful people need to get hung up." />
+	<string id="InFa.hero_sidrih.desc" text="Sidrih is a member and an operator of the Calradi Expedition. He is a knight and the best fighter, their highest order from home has sent to the expedition. Sidrih arrived with the last ship, which later got hijacked by the empire as they took control over the seas." />
+
+
+	<!-- Troops -->
+	<string id="InFa.Troop.FS.1" text="Forestsong Refugee" />
+	<string id="InFa.Troop.FS.2" text="Forestsong Scout" />
+	<string id="InFa.Troop.FS.3.1" text="Forestsong Defender" />
+	<string id="InFa.Troop.FS.3.2" text="Forestsong Outrider" />	
+	<string id="InFa.Troop.FS.4.1" text="Forestsong Nightwatch" />
+	<string id="InFa.Troop.FS.4.2" text="Forestsong Sentinel" />	
+	<string id="InFa.Troop.FS.4.3" text="Forestsong Vanguard" />
+	<string id="InFa.Troop.SS.1" text="Wandering Woman" />
+	<string id="InFa.Troop.SS.2" text="Huntress" />
+	<string id="InFa.Troop.SS.3" text="Camp Follower" />
+	<string id="InFa.Troop.SS.4" text="Camp Defender" />
+	<string id="InFa.Troop.SS.5" text="Sword Sister" />
+	<string id="InFa.Troop.SB.1" text="Stoneborn Freshman" />
+	<string id="InFa.Troop.SB.2" text="Stoneborn Shieldbrother" />
+	<string id="InFa.Troop.SB.3" text="Stoneborn Bloodbrother" />	
+	<string id="InFa.Troop.SB.4.1" text="Stoneborn Huscarl" />	
+	<string id="InFa.Troop.SB.4.2" text="Stoneborn Einherjar" />		
+	<string id="InFa.Troop.FC.1" text="Frostclaw Sympathizer" />
+	<string id="InFa.Troop.FC.2" text="Frostclaw Fanatic" />
+	<string id="InFa.Troop.FC.3" text="Frostclaw Loyal Fanatic" />
+	<string id="InFa.Troop.FC.4" text="Frostclaw Bloodsworn" />	
+	<string id="InFa.Troop.SP.1" text="Snowpelt Survivor" />
+	<string id="InFa.Troop.SP.2" text="Snowpelt Wildlander" />	
+	<string id="InFa.Troop.SP.3.1" text="Snowpelt Huntsman" />
+	<string id="InFa.Troop.SP.3.2" text="Snowpelt Harjar" />
+	<string id="InFa.Troop.SP.4.1" text="Snowpelt Survivalist" />	
+	<string id="InFa.Troop.SP.4.2" text="Snowpelt Rekkr" />
+	<string id="InFa.Troop.Hu.1" text="Hugunait Fugitive" />
+	<string id="InFa.Troop.Hu.2" text="Hugunait Tribal Watchman" />	
+	<string id="InFa.Troop.Hu.3.1" text="Hugunait Raider Cavalry" />
+	<string id="InFa.Troop.Hu.3.2" text="Hugunait Tribal Warrior" />	
+	<string id="InFa.Troop.Hu.4.1" text="Hugunait Tarqan Cavalry" />
+	<string id="InFa.Troop.Hu.4.2" text="Hugunait Nokkor" />
+	<string id="InFa.Troop.Hu.4.3" text="Hugunait Tarqan" />
+	<string id="InFa.Troop.Te.1" text="Tendii Aspirant" />
+	<string id="InFa.Troop.Te.2" text="Tendii Warrior" />
+	<string id="InFa.Troop.Te.3" text="Myrmidon" />
+	<string id="InFa.Troop.Te.4" text="Myrmidon Hero" />
+	<string id="InFa.Troop.EHsh" text="Errant Hashashi" />
+	<string id="InFa.Troop.AHsh" text="Armored Hashashi" />
+	<string id="InFa.Troop.CE.1" text="Expedition Follower" />
+	<string id="InFa.Troop.CE.2" text="Expedition Devotee" />
+	<string id="InFa.Troop.CE.3" text="Expedition Half Brother" />	
+	<string id="InFa.Troop.CE.4" text="Expedition Knight Brother" />		
+  </strings>
+</base>
+	

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!-- <RegularBanditDailySpawnData
+	 party_template ="PartyTemplate.cs_ID"
+	 bandit_clan = "ex: Faction.mountain_bandits" The clan/faction this spawn will be under.
+	 overriden_spawn_clan_0 = "ex: Faction.mountain_bandits" (OPTIONAL) use to spawn under the hideout of other bandits or write multiple to have one randomly selected for each time this spawns.
+	 overriden_spawn_clan_1 = "ex: Faction.mountain_sea_raiders"
+	 overriden_spawn_culture_0 = "ex: Culture.empire" (OPTIONAL) Incompatible with overriden_spawn_clan! Choose this to have this spawn in a settlement that has this culture.  
+	 overriden_spawn_culture_1 = "ex: Culture.aserai" (OPTIONAL) write multiple to have it be randomized over the settlements that have these cultures
+	 overriden_spawn_culture_2 = "ex: Culture.vlandia"
+	 overriden_spawn_culture_3 = "ex: Culture.battania"
+	 overriden_spawn_culture_4 = "ex: Culture.khuzait"
+	 overriden_spawn_culture_5 = "ex: Culture.sturgia"
+	 spawn_along_with_0 = "PartyTemplate.cs_peasant_revolt" (OPTIONAL) write as many as you want to have these spawn along with this spawn. THESE SUB PARTIES MUST BE DEFINED IN NameSignifier.xml
+	 spawn_along_with_1 = "PartyTemplate.cs_peasant_revolt"
+	 spawn_along_with_2 = "PartyTemplate.cs_peasant_revolt"
+	 spawn_along_with_3 = "PartyTemplate.cs_peasant_revolt">
+	 	<MaximumOnMap>1</MaximumOnMap> The maximum number of this spawn that can exist on the map at the same time.
+	 	<ChanceOfSpawn>0.01</ChanceOfSpawn> The daily base chance of this spawning.
+	 	<ChanceInverseConstant>0</ChanceInverseConstant> Added onto the base chance such that baseChance + ChanceInverseConstant * (float)(MaximumOnMap - numberSpawned) / (float)(MaximumOnMap)
+	 	<Name>Mass Revolt</Name> The name that will be displayed on the campaign map
+	 	<RepeatSpawnRolls>1</RepeatSpawnRolls> How many times the chance will be rolled daily.
+	 	<SpawnMessage>Injustice, rapine, and high taxes have lead to a massive peasant revolt at [spawnPlace]!</SpawnMessage> (OPTIONAL) the message that will be displayed when this spawns.
+	 	<SpawnMessageColor>danger</SpawnMessageColor> (OPTIONAL though must exist if message exists) The color the message will be displayed in. danger = red. For all other colours use hexadecimals with alpha values. For example: #FFFFFFFF. Do not forget the #!
+	 	<ExtraLinearSpeed>2.7</ExtraLinearSpeed> (OPTIONAL) extra speed applied to the party. Can also be negative. 
+	 	<PatrolAroundSpawn>true</PatrolAroundSpawn> (OPTIONAL) whether the party should patrol around the place it is spawned in. Set it to false or do not write it if you dont want this behaviour
+	 	<MinimumNumberOfDaysUntilSpawn>3</MinimumNumberOfDaysUntilSpawn> (OPTIONAL) The minimum number of days that must have passed in the save for the spawn to start spawning.
+	 </RegularBanditDailySpawnData> --> 
+</root>

@@ -12,16 +12,8 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@* | node()"/>
 			<template name="NPCCharacter.celtic_recruit" />
-			<template name="NPCCharacter.celtic_soldier" />	
-			<template name="NPCCharacter.celtic_rider" />
-			<template name="NPCCharacter.celtic_warrior" />	
-			<template name="NPCCharacter.celtic_cavalry" />
-			<template name="NPCCharacter.celtic_archer" />	
-			<template name="NPCCharacter.celtic_elite_archer" />
-			<template name="NPCCharacter.celtic_mounted_archer" />	
-			<template name="NPCCharacter.celtic_defender" />
-			<template name="NPCCharacter.celtic_blader" />	
-			<template name="NPCCharacter.celtic_heavy_cavalry" />		
+			<template name="NPCCharacter.celtic_warrior" />
+			<template name="NPCCharacter.celtic_archer" />
 		</xsl:copy>
 	</xsl:template>
 </xsl:stylesheet>

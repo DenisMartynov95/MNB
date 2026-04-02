@@ -1,0 +1,85 @@
+ <Module>
+     <Name value="Interesting Clans"/>
+     <Id value="InterestingClans"/>
+     <Version value="v1.0.8"/>
+     <SingleplayerModule value="true"/>
+     <MultiplayerModule value="false"/>
+     <DependedModules>
+         <DependedModule Id="Native"/>
+         <DependedModule Id="SandBoxCore"/>
+         <DependedModule Id="Sandbox"/>
+         <DependedModule Id="CustomBattle"/>
+         <DependedModule Id="StoryMode" />
+     </DependedModules>
+     <SubModules>
+
+     </SubModules>
+     <Xmls>
+        <XmlNode>
+            <XmlName path = "InterestingPartyTemplates" id = "partyTemplates"/>
+            <IncludedGameTypes>
+                <GameType value="Campaign"/>
+                <GameType value="CampaignStoryMode"/>
+                <GameType value="CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>	
+		<XmlNode>
+			<XmlName id="Items" path="InterestingItems"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>					
+		<XmlNode>                
+			<XmlName id="EquipmentRosters" path="InterestingEquipmentSets"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode> 	
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="InterestingCharacterTemplates"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>  		
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="InterestingTroops"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>  
+        <XmlNode>               
+            <XmlName id="NPCCharacters" path="InterestingLords"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+            </IncludedGameTypes>
+        </XmlNode>  
+        <XmlNode>               
+            <XmlName id="Heroes" path="InterestingHeroes"/>
+            <IncludedGameTypes>
+                <GameType value = "Campaign"/>
+                <GameType value = "CampaignStoryMode"/>
+            </IncludedGameTypes>
+        </XmlNode>  
+        <XmlNode>
+            <XmlName path = "InterestingFactions" id = "Factions"/>
+            <IncludedGameTypes>
+                <GameType value="Campaign"/>
+                <GameType value="CampaignStoryMode"/>
+                <GameType value="CustomGame"/>
+            </IncludedGameTypes> 
+        </XmlNode> 
+     </Xmls>
+ </Module>

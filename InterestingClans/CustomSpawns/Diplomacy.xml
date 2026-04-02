@@ -1,0 +1,76 @@
+<root>
+<DiplomacyData target ="cs_clan_other_expedition">
+<ForceWarPeaceBehaviour>
+	<ForcedWarSpecial flag="all"
+	 but_0 = "player_faction"
+	 but_1 = "skolderbrotva"
+	 but_2 = "legion_of_the_betrayed"
+	 but_3 = "company_of_the_boar"
+	 but_4 = "wolfskins"
+	 but_5 = "brotherhood_of_woods"
+	 but_6 = "lakepike"
+	 but_7 = "embers_of_flame"	 
+	 but_8 = "forest_people"	 
+	 but_9 = "eleftheroi"	 	
+	 but_10 = "hidden_hand"	 
+	 but_11 = "ghilman"	 	 
+	 but_12 = "jawwal"	 	
+	 but_13 = "karakhuzaits"
+	 but_14 = "cs_clan_imperial_house_of_corvii"	
+	 but_15 = "cs_clan_khuzait_hugunait"	
+	 but_16 = "cs_clan_battania_forestsong"	
+	 but_17 = "cs_clan_sturgia_snowpelt"		 
+	 but_18 = "forest_people"/>	 	 	 
+</ForceWarPeaceBehaviour>
+</DiplomacyData>
+<DiplomacyData target ="cs_clan_sturgia_stoneborn">
+<ForceWarPeaceBehaviour>
+	<ForcedWarSpecial flag="all"
+	 but_0 = "player_faction"	
+	 but_1 = "skolderbrotva"
+	 but_2 = "cs_clan_khuzait_hugunait"	
+	 but_3 = "cs_clan_battania_forestsong"	
+	 but_4 = "cs_clan_sturgia_snowpelt"		
+	 but_5 = "cs_clan_imperial_house_of_corvii"		 
+	 but_6 = "cs_clan_other_swordsister"		
+	 but_7 = "cs_clan_battania_frostclaw"
+	 but_8 = "wolfskins"
+	 but_9 = "forestpeople"	 
+	 but_10 = "eleftheroi"	 
+	 but_11 = "hidden_hand"	 
+	 but_12 = "legion_of_the_betrayed"	
+	 but_13 = "ghilman"	 	 
+	 but_14 = "jawwal"	 	
+	 but_15 = "beni_zilal"	 
+	 but_16 = "embers_of_flame"		 
+	 but_17 = "lakepike"/>	 	 	 
+</ForceWarPeaceBehaviour>
+</DiplomacyData>
+<DiplomacyData target ="cs_clan_battania_frostclaw">
+<ForceWarPeaceBehaviour>
+	<ForcedWarSpecial flag="all"
+	 but_0 = "player_faction"
+	 but_1 = "legion_of_the_betrayed"
+	 but_2 = "company_of_the_boar"
+	 but_3 = "wolfskins"
+	 but_4 = "brotherhood_of_woods"
+	 but_5 = "lakepike"
+	 but_6 = "embers_of_flame"	 
+	 but_7 = "forest_people"	 
+	 but_8 = "eleftheroi"	 	
+	 but_9 = "hidden_hand"	 
+	 but_10 = "ghilman"	 	 
+	 but_11 = "jawwal"	 	
+	 but_12 = "beni_zilal"
+	 but_13 = "karakhuzaits"
+	 but_14 = "cs_clan_imperial_house_of_corvii"	
+	 but_15 = "cs_clan_khuzait_hugunait"	
+	 but_16 = "cs_clan_battania_forestsong"	
+	 but_17 = "cs_clan_sturgia_snowpelt"	
+	 but_18 = "cs_clan_sturgia_stoneborn"	
+	 but_19 = "cs_clan_other_swordsister"	
+	 but_20 = "skolderbrotva"	 
+	 but_21 = "forest_people"/>	 
+</ForceWarPeaceBehaviour>
+</DiplomacyData>
+</root>

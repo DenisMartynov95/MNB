@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+<!--**Battanian Clans**-->
+  <!--Frostclaw start-->
+  <MBPartyTemplate id="cs_kingdom_hero_party_frostclaw_template" >
+    <stacks>
+      <PartyTemplateStack min_value="35" max_value="55" troop="NPCCharacter.frostclaw_tier_1" />
+      <PartyTemplateStack min_value="25" max_value="45" troop="NPCCharacter.frostclaw_tier_2" />
+      <PartyTemplateStack min_value="18" max_value="28" troop="NPCCharacter.frostclaw_tier_3" />
+      <PartyTemplateStack min_value="12" max_value="22" troop="NPCCharacter.frostclaw_tier_4" />
+    </stacks>
+  </MBPartyTemplate>
+  <!--Frostclaw end-->
+  <!--Forestsong start-->
+  <MBPartyTemplate id="cs_kingdom_hero_party_forestsong_template" >
+    <stacks>
+      <PartyTemplateStack min_value="50" max_value="80" troop="NPCCharacter.forestsong_tier_3" />
+      <PartyTemplateStack min_value="30" max_value="50" troop="NPCCharacter.forestsong_tier_3_b" />
+      <PartyTemplateStack min_value="26" max_value="36" troop="NPCCharacter.forestsong_tier_4_b" />
+      <PartyTemplateStack min_value="13" max_value="23" troop="NPCCharacter.forestsong_tier_4" />
+      <PartyTemplateStack min_value="3" max_value="13" troop="NPCCharacter.forestsong_tier_4_c" />
+    </stacks>
+  </MBPartyTemplate>
+  <!--Forestsong end-->
+<!--**Sturgian Clans**-->
+  <!--Band of Stoneborn start-->
+  <MBPartyTemplate id="cs_kingdom_hero_party_bandofstoneborn_template" >
+    <stacks>
+      <PartyTemplateStack min_value="35" max_value="55" troop="NPCCharacter.bandofstoneborn_tier_1" />
+      <PartyTemplateStack min_value="25" max_value="45" troop="NPCCharacter.bandofstoneborn_tier_2" />
+      <PartyTemplateStack min_value="8" max_value="28" troop="NPCCharacter.bandofstoneborn_tier_3" />
+      <PartyTemplateStack min_value="11" max_value="21" troop="NPCCharacter.bandofstoneborn_tier_4" />
+      <PartyTemplateStack min_value="11" max_value="21" troop="NPCCharacter.bandofstoneborn_tier_4_b" />
+    </stacks>
+  </MBPartyTemplate>
+  <!--Band of Stoneborn end-->
+  <!--Snowpelts start-->
+  <MBPartyTemplate id="cs_kingdom_hero_party_snowpelt_template" >
+    <stacks>
+      <PartyTemplateStack min_value="16" max_value="55" troop="NPCCharacter.snowpelt_tier_2" />
+      <PartyTemplateStack min_value="4" max_value="34" troop="NPCCharacter.snowpelt_tier_3_b" />
+      <PartyTemplateStack min_value="4" max_value="24" troop="NPCCharacter.snowpelt_tier_3" />
+      <PartyTemplateStack min_value="2" max_value="12" troop="NPCCharacter.snowpelt_tier_4_b" />
+      <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.snowpelt_tier_4" />
+    </stacks>
+  </MBPartyTemplate>
+  <!--Snowpelts end-->
+<!--**Khuzait Clans**-->
+  <!--Hugunaits start-->
+  <MBPartyTemplate id="cs_kingdom_hero_party_hugunait_template" >
+    <stacks>
+      <PartyTemplateStack min_value="14" max_value="75" troop="NPCCharacter.hugunait_tier_2" />
+      <PartyTemplateStack min_value="6" max_value="36" troop="NPCCharacter.hugunait_tier_2" />
+      <PartyTemplateStack min_value="4" max_value="24" troop="NPCCharacter.hugunait_tier_3" />
+       <PartyTemplateStack min_value="2" max_value="22" troop="NPCCharacter.hugunait_tier_3_b" />
+      <PartyTemplateStack min_value="1" max_value="21" troop="NPCCharacter.hugunait_tier_4" />
+      <PartyTemplateStack min_value="1" max_value="11" troop="NPCCharacter.hugunait_tier_4_b" />
+      <PartyTemplateStack min_value="1" max_value="11" troop="NPCCharacter.hugunait_tier_4_c" />
+    </stacks>
+  </MBPartyTemplate>
+  <!--Hugunaits end-->
+<!--**Other Clans**-->
+  <!--Swordsisters start-->
+  <MBPartyTemplate id="cs_kingdom_hero_party_swordsister_template" >
+    <stacks>
+      <PartyTemplateStack min_value="20" max_value="59" troop="NPCCharacter.sword_sister_tier_2" />
+      <PartyTemplateStack min_value="8" max_value="38" troop="NPCCharacter.sword_sister_tier_3" />
+      <PartyTemplateStack min_value="6" max_value="26" troop="NPCCharacter.sword_sister_tier_5" />
+    </stacks>
+  </MBPartyTemplate>
+  <!--Swordsisters end-->
+  <!--Expedition start-->
+  <MBPartyTemplate id="cs_kingdom_hero_party_expedition_template" >
+    <stacks>
+      <PartyTemplateStack min_value="18" max_value="57" troop="NPCCharacter.expedition_tier_1" />
+      <PartyTemplateStack min_value="10" max_value="23" troop="NPCCharacter.expedition_tier_2" />
+      <PartyTemplateStack min_value="6" max_value="16" troop="NPCCharacter.expedition_tier_3" />
+      <PartyTemplateStack min_value="3" max_value="13" troop="NPCCharacter.expedition_tier_4" />
+    </stacks>
+  </MBPartyTemplate>
+  <!--Expedition end-->
+</partyTemplates>

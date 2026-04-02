@@ -14,7 +14,6 @@
 			<template name="NPCCharacter.musou_volunteer" />
 			<template name="NPCCharacter.musou_fighter" />
 			<template name="NPCCharacter.musou_ranger" />
-			<template name="NPCCharacter.musou_shooter" />
 			<template name="NPCCharacter.musou_warrior" />
 			<template name="NPCCharacter.musou_blader" />
 			<template name="NPCCharacter.musou_elite_archer" />

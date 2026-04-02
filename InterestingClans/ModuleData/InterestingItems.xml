@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Avareee Items -->
+	<!-- ****************** -->
+	<!-- Interesting Clans -->
+	<!-- Head Start -->
+  <Item id="headscarf_d_uncolored"
+        name="{=wW3iouiU}Bleached Hijab"
+        mesh="headscarf_d"
+        culture="Culture.aserai"
+        weight="0.5"
+        appearance="1"
+		is_merchandise="false"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="3"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth"
+             beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>	
+  <Item id="headscarf_c_uncolored"
+        name="{=ZhcOdFgK}Bleached Luxurious Head Scarf"
+        mesh="headscarf_c"
+        culture="Culture.vlandia"
+        weight="0.3"
+        appearance="1"
+		is_merchandise="false"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="3"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth"
+             beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>  
+	<!-- Capes Start -->
+  <Item id="female_hood_uncolored"
+        name="{=FItBDuqh}Bleached Cotton Hood"
+        mesh="female_peasant_cape_a"
+        culture="Culture.neutral_culture"
+        weight="0.2"
+        appearance="1"
+		is_merchandise="false"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="2"
+             arm_armor="1"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="female_scarf_uncolored"
+        name="{=HJdIkdm2}Bleached Thick Scarf"
+        mesh="female_peasant_cape_b"
+        culture="Culture.neutral_culture"
+        weight="0.3"
+        appearance="2"
+		is_merchandise="false"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="scarf_uncolored"
+        name="{=GNdVXMue}Bleached Scarf"
+        mesh="sturgia_cape_a"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.3"
+        difficulty="0"
+        appearance="3"
+		is_merchandise="false"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="wrapped_scarf_uncolored"
+        name="{=h1bcf5zn}Bleached Shawl"
+        mesh="aserai_shoulder_a"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.2"
+        difficulty="0"
+        appearance="2"
+		is_merchandise="false"		
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="2"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="empire_cape_a_uncolored"
+        name="{=KQ9h5eAe}Bleached Heavy Cloak"
+        mesh="empire_cape_a"
+        culture="Culture.neutral_culture"
+        subtype="body_armor"
+        weight="0.5"
+        difficulty="0"
+        appearance="3"
+		is_merchandise="false"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="3"
+             arm_armor="2"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>  
+	<!-- Body Start -->
+  <Item id="empire_dress_uncolored"
+        name="{=JsmnUp0T}Bleached Ladies Dress"
+        mesh="empire_dress"
+        culture="Culture.empire"
+        weight="0.7"
+        appearance="1"
+		is_merchandise="false"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="7"
+             leg_armor="4"
+             arm_armor="2"
+             has_gender_variations="true"
+             covers_body="true"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item id="empire_dress_b_uncolored"
+        name="{=VqFV9LS4}Bleached Red Dress"
+        mesh="empire_dress_b"
+        culture="Culture.empire"
+        weight="0.6"
+        appearance="1"
+		is_merchandise="false"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="6"
+             leg_armor="2"
+             arm_armor="2"
+             has_gender_variations="true"
+             covers_body="true"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>  	
+	<!-- Gloves Start -->
+	<!-- Boots Start -->
+</Items>	
