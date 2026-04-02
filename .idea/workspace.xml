@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/partyTemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spcultures.xml" beforeDir="false" />
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)&#10;&#10;Правлю культуры">
       <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -352,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775122874911</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)&#10;&#10;Правлю культуры">
+      <option name="closed" value="true" />
+      <created>1775124618289</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1775124618289</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,7 +384,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ветка спарты исправлена" />
     <MESSAGE value="Правлю ветку арабов" />
     <MESSAGE value="Фиксю" />
     <MESSAGE value="Продолжаю балансить" />
@@ -404,6 +408,7 @@
     <MESSAGE value="Нашел пропавшие юниты в различных файлах модов, Я же переработал ветки, но при этом файлы использовали удаленные юниты" />
     <MESSAGE value="Более менее стабильная сборка, осталось починить баг с караванами - думаю удалить все файлы в модах про караваны" />
     <MESSAGE value="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)" />
+    <MESSAGE value="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)&#10;&#10;Правлю культуры" />
+    <option name="LAST_COMMIT_MESSAGE" value="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)&#10;&#10;Правлю культуры" />
   </component>
 </project>
