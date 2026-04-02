@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Нашел пропавшие юниты в различных файлах модов, Я же переработал ветки, но при этом файлы использовали удаленные юниты">
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Более менее стабильная сборка, осталось починить баг с караванами - думаю удалить все файлы в модах про караваны">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zAthen Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zAthen Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/План Работ" beforeDir="false" afterPath="$PROJECT_DIR$/План Работ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/partyTemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/partyTemplates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spkingdoms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spkingdoms.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/ModuleData/edit_partyTemplates.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zLannister Minor Faction/ModuleData/partyTemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zLannister Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/ModuleData/partyTemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775074208402</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Более менее стабильная сборка, осталось починить баг с караванами - думаю удалить все файлы в модах про караваны">
+      <option name="closed" value="true" />
+      <created>1775116612994</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1775116612995</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,6 +396,7 @@
     <MESSAGE value="Закомментировал все юниты в коре" />
     <MESSAGE value="Перенес из культуры КОРА в Sparta Kingdom" />
     <MESSAGE value="Нашел пропавшие юниты в различных файлах модов, Я же переработал ветки, но при этом файлы использовали удаленные юниты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Нашел пропавшие юниты в различных файлах модов, Я же переработал ветки, но при этом файлы использовали удаленные юниты" />
+    <MESSAGE value="Более менее стабильная сборка, осталось починить баг с караванами - думаю удалить все файлы в модах про караваны" />
+    <option name="LAST_COMMIT_MESSAGE" value="Более менее стабильная сборка, осталось починить баг с караванами - думаю удалить все файлы в модах про караваны" />
   </component>
 </project>

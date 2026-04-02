@@ -10,7 +10,7 @@
 	<xsl:template match="MBPartyTemplate[@id='caravan_template_sturgia']/stacks">
 		<xsl:copy>
 			<xsl:apply-templates select="@* | node()"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.erdtree_tarnished_samurai" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.erdtree_godrick_knight_paladin" />
 		</xsl:copy>
 	</xsl:template>
 
@@ -18,7 +18,7 @@
 	<xsl:template match="MBPartyTemplate[@id='elite_caravan_template_sturgia']/stacks">
 		<xsl:copy>
 			<xsl:apply-templates select="@* | node()"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.erdtree_tarnished_samurai" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.erdtree_carian_knight_paladin" />
 		</xsl:copy>
 	</xsl:template>
 

@@ -2,15 +2,15 @@
 <partyTemplates>
     <MBPartyTemplate id="musuo_party_template">
       <stacks>
-        <PartyTemplateStack min_value="10" max_value="40" troop="NPCCharacter.musou_volunteer" />
-        <PartyTemplateStack min_value="10" max_value="40" troop="NPCCharacter.musou_fighter" />
-        <PartyTemplateStack min_value="10" max_value="40" troop="NPCCharacter.musou_ranger" />
-        <PartyTemplateStack min_value="10" max_value="40" troop="NPCCharacter.musou_archer" />
-        <PartyTemplateStack min_value="10" max_value="40" troop="NPCCharacter.musou_warrior" />
-        <PartyTemplateStack min_value="10" max_value="40" troop="NPCCharacter.musou_blader" />
-        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.musou_elite_archer" />
-        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.musou_champion" />
-        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.musou_swordswoman" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.musou_volunteer" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.musou_fighter" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.musou_ranger" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.musou_archer" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.musou_warrior" />
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.musou_blader" />
+        <PartyTemplateStack min_value="10" max_value="11" troop="NPCCharacter.musou_elite_archer" />
+        <PartyTemplateStack min_value="10" max_value="11" troop="NPCCharacter.musou_champion" />
+        <PartyTemplateStack min_value="10" max_value="11" troop="NPCCharacter.musou_swordswoman" />
       </stacks>
     </MBPartyTemplate>
 </partyTemplates>
