@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Более менее стабильная сборка, осталось починить баг с караванами - думаю удалить все файлы в модах про караваны">
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/partyTemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spkingdoms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spkingdoms.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/ModuleData/edit_partyTemplates.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/zGolden Order of Erdtree Minor Faction/ModuleData/edit_partyTemplates.xslt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zLannister Minor Faction/ModuleData/partyTemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zLannister Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/ModuleData/partyTemplates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zMosuo Clan Archer ONLY Minor Faction/ModuleData/partyTemplates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spcultures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775116612995</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)">
+      <option name="closed" value="true" />
+      <created>1775122874911</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1775122874911</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -397,6 +403,7 @@
     <MESSAGE value="Перенес из культуры КОРА в Sparta Kingdom" />
     <MESSAGE value="Нашел пропавшие юниты в различных файлах модов, Я же переработал ветки, но при этом файлы использовали удаленные юниты" />
     <MESSAGE value="Более менее стабильная сборка, осталось починить баг с караванами - думаю удалить все файлы в модах про караваны" />
-    <option name="LAST_COMMIT_MESSAGE" value="Более менее стабильная сборка, осталось починить баг с караванами - думаю удалить все файлы в модах про караваны" />
+    <MESSAGE value="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)" />
   </component>
 </project>
