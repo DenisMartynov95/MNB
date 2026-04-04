@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Все исправил - внедряю ветки">
+    <list default="true" id="c139f5e2-3763-4c93-bc8b-2c6928c3b952" name="Changes" comment="Правлю культуры в Simple devide">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/settlements.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/settlements.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBox/ModuleData/spkingdoms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/ModuleData/spkingdoms.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SandBoxCore/ModuleData/spcultures.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zSolruine Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/spnpccharacters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zThe Emissary Minor Faction/ModuleData/spnpccharacters.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/Languages/RU/std_spkingdoms_rus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/Languages/RU/std_spkingdoms_rus.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spkingdoms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VerySimpleDivider/ModuleData/spkingdoms.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775165809984</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Правлю культуры в Simple devide">
+      <option name="closed" value="true" />
+      <created>1775336878171</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1775336878171</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Продолжаю балансить" />
     <MESSAGE value="Переработка ветки" />
     <MESSAGE value="Ветка Египта" />
     <MESSAGE value="Переработал ветку египта" />
@@ -430,6 +434,7 @@
     <MESSAGE value="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)&#10;&#10;Правлю культуры" />
     <MESSAGE value="Баг с караванами (должно пофикситься, сбросил party templates в Нативе) + баг с милицией (надо проверять is basic troop)&#10;&#10;Правлю культуры - вернул базовые культуры, хотя нахуя они нужны не понимаю" />
     <MESSAGE value="Все исправил - внедряю ветки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Все исправил - внедряю ветки" />
+    <MESSAGE value="Правлю культуры в Simple devide" />
+    <option name="LAST_COMMIT_MESSAGE" value="Правлю культуры в Simple devide" />
   </component>
 </project>
