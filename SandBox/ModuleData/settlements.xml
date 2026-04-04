@@ -5208,7 +5208,7 @@
 		name="{=Settlements.Settlement.name.castle_village_ES8_2}Popsia"
 		posX="513.001"
 		posY="367.531"
-		culture="Culture.empire"
+		culture="Culture.sparta"
 		text="{=Settlements.Settlement.text.village_ES4_2}Popsia in a narrow canyon between the Ornian Rock and the valley of the Ophthys pool. Trees grow tall here in the cool shadows of the hills, and villagers harvest pines for sale as lumber.">
 		<Components>
 			<Village
@@ -10123,7 +10123,7 @@
 		owner="Faction.clan_vlandia_11"
 		posX="223.555"
 		posY="357.026"
-		culture="Culture.empire_base"
+		culture="Culture.vavilon"
 		gate_posX="222.5224"
 		gate_posY="356.4457">
 		<Components>
@@ -10160,7 +10160,7 @@
 		name="{=Settlements.Settlement.name.castle_village_V1_1}Usanc"
 		posX="226.946"
 		posY="340.034"
-		culture="Culture.empire_base"
+		culture="Culture.vavilon"
 		text="{=Settlements.Settlement.text.castle_village_V1_1}Usanc sits by a small bay that flows into the larger Gulf of Charas. This warm southern land supports the growing of olive trees.">
 		<Components>
 			<Village
@@ -10272,7 +10272,7 @@
 		name="{=Settlements.Settlement.name.castle_village_V2_2}Ferton"
 		posX="132.827"
 		posY="425.805"
-		culture="Culture.empire_base"
+		culture="Culture.vavilon"
 		text="{=Settlements.Settlement.text.castle_village_V2_2}Ferton near a curve of the meandering Trand river, not far from a pass leading seaward over the Biscan Hills. The villagers grow olives on the warm, dry landward side of the hills.">
 		<Components>
 			<Village
@@ -10310,7 +10310,7 @@
 		owner="Faction.clan_vlandia_2"
 		posX="109.383"
 		posY="514.606"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		gate_posX="109.7325"
 		gate_posY="513.6299">
 		<Components>
@@ -10347,7 +10347,7 @@
 		name="{=Settlements.Settlement.name.castle_village_V3_1}Drapand"
 		posX="97.509"
 		posY="489.095"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		text="{=Settlements.Settlement.text.castle_village_V3_1}Drapand sits near the tip of Cape Fal, a promontory just south of the mouth of the Trand River. The villagers venture out far into the seas to cod-rich banks washed by a cold current from the north.">
 		<Components>
 			<Village
@@ -10385,7 +10385,7 @@
 		owner="Faction.clan_vlandia_10"
 		posX="199.557"
 		posY="521.81"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		gate_posX="199.5611"
 		gate_posY="522.6012">
 		<Components>
@@ -10422,7 +10422,7 @@
 		name="{=Settlements.Settlement.name.castle_village_V4_1}Ormanfard"
 		posX="180.271"
 		posY="519.097"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		text="{=Settlements.Settlement.text.castle_village_V4_1}Ormanfard sits by a small, fast-flowing river that runs down from the mountains of the Rhennod to fill the lake known as Ocspool. Rains are plentiful and wheat and barley grow well on the hillsides.">
 		<Components>
 			<Village
@@ -10460,7 +10460,7 @@
 		owner="Faction.clan_vlandia_5"
 		posX="165.989"
 		posY="564.639"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		gate_posX="164.9052"
 		gate_posY="564.4557">
 		<Components>
@@ -10497,7 +10497,7 @@
 		name="{=Settlements.Settlement.name.castle_village_V5_1}Tirby"
 		posX="161.077"
 		posY="586.582"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		text="{=Settlements.Settlement.text.castle_village_V5_1}Tirby sits in the cold misty waters that lie off of the Ebor peninsula. The low-lying lands on the northern side of the Ebor are suited to the growing of flax.">
 		<Components>
 			<Village
@@ -10533,7 +10533,7 @@
 		name="{=Settlements.Settlement.name.castle_village_V5_2}Sirindac"
 		posX="152.416"
 		posY="567.49"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		text="{=Settlements.Settlement.text.castle_village_V5_2}Sirindac lies beneath the high ridges of the Ebor peninsula, somewhat sheltered from the bitter winds blowing out of the northwest. Migrants come here from across the Vlandian lands to prospect for silver in the mountain streams.">
 		<Components>
 			<Village
@@ -11229,7 +11229,7 @@
 		owner="Faction.clan_vlandia_2"
 		posX="139.205"
 		posY="475.542"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		gate_posX="136.1743"
 		gate_posY="478.3232"
 		text="{=Nx0qK2g6}Paravenos was the second major colony founded by Calradios the Great, and it soon succeeded Charasea as the capital of the Calradians. Eventually, the empire's center of gravity moved east, but Paravenos retained its primacy as the economic center of the West. When Osric Iron-Arm the Vlandian invaded, he recognized Paravenos would be far more valuable as a seat of power than as simply as a source of loot,  and negotiated its surrender with local senators. It passed to a cadet branch of Osric's line, the dey Tihr clan, and is today known as Pravend.">
@@ -11296,7 +11296,7 @@
 		name="{=Settlements.Settlement.name.castle_village_V3_2}Valanby"
 		posX="117.556"
 		posY="500.746"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		text="{=Settlements.Settlement.text.village_V3_1}Valanby sits overlooking the Trand estuary. Villagers plant flax in land reclaimed from the riverside marshes.">
 		<Components>
 			<Village
@@ -12077,7 +12077,7 @@
 		name="{=Settlements.Settlement.name.village_V8_1}Horsger"
 		posX="151.509"
 		posY="540.844"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		text="{=Settlements.Settlement.text.village_V8_1}Horsger is where, according to legend, the warrior Horsa came ashore and planted his spear in the beach. Today it is known for its daring fishermen, who venture out far to find banks, chilled by currents from the north, that are rich in cod.">
 		<Components>
 			<Village
@@ -12114,7 +12114,7 @@
 		name="{=Settlements.Settlement.name.village_V8_2}Cananc"
 		posX="148.495"
 		posY="578.875"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		text="{=Settlements.Settlement.text.village_V8_2}Cananc lies in the wet wooded hills of the northern Rhennod, where cedars grow tall in the sea-mists. The villagers trap beaver, marten and rabbit for their pelts.">
 		<Components>
 			<Village
@@ -12256,7 +12256,7 @@
 		name="{=Settlements.Settlement.name.village_V9_1}Alantas"
 		posX="162.475"
 		posY="554.636"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		text="{=Settlements.Settlement.text.village_V9_1}Alantas sits in the center of the mountainous Ebor peninsula. The soil here is thin and the weather here is cold, but rich iron deposits sustain the local economy.">
 		<Components>
 			<Village
@@ -12294,7 +12294,7 @@
 		name="{=Settlements.Settlement.name.village_V9_2}Halisvust"
 		posX="180.584"
 		posY="532.908"
-		culture="Culture.vlandia_base"
+		culture="Culture.vavilon"
 		text="{=Settlements.Settlement.text.village_V9_2}Halisvust was once a marshy wasteland, but Vlandian settlers drained the waters and sowed wheat and rye in the valley.">
 		<Components>
 			<Village

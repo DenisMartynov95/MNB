@@ -3,7 +3,7 @@
 	<NPCCharacter id="solruine_trainee"
 				  default_group="Infantry"
 				  level="6"
-				  name="Вавилонский новобранец"
+				  name="AaaВавилон2 Вавилонский новобранец"
 				  is_basic_troop="true"
 				  occupation="Soldier"
 				  culture="Culture.vavilon">

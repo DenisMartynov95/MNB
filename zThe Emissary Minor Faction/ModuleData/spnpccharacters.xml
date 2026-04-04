@@ -6,7 +6,7 @@
 			id="emissary_recruit"
 			default_group="Infantry"
 			level="6"
-			name="Рекрут Крестоносцев"
+			name="AaaВавилон Рекрут Крестоносцев"
 			is_basic_troop="true"
 			occupation="Soldier"
 			culture="Culture.vavilon">
